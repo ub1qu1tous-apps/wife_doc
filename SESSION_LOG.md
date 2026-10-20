@@ -42,4 +42,18 @@
 - Unreadable: `Other JC Prelims 2026/VJC/2026 JC2 H1 Prelims QP.docx` is **password-protected (encrypted)** — need password or another copy. (VJC 2026 H1 MS/Insert are readable, may contain question text.)
 - Inserts: graphs/maps/photos are images; only text/tables/articles are extractable.
 - Reading notes go in `notes/<year>/<SCHOOL>.md` (format in `notes/README.md`).
-- Read progress (2024): ACJC ✅ ASRJC ✅ | CJC DHS EJC HCI JPJC NJC NYJC RVHS SAJC TJC TMJC VJC YIJC pending. 2025, 2026 pending.
+- Read progress (2024): ACJC ✅ ASRJC ✅ | CJC DHS EJC HCI JPJC NJC NYJC RVHS SAJC TJC TMJC VJC YIJC pending. 2025, 2026 pending. (superseded below)
+
+### 2026-10-20 — Session 1 (cont.): 2024 read-through complete
+- All 15 schools for 2024 read; notes in `notes/2024/*.md` (every question verbatim with marks, resources, answer-scheme key points, the user's 2024 grid labels for comparison, file issues).
+- Findings worth flagging to the user:
+  - NJC & RVHS 2024: H2 only (no H1 papers).
+  - SAJC 2024: H1 has no answers; H1 R5 says "Kibera, Nigeria" (source error — Kibera is in Kenya).
+  - JPJC 2024: mark schemes are present even though folder isn't marked "(Ans)".
+  - HCI 2024: H1 and H2 P2 share Q1–Q2; H2 P2 MS Q3 wording differs from QP.
+  - EJC 2024 H2 P1: MS essay order differs from QP.
+  - TMJC 2024 H2 P2: PDF answers fuller than Word copy.
+  - User's 2024 grid often labels H1 SQ1 (fieldwork) as "CC" etc. where the topic differs — noted as [sic] per school.
+- Files: `notes/2024/{NYJC,RVHS,SAJC,TJC,TMJC,VJC,YIJC}.md` (added), `SESSION_LOG.md`.
+- Doc version: none yet (waiting on user's consolidation spec).
+- Read progress: 2024 ✅ all | 2025 pending (15) | 2026 pending (17).
