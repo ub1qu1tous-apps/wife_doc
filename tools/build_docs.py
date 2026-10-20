@@ -114,8 +114,6 @@ def grid_table(doc, level, slots, qs, schools_years, title):
             lines = [(short_label(level, c), True, False) for c in q['topics']]
             if q.get('fieldwork_area'):
                 lines = [(f"Fieldwork – {q['fieldwork_area']}", True, False)]
-            if q.get('focus'):
-                lines.append((q['focus'], False, True))
             cell_text(cells[i], lines)
     widths = [Cm(2.2)] + [Cm((doc.sections[0].page_width.cm - 3.0 - 2.2) / len(slots))] * len(slots)
     for row in t.rows:
@@ -174,15 +172,23 @@ def build_by_topic(questions, outdir, version, preview, img_root):
         sel = [q for q in questions if q['level'] == level and q['kind'] == kind and q.get('stem')]
         tops = TOPICS[level]
         # group under primary topic (structured) or primary sub-topic (essay)
-        key = (lambda q: q['primary']) if kind == 'essay' else (lambda q: q['primary'])
+        def key(q):
+            return q['primary'] + ('|' + q['fieldwork_area'] if q.get('fieldwork_area') else '')
+
+        def order(g):
+            code, _, area = g.partition('|')
+            return [int(x) for x in code.split('.')] + [area == 'Others', area]
+
+        def heading(g):
+            code, _, area = g.partition('|')
+            return f'Fieldwork – {area}' if area else topic_label(level, code)
         for cluster, cl_name in tops['clusters'].items():
-            in_cluster = [q for q in sel if key(q).startswith(cluster + '.') or key(q) == cluster]
+            in_cluster = [q for q in sel if q['primary'].split('.')[0] == cluster]
             if not in_cluster:
                 continue
             doc.add_heading(f'Cluster {cluster}: {cl_name}', level=1)
-            groups = sorted({key(q) for q in in_cluster}, key=lambda c: [x if not x.isdigit() else int(x) for x in c.replace('-', '.').split('.')])
-            for g in groups:
-                doc.add_heading(topic_label(level, g) if g in tops['subtopics'] or g in tops['topics'] else g, level=2)
+            for g in sorted({key(q) for q in in_cluster}, key=order):
+                doc.add_heading(heading(g), level=2)
                 for q in sorted((q for q in in_cluster if key(q) == g), key=lambda q: (q['school'], q['year'])):
                     add_question(doc, q, img_root)
         path = os.path.join(outdir, f"{fname} {version}{' PREVIEW' if preview else ''}.docx")
@@ -191,12 +197,37 @@ def build_by_topic(questions, outdir, version, preview, img_root):
     return paths
 
 
+def build_review(review, outdir, version, preview):
+    """Doc 0: things the user should check (Others fieldwork, excluded files, paper errors)."""
+    doc = base_doc('Items to Review', version, preview=preview)
+    for sec in review:
+        doc.add_heading(sec['title'], level=1)
+        if sec.get('note'):
+            r = doc.add_paragraph().add_run(sec['note'])
+            r.italic, r.font.size, r.font.color.rgb = True, Pt(9), GREY
+        t = doc.add_table(rows=1, cols=len(sec['columns']))
+        t.style = 'Table Grid'
+        for c, h in zip(t.rows[0].cells, sec['columns']):
+            cell_text(c, [(h, True, False)], size=9)
+            shade(c, 'D9E2F3')
+        repeat_header(t.rows[0])
+        for row in sec['rows']:
+            for c, v in zip(t.add_row().cells, row):
+                cell_text(c, [(str(v), False, False)], size=9)
+    path = os.path.join(outdir, f"0 Items to Review {version}{' PREVIEW' if preview else ''}.docx")
+    doc.save(path)
+    return path
+
+
 if __name__ == '__main__':
     qfile, outdir, version = sys.argv[1:4]
     preview = '--preview' in sys.argv
     questions = json.load(open(qfile))
     os.makedirs(outdir, exist_ok=True)
     img_root = os.path.dirname(os.path.abspath(qfile))
+    review_file = os.path.join(img_root, 'review.json')
+    if os.path.exists(review_file):
+        print(build_review(json.load(open(review_file)), outdir, version, preview))
     print(build_grid(questions, outdir, version, preview))
     for p in build_by_topic(questions, outdir, version, preview, img_root):
         print(p)

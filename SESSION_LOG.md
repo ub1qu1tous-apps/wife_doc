@@ -1,8 +1,8 @@
 # Session log
 
 ## Current state
-- **Docs:** previews only (v0.1 PREVIEW) in `output/preview/` — doc 1 topic grid + docs 2a–2d by topic. Waiting for user feedback before the full build.
-- **Current version:** v0.1 (preview)
+- **Docs:** previews only (v0.2 PREVIEW) in `output/preview/` — doc 1 topic grid + docs 2a–2d by topic. Waiting for user feedback before the full build.
+- **Current version:** v0.2 (preview)
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -10,6 +10,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.2 (preview) | 2026-10-20 | Grid shows syllabus topic only; fieldwork grouped by area ("Others" for non-syllabus scenarios); new doc 0 "Items to Review" |
 | v0.1 (preview) | 2026-10-20 | Previews of doc 1 (topic grid, ACJC 2024 row) and docs 2a–2d (one topic, one ACJC 2024 question each) |
 
 ## Log
@@ -97,3 +98,20 @@
   - 2026: EJC, NYJC (none at all); DHS H2 P2; YIJC H2 P1.
 - No H1 paper: NJC 2024, RVHS 2024/2025/2026, MI 2026.
 - Next: user feedback on the previews, then the full v0.1 build (2024 notes need syllabus labels first).
+
+### 2026-10-20 — Session 1 (cont.): user decisions; previews v0.2
+- User decisions:
+  - Leave out password-protected files. The only one is VJC 2026 H1 QP; a scan of all sources found no others.
+  - Questions only, no answers.
+  - Doc 1 grid cells show the syllabus topic only.
+  - A structured question is filed under the topic with the most marks.
+  - Rows go by school, with the year beside the school ("ACJC 2024").
+  - Fieldwork outside the syllabus areas goes under "Fieldwork – Others" for now, and a separate doc lists things for the user to review.
+- New doc **0 Items to Review** has three sections:
+  1. Fieldwork questions filed under Others, with a column for the user's decision.
+  2. Files left out.
+  3. Problems in the question papers and inserts.
+- Builder updated: topic-only grid, fieldwork grouped by area with Others last, review doc. Preview data saved as `tools/preview_questions.json` and `tools/preview_review.json`.
+- Files: `output/preview/0`, `1`, `2a`–`2d` `... v0.2 PREVIEW.docx` (v0.1 previews removed).
+- Doc version: v0.2 (preview).
+- Next: on approval, do the full build. Steps: label the 2024 notes with syllabus topics, collect every question's text, and crop every insert (Word inserts are converted to PDF first).
