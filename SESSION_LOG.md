@@ -1,16 +1,16 @@
 # Session log
 
 ## Current state
-- **Doc:** not created yet
-- **Current version:** —
-- **Sources received:** H1/H2 Geography JC Prelim papers 2024–2026 (439 files, ~422 MB; 266 PDF, 168 DOCX, 4 DOC) — pushed by user to `main`, merged into working branch. See Session 1 log entry for breakdown.
-- **Planned structure (proposed, awaiting confirmation):** School → Subject/Level → Topic → questions tagged with source (school, year, paper, Q no.), marks/answers where available; topic-frequency summary table at the end.
-- **Open questions to user:** source type (past-year/prelim/worksheets/notes)? topic-first vs school-first grouping? include answers?
+- **Docs:** previews only (v0.1 PREVIEW) in `output/preview/` — doc 1 topic grid + docs 2a–2d by topic. Waiting for user feedback before the full build.
+- **Current version:** v0.1 (preview)
+- **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
+- **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
+- **Reading notes:** `notes/<year>/<SCHOOL>.md`. 2024 done; 2025/2026 in progress.
 
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
-| — | — | — |
+| v0.1 (preview) | 2026-10-20 | Previews of doc 1 (topic grid, ACJC 2024 row) and docs 2a–2d (one topic, one ACJC 2024 question each) |
 
 ## Log
 
@@ -62,3 +62,17 @@
 - 32 bundles (15 × 2025, 17 × 2026) split into 9 parallel reading batches; each writes `notes/<year>/<SCHOOL>.md` in the 2024 format, with a "Grid label (suggested)" line per paper instead of the user's grid labels (which only exist for 2024).
 - VJC 2026 H1 QP is encrypted, so its questions will be rebuilt from the H1 MS/Insert and flagged.
 - Next: review every note, commit, then report to the user and wait for the consolidation spec.
+
+### 2026-10-20 — Session 1 (cont.): user spec received; syllabus added; previews v0.1
+- User pushed `rearrange` to main: sources moved into `sources/`, syllabus PDFs added (`sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`). PR #1 had been merged, so the branch was restarted from `origin/main` and the unmerged notes commits were cherry-picked on top.
+- **User's consolidation spec:**
+  1. **Doc 1**: table, columns = paper question slots (Q1, Q2, ...), rows = school + year, cell = topic of the question **per the H1/H2 syllabus**. Separate tables for H1 and H2. **Ignore VJC 2026 H1 QP** (encrypted).
+  2. **Doc 2**: listed by topic; under each topic, school + year, then the full question plus diagram(s) if any. Split into 4 docs: H1 structured, H1 essay, H2 structured, H2 essay.
+  - Wanted: a preview of doc 1 with one school row, and of each doc-2 file with one topic and one school question.
+- Syllabus taxonomy written to `notes/syllabus_topics.md` and `tools/syllabus_topics.json`: Cluster → Topic (e.g. 1.2) → sub-topic/Key Question group (e.g. 1.2.2).
+- Builder `tools/build_docs.py` (python-docx): grid doc + 4 by-topic docs. Diagrams = Resource blocks cropped from Insert PDFs (scratchpad `tools/crop_resources.py`).
+- Choices made for the preview (to confirm with user): Word .docx; grid cell = sub-topic code + short name, plus grey line with case/focus; rows sorted school then year; structured Qs filed under their main Topic (most marks) and tagged with all sub-topics; essays filed by sub-topic; question text typed from the QP, diagrams as images.
+- Previews (sample = ACJC 2024): `output/preview/1 Topic Grid by School (H1 & H2) v0.1 PREVIEW.docx`, `2a`–`2d ... v0.1 PREVIEW.docx`.
+- 2025/2026 read-through resumed after a usage-limit pause; notes now end each paper with "Syllabus topics:" lines. Done so far: 2025 ACJC, ASRJC, RVHS, DHS.
+- Doc version: v0.1 (preview only).
+- Open: user feedback on previews → full build v0.1.
