@@ -76,3 +76,14 @@
 - 2025/2026 read-through resumed after a usage-limit pause; notes now end each paper with "Syllabus topics:" lines. Done so far: 2025 ACJC, ASRJC, RVHS, DHS.
 - Doc version: v0.1 (preview only).
 - Open: user feedback on previews → full build v0.1.
+
+### 2026-10-20 — Session 1 (cont.): 2025 notes complete; 2026 nearly complete
+- Notes written for all 15 schools in 2025, and for 2026 ACJC, ASRJC, CJC, DHS, EJC, HCI, JPJC, MI, NJC, NYJC, RI, RVHS and SAJC. Still running: 2026 TJC, TMJC, VJC, YIJC. Each note ends every paper with a "Syllabus topics:" line.
+- **Extraction gap:** pandoc dropped text inside Word text boxes. I checked every .docx. What was lost is almost all Insert content (resource text, questionnaires, a climograph header) plus cover headers. No question wording was lost. The worst cases:
+  - RVHS 2024/2026 inserts
+  - SAJC 2025 H2 P1 insert
+  - VJC 2024 inserts
+  - EJC 2024 H2 P2 insert
+  The docs themselves are not affected: diagrams are cropped from rendered pages, and Word inserts will be converted to PDF with soffice before cropping.
+- Fieldwork questions outside the syllabus areas are labelled "Fieldwork – Other (…)", e.g. NJC food waste and JPJC recycling. Asked the user whether to group them under CC response.
+- The source errors found so far (wrong resource numbers, marks that don't match, factual slips in answer schemes) are recorded in the header of each school's note.
