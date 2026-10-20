@@ -57,3 +57,8 @@
 - Files: `notes/2024/{NYJC,RVHS,SAJC,TJC,TMJC,VJC,YIJC}.md` (added), `SESSION_LOG.md`.
 - Doc version: none yet (waiting on user's consolidation spec).
 - Read progress: 2024 ✅ all | 2025 pending (15) | 2026 pending (17).
+
+### 2026-10-20 — Session 1 (cont.): 2025 & 2026 read-through in progress
+- 32 bundles (15 × 2025, 17 × 2026) split into 9 parallel reading batches; each writes `notes/<year>/<SCHOOL>.md` in the 2024 format, with a "Grid label (suggested)" line per paper instead of the user's grid labels (which only exist for 2024).
+- VJC 2026 H1 QP is encrypted, so its questions will be rebuilt from the H1 MS/Insert and flagged.
+- Next: review every note, commit, then report to the user and wait for the consolidation spec.
