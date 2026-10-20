@@ -5,7 +5,7 @@
 - **Current version:** v0.1 (preview)
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
-- **Reading notes:** `notes/<year>/<SCHOOL>.md`. 2024 done; 2025/2026 in progress.
+- **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
 
 ## Version history
 | Version | Date | Changes |
@@ -87,3 +87,13 @@
   The docs themselves are not affected: diagrams are cropped from rendered pages, and Word inserts will be converted to PDF with soffice before cropping.
 - Fieldwork questions outside the syllabus areas are labelled "Fieldwork – Other (…)", e.g. NJC food waste and JPJC recycling. Asked the user whether to group them under CC response.
 - The source errors found so far (wrong resource numbers, marks that don't match, factual slips in answer schemes) are recorded in the header of each school's note.
+
+### 2026-10-20 — Session 1 (cont.): read-through complete
+- Last batch done: 2026 TJC, TMJC, VJC (H2 only; H1 QP excluded per user), YIJC.
+- All 47 school-years have notes. Checked that no "Grid label" lines remain and that every 2025/2026 paper has a "Syllabus topics:" line.
+- No answer scheme for:
+  - 2024: SAJC H1.
+  - 2025: RVHS, DHS (none at all); CJC H1 and H2 P2; TMJC H1 and H2 P2; JPJC H1; TJC H1.
+  - 2026: EJC, NYJC (none at all); DHS H2 P2; YIJC H2 P1.
+- No H1 paper: NJC 2024, RVHS 2024/2025/2026, MI 2026.
+- Next: user feedback on the previews, then the full v0.1 build (2024 notes need syllabus labels first).
