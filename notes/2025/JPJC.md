@@ -31,6 +31,7 @@ Files: H1 QP/Insert (**no answers**); H2 P1 QP/Insert/"Suggested Answers"; H2 P2
 - Q6 Evaluate the challenges in implementing strategies to respond to contemporary climate change.
 
 Syllabus topics: Q1 Fieldwork – Elderly needs | Q2 1.1.1 SUD (waste generation, ecological footprint); 1.1.2 Waste management | Q3 1.2.1 Science of CC (ice feedbacks); 1.2.2 Effects of CC (variations, uncertainty) | Q4 1.1.2 Slum management (causes of slums) | Q5 1.2.1 Science of CC (past variability, natural factors) | Q6 1.2.3 Responses to CC (challenges).
+Syllabus KQs: Q1 Fieldwork – Elderly needs | Q2 1.1.1c; 1.1.2a | Q3 1.2.2a; 1.2.2b; 1.2.1b; 1.2.2c | Q4 1.1.2b | Q5 1.2.1b; 1.2.1a | Q6 1.2.3c
 
 ## H2 Paper 1 (9173/01), 3 Sep 2025
 **Q1 Multilateral institutions – WTO & World Bank (Cluster 1).** R1 cartoon "inequality at WTO talks" ("When elephants mate, many ants get crushed" – elephants = rich states/MNCs, ants = developing countries); R2 bar chart World Bank lending by region 2021 (US$ bn: Sub-Saharan Africa 29.4, South Asia 21.8, East Asia & Pacific 17.5, Latin America & Caribbean 15.2, Europe & Central Asia 11.9, Middle East & N Africa 7.6); R3 table WTO membership & share of global trade (1995 128/90%; 2000 139/92%; 2005 149/94%; 2010 153/95%; 2015 162/96%; 2020 164/97%).
@@ -56,6 +57,7 @@ Syllabus topics: Q1 Fieldwork – Elderly needs | Q2 1.1.1 SUD (waste generation
 - Q6 'Weathering is the main factor influencing mass movements in tropical climates.' Evaluate this statement. – deep chemical weathering/regolith (preparatory) vs rainfall intensity, slope, vegetation, human undercutting/deforestation; humid vs arid tropics; systems approach.
 
 Syllabus topics: Q1 1.2.3 Multilateral institutions; 1.2.1 Global flows | Q2 2.1.1 Tropical climates (ITCZ, monsoons); 2.2.3 Fluvial landforms (delta, braided channel) & delta ecosystem services | Q3 1.1.3 Transboundary water conflicts | Q4 1.2.2 GPNs; 1.1.1 SD | Q5 2.1.1 Tropical climates (ENSO) | Q6 2.2.1 Geomorphic processes (weathering, mass movement).
+Syllabus KQs: Q1 1.2.3c; 1.2.2a | Q2 2.2.3a; 2.1.1c; 2.2.3c; 2.2.3b; 2.1.1b | Q3 1.1.3b | Q4 1.2.2c | Q5 2.1.1c | Q6 2.2.1b; 2.2.1a
 
 ## H2 Paper 2 (9173/02), 18 Sep 2025
 **Q1 Fieldwork – Flood risk/threat across flood risk zones, Bangkok (Thailand).** 12 students; 15 households in each of 3 flood-risk zones (high/medium/low) over Mon, Wed, Fri; one member per household interviewed with questionnaire; results compared across zones. R1 map of Bangkok flood-risk zones (high/medium/low; Chao Phraya River; Ayutthaya industrial water plants; Khlong Prapa levee protecting canal; main airport protected by 3.5 m barrier; 3 dashed survey areas west of the river near Central Bangkok); R2 questionnaire (name, address; Q1 years lived; Q2 perceived flood risk level; Q3 flood in last 5 yrs; Q4 likelihood of flood in next 5 yrs; Q5 open – do residents elsewhere (e.g. Central Bank [sic], Ayutthaya) face higher/lower risk, why; Q6a–h Likert 5 very likely → 1 very unlikely: road, porch/garden, internal house, belongings, furniture, services, food supplies, family at risk); R3 grouped bar chart of Q6c "internal house/property will be flooded", total 45 (High zone: 3→2, 2→8, 1→5; Medium: 4→5, 3→6, 2→4; Low: 5→1, 4→3, 3→4, 2→5, 1→2).
@@ -80,3 +82,4 @@ Syllabus topics: Q1 1.2.3 Multilateral institutions; 1.2.1 Global flows | Q2 2.1
 - Q4 Evaluate the view that contemporary climate change is attributed more to natural factors than human activities. – solar variability, volcanoes, ocean circulation (short-term/long timescales) vs fossil fuels, deforestation; IPCC models match only with human forcing; time, scale, feedbacks.
 
 Syllabus topics: Q1 Fieldwork – Flood risk | Q2 3.1.2 Slum management; 3.1.1 SUD (indicators, urban population trends) | Q3 3.1.3 Liveable cities (factors) | Q4 3.2.1 Science of CC (natural vs human).
+Syllabus KQs: Q1 Fieldwork – Flood risk | Q2 3.1.2b; 3.1.1b; 3.1.1a | Q3 3.1.3a | Q4 3.2.1b; 3.2.1c

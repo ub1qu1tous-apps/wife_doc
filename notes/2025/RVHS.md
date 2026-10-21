@@ -26,6 +26,7 @@ Files: H2 P1 QP/Insert; H2 P2 QP/Insert (PDF). **No H1 paper. No answers for eit
 - Q6 'The presence of water is the most important factor influencing the movement of materials on slopes.' Evaluate this statement.
 
 Syllabus topics: Q1 1.2.1 Development (levels, trade flows); 1.2.2 Global economy & TNCs (Toyota interconnectedness); 1.2.3 Actors (MIs, TNCs & labour) | Q2 2.1.1 Tropical climates (ITCZ, BWh, ENSO) | Q3 1.1.3 Managing resources (transboundary water) | Q4 1.2.3 Actors (states) | Q5 2.1.3 Floods (management) | Q6 2.2.1 Geomorphic processes (mass movement).
+Syllabus KQs: Q1 1.2.1a; 1.2.1b; 1.2.3c; 1.2.2a; 1.2.3b | Q2 2.1.1c; 2.1.1b; 2.1.1a | Q3 1.1.3b | Q4 1.2.3a | Q5 2.1.3c | Q6 2.2.1b
 
 ## H2 Paper 2 (9173/02), 26 Sep 2025
 **Q1 Fieldwork – Flood risk, Kallang River, Bishan-Ang Mo Kio Park (Cluster 4).** 10 students; 3.2 km stretch; theorised flood risk associated with channel characteristics; measured at multiple points on a Saturday morning with ranging poles, metre ruler, tape measure, spirit level, thick rope. Observation study of intensity of human activities Tuesday 8–9am at location 7 (Riverside Gallery). R1 park map (10 numbered features: lotus garden, playgrounds, cleansing biotope, ponds, water playground, lifestyle hub; sampling points at stepping stones); R2 channel characteristics A–E (width 2.0/4.0/7.3/8.1/15.3 m; depth 0.1/0.52/0.6/1.2/1.9 m; hydraulic radius 0.09/0.41/0.51/0.93/1.52 – larger = more efficient); R3 observation table (8.00 jogging "many people"; 8.30 playing in river "a few young children and adults"; 9.00 flying kite "some youngsters").
@@ -50,3 +51,4 @@ Syllabus topics: Q1 1.2.1 Development (levels, trade flows); 1.2.2 Global econom
 - Q4 Evaluate the variations in impacts of contemporary climate change on places.
 
 Syllabus topics: Q1 Fieldwork – Flood risk | Q2 3.1.1 SUD (urban growth, deprivation); 3.1.2 Sustainable cities (slum mgmt, reimaging) | Q3 3.1.3 Liveable cities (women) | Q4 3.2.2 Effects of CC (variations).
+Syllabus KQs: Q1 Fieldwork – Flood risk | Q2 3.1.2b; 3.1.1b; 3.1.2c | Q3 3.1.3c | Q4 3.2.2b

@@ -1,8 +1,8 @@
 # Session log
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.4.docx`, `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`. Still to build: 0 (review), 2b–2f. Built one doc at a time.
-- **Current version:** v0.5
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`. Still to build: 0 (review), 2b–2f. Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.7
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -10,6 +10,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.7 | 2026-10-21 | **Doc 1 rebuilt at syllabus key-question level** (all 716 questions; 38 pages) |
 | v0.6 (preview) | 2026-10-21 | Doc 1 preview at syllabus key-question level (ACJC 2024 row) |
 | v0.5 | 2026-10-21 | **Doc 2a full build**: H1 Fieldwork questions by topic, 41 questions (full wording + 166 resource images) |
 | v0.4 | 2026-10-21 | **Doc 1 full build**: topic grid for all 47 school-years (H1 + H2 tables, 716 questions), syllabus topic only |
@@ -188,3 +189,14 @@
 - Pushed one revert commit to `main` (`e0ae977`) undoing the PR #1 and PR #2 merges. `main` now matches the user's own "rearrange" commit `6396e50`: only `README.md` and `sources/`. Nothing was force-pushed; history is kept.
 - From now on the user's local folder follows the branch `claude/amazing-dirac-mpbgn8`, and all work is pushed there.
 - Note for later: if this branch is ever merged into `main` again, the revert must be reverted first. Otherwise the earlier work won't come back.
+
+### 2026-10-21 — Session 1 (cont.): doc 1 rebuilt at key-question level (v0.7)
+- The user approved the key-question level, so every note now has a `Syllabus KQs:` line under each `Syllabus topics:` line.
+- ACJC 2024 was labelled by me (the agreed example). The other 46 school-years were split over 6 parallel helpers, all following one rulebook (scratchpad `kq_rules.md`): every sub-part of a structured question gets a code, codes are ordered by marks, essays usually get one code, and boundary rules are spelled out.
+- `tools/parse_notes.py` now prefers key-question codes. Validation:
+  - 716 questions; every code is on the syllabus list; no question is left at sub-topic level.
+  - Only 2 cross-cluster tags, both real: CJC 2025 H2 P1 Q2 → 1.1.3b; HCI 2025 H2 P1 Q1 → 2.2.3c.
+  - Codes per question: 1 code ×366, 2 ×70, 3 ×74, 4 ×69, 5 ×37, 6 ×11, 7 ×1.
+- Spot-checked 30 random essays against their wording; all fit.
+- Ambiguous calls that the helpers flagged (kept as chosen): e.g. "natural vs human causes" essays get one code; "interdependence" sub-parts → 1.2.2a; ITCZ-driven monsoon rainfall → 2.1.1c; sea-level-rise mechanisms → x.2.2a. TMJC 2026 H2 P1 Q2(e) (Amazon deforestation location, 4 marks) has no matching key question, so it carries no code.
+- Output: `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (38 pages; legend now lists every key question); the old v0.4 file was removed.

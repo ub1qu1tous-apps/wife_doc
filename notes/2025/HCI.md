@@ -31,6 +31,7 @@ Files: H1 QP/Insert (PDF) + ANSWERS (docx); H2 P1 QP/Insert (PDF) + ANSWERS (doc
 - Q6 Evaluate the influence of high urbanization rates on contemporary climate change. – urban industry, transport, consumption → GHGs vs deforestation, coral reef loss, natural (sunspots, Milankovitch); spatial/temporal scale.
 
 Syllabus topics: Q1 Fieldwork – Elderly needs | Q2 1.1.1 SUD (urban pop trends); 1.1.2 Sustainable cities (slum management) | Q3 1.2.1 Science of CC (human influence); 1.2.2 Effects of CC (SLR); 1.2.3 Responses to CC | Q4 1.1.3 Liveable cities (women) | Q5 1.2.2 Effects of CC | Q6 1.2.1 Science of CC (urbanisation as cause).
+Syllabus KQs: Q1 Fieldwork – Elderly needs | Q2 1.1.2b; 1.1.1b | Q3 1.2.1c; 1.2.3a; 1.2.3c; 1.2.2a | Q4 1.1.3c | Q5 1.2.2b | Q6 1.2.1c
 
 ## H2 Paper 1 (9173/01), 29 Aug 2025
 **Q1 Transboundary water – Medog Dam, Yarlung Tsangpo–Brahmaputra (Cluster 1).** R1 map (The Economist/EIU 2024) of operational, under-construction and planned dams – most operational dams on the Yarlung Tsangpo and tributaries in Tibet, cluster of planned dams near the China–India border, proposed Medog dam site at the great bend, ~2 dams in India, none in Bangladesh; Ganges-Brahmaputra Delta boxed; note: Medog = 60 GW, triple the Three Gorges output; R2 share of electricity from hydropower 2022 (OWID): Bhutan 100%, Nepal 98.97%, Pakistan 19.79%, China 14.67%, India 9.56%, Bangladesh 0.69%; R3 fact file – population relying on the river: China unknown, India 39 m (3%), Bangladesh 58 m (35%); share of river discharge generated: China ~18% (snow/glacier melt), India >73.9% (monsoon rain, tributaries), Bangladesh <8.1%.
@@ -56,6 +57,7 @@ Syllabus topics: Q1 Fieldwork – Elderly needs | Q2 1.1.1 SUD (urban pop trends
 - Q6 Evaluate the factors causing mass movement in the humid tropics. – shear stress vs strength, gravity; climate, lithology, triggers, human; link to creep, flows, slides, falls.
 
 Syllabus topics: Q1 1.1.1 Understanding SD; 1.1.3 Managing resources (hydropower, transboundary water); 2.2.3 Fluvial landforms (delta) | Q2 2.1.1 Tropical climates (monsoon, TCs, ENSO); 2.1.2 Drainage basin hydrology | Q3 1.1.2 Environment & resources (Malthus & Boserup) | Q4 1.2.1 Development; 1.2.2 GPNs of TNCs | Q5 2.1.3 Floods (management) | Q6 2.2.1 Geomorphic processes (mass movement).
+Syllabus KQs: Q1 1.1.3b; 1.1.3a; 2.2.3c | Q2 2.1.1c; 2.1.2b; 2.1.1a | Q3 1.1.2c | Q4 1.2.1a | Q5 2.1.3c | Q6 2.2.1b
 
 ## H2 Paper 2 (9173/02), 17 Sep 2025
 **Q1 Fieldwork – Land use & infiltration rates (fluvial flood risk), Singapore.** Hypothesis: "Residential areas reduce infiltration rates." Site X next to a private residential high-rise (R1A, "walled housing estate"); Site Y in a nature park (R1B). One weekday in August, 11am. Equipment: tin can 12 cm long with both ends removed, ruler, stopwatch, recording sheets, pencil; hammered in to only 1 cm depth (R1C). Filled can, read drop after a few minutes, topped up to approx. original level; ~30 min at X, 15-min walk, ~30 min at Y. R1A/1B/1C photos; R2 map of study area (Google Maps adapted); R3A Site X sheet 11:03–11:33, uneven intervals (2,4,4,5,10,5 min), cumulative infiltration 14 mm in 30 min; R3B Site Y 12:09–12:36, intervals 2,3,3,6,10,3, cumulative 54 mm in 27 min (refills not always back to 110 mm).
@@ -81,3 +83,4 @@ Syllabus topics: Q1 1.1.1 Understanding SD; 1.1.3 Managing resources (hydropower
 - Q4 Evaluate the extent to which impacts of climate change on people and places are similar. (= H1 Q5.)
 
 Syllabus topics: Q1 Fieldwork – Flood risk (infiltration) | Q2 3.1.1 SUD (urban pop trends, EF); 3.1.2 Sustainable cities (slum management) | Q3 3.1.3 Liveable cities (women) | Q4 3.2.2 Effects of CC.
+Syllabus KQs: Q1 Fieldwork – Flood risk (infiltration) | Q2 3.1.2b; 3.1.1b; 3.1.1c | Q3 3.1.3c | Q4 3.2.2b

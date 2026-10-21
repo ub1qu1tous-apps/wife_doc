@@ -31,6 +31,7 @@ Files: H2 P1 QP/INS; H2 P2 QP/INS; H1 QP/INS (PDF, numbered 1–6). **No answers
 - Q6 'The main issue faced by women living in the city is related to their economic well-being.' Evaluate this statement.
 
 Syllabus topics: Q1 Fieldwork – Elderly needs | Q2 1.1.1 SUD (EF vs HDI); 1.1.2 Sustainable cities (slum mgmt) | Q3 1.2.1 Science of CC (emissions, SLR mechanism); 1.2.2 Effects of CC (SLR distribution); 1.2.3 Responses to CC (SLR adaptation) | Q4 1.2.3 Responses to CC (challenges) | Q5 1.2.2 Effects of CC (on SUD) | Q6 1.1.3 Liveable cities (women).
+Syllabus KQs: Q1 Fieldwork – Elderly needs | Q2 1.1.2b; 1.1.1c; 1.1.1a | Q3 1.2.1c; 1.2.2a; 1.2.3a | Q4 1.2.3c | Q5 1.2.2a | Q6 1.1.3c
 
 ## H2 Paper 1 (9173/01), 22 Sep 2025
 **Q1 Extractive industries, mining, ASEAN trade (Cluster 1).** R1 world map of Mineral Contribution Index 2018 (ICMM; 5 classes 0–20 to 80+; high MCI concentrated in Africa, S America, Australia, Russia, Canada; lower in W Europe, Japan, N Africa – country readings from small map [?]); R2 line graph global price lithium carbonate & cobalt 2016–2023 (cobalt US$22k/t 2016 → peak ~90k 2018 → ~30k 2019 → ~82k 2022 → ~35k 2023; lithium ~8k → 19k 2018 → ~7k 2020 → ~80k 2022 → ~45k 2023); R3 photo of abandoned open-pit mine in Australia (terraced pit, pit lake); R4 bar chart intra-ASEAN trade as % of total trade, 2004/2014/2023 (ASEAN ~24.5/24/21.5; Indonesia 21/25.5/21; Malaysia 25/27/27.5; Philippines 18/19.5/24.5; Singapore 29.5/26/24.5; Thailand 19/22.5/21; Vietnam 20/14/11).
@@ -56,6 +57,7 @@ Syllabus topics: Q1 Fieldwork – Elderly needs | Q2 1.1.1 SUD (EF vs HDI); 1.1.
 - Q6 Evaluate the factors influencing the formation of karst landforms.
 
 Syllabus topics: Q1 1.1.3 Managing resources (extractive industries); 1.2.1 Development (trade flows); 1.2.3 Actors (ASEAN) | Q2 2.1.1 Tropical climates (monsoon); 2.2.1 Geomorphic processes (mass movement); 2.2.3 Fluvial landforms (delta ESS, human impact) | Q3 1.1.2 Environment & resources (Malthus & Boserup) | Q4 1.2.3 Actors (states) | Q5 2.1.1 Tropical climates (global circulation & rainfall) | Q6 2.2.2 Karst landforms.
+Syllabus KQs: Q1 1.1.3c; 1.2.1b; 1.2.3c | Q2 2.1.1c; 2.2.3c; 2.2.1b | Q3 1.1.2c | Q4 1.2.3a | Q5 2.1.1b | Q6 2.2.2b
 
 ## H2 Paper 2 (9173/02), 18 Sep 2025
 **Q1 Fieldwork – Flood risk across land uses, Sungei Bedok (Cluster 4).** 10 JC students; compare flood risk across land uses. Recce trip 6 Aug: photos, noted potential sites across 7 land uses; observed most of Sungei Bedok canalised and concluded bankfull width & depth uniform throughout. Fieldwork 15 Aug: single reading of bankfull width & depth; bi-polar survey at two sites per land use. R1 URA land-use map around Sungei Bedok/Upper Changi Rd/Xilin Ave (business, civic & community, commercial & residential, education, park, residential, transport facilities; 1 cm:100 m); R2 photo of concrete canalised channel with sloping banks, low flow, fencing, trees; R3 bi-polar survey sheet (+2 to −2: vegetation cover, permeable surfaces, lowest occupied floor vs channel height at bankfull, drainage presence); R4 results/net scores (Business −3; Civic +2; Commercial & Residential −2; Education +3; Park +4; Residential −1; Transport −4).
@@ -81,3 +83,4 @@ Syllabus topics: Q1 1.1.3 Managing resources (extractive industries); 1.2.1 Deve
 - Q4 'The main issue faced by women living in the city is related to their economic well-being.' Evaluate this statement.
 
 Syllabus topics: Q1 Fieldwork – Flood risk | Q2 3.1.1 SUD (EF vs HDI); 3.1.2 Sustainable cities (slums); 3.2.2 Effects of CC (SLR); 3.2.3 Responses to CC (SLR adaptation) | Q3 3.2.3 Responses to CC (challenges) | Q4 3.1.3 Liveable cities (women).
+Syllabus KQs: Q1 Fieldwork – Flood risk | Q2 3.1.2b; 3.2.3a; 3.1.1a; 3.2.2a; 3.1.1c | Q3 3.2.3c | Q4 3.1.3c
