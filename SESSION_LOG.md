@@ -215,3 +215,54 @@
   - places where the text or crops aren't a perfect copy: flattened tables, page numbers and footers in some crops, JPJC 2026 comment margin
   - ideas, e.g. tagging sub-parts by fieldwork stage
 - The per-doc Review Notes replace the earlier single "0 Items to Review" doc (that preview stays in `previews/`). Following the user's earlier instruction, errors printed in schools' papers are not listed.
+
+### 2026-10-21 — Session 1 HANDOFF (continue in a new cloud session)
+**Read this entry first in the next session.**
+
+**Where things stand**
+- Branch: `claude/amazing-dirac-mpbgn8`. All work is here. The user's local GitHub Desktop folder follows this branch.
+  - `main` was deliberately reverted to the user's own files (commit `e0ae977`).
+  - Don't merge into `main` or open a PR unless the user asks. If a merge is ever needed, revert `e0ae977` first.
+- Done and delivered (each doc has a `– Review Notes` companion):
+  - `docs/1 Topic Grid by School (H1 & H2) v0.7.docx`: topic grid at syllabus key-question level, 716 questions, 47 school-years.
+  - `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`: 41 H1 fieldwork questions with full wording and 166 cropped diagrams, about 21 MB.
+- Still to build, one doc at a time, each with Review Notes, the next one only when the user names it. The user was last asked which comes next and hasn't answered.
+  - 2b H1 Structured (H1 Q2, Q3)
+  - 2c H1 Essay (H1 Q4–Q6)
+  - 2d H2 Fieldwork (P2 Q1)
+  - 2e H2 Structured (P1 Q1, P1 Q2, P2 Q2)
+  - 2f H2 Essay (P1 Q3–Q6, P2 Q3–Q4)
+- Open review items for the user are in the two Review Notes docs: the "Others" fieldwork list, inconsistent fieldwork filing (a rule is suggested), and 28 borderline key-question calls.
+
+**User's decisions so far (keep to them)**
+- Leave out password-protected files. The only one is VJC 2026 H1 QP.
+- Questions only, no answers.
+- Doc 1 shows syllabus topics only, now at key-question level (e.g. `1.1.1b SUD: Urban population trends`). Rows are by school, with the year beside the school name.
+- Doc 2 is split into 6 files: H1/H2 × fieldwork/structured/essay. Topic → school + year → full question + diagrams.
+- A structured question is filed under the topic with the most marks.
+- Fieldwork outside the syllabus areas goes under "Others".
+- Show a preview before a new kind of output. Build one doc at a time to save tokens.
+- Every doc gets Review Notes. Don't list errors printed in schools' papers.
+- Bump the version on every doc update and log it here (latest: v0.7).
+
+**How to build the next doc**
+1. Labels: `python3 tools/parse_notes.py > questions.json` gives every question's `topics` (key-question codes) and `fieldwork_area`.
+2. Sources:
+   - Write a manifest like `tools/h1_manifest.json` (school, year, QP path, Insert path) for the papers the doc needs.
+   - Paths are under `sources/`. Convert Word files to PDF with `soffice` first.
+   - Some PDFs combine the QP and Insert (TJC).
+3. Question wording: `tools/extract_questions.py` (`extract(pdf, qno, section)`).
+   - Section letters: H1 B = Q2–Q3, C = Q4–Q6. H2 P1 A = Q1–Q2, B = Q3–Q6. H2 P2 A = Q1, B = Q2, C = Q3–Q4.
+   - The extractor was built for Q1 in Section A. For other questions, check that it handles the start and end of each question in a section with several questions.
+   - Validate every question: part labels in order, marks add up (H1 Sec B = 22; H2 structured = 30, usually), no footer text or `[n]` left in the text.
+4. Diagrams: `tools/crop_resources.py <insert.pdf> <outdir>`, then choose each question's resources from its wording (`tools/resource_refs.py`). Check every crop by eye on contact sheets.
+5. Build: `tools/build_docs.py <data.json> docs <version> --only bytopic --doc 2b`. The data format is like `tools/data/doc2a_questions.json`; the first `stem` entry is the section line.
+6. Review Notes: write `tools/review/<doc>.json` and run `python3 tools/review_docs.py tools/review/<doc>.json docs`.
+7. Log here, add a version-history row, commit, push to the branch, and send the file to the user.
+
+**Other references**
+- Pipeline scripts and notes: `tools/pipeline/README.md`.
+- Syllabus codes: `notes/syllabus_topics.md` and `tools/syllabus_topics.json` (`kq` = key questions).
+- Key-question labelling rules: `tools/kq_rules.md`.
+- The reading notes in `notes/<year>/<SCHOOL>.md` record each question's wording and marks, plus `Syllabus topics:` and `Syllabus KQs:` lines.
+- The scratchpad from session 1 (text extracts, crops, PDF cache) is not in the repo. Regenerate it as needed (see the pipeline README).
