@@ -3,13 +3,13 @@
 **Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it.
 
 **Task in progress (session 2):** build docs 2b, 2c, 2d, 2e, 2f (the user said "build all of them"), each with Review Notes. Build them one after another and commit + push after each.
-- Done: 2b (v0.8), 2c (v0.9).
+- Done: 2b (v0.8, fixed in v0.10), 2c (v0.9). H2 wording extracted and checked for all sections; H2 inserts cropped.
 - Next: 2d H2 Fieldwork (P2 Q1), then 2e, 2f.
 - An hourly scheduled check-in (`trig_01GQooXWiM5ucgbmSySZBKG3`, :12 past each hour) is bound to this session. Delete it and clear this note when all five are done.
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.8.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, each with a `– Review Notes` companion. Still to build: 2d–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
-- **Current version:** v0.9
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, each with a `– Review Notes` companion. Still to build: 2d–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.10
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -17,6 +17,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.10 | 2026-10-21 | **Doc 2b fix** (replaces v0.8): NJC 2026 Q3 diagrams corrected (whole R9, real R10); 'Co-operation' hyphen |
 | v0.9 | 2026-10-21 | **Doc 2c full build**: H1 Essay questions by topic, 123 essays grouped by sub-topic |
 | v0.8 | 2026-10-21 | **Doc 2b full build**: H1 Structured questions by topic, 82 questions (full wording + 266 diagrams) |
 | v0.7 | 2026-10-21 | **Doc 1 rebuilt at syllabus key-question level** (all 716 questions; 38 pages) |
@@ -295,7 +296,7 @@
 - **Diagrams:** 266. Cropper now handles sideways pages (NYJC 2024, TJC 2024/2025, HCI 2026, YIJC 2026, EJC 2024), stops at 'End'/'Sources'/'Acknowledgements', drops more footers, trims bottom whitespace and the JPJC 2026 grey margin. Hand fixes in `manual_fixes.py`: EJC 2024 R7A/7B maps taken from the Word file (lost in conversion); TJC 2026 R5/R9 rebuilt from the Word file (shown sideways). All 266 checked by eye on contact sheets.
 - **Filing:** by topic with the most marks. 8 questions span 1.1 and 1.2; counted part by part, all agree with the first-listed key question (1.1: 43, 1.2: 39).
 - **Builder:** `topic_label` shows key-question names on each question's Syllabus line.
-- Output: `docs/2b H1 Structured Questions by Topic v0.8.docx` (204 pages, 28 MB) + `– Review Notes v0.8` (spec `tools/review/2b_h1_structured.json`). Data: `tools/data/doc2b_questions.json`, `tools/data/h1_q2q3_resources.json`.
+- Output: `docs/2b H1 Structured Questions by Topic v0.10.docx` (204 pages, 28 MB) + `– Review Notes v0.8` (spec `tools/review/2b_h1_structured.json`). Data: `tools/data/doc2b_questions.json`, `tools/data/h1_q2q3_resources.json`.
 - Next: 2c H1 Essay.
 
 ### 2026-10-21 — Session 2: doc 2c (H1 Essay) full build v0.9
@@ -304,3 +305,12 @@
 - **Filing:** by sub-topic of the key question; 9 essays have two key questions, 5 of them across sub-topics (listed in the Review Notes). 1.1.1: 7, 1.1.2: 29, 1.1.3: 34, 1.2.1: 9, 1.2.2: 11, 1.2.3: 33.
 - Output: `docs/2c H1 Essay Questions by Topic v0.9.docx` (19 pages) + `– Review Notes v0.9` (spec `tools/review/2c_h1_essay.json`). Data: `tools/data/doc2c_questions.json`.
 - Next: 2d H2 Fieldwork.
+
+### 2026-10-21 — Session 2: doc 2b fixed (v0.10); H2 wording extracted
+- **Error found in 2b v0.8:** the NJC 2026 H1 Insert has a hidden "Resource 10" label under the R9 picture. The cropper split R9 at that label and dropped the real R10 (the IPCC precipitation map) as a duplicate. The contact-sheet check missed it because both halves looked like plausible resources. Fix: a label covered by a picture is ignored when the same label also appears elsewhere. A broader rule (ignore every covered label) broke 20+ real headings in Word-converted inserts, so it was narrowed. All H1 and H2 crops were re-run and compared with the previous run: the only changes are NJC 2026 H1 R9/R10 and SAJC 2026 H2 P1 R2 (now includes its axis label).
+- The cropper now also stacks a resource whose heading is repeated on a continuation page (MI 2026 H2 P1 R1, TJC 2025 H2 P1 R3, TJC 2026 H2 P1 R2/R6) instead of dropping the second part.
+- Extractor: words broken at a hyphen over two lines are joined ('problem-solving'), except before and/or/to ('low- and high-income').
+- 2b rebuilt as **v0.10** (v0.8 files removed); its Review Notes say what changed.
+- **H2 wording:** P2 fieldwork Q1 is 40 marks (not 30). Extractor fixes for H2: labels and marks printed down a column over three lines (SAJC Word files), bare part labels ('(f)' on its own line), the question number repeated before (a) on a new page (TMJC 2024 P2), a wrapped stem line starting with the next question number (CJC 2024, RVHS 2025: the question number is the leftmost), papers that letter their sections differently (MI, TMJC 2025, YIJC: P2 has only Sections A and B), and cover pages that list sections (ACJC 2026). SAJC 2024 P2 Q1(g) '[10]' is printed one character per line, so its mark is set by hand (`MARK_FIXES` in `run_questions.py`).
+- **Checks:** P2 Q1 (47), P1 Q1–Q2 (94), P2 Q2 (47): every part label and mark matches the notes. Essays P1 Q3–Q6 (188) and P2 Q3–Q4 (94): wording matches the notes (3 differ only by the notes' paraphrase).
+- Known: doc 2a (v0.5) still has a few words split at a line-end hyphen (e.g. 'self- recording'); fixed if 2a is rebuilt.

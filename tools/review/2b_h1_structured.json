@@ -1,8 +1,8 @@
 {
  "title": "H1 Structured Questions by Topic",
  "file": "2b H1 Structured Questions by Topic",
- "version": "v0.8",
- "doc": "2b H1 Structured Questions by Topic v0.8.docx",
+ "version": "v0.10",
+ "doc": "2b H1 Structured Questions by Topic v0.10.docx",
  "sections": [
   {
    "title": "1. What this doc is and how it was built",
@@ -11,7 +11,8 @@
     "Grouped under Cluster 1 by syllabus topic: 1.1 Cities in a Sustainable Future (43) and 1.2 The Future with Climate Change (39), then by school and year.",
     "Under each question heading, a 'Syllabus' line lists every key question its parts test, most marks first. These are the same key questions as in doc 1.",
     "Question wording is typed from each school's question paper; diagrams are cropped from the school's Insert.",
-    "Checks run on every question: part labels in order, marks add up to 22, and labels and marks match the reading notes (all 82 match). Every diagram was checked by eye."
+    "Checks run on every question: part labels in order, marks add up to 22, and labels and marks match the reading notes (all 82 match). Every diagram was checked by eye.",
+    "Changes from v0.8: NJC 2026 Q3 now shows the whole of Resource 9 and the correct Resource 10 (v0.8 split R9 in two because of a hidden 'Resource 10' label in the Insert, and left out the real R10 map). ASRJC 2024 Q3 'Co- operation' now reads 'Co-operation'."
    ]
   },
   {
@@ -31,16 +32,53 @@
    "title": "3. To review: questions that test both topics",
    "note": "Marks counted part by part. Each question is filed under the topic with more marks.",
    "table": {
-    "columns": ["Question", "Marks: 1.1 / 1.2", "Filed under", "Your decision"],
+    "columns": [
+     "Question",
+     "Marks: 1.1 / 1.2",
+     "Filed under",
+     "Your decision"
+    ],
     "rows": [
-     ["EJC 2024 Q3 (Mumbai slums, women)", "18 / 4", "1.1"],
-     ["TMJC 2024 Q3 (waste, landfill emissions)", "12 / 10", "1.1"],
-     ["CJC 2025 Q2 (liveability, CC impact)", "16 / 6", "1.1"],
-     ["NJC 2025 Q2 (liveability, Copenhagen)", "18 / 4", "1.1"],
-     ["DHS 2026 Q3 (urbanisation, slum vulnerability)", "13 / 9", "1.1"],
-     ["RI 2026 Q2 (gender, reimaging, adaptation)", "16 / 6", "1.1"],
-     ["TMJC 2026 Q3 (Singapore temperature, rooftop gardens)", "8 / 14", "1.2"],
-     ["YIJC 2026 Q2 (plastic waste, CC)", "18 / 4", "1.1"]
+     [
+      "EJC 2024 Q3 (Mumbai slums, women)",
+      "18 / 4",
+      "1.1"
+     ],
+     [
+      "TMJC 2024 Q3 (waste, landfill emissions)",
+      "12 / 10",
+      "1.1"
+     ],
+     [
+      "CJC 2025 Q2 (liveability, CC impact)",
+      "16 / 6",
+      "1.1"
+     ],
+     [
+      "NJC 2025 Q2 (liveability, Copenhagen)",
+      "18 / 4",
+      "1.1"
+     ],
+     [
+      "DHS 2026 Q3 (urbanisation, slum vulnerability)",
+      "13 / 9",
+      "1.1"
+     ],
+     [
+      "RI 2026 Q2 (gender, reimaging, adaptation)",
+      "16 / 6",
+      "1.1"
+     ],
+     [
+      "TMJC 2026 Q3 (Singapore temperature, rooftop gardens)",
+      "8 / 14",
+      "1.2"
+     ],
+     [
+      "YIJC 2026 Q2 (plastic waste, CC)",
+      "18 / 4",
+      "1.1"
+     ]
     ]
    }
   },
@@ -48,15 +86,40 @@
    "title": "4. To review: text and layout",
    "note": "Places where the typed question text or a cropped diagram is not a perfect copy of the paper.",
    "table": {
-    "columns": ["School & Year", "What to check", "Your decision"],
+    "columns": [
+     "School & Year",
+     "What to check",
+     "Your decision"
+    ],
     "rows": [
-     ["YIJC 2024 Q2", "The stem reads 'creative industry parks ( )': the brackets hold a map symbol in the paper, which can't be typed."],
-     ["TJC 2026 R5, R9", "Rebuilt from the Word file; the two-line heading is retyped in a plain font."],
-     ["EJC 2024 R7A/7B", "Rebuilt: the heading strip is from the PDF (turned upright), the maps from the Word file."],
-     ["SAJC 2026 R6", "The heading overlaps the top of the photo, as in the PDF made from the Word file."],
-     ["DHS 2026 R4", "A black band and the page number show under the map (from the Word-to-PDF conversion)."],
-     ["JPJC 2026 R8", "A grey margin shows on the right (left over from Word comment bubbles in the school's file)."],
-     ["HCI 2026 R6, JPJC 2026 R4B, TMJC 2026 R9", "The crop still includes '[Turn over' or the school's page footer."]
+     [
+      "YIJC 2024 Q2",
+      "The stem reads 'creative industry parks ( )': the brackets hold a map symbol in the paper, which can't be typed."
+     ],
+     [
+      "TJC 2026 R5, R9",
+      "Rebuilt from the Word file; the two-line heading is retyped in a plain font."
+     ],
+     [
+      "EJC 2024 R7A/7B",
+      "Rebuilt: the heading strip is from the PDF (turned upright), the maps from the Word file."
+     ],
+     [
+      "SAJC 2026 R6",
+      "The heading overlaps the top of the photo, as in the PDF made from the Word file."
+     ],
+     [
+      "DHS 2026 R4",
+      "A black band and the page number show under the map (from the Word-to-PDF conversion)."
+     ],
+     [
+      "JPJC 2026 R8",
+      "A grey margin shows on the right (left over from Word comment bubbles in the school's file)."
+     ],
+     [
+      "HCI 2026 R6, JPJC 2026 R4B, TMJC 2026 R9",
+      "The crop still includes '[Turn over' or the school's page footer."
+     ]
     ]
    }
   },

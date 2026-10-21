@@ -73,7 +73,11 @@ with pdfplumber.open(pdf_path) as pdf:
             if m and re.match(r'\s*\S+\s+\S+\s+(?!for\b)[a-z]', text):
                 continue   # a sentence such as "Resource 1 shows ..." (question paper text), not a heading
             if m and m.group(1).lower() == 'resource':
-                blocks.append((i, top, 'R' + m.group(2).upper(), text.strip()))
+                covered = any(im['top'] < top and bot < im['bottom'] and im['bottom'] - im['top'] < page.height * 0.85 for im in page.images)
+                blocks.append((i, top, 'R' + m.group(2).upper(), text.strip(), covered))
+    # a label that sits under a picture and also appears elsewhere is a stray hidden label (NJC 2026 H1 'Resource 10' under R9)
+    labels = [b[2] for b in blocks]
+    blocks = [b[:4] for b in blocks if not (b[4] and labels.count(b[2]) > 1)]
     crops = []
     for n, (pi, top, label, text) in enumerate(blocks):
         nxt = blocks[n + 1] if n + 1 < len(blocks) else None
@@ -154,12 +158,21 @@ with pdfplumber.open(pdf_path) as pdf:
             nxt[1] = canvas
             continue
         merged.append((label, crop, text))
-    seen = set()
+    final = {}
     for label, crop, text in merged:
-        if label in seen:
-            print('DUPLICATE', label, '|', text[:70])
+        if label in final:
+            if re.search(r'for questions?\s+\d', text, re.I) and crop.height > 150:   # heading repeated on a continuation page
+                prev, ptext = final[label]
+                W = max(prev.width, crop.width)
+                canvas = Image.new('RGB', (W, prev.height + crop.height), 'white')
+                canvas.paste(prev, (0, 0)); canvas.paste(crop, (0, prev.height))
+                final[label] = (canvas, ptext)
+                print('CONTINUED', label, '|', text[:70])
+            else:
+                print('DUPLICATE', label, '|', text[:70])
             continue
-        seen.add(label)
+        final[label] = (crop, text)
+    for label, (crop, text) in final.items():
         fn = os.path.join(outdir, f'{label}.png')
         crop.save(fn)
         print(fn, crop.size, '|', text[:70])

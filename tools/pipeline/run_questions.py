@@ -4,7 +4,7 @@ usage: SCRATCH=... python3 tools/pipeline/run_questions.py <spec> [SCHOOL_YEAR .
 spec = h1b (H1 Q2-Q3, Sec B), h1c (H1 Q4-Q6, Sec C), h2p1a, h2p1b, h2p2a, h2p2b, h2p2c
 Writes $SCRATCH/q_<spec>.json: {"SCHOOL_YEAR_SLOT": extract() result}.
 """
-import hashlib, json, os, sys
+import hashlib, json, os, re, sys
 sys.path.insert(0, 'tools')
 from extract_questions import extract
 
@@ -14,9 +14,15 @@ SPECS = {  # manifest, QP column, section, question numbers, slot prefix, expect
     'h1c': ('h1', 2, 'C', (4, 5, 6), '', None),
     'h2p1a': ('h2', 2, 'A', (1, 2), 'P1 ', 30),
     'h2p1b': ('h2', 2, 'B', (3, 4, 5, 6), 'P1 ', None),
-    'h2p2a': ('h2', 4, 'A', (1,), 'P2 ', 30),
+    'h2p2a': ('h2', 4, 'A', (1,), 'P2 ', 40),
     'h2p2b': ('h2', 4, 'B', (2,), 'P2 ', 30),
     'h2p2c': ('h2', 4, 'C', (3, 4), 'P2 ', None),
+}
+
+
+# Hand fixes, checked against the paper: marks the layout hides from the extractor
+MARK_FIXES = {
+    'SAJC_2024_P2 Q1': {'(g)': 10},   # '[10]' printed down the margin one character per line, between the words
 }
 
 
@@ -43,6 +49,8 @@ if __name__ == '__main__':
             except Exception as e:
                 print(f'{key}: ERROR {e!r}')
                 continue
+            fix = MARK_FIXES.get(key, {})
+            r['parts'] = [(l, re.sub(r'^\[\s*|\s*\]$', '', t).strip(), fix[l]) if l in fix else (l, t, m) for l, t, m in r['parts']]
             marks = [m for *_, m in r['parts']]
             labels = ''.join(l[1] for l, _, _ in r['parts'])
             text = ' '.join(r['stem'] + [t for _, t, _ in r['parts']])

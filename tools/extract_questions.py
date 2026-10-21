@@ -7,8 +7,8 @@ section heading and ends at the next section heading or question number.
 import re, subprocess
 
 FOOTER = re.compile(r'(©|geography prelim|\b20\d\d\s+JC\d\b|\[?\s*turn over|8834|9173|preliminary exam|prelim(inary)? examination|'
-                    r'^\s*\d{1,2}\s*$|^\s*page \d+|this document consists|blank page)', re.I)
-PART = re.compile(r'^(?:\(([a-h])\)?|([a-h])\))\s+(.*)$')  # (a) / a) / '(b' with ')' wrapped to next line
+                    r'^\s*\d{1,2}\s*$|^\s*page \d+|this document consists|blank page|^\s*cluster \d\b[^.]{0,70}$)', re.I)
+PART = re.compile(r'^(?:\(([a-h])\)?|([a-h])\))(?:\s+(.*))?$')  # (a) / a) / '(b' with ')' wrapped to next line
 END = re.compile(r'^\s*(\*+\s*)?(end of (the )?(question )?paper\.?|end of section [a-d]|- ?end ?-|end\.?|_{8,}.*|'
                  r'\[?\s*total\s*:?\s*\d*\s*(marks?)?\s*\]?|blank page|copyright acknowledg.*|acknowledge?ments?\s*:?|'
                  r'resource \d+[a-z]? for question.*|this insert.*|insert)\s*$', re.I)   # end of the last question in a paper
@@ -18,6 +18,23 @@ MARKS = re.compile(r'\[\s*(\d{1,2})\s*(?:marks?)?\s*\]\s*$', re.I)
 def pdf_lines(pdf):
     txt = subprocess.run(['pdftotext', '-layout', pdf, '-'], capture_output=True, text=True).stdout
     lines = txt.replace('\f', '\n').split('\n')
+    # labels and marks printed down a narrow column over three lines ('(' / 'a' / ')' and '[' / '4' / ']'; SAJC Word files)
+    for i in range(len(lines) - 2):
+        a, b, c = lines[i], lines[i + 1], lines[i + 2]
+        ma, mb, mc = re.match(r'^(\s*)\((\s+.*|)$', a), re.match(r'^(\s*)([a-h])(\s+.*|)$', b), re.match(r'^(\s*)\)(\s+.*|)$', c)
+        if ma and mb and mc and abs(len(ma.group(1)) - len(mb.group(1))) <= 1:
+            lines[i] = f'{ma.group(1)}({mb.group(2)})  ' + ma.group(2).strip()
+            lines[i + 1] = ' ' * (len(mb.group(1)) + 5) + mb.group(3).strip() if mb.group(3).strip() else ''
+            lines[i + 2] = ' ' * (len(mc.group(1)) + 5) + mc.group(2).strip() if mc.group(2).strip() else ''
+    for i in range(len(lines) - 2):
+        if re.search(r'\s\[\s*$', lines[i]) and re.search(r'\s(\d{1,2})\s*$', lines[i + 1]) and re.match(r'^\s*.*\]\s*$', lines[i + 2]) \
+                and '[' not in lines[i + 2]:
+            n = re.search(r'\s(\d{1,2})\s*$', lines[i + 1]).group(1)
+            lines[i] = re.sub(r'\s\[\s*$', '', lines[i])
+            lines[i + 1] = re.sub(r'\s\d{1,2}\s*$', '', lines[i + 1])
+            lines[i + 2] = re.sub(r'\]\s*$', '', lines[i + 2]).rstrip()
+            last = i + 2 if lines[i + 2].strip() else i + 1 if lines[i + 1].strip() else i
+            lines[last] = lines[last].rstrip() + f'   [{n}]'
     # a mark split over two lines ('... [6' / ']' or '... [' / '3]'): move the whole mark to the second line
     for i in range(len(lines) - 1):
         a = re.search(r'\s\[\s*(\d*)\s*$', lines[i])
@@ -43,8 +60,16 @@ def extract(pdf, qno, section_name):
         return False
     cands = [i for i, l in enumerate(lines) if l.strip().lower() == f'section {section_name.lower()}'] or \
             [i for i, l in enumerate(lines) if re.fullmatch(rf'\s*section {section_name}\b.*', l, re.I) and 'answer' not in l.lower()]
-    sec_i = next((i for i in cands if leads_to_q(i)), cands[0])
-    start = next(i for i in range(sec_i + 1, len(lines)) if qstart.match(lines[i]))
+    sec_i = next((i for i in reversed(cands) if leads_to_q(i)), None)   # the last one: cover pages list sections too
+    if sec_i is None:   # some papers letter their sections differently (e.g. H2 P2 with only Sections A and B)
+        heads = [i for i, l in enumerate(lines) if any_sec.fullmatch(l) and 'answer' not in l.lower()]
+        sec_i = next((i for i in reversed(heads) if leads_to_q(i)), (cands or heads)[0])
+    # the question number sits furthest left: a wrapped stem line can also start with the number ('Resource' / '2 is a map')
+    starts = [i for i in range(sec_i + 1, len(lines)) if qstart.match(lines[i])]
+    sec_end = next((j for j in range(sec_i + 1, len(lines)) if any_sec.fullmatch(lines[j]) and 'answer' not in lines[j].lower()), len(lines))
+    starts = [i for i in starts if i < sec_end] or starts
+    indent0 = min(len(lines[i]) - len(lines[i].lstrip()) for i in starts)
+    start = next(i for i in starts if len(lines[i]) - len(lines[i].lstrip()) <= indent0 + 1)
     heading = [lines[sec_i].strip()] + [l.strip() for l in lines[sec_i + 1:start] if l.strip() and not FOOTER.search(l)]
     # end: next section heading, or the next question number at the same indent right after a mark
     indent = len(lines[start]) - len(lines[start].lstrip())
@@ -66,7 +91,7 @@ def extract(pdf, qno, section_name):
         if re.fullmatch(r'\s*section [b-d]\s*', lines[i], re.I) or (nxt.match(lines[i]) and marked) or END.match(lines[i]):
             end = i
             break
-        part_seen = part_seen or bool(PART.match(lines[i].strip()))
+        part_seen = part_seen or bool(PART.match(re.sub(rf'^{qno}[.)]?\s+(?=\(?[a-h]\)\s)', '', lines[i].strip())))
         if lines[i].strip() and not FOOTER.search(lines[i]) and mark_re.search(lines[i]):
             marked = True
             if not part_seen:
@@ -80,6 +105,8 @@ def extract(pdf, qno, section_name):
     def flush():
         if buf:
             text = ' '.join(x.strip() for x in buf)
+            # a word broken over two lines at its hyphen ('problem-' / 'solving'), but not 'low- and high-income'
+            text = re.sub(r'(?<=[A-Za-z])- (?!(?:and|or|to|on|in|at|the|nor)\b)(?=[a-z])', '-', text)
             text = re.sub(r'\s+', ' ', text).strip()
             if cur is None:
                 stem.append(text)
@@ -89,6 +116,7 @@ def extract(pdf, qno, section_name):
 
     for raw in body:
         s = re.sub(r'^\)\s+', '', raw.strip())
+        s = re.sub(rf'^{qno}[.)]?\s+(?=\(?[a-h]\)\s)', '', s)   # question number repeated before (a) on a new page
         if not s:
             flush()
             continue
@@ -97,7 +125,7 @@ def extract(pdf, qno, section_name):
             flush()
             if cur:
                 parts.append(cur)
-            cur = [f'({m.group(1) or m.group(2)})', m.group(3), None]
+            cur = [f'({m.group(1) or m.group(2)})', m.group(3) or '', None]
             s = ''
         if s.startswith(('•', '−', '–', '- ')) and cur is None:
             flush()
