@@ -1,22 +1,18 @@
 # Session log
 
-**Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it.
-
-**Task in progress (session 2):** build docs 2b, 2c, 2d, 2e, 2f (the user said "build all of them"), each with Review Notes. Build them one after another and commit + push after each.
-- Done: 2b (v0.10), 2c (v0.9), 2d (v0.11), 2e (v0.12).
-- Next: 2f H2 Essay (P1 Q3–Q6, P2 Q3–Q4) – wording already extracted and checked.
-- An hourly scheduled check-in (`trig_01GQooXWiM5ucgbmSySZBKG3`, :12 past each hour) is bound to this session. Delete it and clear this note when all five are done.
+**Next session starts here:** read the "Session 2 HANDOFF" entry at the end of this log. All docs (1, 2a–2f) are built; the user hasn't yet reviewed 2b–2f or answered the Review Notes items.
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.11.docx`, `docs/2e H2 Structured Questions by Topic v0.12.docx`, each with a `– Review Notes` companion. Still to build: 2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
-- **Current version:** v0.12
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.11.docx`, `docs/2e H2 Structured Questions by Topic v0.12.docx`, `docs/2f H2 Essay Questions by Topic v0.13.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.13
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
-- **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
+- **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). All notes carry `Syllabus topics:` and `Syllabus KQs:` lines.
 
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.13 | 2026-10-21 | **Doc 2f full build**: H2 Essay questions by topic, 282 essays grouped by sub-topic |
 | v0.12 | 2026-10-21 | **Doc 2e full build**: H2 Structured questions by topic, 141 questions (full wording + 549 diagrams) |
 | v0.11 | 2026-10-21 | **Doc 2d full build**: H2 Fieldwork questions by topic, 47 questions (full wording + 215 diagrams) |
 | v0.10 | 2026-10-21 | **Doc 2b fix** (replaces v0.8): NJC 2026 Q3 diagrams corrected (whole R9, real R10); 'Co-operation' hyphen |
@@ -333,3 +329,34 @@
 - **Checks:** 141 questions, all 30 marks, labels/marks match the notes. All 549 diagrams checked by eye (22 contact sheets).
 - Output: `docs/2e H2 Structured Questions by Topic v0.12.docx` (438 pages, 61 MB) + `– Review Notes v0.12` (spec `tools/review/2e_h2_structured.json`). Data: `tools/data/doc2e_questions.json`.
 - Next: 2f H2 Essay.
+
+### 2026-10-21 — Session 2: doc 2f (H2 Essay) full build v0.13
+- 282 essays (P1 Q3–Q6, P2 Q3–Q4), all 20 marks, no diagrams. Wording matches the notes (279 exactly; 3 differ only by the notes' paraphrase). Every school's P1 Q3–Q4 are Cluster 1 and Q5–Q6 Cluster 2, so the section lines are right.
+- Filed by sub-topic of the key question; 34 essays have two key questions, 14 across sub-topics (listed in the Review Notes).
+- Output: `docs/2f H2 Essay Questions by Topic v0.13.docx` (43 pages) + `– Review Notes v0.13` (spec `tools/review/2f_h2_essay.json`). Data: `tools/data/doc2f_questions.json`.
+- All five docs done: the hourly check-in was deleted and the "Task in progress" note cleared.
+
+### 2026-10-21 — Session 2 HANDOFF
+**Read this entry first in the next session.**
+
+**Where things stand**
+- Branch `claude/amazing-dirac-mpbgn8` holds everything; the user's local folder follows it. `main` has only the user's files plus `CLAUDE.md` (added this session, same as the branch copy). Don't merge into `main` or open a PR unless asked; if a merge is ever needed, revert `e0ae977` first.
+- All planned docs are built, each with Review Notes: 1 (v0.7), 2a (v0.5), 2b (v0.10), 2c (v0.9), 2d (v0.11), 2e (v0.12), 2f (v0.13).
+- `CLAUDE.md` now also has the usage-limit, long-task and token-use rules (session 2).
+
+**Waiting on the user**
+- Feedback on docs 2b–2f.
+- Decisions in the Review Notes: doc 1 ("Others" fieldwork list, inconsistent fieldwork filing, 28 borderline key-question calls); 2b (8 two-topic questions); 2c (5 essays across sub-topics); 2d (layout items); 2e (13 questions filed under their second-listed topic, 6 ties); 2f (14 essays across sub-topics).
+- Ideas offered in the Review Notes: split 2e (61 MB) by cluster; group by key question; contents lists; new page per question.
+
+**Known small issues (not yet fixed)**
+- Doc 2a (v0.5) still has a few words split at a line-end hyphen ('self- recording', 'pre- packaged'). The extractor now joins them; rebuilding 2a would fix it (bump the version).
+- In 2b v0.10, ASRJC 2024 Q2 R5 is one crop holding both 5A and 5B side by side (content complete). The cropper now splits them; a rebuild would show two crops.
+
+**How to rebuild any doc** (see `tools/pipeline/README.md`, section "Docs 2b–2f")
+1. `SCRATCH=<dir>`; convert Word sources to PDF into `$SCRATCH/pdfcache/` (snippet in session 2's first build step: md5 of the manifest path, first 10 chars).
+2. `python3 tools/parse_notes.py > $SCRATCH/questions.json`
+3. `run_questions.py <spec>` → `check_vs_notes.py` / `check_essays_vs_notes.py`.
+4. `crop_h1.py`, `crop_h2.py`, then `manual_fixes.py`; `pick_resources.py`; check `contact_sheets.py` output by eye.
+5. `make_doc_data.py <2b..2f> <out.json>` → `tools/build_docs.py <out.json> docs <version> --only bytopic --doc <id>`.
+6. Update `tools/review/<doc>.json`, run `tools/review_docs.py`, log here, commit, push.
