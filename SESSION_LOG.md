@@ -1,5 +1,7 @@
 # Session log
 
+**Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it. Next step: the user picks which of docs 2b–2f to build next (asked in session 2, not yet answered).
+
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, each with a `– Review Notes` companion. Still to build: 2b–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
 - **Current version:** v0.7
@@ -266,3 +268,14 @@
 - Key-question labelling rules: `tools/kq_rules.md`.
 - The reading notes in `notes/<year>/<SCHOOL>.md` record each question's wording and marks, plus `Syllabus topics:` and `Syllabus KQs:` lines.
 - The scratchpad from session 1 (text extracts, crops, PDF cache) is not in the repo. Regenerate it as needed (see the pipeline README).
+
+### 2026-10-21 — Session 2: usage-limit and long-task rules
+- Read the handoff. Asked the user which of 2b–2f to build next; not yet answered.
+- User asked for new working rules. Added to `CLAUDE.md` under "Usage limits and long tasks":
+  - stop at about 90% of the session token budget
+  - schedule a resume message after a plan usage-limit reset
+  - for long cloud tasks, a "Task in progress" note plus an hourly scheduled check-in
+  - don't cut checks just to save tokens
+- Added a "Next session starts here" line at the top of this log.
+- User chose to put the rules on both branches. `CLAUDE.md` was also committed to `main`, identical to the branch copy, so a later merge has no conflict there. No other work went to `main`.
+- Files: `CLAUDE.md`, `SESSION_LOG.md`. Doc version unchanged (v0.7).
