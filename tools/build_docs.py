@@ -6,9 +6,9 @@ Doc 2: questions listed by syllabus topic, split into 6 docs
        (H1/H2 x fieldwork, structured, essay); each entry = school + year,
        full question text, then the resources (diagrams) it uses.
 
-usage: build_docs.py <questions.json> <outdir> <version> [--preview] [--only grid|review|bytopic]
+usage: build_docs.py <questions.json> <outdir> <version> [--preview] [--only grid|review|bytopic] [--doc 2a]
 """
-import json, os, sys
+import io, json, os, sys
 from docx import Document
 from docx.enum.section import WD_ORIENT
 from docx.enum.table import WD_TABLE_ALIGNMENT
@@ -16,6 +16,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
+from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TOPICS = json.load(open(os.path.join(HERE, 'syllabus_topics.json')))
@@ -156,6 +157,18 @@ def build_grid(questions, outdir, version, preview):
     return path
 
 
+def compact_image(path, max_px=1300):
+    """Shrink a crop for embedding: cap its size, then keep whichever of JPEG / 256-colour PNG is smaller."""
+    im = Image.open(path).convert('RGB')
+    im.thumbnail((max_px, max_px * 3))
+    jpg, png = io.BytesIO(), io.BytesIO()
+    im.save(jpg, 'JPEG', quality=82, optimize=True)
+    im.quantize(256).save(png, 'PNG', optimize=True)
+    best = min(jpg, png, key=lambda b: b.getbuffer().nbytes)
+    best.seek(0)
+    return best
+
+
 def add_question(doc, q, img_root):
     level = q['level']
     doc.add_heading(f"{q['school']} {q['year']} — {q['paper']}, {q['qno']}  [{q['marks']} marks]", level=3)
@@ -178,7 +191,12 @@ def add_question(doc, q, img_root):
         p.add_run(f'{label}\t{text}\t[{marks}]')
     for res in q.get('resources', []):
         doc.add_paragraph()
-        doc.add_picture(os.path.join(img_root, res), width=Cm(15.5))
+        path = os.path.join(img_root, res)
+        w, h = Image.open(path).size
+        if h / w * 15.5 > 23.5:     # very tall resource: fit to page height instead
+            doc.add_picture(compact_image(path), height=Cm(23.5))
+        else:
+            doc.add_picture(compact_image(path), width=Cm(15.5))
         doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph()
 
@@ -191,7 +209,10 @@ def build_by_topic(questions, outdir, version, preview, img_root):
             ('H2', 'structured', '2e H2 Structured Questions by Topic', 'H2 Structured Questions by Topic (9173 P1 Sec A, P2 Sec B)'),
             ('H2', 'essay', '2f H2 Essay Questions by Topic', 'H2 Essay Questions by Topic (9173 P1 Sec B, P2 Sec C)')]
     paths = []
+    only_doc = sys.argv[sys.argv.index('--doc') + 1] if '--doc' in sys.argv else None
     for level, kind, fname, title in docs:
+        if only_doc and not fname.startswith(only_doc + ' '):
+            continue
         doc = base_doc(title, version, preview=preview)
         sel = [q for q in questions if q['level'] == level and q['kind'] == kind and q.get('stem')]
         tops = TOPICS[level]

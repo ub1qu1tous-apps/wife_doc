@@ -1,8 +1,8 @@
 # Session log
 
 ## Current state
-- **Docs:** `docs/1 Topic Grid by School (H1 & H2) v0.4.docx` (full). Docs 0 and 2a–2f: previews only (v0.3, `previews/`). Build is going one doc at a time.
-- **Current version:** v0.4
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.4.docx`, `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`. Still to build: 0 (review), 2b–2f. Built one doc at a time.
+- **Current version:** v0.5
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -10,6 +10,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.5 | 2026-10-21 | **Doc 2a full build**: H1 Fieldwork questions by topic, 41 questions (full wording + 166 resource images) |
 | v0.4 | 2026-10-21 | **Doc 1 full build**: topic grid for all 47 school-years (H1 + H2 tables, 716 questions), syllabus topic only |
 | v0.3 (preview) | 2026-10-21 | Fieldwork split out of doc 2: 6 question docs (2a H1 Fieldwork, 2b H1 Structured, 2c H1 Essay, 2d H2 Fieldwork, 2e H2 Structured, 2f H2 Essay) |
 | v0.2 (preview) | 2026-10-20 | Grid shows syllabus topic only; fieldwork grouped by area ("Others" for non-syllabus scenarios); new doc 0 "Items to Review" |
@@ -149,3 +150,24 @@
   - `--only grid|review|bytopic` flag.
 - Output: `docs/1 Topic Grid by School (H1 & H2) v0.4.docx` (12 pages, landscape).
 - Next: user to check doc 1, then the next doc.
+
+### 2026-10-21 — Session 1 (cont.): doc 2a (H1 Fieldwork) full build v0.5
+- **Sources:** `tools/h1_manifest.json` lists the H1 QP and Insert for all 41 school-years that have H1 (VJC 2026 left out because its QP is password-protected). Word files were converted to PDF with soffice in a scratchpad cache.
+- **Question wording:** `tools/extract_questions.py` takes Q1 (Section A) from each QP's `pdftotext -layout` text. Checked automatically: sub-parts in order and summing to 30 marks for all 41; no footer text or stray "[n]" marks left in the text. Fixes needed along the way:
+  - "a)" style part labels.
+  - Labels split across lines.
+  - Marks printed mid-line.
+  - ASRJC page footer ("ASRJC 2026 JC2 H1 Geography Prelim").
+  - Ending a question at a stem line that happened to start with "2".
+- **Diagrams:** `tools/crop_resources.py` crops each "Resource N" block from the insert. Fixes needed along the way:
+  - Skip copyright-page lines (VJC 2024 lists "Resource N <url>").
+  - Skip question-paper sentences ("Resource 1 shows ...") in combined QP+Insert files (TJC).
+  - Merge a bare "Resource 4" heading into 4A/4B.
+  - Stop at sideways (landscape) pages.
+  - Leave out page-footer logos.
+  - Continue onto the next page only when the page is full (EJC 2024 heading sat at the bottom of a page; HCI 2025 R4 runs over two pages).
+- **Which resources go with each question:** taken from the resources the question's wording refers to (`tools/resource_refs.py`), not from the insert labels. YIJC 2024 insert labels R7 "for Question 1" (an insert error); JPJC R1A/R1B have no "for Question" label.
+- **Checking:** every selected crop was checked by eye on contact sheets.
+- **Doc:** grouped under Cluster 2 Fieldwork by area: Community response to CC (15), Elderly needs (17), Others (9). Schools sorted by name then year.
+- **File size:** images are capped at 1300 px and saved as JPEG or 256-colour PNG, whichever is smaller. That cut the file from 100 MB to 20.6 MB (166 pages).
+- Next: user to check doc 2a, then the next doc.
