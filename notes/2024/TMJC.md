@@ -32,6 +32,7 @@ Files: H1 Qns/Insert/Ans (PDF + Word copies, same content); H2 P1 QNS/Insert/ANS
 
 User grid: CC | SUD | Waste | Reimaging vs slums | Issues of women | Actors of CC.
 Syllabus topics: Q1 Fieldwork – CC response (willingness to buy electric cars, Tampines) | Q2 1.1.1 SUD (urbanisation, urban population loss) | Q3 1.1.2 Sustainable Cities (waste); 1.1.1 SUD (waste generation); 1.2.1 Science of CC (GHGs from waste) | Q4 1.1.2 Sustainable Cities (reimaging vs slums); 1.1.3 Liveable Cities | Q5 1.1.3 Liveable Cities (women) | Q6 1.2.3 Responses to CC (firms)
+Syllabus KQs: Q1 Fieldwork – CC response (willingness to buy electric cars, Tampines) | Q2 1.1.1b | Q3 1.1.1c; 1.2.2a; 1.1.2a; 1.2.1c | Q4 1.1.2c; 1.1.2b | Q5 1.1.3c | Q6 1.2.3b
 
 ## H2 Paper 1 (9173/01), 12 Sep 2024
 **Q1 Energy & employment structure (Cluster 1).** R1 energy resources for electricity generation, selected countries 2017 (Brazil, Canada low fossil; Saudi no HEP); R2 global distribution of solar power plants; R3 employment by sector LICs vs HICs 1991 & 2018 (LIC agri 70→62%; HIC services 64→75%; HIC manufacturing 20→12%).
@@ -60,6 +61,7 @@ Syllabus topics: Q1 Fieldwork – CC response (willingness to buy electric cars,
 
 User grid: RE sources | MM, rivers | Trade-offs, SD | Causes of transboundary | Causes of Floods | Factors of drainage basin.
 Syllabus topics: Q1 1.1.3 Managing Resources (energy, HEP, solar); 1.2.1 Development (employment structure); 1.2.3 Actors (multilateral institutions) | Q2 2.2.1 Geomorphic Processes (landslides, water erosion); 2.1.1 Tropical Climates (monsoon); 2.2.3 Fluvial Landforms (braided) | Q3 1.1.1 Understanding SD (trade-offs) | Q4 1.1.3 Managing Resources (transboundary water) | Q5 2.1.3 Floods (causes) | Q6 2.1.2 Drainage Basin Hydrology
+Syllabus KQs: Q1 1.1.3a; 1.2.1c; 1.2.3c | Q2 2.2.1b; 2.1.1c; 2.1.1a; 2.2.3b; 2.2.3a | Q3 1.1.1a | Q4 1.1.3b | Q5 2.1.3a | Q6 2.1.2b; 2.1.2c
 
 ## H2 Paper 2 (9173/02), 16 Sep 2024
 **Q1 Fieldwork – Elderly liveability in Tokyo: Sugamo vs San'ya.** 8 NUS students (2 groups of 4). Environmental quality vs quality of life. Group A (secondary data: Sugamo redeveloped 2005 – flat shopping streets, ramps): "Sugamo has better environmental quality and its residents have a higher quality of life than the residents of San'ya." Group B (Tokyo Univ article: San'ya poor but strong community spirit, lowest cost of living): "Sugamo has better environmental quality, but its residents have a lower quality of life than the residents of San'ya." One week; 25 elderly per site; environmental quality survey + photos of elderly. R1 photos Sugamo ("Harajuku for Grandmas") & San'ya; R2 environmental quality survey form (bipolar −3…+3); R3 students' vs residents' EQ scores (students: San'ya −10, Sugamo +9; residents: −1, +5); R4 residents' quality of life ratings (5 aspects × Excellent…Very poor).
@@ -85,3 +87,4 @@ Syllabus topics: Q1 1.1.3 Managing Resources (energy, HEP, solar); 1.2.1 Develop
 
 User grid: Elderly, liveability | Reimaging, livability | Measure SUD | Strategies of CC [sic – actually challenges].
 Syllabus topics: Q1 Fieldwork – Elderly needs (Sugamo vs San'ya, Tokyo) | Q2 3.1.1 SUD (urban growth); 3.1.2 Sustainable Cities (reimaging); 3.1.3 Liveable Cities (rankings) | Q3 3.1.1 SUD (measuring) | Q4 3.2.3 Responses to CC (challenges)
+Syllabus KQs: Q1 Fieldwork – Elderly needs (Sugamo vs San'ya, Tokyo) | Q2 3.1.1b; 3.1.2c; 3.1.3a | Q3 3.1.1a | Q4 3.2.3c

@@ -32,6 +32,7 @@ Files: H1 QP & Insert (combined PDF) + SAP (suggested answer pointers); H2 P1 QP
 
 User grid: CC | Reimaging, Liveability | CC | Strategies of Waste | Strategies of Elderly | Challenges of CC.
 Syllabus topics: Q1 Fieldwork – CC response (lifestyle changes to reduce carbon footprint, Tampines) | Q2 1.1.3 Liveable Cities; 1.1.1 SUD (urban metabolism, demand on environment); 1.1.2 Sustainable Cities (reimaging) | Q3 1.2.1 Science of CC; 1.2.2 Effects of CC | Q4 1.1.2 Sustainable Cities (waste) | Q5 1.1.3 Liveable Cities (elderly) | Q6 1.2.3 Responses to CC (challenges)
+Syllabus KQs: Q1 Fieldwork – CC response (lifestyle changes to reduce carbon footprint, Tampines) | Q2 1.1.1c; 1.1.3a; 1.1.2c | Q3 1.2.1c; 1.2.2a; 1.2.1b; 1.2.2b | Q4 1.1.2a | Q5 1.1.3b | Q6 1.2.3c; 1.2.2c
 
 ## H2 Paper 1 (9173/01), 23 Aug 2024
 **Q1 Energy – SDG7, Germany, Gambia HEP, Singapore solar canopies (Cluster 1).** R1 SDG7 progress world map; R2 Germany energy sources 2013 vs 2023 (nuclear phase-out, renewables doubled); R3 proposed dam & HEP station site, Gambia (LDC; Gambia River shared with Senegal/Guinea); R4 fact file solar canopies Singapore (net zero 2050; 2 GWp by 2030 = 3% demand; 1.2 GWp Q1 2024; Guoco Tower canopy 2%; costs, storms, lightning, dust).
@@ -58,6 +59,7 @@ Syllabus topics: Q1 Fieldwork – CC response (lifestyle changes to reduce carbo
 
 User grid: Solar, SD | Karst, MM | Malthus | MI vs TNCs | ENSO | Fluvial landforms.
 Syllabus topics: Q1 1.1.3 Managing Resources (energy, extractive industries); 1.1.1 Understanding SD (SDG7) | Q2 2.2.2 Karst; 2.2.1 Geomorphic Processes (mass movement) | Q3 1.1.2 Environment & Resources (Malthus) | Q4 1.2.3 Actors (multilateral institutions) | Q5 2.1.1 Tropical Climates (ENSO) | Q6 2.2.3 Fluvial Landforms
+Syllabus KQs: Q1 1.1.3a; 1.1.1c; 1.1.1b; 1.1.3c | Q2 2.2.2a; 2.2.1b; 2.2.2b; 2.2.2c | Q3 1.1.2c | Q4 1.2.3c | Q5 2.1.1c | Q6 2.2.3b
 
 ## H2 Paper 2 (9173/02), 11 Sep 2024
 **Q1 Fieldwork – UHI vulnerability & willingness for CC action.** 4 students. Hypothesis: 'Residents living in areas with higher Urban Heat Island Vulnerability Index are more willing to adopt measures to mitigate climate change.' 2 sites (Bukit Merah – higher UHI; Serangoon), 25 questionnaires each (50), Thu 2–4pm in Oct, every third person; then in-depth interviews with 10 respondents another day. R1 UHI vulnerability index map SG; R2A/2B sampling locations; R3 questionnaire (resident? heat stress? weather changing? heard of CC? affects you? taken action? Likert 1=SA…5=SD; Climate Vouchers); R4 tallied Likert data for two statements at each site.
@@ -83,3 +85,4 @@ Syllabus topics: Q1 1.1.3 Managing Resources (energy, extractive industries); 1.
 
 User grid: CC | Women | Effects of CC | SUD is difficult to achieve.
 Syllabus topics: Q1 Fieldwork – CC response (UHI vulnerability & willingness for CC action) | Q2 3.1.3 Liveable Cities (liveability, women); 3.2.2 Effects of CC (perception) | Q3 3.2.2 Effects of CC | Q4 3.1.1 SUD
+Syllabus KQs: Q1 Fieldwork – CC response (UHI vulnerability & willingness for CC action) | Q2 3.1.3c; 3.1.3a; 3.2.2b | Q3 3.2.2b | Q4 3.1.1b

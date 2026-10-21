@@ -53,6 +53,7 @@ R1 map of the area of study: HDB block in the centre, private housing to the NW 
 - Q6 'Places in the tropics are the most vulnerable to the effects of contemporary climate change.' Evaluate this statement. — Exposure (SLR, cyclones, droughts or floods, climate-sensitive livelihoods) vs vulnerability shaped by wealth, governance and adaptive capacity; non-tropical impacts (heatwaves, wildfires, glaciers).
 
 Syllabus topics: Q1 Fieldwork – CC response (dengue) | Q2 1.1.3 Liveable cities (women); 1.1.2 Sustainable cities (reimaging); 1.2.3 Responses to CC (adaptation) / 1.1.1 SUD | Q3 1.2.1 Science of CC; 1.2.2 Effects of CC; 1.2.3 Responses to CC | Q4 1.1.3 Liveable cities (SUD vs liveability) | Q5 1.1.3 Liveable cities (elderly) | Q6 1.2.2 Effects of CC (vulnerability).
+Syllabus KQs: Q1 Fieldwork – CC response (dengue) | Q2 1.1.3c; 1.1.2c; 1.2.3a | Q3 1.2.1c; 1.2.1a; 1.2.2b; 1.2.3c | Q4 1.1.3a | Q5 1.1.3b | Q6 1.2.2b
 
 ## H2 Paper 1 (9173/01), 2026, 3 h
 **Q1 Cluster 1 – Economic sectors, Standard Chartered (TNC), SD, transboundary water.** R1 line graph of employment by sector, 1950–2020. MEDCs: agriculture 22→3%, manufacturing 43→44 (1960)→23%, services 35→74%. LEDCs: agriculture 82→59%, manufacturing 8→15 (1990)→10%, services 10→31%. R2 world map of Standard Chartered: global HQ in London; regional HQs in Dubai, Hong Kong and Singapore; branches coloured by reporting region. The Dubai region covers the Middle East, Africa, Europe and the Americas (US, Brazil, Argentina, Colombia); the HK region covers Greater China, Korea and Japan; the Singapore region covers S and SE Asia and Australia. R3 USGS map of the Colorado River Basin: Upper and Lower Basins, Glen Canyon and Hoover dams, All-American Canal, Lees Ferry, Mexico downstream at Yuma. Caption: very arid; the upper basin is high with a short growing season, the lower basin is low with a long growing season.
@@ -90,6 +91,7 @@ Syllabus topics: Q1 Fieldwork – CC response (dengue) | Q2 1.1.3 Liveable citie
 - Q6 'Erosion plays a minor role in the development of fluvial landforms in the tropics.' Evaluate this statement. — High discharge powers hydraulic action and abrasion (V-shaped valleys, gorges, waterfalls); deep chemical weathering supplies sediment; vegetation protects; deposition downstream (floodplains, levees, deltas); upper vs lower course; high-discharge events.
 
 Syllabus topics: Q1 1.1.1 Understanding SD; 1.2.1 Development (sectoral shifts); 1.2.2 GPNs of TNCs; 1.2.3 Actors (states); 1.1.3 Managing resources (transboundary water) | Q2 2.1.2 Drainage basin hydrology; 2.1.3 Floods in the humid tropics [USA case] | Q3 1.2.1 Development (variations) | Q4 1.1.3 Managing resources (RE) | Q5 2.1.1 Tropical climates (ENSO); 2.1.2 Drainage basin hydrology | Q6 2.2.3 Fluvial landforms; 2.2.1 Geomorphic processes.
+Syllabus KQs: Q1 1.2.1c; 1.2.2b; 1.2.2c; 1.1.1c; 1.2.3a; 1.1.3b | Q2 2.1.2b; 2.1.2a; 2.1.3b; 2.1.3a | Q3 1.2.1a | Q4 1.1.3a | Q5 2.1.2c; 2.1.2b | Q6 2.2.3b
 
 ## H2 Paper 2 (9173/02), 2026, 3 h
 **Q1 Fieldwork (Cluster 4) – Dengue prevention, Marymount–Shunfu.** Same stem and resources as H1 Q1 (R1 map; R2A market; R2B MRT; R3 questionnaire; R4 results).
@@ -117,3 +119,4 @@ Syllabus topics: Q1 1.1.1 Understanding SD; 1.2.1 Development (sectoral shifts);
 - Q4 'Places in the tropics are most vulnerable to the effects of contemporary climate change.' Evaluate this statement. — as H1 Q6.
 
 Syllabus topics: Q1 Fieldwork – CC response (dengue) | Q2 3.1.3 Liveable cities (women); 3.1.2 Sustainable cities (reimaging); 3.2.3 Responses to CC (adaptation) / 3.1.1 SUD; 3.2.1 Science of CC | Q3 3.1.3 Liveable cities (SUD vs liveability) | Q4 3.2.2 Effects of CC (vulnerability).
+Syllabus KQs: Q1 Fieldwork – CC response (dengue) | Q2 3.2.1c; 3.2.3a; 3.1.2c; 3.1.3c; 3.2.1a | Q3 3.1.3a | Q4 3.2.2b

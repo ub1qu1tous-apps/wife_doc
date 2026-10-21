@@ -32,6 +32,7 @@ Files: H1 QP/Insert/MS; H2 P1 QP/Insert/MS; H2 P2 QP/Insert/MS (PDF + Word; Word
 
 User grid: Elderly | Slums | CC | Issues of Elderly | Factors of liveability | Effects of CC.
 Syllabus topics: Q1 Fieldwork – Elderly needs (ageing well, Winterthur) | Q2 1.1.2 Sustainable Cities (waste, slums); 1.1.1 SUD (ecological footprint) | Q3 1.2.1 Science of CC (carbon cycle, feedbacks); 1.2.3 Responses to CC (actors) | Q4 1.1.3 Liveable Cities (elderly) | Q5 1.1.3 Liveable Cities (factors) | Q6 1.2.2 Effects of CC
+Syllabus KQs: Q1 Fieldwork – Elderly needs (ageing well, Winterthur) | Q2 1.1.2a; 1.1.1c; 1.1.2b | Q3 1.2.1c; 1.2.3b; 1.2.2a; 1.2.1b | Q4 1.1.3b | Q5 1.1.3a | Q6 1.2.2b
 
 ## H2 Paper 1 (9173/01), 2024
 **Q1 GPN – Ferrero Group / Nutella (Cluster 1).** Italian TNC, HQ Alba. R1 Ferrero global supply chain (cocoa Nigeria, sugar Brazil, hazelnuts Turkey; factories; sales offices); R2 article on impacts of Nutella production (palm oil deforestation, orangutans, child labour on hazelnut farms); R3 share of sales by region 2015: Mars, Mondelez, Nestlé, Ferrero (Ferrero W Europe 52%).
@@ -58,6 +59,7 @@ Syllabus topics: Q1 Fieldwork – Elderly needs (ageing well, Winterthur) | Q2 1
 
 User grid: GPN | Monsoon, Karst [sic] | RE | Transboundary | Cyclones + rainfall | Shape and size of deltas.
 Syllabus topics: Q1 1.2.2 GPNs of TNCs (Ferrero); 1.2.3 Actors (states) | Q2 2.2.2 Karst; 2.1.1 Tropical Climates; 2.2.1 Geomorphic Processes (weathering) | Q3 1.1.3 Managing Resources (renewable energy) | Q4 1.1.3 Managing Resources (transboundary water) | Q5 2.1.1 Tropical Climates (cyclones) | Q6 2.2.3 Fluvial Landforms (deltas)
+Syllabus KQs: Q1 1.2.2b; 1.2.2c; 1.2.3a | Q2 2.2.2c; 2.1.1a; 2.2.1a; 2.2.2b; 2.2.2a | Q3 1.1.3a | Q4 1.1.3b | Q5 2.1.1c | Q6 2.2.3b
 
 ## H2 Paper 2 (9173/02), 2024
 **Q1 Fieldwork – Flood risk, Edogawa City, Tokyo.** 4 × 18-year-olds, 4–7 June; >695,000 people; between Arakawa (W) and Edo (E) rivers. Used city flood hazard map to pick 4 sites; planned velocity/width/depth (50 m tape, 2×10 m twine, metre rule, stopwatch, 5 oranges, ranging poles) but could not → used online river data; surveys 25 people/site, one site per day 2–4pm, systematic sampling, mix of ages/genders. R1 flood hazard map + 4 sites; R2 ground view (fences, permits needed for water activities); R3 online river data (Site 1 v 0.25, w 650, d 12; Site 2 0.07/150/15; Site 3 0.1/250/11; Site 4 0.2/150/11); R4 questionnaire (in English; Q5 jargon); R5 Q3 flood frequency tallies by site.
@@ -83,3 +85,4 @@ Syllabus topics: Q1 1.2.2 GPNs of TNCs (Ferrero); 1.2.3 Actors (states) | Q2 2.2
 
 User grid: Flood risk | CC | Slums, SUD | Effects of CC.
 Syllabus topics: Q1 Fieldwork – Flood risk (Edogawa, Tokyo) | Q2 3.1.3 Liveable Cities (Vienna); 3.2.1 Science of CC; 3.2.3 Responses to CC | Q3 3.1.2 Sustainable Cities (slums) | Q4 3.2.2 Effects of CC (sea level rise)
+Syllabus KQs: Q1 Fieldwork – Flood risk (Edogawa, Tokyo) | Q2 3.1.3a; 3.2.1c; 3.2.3a; 3.1.3b; 3.1.3c | Q3 3.1.2b | Q4 3.2.2a
