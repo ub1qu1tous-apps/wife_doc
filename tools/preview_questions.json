@@ -6,14 +6,59 @@
   "slot": "Q1",
   "paper": "H1 Paper 1 (8834/01)",
   "qno": "Q1",
-  "kind": "structured",
+  "kind": "fieldwork",
   "marks": 30,
   "topics": [
    "2"
   ],
   "primary": "2",
   "fieldwork_area": "Elderly needs",
-  "focus": "Bukit Merah – public transport & outdoor spaces for elderly"
+  "focus": "Bukit Merah – public transport & outdoor spaces for elderly",
+  "stem": [
+   "Section A — Cluster 2 Fieldwork",
+   "A group of students conducted a fieldwork investigation on the accessibility of transportation and quality of outdoor spaces for the elderly in Bukit Merah. The focus of their investigation was to assess how well the community's infrastructure supports the elderly in staying active and independent. The hypothesis for their study was:",
+   "‘Public transportation and outdoor spaces in Bukit Merah do not adequately meet the needs of elderly residents.’",
+   "The students conducted the investigation over two weekdays in August, between 9am and 12pm. The two main locations selected were the Bukit Merah Bus Interchange and the Tiong Bahru Plaza shopping mall. These locations were chosen based on their accessibility and frequency of use by elderly residents. The students decided to collect data by conducting a survey and taking photographs of the area.",
+   "A total of 30 elderly respondents, aged 60 and above, participated in the survey. The aim was to gather data on their experiences with transportation and outdoor spaces.",
+   "Resource 1 shows photographs of Bukit Merah Bus Interchange and Tiong Bahru Plaza shopping mall. Resource 2 shows the survey that the students used. Resource 3 shows selected results of the survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why this hypothesis is appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "Describe how the students can improve the sampling method used in their investigation.",
+    3
+   ],
+   [
+    "(c)",
+    "With reference to Resources 1 and 2, explain two possible issues related to ethics when students collect primary data.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 1, suggest how the students could minimise potential risks when they undertake fieldwork at Bukit Merah Bus Interchange and Tiong Bahru Plaza shopping mall.",
+    6
+   ],
+   [
+    "(e)",
+    "With reference to Resource 3, explain the limitations of the data representation shown.",
+    3
+   ],
+   [
+    "(f)",
+    "Evaluate the validity of the data shown in Resource 3 in answering the hypothesis.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_ACJC_H1/R1.png",
+   "img/2024_ACJC_H1/R2.png",
+   "img/2024_ACJC_H1/R3.png"
+  ]
  },
  {
   "school": "ACJC",
@@ -280,14 +325,69 @@
   "slot": "P2 Q1",
   "paper": "H2 Paper 2 (9173/02)",
   "qno": "Q1",
-  "kind": "structured",
+  "kind": "fieldwork",
   "marks": 30,
   "topics": [
    "4"
   ],
   "primary": "4",
   "fieldwork_area": "Fluvial flood risk",
-  "focus": "Punggol Waterway – built-up vs vegetated"
+  "focus": "Punggol Waterway – built-up vs vegetated",
+  "stem": [
+   "Section A — Cluster 4 Fieldwork",
+   "A group of six students worked on an investigation on flood risk around the Punggol Waterway which flows through the Punggol Waterway Park and Punggol residential estate. The Punggol Waterway connects the Serangoon River in the east to the Punggol River in the west. These three bodies of waters are dammed to create the Punggol-Serangoon Reservoir. They selected two sites X and Y along the Punggol Waterway for their investigation.",
+   "Their hypothesis is that flood risk is higher in built-up areas relative to vegetated areas.",
+   "To assess the flood risk of the Punggol Waterway Park and Punggol residential estate, they collect data on infiltration rates and selected river variables. They collected data on a weekend in November from 9 am to 4 pm. At each site, two students worked on the infiltration test, while four worked on collecting data on selected river variables. All six of them worked at site X, and then then moved onto site Y after lunch.",
+   "For infiltration, the students chose a location at each site, as shown in Resource 2. The equipment used included an infiltrometer made of white plastic tubing with a diameter of 10 cm and a height of 30 cm. The infiltrometer was hammered into the ground using a pebble found nearby. A student used a pail to fetch water from the river for the infiltration test. Water was poured to the top of the infiltrometer, and using a stopwatch, the water level dropping in the infiltrometer was read every 5 minutes. When water reached the base of the infiltrometer, water was poured into the infiltrometer again.",
+   "For the river variables, the following data were collected:",
+   "• Channel width – Two students on the footbridge that span the river at each site used a tape measure to stretch across the bridge to measure the river width from above.",
+   "• Channel depth – This was obtained by extending a long nylon string with a plumb bob (weight) from the bridge at regular intervals of 5 metres across the span of the footbridge from one river to the opposite bank. The plumb bob was lowered into the river to touch the river bed, and the river depth was obtained by measuring the length of the string and the plumb bob.",
+   "• River velocity – This was measured using a floating orange to travel a 5-metre distance along the river. Velocity readings were taken once at each site.",
+   "Resource 1 is a land use map of the area adjacent to the Punggol Waterway, showing sites X and Y on the river. Resource 2 shows the photographs of sites X and Y. Resource 3 shows the infiltration rates at site X and site Y. Resource 4 shows the results of the river investigation."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain if the students’ hypothesis and choice of sites are appropriate.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1 and 2, describe how the students could reduce the impacts of their investigation.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how the students can mitigate the potential risks of their fieldwork investigation at the sites shown in Resource 2.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain how the reliability of the infiltration and river data shown in Resources 3 and 4 can be improved.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain the data that the students should gather if they were to conduct a supplementary questionnaire survey on flood risk in the Punggol area.",
+    5
+   ],
+   [
+    "(f)",
+    "Explain the extent of the usefulness of the river data shown in Resource 4 in the investigation of flood risk.",
+    5
+   ],
+   [
+    "(g)",
+    "The student concluded that vegetated areas show lower flood risk compared to built-up areas. With reference to Resources 1, 2, 3 and 4, evaluate the validity of the students’ conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_ACJC_H2P2/R1.png",
+   "img/2024_ACJC_H2P2/R2.png",
+   "img/2024_ACJC_H2P2/R3.png",
+   "img/2024_ACJC_H2P2/R4.png"
+  ]
  },
  {
   "school": "ACJC",

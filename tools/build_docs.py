@@ -2,8 +2,8 @@
 
 Doc 1: topic grid (H1 table, H2 table): rows = school + year, columns = question slots,
        cells = syllabus topic(s) of each question.
-Doc 2: questions listed by syllabus topic, split into 4 docs
-       (H1 structured, H1 essay, H2 structured, H2 essay); each entry = school + year,
+Doc 2: questions listed by syllabus topic, split into 6 docs
+       (H1/H2 x fieldwork, structured, essay); each entry = school + year,
        full question text, then the resources (diagrams) it uses.
 
 usage: build_docs.py <questions.json> <outdir> <version> [--preview]
@@ -162,10 +162,12 @@ def add_question(doc, q, img_root):
 
 
 def build_by_topic(questions, outdir, version, preview, img_root):
-    docs = [('H1', 'structured', '2a H1 Structured Questions by Topic', 'H1 Structured Questions by Topic (8834 Sec A & B)'),
-            ('H1', 'essay', '2b H1 Essay Questions by Topic', 'H1 Essay Questions by Topic (8834 Sec C)'),
-            ('H2', 'structured', '2c H2 Structured Questions by Topic', 'H2 Structured Questions by Topic (9173 P1 & P2)'),
-            ('H2', 'essay', '2d H2 Essay Questions by Topic', 'H2 Essay Questions by Topic (9173 P1 & P2)')]
+    docs = [('H1', 'fieldwork', '2a H1 Fieldwork Questions by Topic', 'H1 Fieldwork Questions by Topic (8834 Sec A)'),
+            ('H1', 'structured', '2b H1 Structured Questions by Topic', 'H1 Structured Questions by Topic (8834 Sec B)'),
+            ('H1', 'essay', '2c H1 Essay Questions by Topic', 'H1 Essay Questions by Topic (8834 Sec C)'),
+            ('H2', 'fieldwork', '2d H2 Fieldwork Questions by Topic', 'H2 Fieldwork Questions by Topic (9173 P2 Sec A)'),
+            ('H2', 'structured', '2e H2 Structured Questions by Topic', 'H2 Structured Questions by Topic (9173 P1 Sec A, P2 Sec B)'),
+            ('H2', 'essay', '2f H2 Essay Questions by Topic', 'H2 Essay Questions by Topic (9173 P1 Sec B, P2 Sec C)')]
     paths = []
     for level, kind, fname, title in docs:
         doc = base_doc(title, version, preview=preview)
