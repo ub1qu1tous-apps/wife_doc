@@ -31,6 +31,7 @@ Files: H1 QP/INS/ANS; H2P1 QP/INS/AS; H2P2 QP/INS/ANS. Answers: **all 3 papers**
 
 User grid: CC | Reimaging | CC | Actors of CC | Strategies of Elderly | Strategies of Slums. (Note: user's SQ1 label "CC"; actual Q1 is fieldwork on reusable containers / waste.)
 Syllabus topics: Q1 Fieldwork – Other (Reuse and Return containers, Tampines) | Q2 1.1.2 Sustainable Cities (slums, reimaging); 1.1.1 SUD (concept of SD) | Q3 1.2.2 Effects of CC; 1.2.1 Science of CC (ice-sheet feedbacks) | Q4 1.2.3 Responses to CC (actors) | Q5 1.1.3 Liveable Cities (elderly) | Q6 1.1.2 Sustainable Cities (slums)
+Syllabus KQs: Q1 Fieldwork – Other (Reuse and Return containers, Tampines) | Q2 1.1.2b; 1.1.2c; 1.1.1a | Q3 1.2.1b; 1.2.2a; 1.2.2b | Q4 1.2.3b | Q5 1.1.3b | Q6 1.1.2b
 
 ## H2 Paper 1 (9173/01), Fri 13 Sep 2024
 **Q1 Resources – palm oil, solar vs hydro, Malthus (Cluster 1).** R1 palm oil production by country 1992 vs 2022 (proportional circles); R2 fact file Indonesia vs Malaysia 2022 (employed 8m/0.4m; lifted from poverty 2.6m/0.2m; GDP 13.5%/2.4%; deforested 15.4m/4.9m ha); R3 solar & hydro generation USA 2019–2024 (small/utility-scale solar); R4 schematic population-resource relationship, Sahel (firewood → erosion → famine).
@@ -57,6 +58,7 @@ Syllabus topics: Q1 Fieldwork – Other (Reuse and Return containers, Tampines) 
 
 User grid: Extractive resources | ITCZ + rivers | Transboundary | GPNs | Karst | Causes of Floods.
 Syllabus topics: Q1 1.1.2 Environment & Resources (reserves, Malthus); 1.1.3 Managing Resources (solar vs hydro); 1.1.1 Understanding SD | Q2 2.2.3 Fluvial Landforms (meanders); 2.1.1 Tropical Climates (ITCZ, monsoon) | Q3 1.1.3 Managing Resources (transboundary water) | Q4 1.2.2 GPNs of TNCs | Q5 2.2.2 Karst | Q6 2.1.3 Floods
+Syllabus KQs: Q1 1.1.3a; 1.1.2b; 1.1.1a; 1.1.2c | Q2 2.2.3a; 2.2.3b; 2.1.1c; 2.1.1b; 2.2.1c | Q3 1.1.3b | Q4 1.2.2b | Q5 2.2.2b | Q6 2.1.3a
 
 ## H2 Paper 2 (9173/02), Fri 20 Sep 2024
 **Q1 Fieldwork – Flood risk along river near school.** RQ: "How does flood risk vary along the river near our school?" 6 students in pairs, one site each (A, B, C), an afternoon in January; float method (different floats: apple, water bottle, coconut) over 10m + one shared flowmeter (rested on channel bed; readings 1.30/2.30/3.30pm vs floats all 1pm); width/depth with tape & rule. R1A map; R1B land use; R2A float method; R2B flowmeter; R3A velocity table; R3B cross-section table.
@@ -83,3 +85,4 @@ Syllabus topics: Q1 1.1.2 Environment & Resources (reserves, Malthus); 1.1.3 Man
 
 User grid: Flood risk | EF, Slums, CC | Strategies of reimaging | Actors of CC.
 Syllabus topics: Q1 Fieldwork – Flood risk | Q2 3.1.1 SUD (EF, CDI); 3.1.2 Sustainable Cities (slums); 3.2.1 Science of CC (feedbacks) | Q3 3.1.2 Sustainable Cities (reimaging) | Q4 3.2.3 Responses to CC (partnerships)
+Syllabus KQs: Q1 Fieldwork – Flood risk | Q2 3.1.1c; 3.1.1a; 3.1.2b; 3.2.1c | Q3 3.1.2c | Q4 3.2.3b

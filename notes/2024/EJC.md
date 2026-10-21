@@ -32,6 +32,7 @@ Files: H1 QP/Insert/SMG; H2 P1 QP/Insert/SMG; H2 P2 QP/Insert/SMG (Suggested Mar
 
 User grid: CC | CC | Slums | Strategies of waste | Strategies of Elderly | Strategies of CC. (Note: user SQ1 label "CC"; actual Q1 fieldwork = Green Hub sustainability.)
 Syllabus topics: Q1 Fieldwork – Other (Green Hub @ Bishan sustainable practices) | Q2 1.2.1 Science of CC | Q3 1.1.2 Sustainable Cities (slums); 1.1.3 Liveable Cities (women); 1.2.2 Effects of CC | Q4 1.1.2 Sustainable Cities (waste) | Q5 1.1.3 Liveable Cities (elderly) | Q6 1.2.3 Responses to CC
+Syllabus KQs: Q1 Fieldwork – Other (Green Hub @ Bishan sustainable practices) | Q2 1.2.1b; 1.2.1c | Q3 1.1.2b; 1.2.2b; 1.1.3c | Q4 1.1.2a | Q5 1.1.3b | Q6 1.2.3c
 
 ## H2 Paper 1 (9173/01), 11 Sep 2024
 **Q1 Transboundary water (GERD/Nile) + solar in India (Cluster 1).** R1 map Nile Basin & GERD on Blue Nile; R2 est. annual flow Blue Nile & Nile before/after GERD (Blue Nile seasonal peak 5,500 m³/s Aug → constant ~3,500); R3 satellite photos GERD 2020 vs 2023; R4A Ethiopia's power needs; R4B Egypt's water needs (BCM); R5 India annual & cumulative solar installations 2009–2019 (utility vs rooftop; cumulative ~35,000 MW 2019).
@@ -58,6 +59,7 @@ Syllabus topics: Q1 Fieldwork – Other (Green Hub @ Bishan sustainable practice
 
 User grid: Transboundary | Drainage basin, landforms | Res + Pop growth | Role of actors | Causes of Floods [sic – actually cyclones/rainfall] | Karst.
 Syllabus topics: Q1 1.1.3 Managing Resources (transboundary water, solar) | Q2 2.1.1 Tropical Climates (monsoon); 2.2.3 Fluvial Landforms (braided); 2.1.2 Drainage Basin Hydrology | Q3 1.1.2 Environment & Resources (Malthus/Boserup) | Q4 1.2.1 Development (variations) | Q5 2.1.1 Tropical Climates (cyclones) | Q6 2.2.2 Karst
+Syllabus KQs: Q1 1.1.3a; 1.1.3b | Q2 2.1.2c; 2.1.1c; 2.2.3b; 2.1.1a; 2.2.3a | Q3 1.1.2c | Q4 1.2.1a | Q5 2.1.1c | Q6 2.2.2b
 
 ## H2 Paper 2 (9173/02), 16 Sep 2024
 **Q1 Fieldwork – Flood risk, Kallang River, Bishan-Ang Mo Kio Park.** Hypothesis: "The flood risk is higher downstream of the Kallang River in Bishan-Ang Mo Kio Park." 4 students, June hols; permission from PUB & NParks; old online map; 2 sites chosen for access; two consecutive Wednesdays 9am–12pm, one site per day (rained first Wed before start); velocity by oranges/tape/stopwatch (orange stuck in debris at Site 2); cross-section by tape, ranging poles, metre rulers; discharge = CSA × v; flood risk perception: first park user seen at each site (1 per site). R1 park map; R2A/2B photos Sites 1, 2; R3 data collection sheet; R4 flood risk perception survey.
@@ -83,3 +85,4 @@ Syllabus topics: Q1 1.1.3 Managing Resources (transboundary water, solar) | Q2 2
 
 User grid: Flood risk | CC | Women | Challenges of CC.
 Syllabus topics: Q1 Fieldwork – Flood risk | Q2 3.2.2 Effects of CC; 3.2.1 Science of CC; 3.2.3 Responses to CC | Q3 3.1.3 Liveable Cities (women) | Q4 3.2.3 Responses to CC (challenges)
+Syllabus KQs: Q1 Fieldwork – Flood risk | Q2 3.2.1c; 3.2.2a; 3.2.3a; 3.2.2c | Q3 3.1.3c | Q4 3.2.3c

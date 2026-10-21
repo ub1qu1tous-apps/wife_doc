@@ -34,6 +34,7 @@ Format: Sec A Q1; Sec B Q2, Q3; Sec C 2 of Q4–6 [13].
 
 User grid: CC | Slums | Women | Strategies of Waste | Issues & strategies of Elderly | Strategies of CC. (Note: user labelled SQ1 "CC"; actual Q1 is fieldwork on Green Hub sustainable practices.)
 Syllabus topics: Q1 Fieldwork – Other (Green Hub @ Bishan sustainable practices) | Q2 1.1.2 Sustainable Cities (slums); 1.1.1 SUD (urban population trends) | Q3 1.1.3 Liveable Cities (women; SUD vs liveability) | Q4 1.1.2 Sustainable Cities (waste) | Q5 1.1.3 Liveable Cities (elderly) | Q6 1.2.3 Responses to CC
+Syllabus KQs: Q1 Fieldwork – Other (Green Hub @ Bishan sustainable practices) | Q2 1.1.2b; 1.1.1b | Q3 1.1.3c; 1.1.3a | Q4 1.1.2a | Q5 1.1.3b | Q6 1.2.3a
 
 ## H2 Paper 1 (9173/01), 26 Aug 2024
 **Q1 Hydropower / transboundary water – Nile & GERD (Cluster 1).** R1 world electricity generation 2000–2020 by source; R2 distribution of Nile water & dependence by country (Egypt 9% share/96.9% dependence; Ethiopia 11.5%/<5%); R3 map Nile Basin riparian states + dams; R4 climate classification (Egypt BWh); R5 article GERD (Blue Nile, 85% of Nile flow, 60% Ethiopians no electricity) vs Egypt (86% withdrawals agriculture, Aswan High Dam/Lake Nasser).
@@ -60,6 +61,7 @@ Syllabus topics: Q1 Fieldwork – Other (Green Hub @ Bishan sustainable practice
 
 User grid: Transboundary | Rocks & MM | Strategies of EI | Role of labour | Monsoons | Fluvial landforms.
 Syllabus topics: Q1 1.1.3 Managing Resources (hydropower, transboundary water) | Q2 2.2.1 Geomorphic Processes (weathering, mass movement); 2.2.2 Karst | Q3 1.1.3 Managing Resources (extractive industries) | Q4 1.2.3 Actors (labour) | Q5 2.1.1 Tropical Climates (monsoons) | Q6 2.2.3 Fluvial Landforms
+Syllabus KQs: Q1 1.1.3b; 1.1.3a | Q2 2.2.1b; 2.2.1a; 2.2.2b | Q3 1.1.3c | Q4 1.2.3b | Q5 2.1.1c | Q6 2.2.3b
 
 ## H2 Paper 2 (9173/02), 13 Sep 2024
 **Q1 Fieldwork – Elderly road safety (Friendly Streets, Ang Mo Kio St 31, LTA).** 4 students, one-week Sept holiday. GQ: "How can the inadequacies of road safety measures in housing estates in Singapore be improved to enhance safety for the elderly?" Weekday 12–2pm; 30 min photos individually; surveys in pairs at signalised crossings Blk 314 & 320; every elderly passer-by; 18 elderly. R1 photos of measures; R2 map; R3 respondent profile (11F/7M; 65–69:12, 70–74:2, 75–79:4, 80+:0; blocks); R4 survey findings (safer SA6/A12; walk more 2/10/4/2; age-friendly 3/6/6/3; pedestrians careless 4/7/5/2; open comments).
@@ -85,3 +87,4 @@ Syllabus topics: Q1 1.1.3 Managing Resources (hydropower, transboundary water) |
 
 User grid: Elderly | Waste | Women | Strategies of CC.
 Syllabus topics: Q1 Fieldwork – Elderly needs (road safety, AMK) | Q2 3.1.2 Sustainable Cities (waste); 3.1.1 SUD (urban population trends) | Q3 3.1.3 Liveable Cities (women) | Q4 3.2.3 Responses to CC
+Syllabus KQs: Q1 Fieldwork – Elderly needs (road safety, AMK) | Q2 3.1.2a; 3.1.1b; 3.1.1c | Q3 3.1.3c | Q4 3.2.3a

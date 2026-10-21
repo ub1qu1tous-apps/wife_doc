@@ -28,6 +28,7 @@ Note: P2 Q1 preamble says R4 = responses to "Question 10" but questionnaire only
 
 User grid: Solar + SD | Cyclone + Delta | Progression of SD | Role of state vs labour | Effects of floods | Factors of Karst.
 Syllabus topics: Q1 1.1.3 Managing Resources (solar, transboundary water, renewables); 1.1.2 Environment & Resources (renewability) | Q2 2.1.1 Tropical Climates (monsoon, cyclones); 2.2.3 Fluvial Landforms (deltas) | Q3 1.1.1 Understanding SD (progress) | Q4 1.2.3 Actors (state vs labour) | Q5 2.1.3 Floods (effects) | Q6 2.2.2 Karst
+Syllabus KQs: Q1 1.1.3a; 1.1.3b; 1.1.2b | Q2 2.1.1c; 2.2.3c; 2.2.3b; 2.1.1a | Q3 1.1.1b | Q4 1.2.3a; 1.2.3b | Q5 2.1.3b | Q6 2.2.2b
 
 ## H2 Paper 2 (9173/02), 10 Sep 2024
 **Q1 Fieldwork – Elderly needs, Toa Payoh Integrated Development.** 4 students. Hypothesis: "With the Toa Payoh Integrated Development, Toa Payoh will meet the needs of the elderly in the neighbourhood." Toa Payoh Hub, every Monday 8–9pm for 4 weeks in August; survey in English only; elderly wary of scammers, language issues → 15 responses. R1 map of Toa Payoh; R2 article on the Integrated Development (Regional Sport Centre, Polyclinic with frailty screening, Library, Town Park; 12 ha, Lor 6 / PIE); R3 survey questionnaire (age, race; 7 mostly open questions; satisfaction 1–5); R4 selected responses to Q7 "What can be improved..." (respondents A–G).
@@ -53,3 +54,4 @@ Syllabus topics: Q1 1.1.3 Managing Resources (solar, transboundary water, renewa
 
 User grid: Elderly | Slums, CC | Reimaging + SUD | Strategies of CC.
 Syllabus topics: Q1 Fieldwork – Elderly needs (Toa Payoh Integrated Development) | Q2 3.1.2 Sustainable Cities (slums); 3.2.2 Effects of CC; 3.1.3 Liveable Cities (women); 3.2.3 Responses to CC; 3.2.1 Science of CC (ocean cores) | Q3 3.1.2 Sustainable Cities (reimaging) | Q4 3.2.3 Responses to CC
+Syllabus KQs: Q1 Fieldwork – Elderly needs (Toa Payoh Integrated Development) | Q2 3.1.2b; 3.1.3c; 3.2.2b; 3.2.3c; 3.2.1a | Q3 3.1.2c | Q4 3.2.3c

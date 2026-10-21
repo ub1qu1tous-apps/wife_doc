@@ -32,6 +32,7 @@ Files: H1 QP/Insert/Mark Scheme; H2 P1 QP/Insert/mark scheme; H2 P2 QP/Insert/Ma
 
 User grid: CC | Waste, reimaging | CC | Elderly + reimaging | Strategies of Slums | Effects of CC.
 Syllabus topics: Q1 Fieldwork – Other (single-use plastics in CJC) | Q2 1.1.2 Sustainable Cities (waste, reimaging); 1.1.1 SUD (consumption/EF); 1.1.3 Liveable Cities (subjective liveability) | Q3 1.2.2 Effects of CC; 1.2.1 Science of CC | Q4 1.1.2 Sustainable Cities (reimaging); 1.1.3 Liveable Cities (elderly) | Q5 1.1.2 Sustainable Cities (slums) | Q6 1.2.2 Effects of CC
+Syllabus KQs: Q1 Fieldwork – Other (single-use plastics in CJC) | Q2 1.1.2a; 1.1.1c; 1.1.2c; 1.1.3a | Q3 1.2.2a; 1.2.2c; 1.2.1c; 1.2.2b | Q4 1.1.2c; 1.1.3b | Q5 1.1.2b | Q6 1.2.2b
 
 ## H2 Paper 1 (9173/01), 23 Aug 2024
 **Q1 Extractive industry – copper, Chile & Peru (Cluster 1).** R1 copper reserves world map 2022 (Chile 190m t) + Chile/Peru exports (China $37.7bn, Japan $5.24bn, US $4.64bn, S Korea $3.91bn, Brazil $2.21bn); R2 global copper consumption 2021 (China 13.78m t, US 1.81m t); R3 copper price 2013–2017 with Escondida labour strike Feb 2017; R4 photo Escondida mine, Chile.
@@ -58,6 +59,7 @@ Syllabus topics: Q1 Fieldwork – Other (single-use plastics in CJC) | Q2 1.1.2 
 
 User grid: Extractive resources | Rivers + delta | RE + trade-offs | Role of MI | Synoptic scale + fluvial processes | Delta ecosystem services.
 Syllabus topics: Q1 1.1.3 Managing Resources (extractive – copper); 1.1.2 Environment & Resources (ecosystem services, Malthus/Boserup); 1.2.3 Actors (labour) | Q2 2.2.3 Fluvial Landforms (meanders, deltas); 2.1.1 Tropical Climates; 2.2.1 Geomorphic Processes (weathering) | Q3 1.1.3 Managing Resources (renewable energy) | Q4 1.2.3 Actors (multilateral institutions) | Q5 2.1.1 Tropical Climates (synoptic circulation); 2.2.1 Geomorphic Processes (fluvial processes) | Q6 2.2.3 Fluvial Landforms (deltas)
+Syllabus KQs: Q1 1.1.3c; 1.1.2c; 1.2.3b; 1.1.2a | Q2 2.2.3b; 2.1.1b; 2.2.1a; 2.2.3a; 2.1.1a | Q3 1.1.3a | Q4 1.2.3c | Q5 2.1.1c; 2.2.1c | Q6 2.2.3c
 
 ## H2 Paper 2 (9173/02), 10 Sep 2024
 **Q1 Fieldwork – Elderly & rising heat, East Austin, Texas.** RQ: 'Has rising heat affected the physical wellbeing of elderly residents, aged 65 and above, living in East Austin?' 4 students; secondary research (newspapers); Sat in June 10am, pairs photographing; each pair interviewed one elderly; next day questionnaire to 20 elderly. R1 neighbourhood map; R2 photos + quotes (Conley-Guerrero Senior Activity Center; Boggy Creek Greenbelt Trail, "Golden Rollers"); R3 survey results drawn as line graph (dizziness, sunburn, skin cancer, eczema, headaches, breathing, cramps).
@@ -83,3 +85,4 @@ Syllabus topics: Q1 1.1.3 Managing Resources (extractive – copper); 1.1.2 Envi
 
 User grid: Elderly | CC | Sustainable cities more challenging than liveable | CC as greatest challenge in SD.
 Syllabus topics: Q1 Fieldwork – Elderly needs (rising heat, East Austin) | Q2 3.2.2 Effects of CC; 3.2.3 Responses to CC | Q3 3.1.3 Liveable Cities (SUD vs liveability) | Q4 3.1.1 SUD (challenges); 3.2.2 Effects of CC
+Syllabus KQs: Q1 Fieldwork – Elderly needs (rising heat, East Austin) | Q2 3.2.3b; 3.2.2a; 3.2.2c; 3.2.2b; 3.2.3c | Q3 3.1.3a | Q4 3.2.2a; 3.1.1b

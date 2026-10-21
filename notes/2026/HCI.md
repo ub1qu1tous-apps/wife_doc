@@ -36,6 +36,7 @@ Issues:
 - Q6 Evaluate the influence of high urbanization rates on contemporary climate change. – urban industry, transport, consumption → GHG; vs deforestation, coral reef loss; natural (sunspots, Milankovitch); spatial/temporal scale.
 
 Syllabus topics: Q1 Fieldwork – CC response (sheltered walkways/heat adaptation) | Q2 1.1.3 Liveable cities (women); 1.1.2 Sustainable cities (reimaging) | Q3 1.2.1 Science of CC (feedbacks, human causes); 1.2.2 Effects of CC (Antarctic sea ice) | Q4 1.1.3 Liveable cities (elderly) | Q5 1.2.3 Responses to CC (key actors/partnerships) | Q6 1.2.1 Science of CC (human vs natural causes); 1.1.1 SUD (urban population trends).
+Syllabus KQs: Q1 Fieldwork – CC response (sheltered walkways/heat adaptation) | Q2 1.1.3c; 1.1.2c | Q3 1.2.1c; 1.2.2a | Q4 1.1.3b | Q5 1.2.3b | Q6 1.2.1c; 1.1.1b
 
 ## H2 Paper 1 (9173/01), 28 Aug 2026
 **Q1 Chinese FDI in ASEAN, Vietnam in the global economy (Cluster 1).** R1 Rhodium Group: value of greenfield Chinese manufacturing FDI in ASEAN by sector 2014–2024 (US$ bn; ~0.7 in 2014 → ~9 in 2022, peak ~12 in 2023, ~9.6 in 2024; automotives largest, ~5.5–6; ICT/electronics, renewable energy equipment, consumer goods, other); R2 three line graphs (US$ bn): Vietnam's exports to US ~38 (2015) → ~137 (2024), surged after 2018; China's exports to US peaked ~540 in 2018, ~440 in 2024; China's exports to Vietnam ~66 → ~160; R3 Straits Times map of freight flows China → N Vietnam (Pingxiang–Dong Dang border to Hanoi, Bac Ninh, Haiphong) + choropleth GDP per capita by province 2025 ($1,000 to >$9,000; highest Hanoi/Haiphong/Quang Ninh area and HCMC area); R4 article extract: US share of China's exports 18% (2016) → ~10% → 7% (2025); US buys ~30% of Vietnam's exports (from ~20% a decade ago); largest investors Singapore, S Korea, Taiwan, Japan, China rising; East Asia ~70% of FDI; labour low-cost but skilled; Human Capital Index ~0.69, 2nd in SE Asia after Singapore.
@@ -61,6 +62,7 @@ Syllabus topics: Q1 Fieldwork – CC response (sheltered walkways/heat adaptatio
 - Q6 Evaluate the extent to which karst landform development in the humid tropics is determined by rock type. – purity, porosity, thickness, jointing vs climate, groundwater, relief, time; rock type a prerequisite not sole determinant.
 
 Syllabus topics: Q1 1.2.1 Development (flows of trade & capital, economic structure); 1.2.2 GPNs of TNCs (host-economy impacts) | Q2 2.1.1 Tropical climates (BSh climograph); 2.2.1 Geomorphic processes (mass movement, weathering, slope stability) | Q3 1.1.3 Managing resources (extractive industries); 1.1.1 Understanding SD | Q4 1.2.2 Geography of the global economy (interconnectedness); 1.2.3 Actors (states vs TNCs) | Q5 2.1.3 Floods in the humid tropics (management) | Q6 2.2.2 Karst landforms (formation factors).
+Syllabus KQs: Q1 1.2.1b; 1.2.1c; 1.2.2c | Q2 2.2.1b; 2.2.1a; 2.1.1a | Q3 1.1.3c | Q4 1.2.2a; 1.2.3a | Q5 2.1.3c; 2.1.3a | Q6 2.2.2b
 
 ## H2 Paper 2 (9173/02), 17 Sep 2026
 Submit in two sets: Q1 & Q3; Q2 & Q4.
@@ -90,3 +92,4 @@ Submit in two sets: Q1 & Q3; Q2 & Q4.
 (MS as H1 Q4/Q5.)
 
 Syllabus topics: Q1 Fieldwork – CC response (sheltered walkways/heat adaptation) | Q2 3.1.3 Liveable cities (women; SUD–liveability complementarity); 3.1.2 Sustainable cities (reimaging) | Q3 3.1.3 Liveable cities (elderly) | Q4 3.2.3 Responses to CC (key actors/partnerships).
+Syllabus KQs: Q1 Fieldwork – CC response (sheltered walkways/heat adaptation) | Q2 3.1.3c; 3.1.2c; 3.1.3a | Q3 3.1.3b | Q4 3.2.3b
