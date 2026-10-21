@@ -1,0 +1,105 @@
+[
+ {
+  "title": "1. Fieldwork questions filed under \"Others\"",
+  "note": "These fieldwork scenarios do not match a syllabus fieldwork area (H1: Community response to climate change; Needs analysis of the elderly. H2 adds: Fluvial flood risk). They are filed under \"Fieldwork – Others\" for now. Tell me which area each should go under. (2024 fieldwork questions will be checked in the full build.)",
+  "columns": [
+   "School & Year",
+   "Paper / Q",
+   "Fieldwork scenario",
+   "Nearest syllabus area",
+   "Your decision"
+  ],
+  "rows": [
+   [
+    "NJC 2025",
+    "H1 Q1",
+    "Food waste reduction initiatives (community fridge, food rescue), Bishan",
+    "Community response to CC",
+    ""
+   ],
+   [
+    "NJC 2025",
+    "H2 P2 Q1",
+    "Youth textile recycling & upcycling, Serangoon",
+    "Community response to CC",
+    ""
+   ],
+   [
+    "ACJC 2026",
+    "H1 Q1",
+    "Community response to expansion of cycling paths, Ang Mo Kio",
+    "Community response to CC",
+    ""
+   ],
+   [
+    "JPJC 2026",
+    "H1 Q1",
+    "Beverage Container Return Scheme (\"Return Right\") participation by age, Bukit Panjang",
+    "Community response to CC",
+    ""
+   ],
+   [
+    "NJC 2026",
+    "H1 Q1",
+    "Perceptions of sustainable healthy diets, Fremantle (Australia)",
+    "Community response to CC",
+    ""
+   ],
+   [
+    "NJC 2026",
+    "H2 P2 Q1",
+    "E-waste recycling & repair by age, Ang Mo Kio",
+    "Community response to CC",
+    ""
+   ],
+   [
+    "RVHS 2026",
+    "H2 P2 Q1",
+    "Resource conservation features at City Square Mall (eco-mall), Jalan Besar",
+    "Community response to CC",
+    ""
+   ]
+  ]
+ },
+ {
+  "title": "2. Files left out",
+  "columns": [
+   "School & Year",
+   "File",
+   "Reason"
+  ],
+  "rows": [
+   [
+    "VJC 2026",
+    "2026 JC2 H1 Prelims QP.docx",
+    "Password-protected – not included (no VJC 2026 row in the H1 table)"
+   ]
+  ]
+ },
+ {
+  "title": "3. Problems in question papers / inserts",
+  "note": "Mismatches between a question and its resources, as printed by the school. Questions are copied as printed; check these before using them. (Sample entries – the full list comes with the full build.)",
+  "columns": [
+   "School & Year",
+   "Paper / Q",
+   "Problem"
+  ],
+  "rows": [
+   [
+    "DHS 2025",
+    "H1 Q3",
+    "Insert labels Resources 7–9 \"for Question 2\", but they are used in Q3"
+   ],
+   [
+    "EJC 2025",
+    "H2 P2 Q2",
+    "Question refers to Resources 5A/5B; the Insert only has Resource 5"
+   ],
+   [
+    "MI 2026",
+    "H2 P2 Q2",
+    "Stem describes Resource 6 as a CO₂-per-capita map; Insert R6 is plastic-waste shares and R7 is Smokey Mountain slum"
+   ]
+  ]
+ }
+]
