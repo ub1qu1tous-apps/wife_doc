@@ -1,8 +1,8 @@
 # Session log
 
 ## Current state
-- **Docs:** previews only (v0.3 PREVIEW) in `previews/` — doc 1 topic grid + docs 2a–2d by topic. Waiting for user feedback before the full build.
-- **Current version:** v0.3 (preview)
+- **Docs:** `docs/1 Topic Grid by School (H1 & H2) v0.4.docx` (full). Docs 0 and 2a–2f: previews only (v0.3, `previews/`). Build is going one doc at a time.
+- **Current version:** v0.4
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -10,6 +10,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.4 | 2026-10-21 | **Doc 1 full build**: topic grid for all 47 school-years (H1 + H2 tables, 716 questions), syllabus topic only |
 | v0.3 (preview) | 2026-10-21 | Fieldwork split out of doc 2: 6 question docs (2a H1 Fieldwork, 2b H1 Structured, 2c H1 Essay, 2d H2 Fieldwork, 2e H2 Structured, 2f H2 Essay) |
 | v0.2 (preview) | 2026-10-20 | Grid shows syllabus topic only; fieldwork grouped by area ("Others" for non-syllabus scenarios); new doc 0 "Items to Review" |
 | v0.1 (preview) | 2026-10-20 | Previews of doc 1 (topic grid, ACJC 2024 row) and docs 2a–2d (one topic, one ACJC 2024 question each) |
@@ -126,3 +127,25 @@
 - Preview samples added: ACJC 2024 H1 Q1 (Bukit Merah elderly, R1–R3) and H2 P2 Q1 (Punggol flood risk, R1–R4).
 - Files: `previews/0`, `1`, `2a`–`2f` `... v0.3 PREVIEW.docx` (v0.2 removed).
 - Doc version: v0.3 (preview).
+
+### 2026-10-21 — Session 1 (cont.): doc 1 (topic grid) full build v0.4
+- User decisions:
+  - Review doc: section 1 (Fieldwork – Others) is OK; ignore sections 2 and 3.
+  - Build one document at a time to save tokens, starting with doc 1.
+- 2024 notes now have "Syllabus topics:" lines, labelled from the question wording and sub-part marks (all 15 schools).
+- `tools/parse_notes.py` reads every note's "Syllabus topics:" lines: 716 questions across 47 school-years, with no count mismatches and no question missing a topic.
+- Fieldwork areas: CC response 37, Elderly needs 23, Flood risk 15, Others 13. Others = the 7 approved earlier plus 6 from 2024:
+  - ASRJC H1 – Green Hub
+  - CJC H1 – single-use plastics
+  - DHS H1 – Reuse & Return
+  - EJC H1 – Green Hub
+  - JPJC H1 and H2 P2 – cycling promotion
+  These are to be added to review-doc section 1 when that doc is built.
+- Two labels cross clusters because the question really does: CJC 2025 H2 P1 Q2 also tags 1.1.3 (transboundary water context), and HCI 2025 H2 P1 Q1 also tags 2.2.3 (delta).
+- Builder changes:
+  - Rows can't split across pages.
+  - A footnote lists school-years with no paper at that level: H1 – MI 2026, NJC 2024, RVHS 2024–26, VJC 2026 (password-protected).
+  - Syllabus code legend at the end.
+  - `--only grid|review|bytopic` flag.
+- Output: `docs/1 Topic Grid by School (H1 & H2) v0.4.docx` (12 pages, landscape).
+- Next: user to check doc 1, then the next doc.

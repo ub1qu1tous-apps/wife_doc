@@ -30,6 +30,7 @@ Files: H1 QP/Insert/Answers; H2 P1 QP/Insert/Answers; H2 P2 QP/Insert/Answers. A
 - Q6 'It is possible to implement effective strategies to respond to contemporary climate change.' Evaluate.
 
 User grid: CC | Slums | CC | Progression towards SUD | Issues of Elderly | Strategies of CC.
+Syllabus topics: Q1 Fieldwork – CC response (business response, Tampines IKEA) | Q2 1.1.2 Sustainable Cities (slums) | Q3 1.2.2 Effects of CC (impacts, vulnerability) | Q4 1.1.1 SUD (urbanisation rates, rapid growth) | Q5 1.1.3 Liveable Cities (elderly) | Q6 1.2.3 Responses to CC
 
 ## H2 Paper 1 (9173/01), 10 Sep 2024
 **Q1 Solar power India – Kamuthi (Cluster 1).** R1 India solar installed capacity 2008–Jun 2023 (3 MW → 70,100 MW; 5,129 MW 2015); R2A/2B satellite images Kanmai 2, Kamuthi, Tamil Nadu 2009 vs 2020 (bund of kanmai = monsoon water tank; irrigated catchment now solar); R3 article "Adani's Kamuthi solar power plant casts shadow on livelihood of locals" (world's largest 2016; 5,000 acres fenced; grazing & ooranis blocked; 200,000 L/day groundwater; women's jobs promise; land acquisition irregularities; resolved by compensation).
@@ -55,6 +56,7 @@ User grid: CC | Slums | CC | Progression towards SUD | Issues of Elderly | Strat
 - Q6 'Fluvial deposition has the greatest impact on fluvial landforms in the humid tropics.' Evaluate.
 
 User grid: Solar + SD | Karst | Impacts of EIs | Impacts of GPNs | Synoptic scale | Fluvial landforms.
+Syllabus topics: Q1 1.1.3 Managing Resources (solar, trade-offs); 1.1.2 Environment & Resources (ecosystem services) | Q2 2.2.2 Karst; 2.2.1 Geomorphic Processes (weathering) | Q3 1.1.3 Managing Resources (extractive industries) | Q4 1.2.2 GPNs of TNCs (impacts) | Q5 2.1.1 Tropical Climates (synoptic circulation) | Q6 2.2.3 Fluvial Landforms
 
 ## H2 Paper 2 (9173/02), 17 Sep 2024
 **Q1 Fieldwork – Community CC action, Tampines Hub (eco-town).** 20 students. Hypothesis: "The majority of the population in Tampines are aware of and are actively carrying out actions to mitigate climate change." Sat 9–11am, groups of 5, anyone willing → 100 surveyed (10 aged 51+, 2 Primary 5 pupils on waste-digester visit); photos of reverse vending machine, reusable bag station. R1 photos (bag station, P5 pupils, food court waste workers, reverse vending machine); R2 questionnaire (aircon use, aware of recycling at Hub, blue bin use, community gardens, reusable bags, transport); R3A bar chart Q1 & Q3; R3B bar chart Y/N Q2, 4, 5; R3C pie chart transport (PT 63/private 32/walk 5).
@@ -79,3 +81,4 @@ User grid: Solar + SD | Karst | Impacts of EIs | Impacts of GPNs | Synoptic scal
 - Q4 Evaluate the roles of key actors in climate change response.
 
 User grid: CC | CC, liveability | Strategies of Elderly | Actors of CC.
+Syllabus topics: Q1 Fieldwork – CC response (community CC action, Tampines Hub) | Q2 3.2.2 Effects of CC (hot days, agriculture); 3.1.3 Liveable Cities (liveability); 3.2.3 Responses to CC (adaptation) | Q3 3.1.3 Liveable Cities (elderly) | Q4 3.2.3 Responses to CC (actors)

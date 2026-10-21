@@ -6,7 +6,7 @@ Doc 2: questions listed by syllabus topic, split into 6 docs
        (H1/H2 x fieldwork, structured, essay); each entry = school + year,
        full question text, then the resources (diagrams) it uses.
 
-usage: build_docs.py <questions.json> <outdir> <version> [--preview]
+usage: build_docs.py <questions.json> <outdir> <version> [--preview] [--only grid|review|bytopic]
 """
 import json, os, sys
 from docx import Document
@@ -70,6 +70,11 @@ def shade(cell, hex_fill):
     tcPr.append(shd)
 
 
+def keep_row_together(row):
+    trPr = row._tr.get_or_add_trPr()
+    el = OxmlElement('w:cantSplit'); el.set(qn('w:val'), 'true'); trPr.append(el)
+
+
 def repeat_header(row):
     trPr = row._tr.get_or_add_trPr()
     el = OxmlElement('w:tblHeader'); el.set(qn('w:val'), 'true'); trPr.append(el)
@@ -88,7 +93,7 @@ def cell_text(cell, lines, size=8):
             r.italic, r.font.color.rgb = True, GREY
 
 
-def grid_table(doc, level, slots, qs, schools_years, title):
+def grid_table(doc, level, slots, qs, schools_years, title, missing=()):
     doc.add_heading(title, level=1)
     t = doc.add_table(rows=2, cols=len(slots) + 1)
     t.style = 'Table Grid'
@@ -104,7 +109,9 @@ def grid_table(doc, level, slots, qs, schools_years, title):
         for c in row.cells:
             shade(c, 'D9E2F3')
     for school, year in schools_years:
-        cells = t.add_row().cells
+        row = t.add_row()
+        keep_row_together(row)
+        cells = row.cells
         cell_text(cells[0], [(f'{school} {year}', True, False)])
         for i, (slot, _, _) in enumerate(slots, 1):
             q = qs.get((school, year, slot))
@@ -115,6 +122,9 @@ def grid_table(doc, level, slots, qs, schools_years, title):
             if q.get('fieldwork_area'):
                 lines = [(f"Fieldwork – {q['fieldwork_area']}", True, False)]
             cell_text(cells[i], lines)
+    if missing:
+        r = doc.add_paragraph().add_run('No paper in sources: ' + ', '.join(missing))
+        r.italic, r.font.size, r.font.color.rgb = True, Pt(8), GREY
     widths = [Cm(2.2)] + [Cm((doc.sections[0].page_width.cm - 3.0 - 2.2) / len(slots))] * len(slots)
     for row in t.rows:
         for w, c in zip(widths, row.cells):
@@ -127,7 +137,19 @@ def build_grid(questions, outdir, version, preview):
                                 ('H2', H2_SLOTS, 'H2 Geography (9173) – Papers 1 & 2')):
         qs = {(q['school'], q['year'], q['slot']): q for q in questions if q['level'] == level}
         rows = sorted({(s, y) for s, y, _ in qs})
-        grid_table(doc, level, slots, qs, rows, title)
+        all_rows = sorted({(q['school'], q['year']) for q in questions})
+        missing = [f'{s} {y}' + (' (password-protected QP, left out)' if (s, y) == ('VJC', 2026) else '')
+                   for s, y in all_rows if (s, y) not in rows]
+        grid_table(doc, level, slots, qs, rows, title, missing)
+    doc.add_heading('Syllabus topic codes', level=1)
+    for level, name in (('H1', 'H1 Geography 8834'), ('H2', 'H2 Geography 9173')):
+        p = doc.add_paragraph()
+        p.add_run(name + ': ').bold = True
+        tops = TOPICS[level]
+        items = [f"{c} {tops['subtopics'][c]}" for c in tops['subtopics']]
+        items.append('Fieldwork – Elderly needs / Community response to CC' + (' / Fluvial flood risk' if level == 'H2' else '') + ' / Others')
+        r = p.add_run('; '.join(items))
+        r.font.size = Pt(8)
     name = '1 Topic Grid by School (H1 & H2)'
     path = os.path.join(outdir, f"{name} {version}{' PREVIEW' if preview else ''}.docx")
     doc.save(path)
@@ -227,9 +249,12 @@ if __name__ == '__main__':
     questions = json.load(open(qfile))
     os.makedirs(outdir, exist_ok=True)
     img_root = os.path.dirname(os.path.abspath(qfile))
+    only = sys.argv[sys.argv.index('--only') + 1] if '--only' in sys.argv else None
     review_file = os.path.join(img_root, 'review.json')
-    if os.path.exists(review_file):
+    if only in (None, 'review') and os.path.exists(review_file):
         print(build_review(json.load(open(review_file)), outdir, version, preview))
-    print(build_grid(questions, outdir, version, preview))
-    for p in build_by_topic(questions, outdir, version, preview, img_root):
-        print(p)
+    if only in (None, 'grid'):
+        print(build_grid(questions, outdir, version, preview))
+    if only in (None, 'bytopic'):
+        for p in build_by_topic(questions, outdir, version, preview, img_root):
+            print(p)

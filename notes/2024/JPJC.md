@@ -32,6 +32,7 @@ Files: H1 QP/Insert/Mark Scheme; H2 P1 QP/Insert/Mark Scheme; H2 P2 QP/Insert/Ma
 - Q6 'Climate change is the main factor that has increased the multiple deprivations experienced by slum dwellers.' Evaluate.
 
 User grid: CC | EF | CC | Reimaging + SUD | Actors of CC | CC + Slums. (Note: user SQ1 label "CC"; actual Q1 = cycling fieldwork.)
+Syllabus topics: Q1 Fieldwork – Other (promotion of cycling, Ang Mo Kio) | Q2 1.1.1 SUD (urban population, ecological footprint) | Q3 1.2.1 Science of CC; 1.2.2 Effects of CC | Q4 1.1.2 Sustainable Cities (reimaging) | Q5 1.2.3 Responses to CC (firms) | Q6 1.1.2 Sustainable Cities (slums); 1.2.2 Effects of CC
 
 ## H2 Paper 1 (9173/01), 10 Sep 2024
 **Q1 Oil reserves, SDGs – Saudi Arabia vs Canada (Cluster 1).** R1 global proven oil reserves map; R2A/2B SDG dashboards Saudi Arabia (rank 98, 66.3) vs Canada (21, 79.2) 2021; R3 Saudi GDP by activity 2021 (mining & quarrying dominant).
@@ -57,6 +58,7 @@ User grid: CC | EF | CC | Reimaging + SUD | Actors of CC | CC + Slums. (Note: us
 - Q6 'Geomorphic processes in the humid tropics are mainly influenced by climate.' Evaluate.
 
 User grid: Oil reserves | Flood risk | Renewable Energy | Role of MI | Synoptic Scale | Geomorphic Processes.
+Syllabus topics: Q1 1.1.1 Understanding SD (SDGs, measuring, trade-offs); 1.1.2 Environment & Resources (reserves) | Q2 2.1.3 Floods (Niger River); 2.2.3 Fluvial Landforms (Niger delta) | Q3 1.1.3 Managing Resources (solar vs hydropower) | Q4 1.2.3 Actors (multilateral institutions) | Q5 2.1.1 Tropical Climates (synoptic circulation) | Q6 2.2.1 Geomorphic Processes
 
 ## H2 Paper 2 (9173/02), 16 Sep 2024
 **Q1 Fieldwork – Ang Mo Kio cycling (as H1), but with RQ:** 'How effective has the promotion of cycling been in changing commuting habits in Ang Mo Kio Town?' (questionnaire wording slightly changed: Q7 "...compared to public transport", Q13/14 vs public transport).
@@ -81,3 +83,4 @@ User grid: Oil reserves | Flood risk | Renewable Energy | Role of MI | Synoptic 
 - Q4 Evaluate the influence of non-governmental organisations (NGOs) in climate change response.
 
 User grid: CC | CC | Women + Liveability | Actors of CC.
+Syllabus topics: Q1 Fieldwork – Other (promotion of cycling, Ang Mo Kio) | Q2 3.2.1 Science of CC (natural factors, emissions); 3.2.2 Effects of CC (ecosystems) | Q3 3.1.3 Liveable Cities (women) | Q4 3.2.3 Responses to CC (NGOs)

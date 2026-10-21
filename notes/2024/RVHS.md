@@ -26,6 +26,7 @@ Files: H2 P1 QP/INSERT/Soln; H2 P2 QP/INSERT/Soln (PDF + Word copies; Word read)
 - Q6 'Climate alone dictates the role of geomorphic processes in the formation of karst landforms.' Evaluate. – Van't Hoff, Peltier; geology, topography, tectonics, time.
 
 User grid: EI | MM, Deltas | Res + Pop growth | Impacts of GPNs | Effects of Floods | Factors and process of Karst.
+Syllabus topics: Q1 1.1.3 Managing Resources (extractive industries); 1.1.2 Environment & Resources (reserves); 1.1.1 Understanding SD (indicators) | Q2 2.2.1 Geomorphic Processes (mass movement); 2.2.3 Fluvial Landforms (deltas) | Q3 1.1.2 Environment & Resources (Malthus/Boserup) | Q4 1.2.2 GPNs of TNCs (impacts) | Q5 2.1.3 Floods (effects) | Q6 2.2.2 Karst
 
 ## H2 Paper 2 (9173/02), 12 Sep 2024
 **Q1 Fieldwork – Elderly, LTA "Silver Zone", Bukit Merah View.** 8 students (class project on elderly needs). Survey on accessibility perceptions & Silver Zone features. Group A: convenience sampling at void decks next to Silver Zone; Group B: pedestrian walkways along Silver Zone; three weekday afternoons 3–7pm; 3rd session storm → Group B started only at 6pm. R1 map + data collection sites; R2 Silver Zone features (green man +, 30 km/h, bollards at zebra crossings, signage, wavy road, bus-stop arm rests); R3 questionnaire; R4 raw data (average ratings by group).
@@ -50,3 +51,4 @@ User grid: EI | MM, Deltas | Res + Pop growth | Impacts of GPNs | Effects of Flo
 - Q4 'Uncertainties over future impacts of climate change are the greatest impediment to the implementation of effective strategies to respond to climate change.' Evaluate.
 
 User grid: Elderly | EF, CC | Reimaging + SUD | Challenges of CC.
+Syllabus topics: Q1 Fieldwork – Elderly needs (Silver Zone, Bukit Merah View) | Q2 3.1.1 SUD (ecological footprint); 3.2.1 Science of CC (feedbacks); 3.2.2 Effects of CC (ecosystems) | Q3 3.1.2 Sustainable Cities (reimaging) | Q4 3.2.3 Responses to CC (challenges)

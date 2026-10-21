@@ -31,6 +31,7 @@ Files: H1 QP/Insert; H2 P1 QP/Insert/Suggested Answers; H2 P2 QP/Insert/Suggeste
 - Q6 'Adapting to the impacts of contemporary climate change is more useful than mitigating them.' Evaluate.
 
 (SAJC not in user's 2024 H1 grid — user's grid has an "SP" row instead.)
+Syllabus topics: Q1 Fieldwork – Elderly needs (East Coast Park, Marine Parade) | Q2 1.1.3 Liveable Cities (liveability); 1.1.1 SUD (indicators, EF); 1.1.2 Sustainable Cities (slums) | Q3 1.2.1 Science of CC (past climate, human influence); 1.2.2 Effects of CC | Q4 1.1.2 Sustainable Cities (slums) | Q5 1.2.1 Science of CC (ice sheets) | Q6 1.2.3 Responses to CC (adaptation vs mitigation)
 
 ## H2 Paper 1 (9173/01), 22 Aug 2024
 **Q1 Oil reserves & hydropower – Mekong (Cluster 1).** R1 cartogram crude oil reserves (Gbbl) 2019; R2A location of proposed Luang Prabang dam on the Mekong + existing dams (Laos 9, China 3, Thailand 2, Cambodia 2); R2B land use/land cover along Mekong / delta.
@@ -56,6 +57,7 @@ Files: H1 QP/Insert; H2 P1 QP/Insert/Suggested Answers; H2 P2 QP/Insert/Suggeste
 - Q6 'The Hadley Cell is the most important factor influencing rainfall patterns in the tropics.' Evaluate.
 
 (SAJC not in user's 2024 H2 grid.)
+Syllabus topics: Q1 1.1.3 Managing Resources (Mekong hydropower, extractive industries); 1.1.2 Environment & Resources (reserves, technology) | Q2 2.2.3 Fluvial Landforms (meanders); 2.2.1 Geomorphic Processes (weathering); 2.1.1 Tropical Climates (ENSO) | Q3 1.1.3 Managing Resources (transboundary water) | Q4 1.2.2 GPNs of TNCs (host impacts) | Q5 2.2.1 Geomorphic Processes (mass movement) | Q6 2.1.1 Tropical Climates (Hadley cell)
 
 ## H2 Paper 2 (9173/02), 12 Sep 2024
 **Q1 Fieldwork – Flood risk, Kallang River, Bishan-AMK Park.** 8 students, 2 teams; Hypothesis: 'Site B has a higher flood risk than Site A.' Weekend in Sept 11am–2pm; ping-pong ball over 5 m, tape, stopwatch; Site B ball stuck in vegetation. R1 map (A→B 2.7 km); R2 photos Sites A (concrete, railing) & B (naturalised); R3 velocity data (A avg 0.092 m/s; B 0.073 m/s; 11am/1pm/2pm, 2 readings each).
@@ -78,3 +80,4 @@ Files: H1 QP/Insert; H2 P1 QP/Insert/Suggested Answers; H2 P2 QP/Insert/Suggeste
 **Sec C [20]:**
 - Q3 Evaluate the strategies used to manage non-hazardous solid waste (NHSW) in urban areas.
 - Q4 'Contemporary climate change is attributed more to natural processes, and less to human activities.' Evaluate.
+Syllabus topics: Q1 Fieldwork – Flood risk (Kallang River) | Q2 3.1.1 SUD (urbanisation rates, measuring SUD); 3.1.2 Sustainable Cities (reimaging); 3.1.3 Liveable Cities (rankings) | Q3 3.1.2 Sustainable Cities (waste) | Q4 3.2.1 Science of CC (natural vs human)

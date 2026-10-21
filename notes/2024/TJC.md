@@ -31,6 +31,7 @@ Files: H1 QP & Insert (combined PDF) + SAP (suggested answer pointers); H2 P1 QP
 - Q6 'The uncertainties over future impacts of climate change are the most significant challenge in implementing strategies to respond to contemporary climate change.' Evaluate.
 
 User grid: CC | Reimaging, Liveability | CC | Strategies of Waste | Strategies of Elderly | Challenges of CC.
+Syllabus topics: Q1 Fieldwork – CC response (lifestyle changes to reduce carbon footprint, Tampines) | Q2 1.1.3 Liveable Cities; 1.1.1 SUD (urban metabolism, demand on environment); 1.1.2 Sustainable Cities (reimaging) | Q3 1.2.1 Science of CC; 1.2.2 Effects of CC | Q4 1.1.2 Sustainable Cities (waste) | Q5 1.1.3 Liveable Cities (elderly) | Q6 1.2.3 Responses to CC (challenges)
 
 ## H2 Paper 1 (9173/01), 23 Aug 2024
 **Q1 Energy – SDG7, Germany, Gambia HEP, Singapore solar canopies (Cluster 1).** R1 SDG7 progress world map; R2 Germany energy sources 2013 vs 2023 (nuclear phase-out, renewables doubled); R3 proposed dam & HEP station site, Gambia (LDC; Gambia River shared with Senegal/Guinea); R4 fact file solar canopies Singapore (net zero 2050; 2 GWp by 2030 = 3% demand; 1.2 GWp Q1 2024; Guoco Tower canopy 2%; costs, storms, lightning, dust).
@@ -56,6 +57,7 @@ User grid: CC | Reimaging, Liveability | CC | Strategies of Waste | Strategies o
 - Q6 Evaluate the influence of climate on fluvial landforms in the humid tropics.
 
 User grid: Solar, SD | Karst, MM | Malthus | MI vs TNCs | ENSO | Fluvial landforms.
+Syllabus topics: Q1 1.1.3 Managing Resources (energy, extractive industries); 1.1.1 Understanding SD (SDG7) | Q2 2.2.2 Karst; 2.2.1 Geomorphic Processes (mass movement) | Q3 1.1.2 Environment & Resources (Malthus) | Q4 1.2.3 Actors (multilateral institutions) | Q5 2.1.1 Tropical Climates (ENSO) | Q6 2.2.3 Fluvial Landforms
 
 ## H2 Paper 2 (9173/02), 11 Sep 2024
 **Q1 Fieldwork – UHI vulnerability & willingness for CC action.** 4 students. Hypothesis: 'Residents living in areas with higher Urban Heat Island Vulnerability Index are more willing to adopt measures to mitigate climate change.' 2 sites (Bukit Merah – higher UHI; Serangoon), 25 questionnaires each (50), Thu 2–4pm in Oct, every third person; then in-depth interviews with 10 respondents another day. R1 UHI vulnerability index map SG; R2A/2B sampling locations; R3 questionnaire (resident? heat stress? weather changing? heard of CC? affects you? taken action? Likert 1=SA…5=SD; Climate Vouchers); R4 tallied Likert data for two statements at each site.
@@ -80,3 +82,4 @@ User grid: Solar, SD | Karst, MM | Malthus | MI vs TNCs | ENSO | Fluvial landfor
 - Q4 'Sustainable urban development is difficult to achieve.' Evaluate.
 
 User grid: CC | Women | Effects of CC | SUD is difficult to achieve.
+Syllabus topics: Q1 Fieldwork – CC response (UHI vulnerability & willingness for CC action) | Q2 3.1.3 Liveable Cities (liveability, women); 3.2.2 Effects of CC (perception) | Q3 3.2.2 Effects of CC | Q4 3.1.1 SUD

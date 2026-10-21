@@ -33,6 +33,7 @@ Discrepancies: H2 P2 Q1(g) QP says "community response ... **less** important" (
 - Q6 Evaluate the influence of human activities on climate change.
 
 User grid: CC | Waste | Ecosystems + CC | Reimaging + SUD | Strategies of Slums [sic – actually mitigation vs adaptation] | Causes of CC.
+Syllabus topics: Q1 Fieldwork – CC response (consumer perception of actors, Bugis Junction) | Q2 1.1.1 SUD (urban growth/loss, demand on environment); 1.1.2 Sustainable Cities (waste – landfills) | Q3 1.2.2 Effects of CC (ecosystems); 1.2.1 Science of CC | Q4 1.1.2 Sustainable Cities (reimaging) | Q5 1.2.3 Responses to CC (mitigation vs adaptation) | Q6 1.2.1 Science of CC (human activities)
 
 ## H2 Paper 1 (9173/01), 23 Aug 2024
 **Q1 GPN – Apple, WTO, ASEAN/World Bank (Cluster 1).** R1 Apple's supply chain 2023 vs 2024 (suppliers by country: Taiwan −2, Japan −3, Korea −1, China/HK +4); R2 countries/territories with Apple stores; R3 article: WTO & China's procurement "blacklist" dropping Apple/Cisco (China not in GPA plurilateral).
@@ -58,6 +59,7 @@ User grid: CC | Waste | Ecosystems + CC | Reimaging + SUD | Strategies of Slums 
 - Q6 "The weathering of rocks is influenced by different factors." Evaluate.
 
 User grid: GPN | Delta | Malthus | Trade, capital, labour flows | Hadley Cell | Factors of rock weathering.
+Syllabus topics: Q1 1.2.2 GPNs of TNCs (Apple); 1.2.3 Actors (WTO, ASEAN, World Bank) | Q2 2.2.3 Fluvial Landforms (deltas, Niger Delta) | Q3 1.1.2 Environment & Resources (Malthus) | Q4 1.2.1 Development (flows) | Q5 2.1.1 Tropical Climates (Hadley cell) | Q6 2.2.1 Geomorphic Processes (weathering)
 
 ## H2 Paper 2 (9173/02), 11 Sep 2024
 **Q1 Fieldwork – same scenario as H1 Q1 (Bugis Junction, consumer perception of CC actors).**
@@ -82,3 +84,4 @@ User grid: GPN | Delta | Malthus | Trade, capital, labour flows | Hadley Cell | 
 - Q4 'Given the rate of contemporary climate change, mitigation measures are more urgent than adaptation measures.' Evaluate.
 
 User grid: CC | Waste | Reimaging + SUD | Strategies of CC.
+Syllabus topics: Q1 Fieldwork – CC response (consumer perception of actors, Bugis Junction) | Q2 3.1.1 SUD (urban growth/loss, demand on environment); 3.1.2 Sustainable Cities (waste) | Q3 3.1.2 Sustainable Cities (reimaging) | Q4 3.2.3 Responses to CC (mitigation vs adaptation)

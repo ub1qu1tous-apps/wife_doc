@@ -31,6 +31,7 @@ Files: H1 QP/INSERT/Ans (PDF) + Word copies; H2 P1 QP/Insert/Answer (PDF) + Word
 - Q6 "Successful waste management strategies differ across places." Evaluate.
 
 User grid: Elderly | Reimaging | CC | Causes of CC | Strategies of Women | Strategies of Waste.
+Syllabus topics: Q1 Fieldwork – Elderly needs (transport, Serangoon North) | Q2 1.1.2 Sustainable Cities (reimaging) | Q3 1.2.2 Effects of CC (India); 1.2.3 Responses to CC; 1.2.1 Science of CC (emissions) | Q4 1.2.1 Science of CC (natural factors) | Q5 1.1.3 Liveable Cities (women) | Q6 1.1.2 Sustainable Cities (waste)
 
 ## H2 Paper 1 (9173/01), 27 Aug 2024
 **Q1 E-waste, fossil fuels, renewable energy, SD (Cluster 1).** R1 e-waste collection rate by region 2019 (Europe 46.9%; world 22.8%; Latin America 11.9%; Aus/NZ 9.0); R2 reliance on fossil fuels 2022 (>82% of primary energy); R3 IRENA: renewable capacity more than doubled 2013–2022 (China +223%, Europe +79%, N America +65%, S/C America +145%, ME & Africa +66%; clean energy aid to developing countries −3.5%); R4 renewable electricity by source 2020 (hydro 59%, wind 21%, solar 11%, bio 8%, geothermal 1%).
@@ -56,6 +57,7 @@ User grid: Elderly | Reimaging | CC | Causes of CC | Strategies of Women | Strat
 - Q6 'Physical weathering predominates in higher latitudes, while chemical weathering is more common in lower latitudes.' Evaluate. – Peltier, Strakhov, Van't Hoff.
 
 User grid: RE sources | River, deltas | Strategies of EIs | Labour | Monsoons | Rock weathering.
+Syllabus topics: Q1 1.1.3 Managing Resources (renewable energy); 1.1.1 Understanding SD; 1.1.2 Environment & Resources (e-waste) | Q2 2.2.3 Fluvial Landforms (braided, delta); 2.1.3 Floods (Dhaka); 2.1.1 Tropical Climates | Q3 1.1.3 Managing Resources (extractive industries) | Q4 1.2.3 Actors (labour) | Q5 2.1.1 Tropical Climates (monsoons) | Q6 2.2.1 Geomorphic Processes (weathering)
 
 ## H2 Paper 2 (9173/02), 12 Sep 2024
 **Q1 Fieldwork – Climate change awareness, Yishun (older, non-mature, ~30 yrs) vs Canberra (new, just past MOP).** 8 students ("Sparkyi JC"). RQ: "Do residents in older housing estates have lower awareness of climate change compared to those in newer estates?" Wed morning June hols 10am–12pm; first 30 min on-site field inspection of Canberra (photos); random sampling, 3 residents per student at void decks/coffee shops → 12 per estate; language barrier (dialects). R1 map; R2 photos Canberra (recycling bins, book exchange, EV chargers at Canberra Plaza, E-Drive poster, upcycled train seats, bicycle parking); R3 recording sheet (aircon use, car sharing/PT, actions Y/N, list actions); R4 pie charts of findings.
@@ -81,3 +83,4 @@ User grid: RE sources | River, deltas | Strategies of EIs | Labour | Monsoons | 
 - Q4 Evaluate the view that effective slum management is important for progress towards sustainable urban development.
 
 User grid: CC | Women | Effects of CC | Slums + SUD.
+Syllabus topics: Q1 Fieldwork – CC response (CC awareness, Yishun vs Canberra) | Q2 3.1.3 Liveable Cities (liveability, women); 3.1.1 SUD | Q3 3.2.2 Effects of CC | Q4 3.1.2 Sustainable Cities (slums)
