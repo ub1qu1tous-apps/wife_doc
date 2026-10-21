@@ -3,13 +3,13 @@
 **Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it.
 
 **Task in progress (session 2):** build docs 2b, 2c, 2d, 2e, 2f (the user said "build all of them"), each with Review Notes. Build them one after another and commit + push after each.
-- Done: 2b (v0.8).
-- Next: 2c H1 Essay (H1 Q4–Q6), then 2d, 2e, 2f.
+- Done: 2b (v0.8), 2c (v0.9).
+- Next: 2d H2 Fieldwork (P2 Q1), then 2e, 2f.
 - An hourly scheduled check-in (`trig_01GQooXWiM5ucgbmSySZBKG3`, :12 past each hour) is bound to this session. Delete it and clear this note when all five are done.
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.8.docx`, each with a `– Review Notes` companion. Still to build: 2c–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
-- **Current version:** v0.8
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.8.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, each with a `– Review Notes` companion. Still to build: 2d–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.9
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -17,6 +17,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.9 | 2026-10-21 | **Doc 2c full build**: H1 Essay questions by topic, 123 essays grouped by sub-topic |
 | v0.8 | 2026-10-21 | **Doc 2b full build**: H1 Structured questions by topic, 82 questions (full wording + 266 diagrams) |
 | v0.7 | 2026-10-21 | **Doc 1 rebuilt at syllabus key-question level** (all 716 questions; 38 pages) |
 | v0.6 (preview) | 2026-10-21 | Doc 1 preview at syllabus key-question level (ACJC 2024 row) |
@@ -296,3 +297,10 @@
 - **Builder:** `topic_label` shows key-question names on each question's Syllabus line.
 - Output: `docs/2b H1 Structured Questions by Topic v0.8.docx` (204 pages, 28 MB) + `– Review Notes v0.8` (spec `tools/review/2b_h1_structured.json`). Data: `tools/data/doc2b_questions.json`, `tools/data/h1_q2q3_resources.json`.
 - Next: 2c H1 Essay.
+
+### 2026-10-21 — Session 2: doc 2c (H1 Essay) full build v0.9
+- **Wording:** `run_questions.py h1c` (Q4–Q6, Section C). Extractor fixes: an essay ends at its mark, or at the blank line after it when words follow the mark (TMJC 2026 Q4); a one-line essay with its mark now ends correctly; the section heading is the one followed by the question (YIJC 2024 lists "Section C" on its cover); the last question stops at end-of-paper lines and Insert covers (TJC combined files). 2a and 2b wording re-checked: unchanged.
+- **Checks:** 123 essays, all 13 marks; wording matches the notes' verbatim wording for all 123 (`check_essays_vs_notes.py`; differences are only the notes' abbreviations).
+- **Filing:** by sub-topic of the key question; 9 essays have two key questions, 5 of them across sub-topics (listed in the Review Notes). 1.1.1: 7, 1.1.2: 29, 1.1.3: 34, 1.2.1: 9, 1.2.2: 11, 1.2.3: 33.
+- Output: `docs/2c H1 Essay Questions by Topic v0.9.docx` (19 pages) + `– Review Notes v0.9` (spec `tools/review/2c_h1_essay.json`). Data: `tools/data/doc2c_questions.json`.
+- Next: 2d H2 Fieldwork.

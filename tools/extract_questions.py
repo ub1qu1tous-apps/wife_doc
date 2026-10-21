@@ -9,6 +9,9 @@ import re, subprocess
 FOOTER = re.compile(r'(©|geography prelim|\b20\d\d\s+JC\d\b|\[?\s*turn over|8834|9173|preliminary exam|prelim(inary)? examination|'
                     r'^\s*\d{1,2}\s*$|^\s*page \d+|this document consists|blank page)', re.I)
 PART = re.compile(r'^(?:\(([a-h])\)?|([a-h])\))\s+(.*)$')  # (a) / a) / '(b' with ')' wrapped to next line
+END = re.compile(r'^\s*(\*+\s*)?(end of (the )?(question )?paper\.?|end of section [a-d]|- ?end ?-|end\.?|_{8,}.*|'
+                 r'\[?\s*total\s*:?\s*\d*\s*(marks?)?\s*\]?|blank page|copyright acknowledg.*|acknowledge?ments?\s*:?|'
+                 r'resource \d+[a-z]? for question.*|this insert.*|insert)\s*$', re.I)   # end of the last question in a paper
 MARKS = re.compile(r'\[\s*(\d{1,2})\s*(?:marks?)?\s*\]\s*$', re.I)
 
 
@@ -28,28 +31,51 @@ def pdf_lines(pdf):
 def extract(pdf, qno, section_name):
     lines = pdf_lines(pdf)
     # locate the section heading ("Section A" on its own line)
-    sec_i = next((i for i, l in enumerate(lines) if l.strip().lower() == f'section {section_name.lower()}'), None)
-    if sec_i is None:
-        sec_i = next(i for i, l in enumerate(lines) if re.fullmatch(rf'\s*section {section_name}\b.*', l, re.I)
-                     and 'answer' not in l.lower())
     qstart = re.compile(rf'^\s{{0,12}}{qno}[.)]?\s+\S')
+    any_sec = re.compile(r'\s*section [a-d]\b.*', re.I)
+
+    def leads_to_q(i):   # the heading is followed by question qno before any other section heading (skips cover pages)
+        for j in range(i + 1, len(lines)):
+            if qstart.match(lines[j]):
+                return True
+            if any_sec.fullmatch(lines[j]) and 'answer' not in lines[j].lower():
+                return False
+        return False
+    cands = [i for i, l in enumerate(lines) if l.strip().lower() == f'section {section_name.lower()}'] or \
+            [i for i, l in enumerate(lines) if re.fullmatch(rf'\s*section {section_name}\b.*', l, re.I) and 'answer' not in l.lower()]
+    sec_i = next((i for i in cands if leads_to_q(i)), cands[0])
     start = next(i for i in range(sec_i + 1, len(lines)) if qstart.match(lines[i]))
     heading = [lines[sec_i].strip()] + [l.strip() for l in lines[sec_i + 1:start] if l.strip() and not FOOTER.search(l)]
     # end: next section heading, or the next question number at the same indent right after a mark
     indent = len(lines[start]) - len(lines[start].lstrip())
     nxt = re.compile(rf'^\s{{{max(0, indent - 3)},{indent + 3}}}{qno + 1}[.)]?\s+\S')
-    marked = False   # a mark has been seen in this question (so a line starting 'qno+1' is not a stem line)
+    mark_re = re.compile(r'\[\s*\d{1,2}\s*(?:marks?)?\s*\]', re.I)
+    marked = bool(mark_re.search(lines[start]))   # a mark has been seen (so a line starting 'qno+1' is not a stem line)
     end = len(lines)
-    for i in range(start + 1, len(lines)):
-        if re.fullmatch(r'\s*section [b-d]\s*', lines[i], re.I) or (nxt.match(lines[i]) and marked):
+    part_seen = False   # an essay (no parts) ends at its mark, or the blank line after it if words follow the mark
+
+    def essay_end(i):
+        j = i + 1
+        while j < len(lines) and lines[j].strip() and not (FOOTER.search(lines[j]) or nxt.match(lines[j]) or END.match(lines[j])
+                                                         or re.fullmatch(r'\s*section [b-d]\s*', lines[j], re.I)):
+            j += 1
+        return j
+    if marked:
+        end = essay_end(start)
+    for i in range(start + 1, end):
+        if re.fullmatch(r'\s*section [b-d]\s*', lines[i], re.I) or (nxt.match(lines[i]) and marked) or END.match(lines[i]):
             end = i
             break
-        if lines[i].strip() and not FOOTER.search(lines[i]) and re.search(r'\[\s*\d{1,2}\s*(?:marks?)?\s*\]', lines[i], re.I):
+        part_seen = part_seen or bool(PART.match(lines[i].strip()))
+        if lines[i].strip() and not FOOTER.search(lines[i]) and mark_re.search(lines[i]):
             marked = True
+            if not part_seen:
+                end = essay_end(i)
+                break
     body = [l for l in lines[start:end] if not FOOTER.search(l) or l.strip().startswith('(')]
     body[0] = re.sub(rf'^\s*{qno}[.)]?\s+', '', body[0])
 
-    stem, parts, buf, cur = [], [], [], None
+    stem, parts, buf, cur, stem_marks = [], [], [], None, []
 
     def flush():
         if buf:
@@ -83,6 +109,8 @@ def extract(pdf, qno, section_name):
             flush()
             if cur is not None:
                 cur[2] = int(mk.group(1))
+            else:
+                stem_marks.append(int(mk.group(1)))   # essay: mark printed after the question
             continue
         if s:
             buf.append(s)
@@ -97,9 +125,13 @@ def extract(pdf, qno, section_name):
         if m is None and found:
             m = int(found[-1])
         out_parts.append((l, clean(inline.sub(' ', t)), m))
-    return {'section': ' — '.join(heading),
-            'stem': [clean(p) for p in stem if p],
-            'parts': out_parts}
+    out = {'section': ' — '.join(heading), 'stem': [clean(p) for p in stem if p], 'parts': out_parts}
+    if not out_parts:
+        found = stem_marks or [int(x) for x in inline.findall(' '.join(stem))]
+        out['marks'] = found[-1] if found else None
+        out['stem'] = [clean(inline.sub(' ', p)) for p in out['stem']]
+        out['stem'] = [p for p in out['stem'] if p]
+    return out
 
 
 if __name__ == '__main__':

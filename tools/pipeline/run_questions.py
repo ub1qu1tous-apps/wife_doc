@@ -28,7 +28,8 @@ def pdf(f):
 
 
 if __name__ == '__main__':
-    spec, only = sys.argv[1], sys.argv[2:]
+    VERBOSE = '-v' in sys.argv
+    spec, only = sys.argv[1], [a for a in sys.argv[2:] if a != '-v']
     man, col, sec, qnos, prefix, total = SPECS[spec]
     out = {}
     for row in json.load(open(f'tools/{man}_manifest.json')):
@@ -50,11 +51,15 @@ if __name__ == '__main__':
                 probs.append(f'labels={labels}')
             if r['parts'] and not all(marks):
                 probs.append(f'marks={marks}')
+            if not r['parts']:
+                marks = [r.get('marks')]
+                if not r.get('marks'):
+                    probs.append('no mark')
             if total and sum(m or 0 for m in marks) != total:
                 probs.append(f'sum={sum(m or 0 for m in marks)}')
             if '[' in text:
                 probs.append('[ in text')
-            if probs or only:
+            if probs or only or VERBOSE:
                 print(f'{key}: {" ".join(probs)} | {text[:90]!r} ... {text[-60:]!r}')
             out[key] = r
     if not only:
