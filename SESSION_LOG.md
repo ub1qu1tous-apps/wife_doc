@@ -1,7 +1,7 @@
 # Session log
 
 ## Current state
-- **Docs:** previews only (v0.2 PREVIEW) in `output/preview/` — doc 1 topic grid + docs 2a–2d by topic. Waiting for user feedback before the full build.
+- **Docs:** previews only (v0.2 PREVIEW) in `previews/` — doc 1 topic grid + docs 2a–2d by topic. Waiting for user feedback before the full build.
 - **Current version:** v0.2 (preview)
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
@@ -73,7 +73,7 @@
 - Syllabus taxonomy written to `notes/syllabus_topics.md` and `tools/syllabus_topics.json`: Cluster → Topic (e.g. 1.2) → sub-topic/Key Question group (e.g. 1.2.2).
 - Builder `tools/build_docs.py` (python-docx): grid doc + 4 by-topic docs. Diagrams = Resource blocks cropped from Insert PDFs (scratchpad `tools/crop_resources.py`).
 - Choices made for the preview (to confirm with user): Word .docx; grid cell = sub-topic code + short name, plus grey line with case/focus; rows sorted school then year; structured Qs filed under their main Topic (most marks) and tagged with all sub-topics; essays filed by sub-topic; question text typed from the QP, diagrams as images.
-- Previews (sample = ACJC 2024): `output/preview/1 Topic Grid by School (H1 & H2) v0.1 PREVIEW.docx`, `2a`–`2d ... v0.1 PREVIEW.docx`.
+- Previews (sample = ACJC 2024): `previews/1 Topic Grid by School (H1 & H2) v0.1 PREVIEW.docx`, `2a`–`2d ... v0.1 PREVIEW.docx`.
 - 2025/2026 read-through resumed after a usage-limit pause; notes now end each paper with "Syllabus topics:" lines. Done so far: 2025 ACJC, ASRJC, RVHS, DHS.
 - Doc version: v0.1 (preview only).
 - Open: user feedback on previews → full build v0.1.
@@ -112,6 +112,9 @@
   2. Files left out.
   3. Problems in the question papers and inserts.
 - Builder updated: topic-only grid, fieldwork grouped by area with Others last, review doc. Preview data saved as `tools/preview_questions.json` and `tools/preview_review.json`.
-- Files: `output/preview/0`, `1`, `2a`–`2d` `... v0.2 PREVIEW.docx` (v0.1 previews removed).
+- Files: `previews/0`, `1`, `2a`–`2d` `... v0.2 PREVIEW.docx` (v0.1 previews removed).
 - Doc version: v0.2 (preview).
 - Next: on approval, do the full build. Steps: label the 2024 notes with syllabus topics, collect every question's text, and crop every insert (Word inserts are converted to PDF first).
+
+### 2026-10-21 — Session 1 (cont.): previews moved to `previews/`
+- User asked for the previews to be in their own folder in git. Moved `output/preview/` → `previews/` at the repo root (v0.2 PREVIEW docs 0, 1, 2a–2d).
