@@ -3,9 +3,9 @@
 usage: SCRATCH=... python3 tools/pipeline/make_doc_data.py <doc> <out.json>
 doc = 2b | 2c | 2d | 2e | 2f. Inputs: $SCRATCH/questions.json (tools/parse_notes.py), $SCRATCH/q_<spec>.json and
 $SCRATCH/q_<spec>_res.json (run_questions.py, pick_resources.py). Image paths are relative to $SCRATCH/full/.
-Grouping ('primary'): structured -> topic of the first key-question code (codes are listed by marks, and a part-by-part
-mark count of every question that spans topics agreed; PRIMARY_OVERRIDE lists any that don't); essay -> sub-topic of
-its first code; fieldwork -> '2' (H1) / '4' (H2).
+Grouping ('primary'): structured -> the topic with the most marks: the topic of the first key-question code (codes are
+listed by marks), except where a part-by-part mark count of a question that spans topics says otherwise
+(PRIMARY_OVERRIDE); essay -> sub-topic of its first code; fieldwork -> '2' (H1) / '4' (H2).
 """
 import json, os, sys
 
@@ -19,7 +19,15 @@ DOCS = {  # doc: (level, kind, [(spec, paper, section line)])
 }
 H2P1_CLUSTER = {'Q1': 'Cluster 1: Global Development and Natural Resources', 'Q2': 'Cluster 2: Tropical Environments',
                 'Q3': 'Cluster 1', 'Q4': 'Cluster 1', 'Q5': 'Cluster 2', 'Q6': 'Cluster 2'}
-PRIMARY_OVERRIDE = {}   # 'SCHOOL_YEAR_SLOT': topic, where the part-by-part mark count differs from the first code
+# Structured questions whose part-by-part mark count puts more marks in another topic than the first-listed key
+# question's (counted by hand from the wording, 2026-10-21). Ties keep the first key question: NJC 2024 P2 Q2,
+# TJC 2025 P1 Q1, VJC 2025 P1 Q1, RVHS 2026 P1 Q2, SAJC 2026 P2 Q2, TJC 2026 P2 Q2.
+PRIMARY_OVERRIDE = {
+    'RVHS_2024_P2 Q2': '3.2', 'DHS_2025_P1 Q2': '2.2', 'SAJC_2025_P2 Q2': '3.2', 'TJC_2025_P2 Q2': '3.1',
+    'TMJC_2025_P2 Q2': '3.2', 'VJC_2025_P1 Q2': '2.2', 'CJC_2026_P1 Q1': '1.2', 'DHS_2026_P1 Q2': '2.2',
+    'MI_2026_P1 Q2': '2.2', 'MI_2026_P2 Q2': '3.2', 'TMJC_2026_P1 Q2': '2.2', 'VJC_2026_P1 Q1': '1.2',
+    'YIJC_2026_P1 Q1': '1.1',
+}
 
 doc, out = sys.argv[1], sys.argv[2]
 level, kind, specs = DOCS[doc]

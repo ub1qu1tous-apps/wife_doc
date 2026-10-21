@@ -2,7 +2,7 @@
 
 - EJC 2024 H1 R7A/7B: the two maps are a picture on a landscape page of the Word insert, and LibreOffice drops
   it when converting to PDF. Take the picture from the .docx itself and put it under the heading crop.
-- SAJC 2026 H2 P2 R1: picture turned 90 degrees in the Word file (see ROTATE_BELOW_HEADING).
+- SAJC 2026 H2 P2 R1 (Word) and CJC 2024 H2 P1 R1, R2 (PDF): pictures printed sideways (see ROTATE_BELOW_HEADING).
 - CJC 2026 H2 P2 R4: table placed above its heading in the converted PDF (see HEAD_BELOW).
 - TJC 2026 H1 R5 and R9: heading + picture are a group turned 270 degrees in Word; LibreOffice turns the picture
   but clips the heading. Rebuild the crop from the heading text and the upright picture in the .docx.
@@ -89,6 +89,8 @@ for crop, src, pi, head in HEAD_BELOW:
 # (the first `lines` runs of ink) and turn the rest upright. Skipped if already done (crop wider than tall).
 ROTATE_BELOW_HEADING = [  # (crop file, heading lines, angle for PIL rotate)
     ('full/img/2026_SAJC_H2P2/R1.png', 2, 90),
+    ('full/img/2024_CJC_H2P1/R1.png', 3, -90),   # world maps printed sideways in the PDF Insert
+    ('full/img/2024_CJC_H2P1/R2.png', 2, -90),
 ]
 for crop, nlines, angle in ROTATE_BELOW_HEADING:
     path = os.path.join(S, crop)

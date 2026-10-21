@@ -27,5 +27,5 @@ with cf.ThreadPoolExecutor(6) as ex:
         if rc:
             print(tag, 'ERR', err)
         for line in out.splitlines():
-            if 'CONTINUED' in line:
+            if 'CONTINUED' in line or 'REPLACED' in line:
                 print(tag, line.split('/')[-1][:100])

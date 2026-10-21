@@ -56,6 +56,8 @@ with pdfplumber.open(pdf_path) as pdf:
                 continue   # logos/rules in the page footer
             if obj['bottom'] < page.height - 30 and (obj['bottom'] - obj['top']) < page.height * 0.9:
                 bots.append(obj['bottom'])
+            elif obj.get('object_type') == 'image' and obj['top'] < page.height * 0.6:
+                bots.append(min(obj['bottom'], page.height) - 2)   # picture running to (or past) the page foot (VJC 2026 P2 R5)
         footers[i] = (max(bots) + 6) if bots else page.height
         stop = [l[0] for l in ls if l[0] > page.height * 0.4 and re.fullmatch(r'\s*(end( of (insert|paper))?|(re)?sources?|(copyright )?acknowledge?ments?)\s*:?\s*', l[2], re.I)]
         if stop:   # 'End' / 'Sources' list below the last resource on the page
@@ -72,6 +74,8 @@ with pdfplumber.open(pdf_path) as pdf:
             m = HEAD.match(text)
             if m and re.search(r'https?:|www\.|adapted from|source:|\.com|\.org', text, re.I):
                 continue   # source/acknowledgement line, not a resource heading
+            if m and (re.search(r'\[\s*\d{1,2}\s*\]', text) or re.match(r'\s*Resources?\s+\d+[A-Za-z]?\s*[.,;?]', text)):
+                continue   # the end of a question-paper sentence ('Resource 3. [5]') in a combined QP + Insert file
             mm = MULTI.match(text) if m else None
             if mm and re.match(r'\s*(for\b|$|[A-Z(:–-])', mm.group(2)):
                 extra = ['R' + x.upper() for x in re.findall(r'\d+[A-Za-z]?', mm.group(1))]
@@ -184,6 +188,10 @@ with pdfplumber.open(pdf_path) as pdf:
         if label in final:
             if re.search(r'for questions?\s+\d', text, re.I) and crop.height > 150:   # heading repeated on a continuation page
                 prev, ptext = final[label]
+                if prev.height < 250:   # the first one was only a heading at the foot of a page (MI 2026 cover): use the full one
+                    final[label] = (crop, text)
+                    print('REPLACED', label, '|', text[:70])
+                    continue
                 W = max(prev.width, crop.width)
                 canvas = Image.new('RGB', (W, prev.height + crop.height), 'white')
                 canvas.paste(prev, (0, 0)); canvas.paste(crop, (0, prev.height))

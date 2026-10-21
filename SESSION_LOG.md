@@ -3,13 +3,13 @@
 **Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it.
 
 **Task in progress (session 2):** build docs 2b, 2c, 2d, 2e, 2f (the user said "build all of them"), each with Review Notes. Build them one after another and commit + push after each.
-- Done: 2b (v0.10), 2c (v0.9), 2d (v0.11). H2 wording extracted and checked for all sections; H2 inserts cropped.
-- Next: 2e H2 Structured (P1 Q1–Q2, P2 Q2), then 2f H2 Essay.
+- Done: 2b (v0.10), 2c (v0.9), 2d (v0.11), 2e (v0.12).
+- Next: 2f H2 Essay (P1 Q3–Q6, P2 Q3–Q4) – wording already extracted and checked.
 - An hourly scheduled check-in (`trig_01GQooXWiM5ucgbmSySZBKG3`, :12 past each hour) is bound to this session. Delete it and clear this note when all five are done.
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.11.docx`, each with a `– Review Notes` companion. Still to build: 2e–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
-- **Current version:** v0.11
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.11.docx`, `docs/2e H2 Structured Questions by Topic v0.12.docx`, each with a `– Review Notes` companion. Still to build: 2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.12
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -17,6 +17,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.12 | 2026-10-21 | **Doc 2e full build**: H2 Structured questions by topic, 141 questions (full wording + 549 diagrams) |
 | v0.11 | 2026-10-21 | **Doc 2d full build**: H2 Fieldwork questions by topic, 47 questions (full wording + 215 diagrams) |
 | v0.10 | 2026-10-21 | **Doc 2b fix** (replaces v0.8): NJC 2026 Q3 diagrams corrected (whole R9, real R10); 'Co-operation' hyphen |
 | v0.9 | 2026-10-21 | **Doc 2c full build**: H1 Essay questions by topic, 123 essays grouped by sub-topic |
@@ -325,3 +326,10 @@
 - Areas: Community response to CC 22, Fluvial flood risk 15, Elderly needs 6, Others 4 (JPJC 2024, NJC 2025, NJC 2026, RVHS 2026).
 - Output: `docs/2d H2 Fieldwork Questions by Topic v0.11.docx` (197 pages, 25 MB) + `– Review Notes v0.11` (spec `tools/review/2d_h2_fieldwork.json`). Data: `tools/data/doc2d_questions.json`, `tools/data/h2_p2q1_resources.json`.
 - Next: 2e H2 Structured.
+
+### 2026-10-21 — Session 2: doc 2e (H2 Structured) full build v0.12
+- **Filing:** 81 of the 141 questions test two topics. Marks were counted part by part for each: 62 agree with the first-listed key question, 6 tie (first-listed kept), 13 go to the other topic (`PRIMARY_OVERRIDE` in `make_doc_data.py`; listed in the Review Notes). Result: 1.1: 22, 1.2: 25, 2.1: 20, 2.2: 27, 3.1: 28, 3.2: 19.
+- **Cropper fixes found on the 2e contact sheets:** combined QP + Insert files (TJC 2025/2026) no longer take question-paper lines such as 'Resource 3. [5]' as headings (R3/R2/R6 were whole QP pages); a heading repeated at the foot of a cover page is replaced by the full one (MI 2026 P1 R1); pictures running to the page foot are no longer cut off (VJC 2026 P2 R5 was only its heading; JPJC 2024 P1 R2B and CJC 2026 P1 R1 were cut short). Hand fix: CJC 2024 P1 R1/R2 maps turned upright. Each re-crop was compared with the previous one; doc 2d's crops and picks are unchanged.
+- **Checks:** 141 questions, all 30 marks, labels/marks match the notes. All 549 diagrams checked by eye (22 contact sheets).
+- Output: `docs/2e H2 Structured Questions by Topic v0.12.docx` (438 pages, 61 MB) + `– Review Notes v0.12` (spec `tools/review/2e_h2_structured.json`). Data: `tools/data/doc2e_questions.json`.
+- Next: 2f H2 Essay.

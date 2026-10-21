@@ -1,0 +1,90 @@
+{
+ "title": "H2 Structured Questions by Topic",
+ "file": "2e H2 Structured Questions by Topic",
+ "version": "v0.12",
+ "doc": "2e H2 Structured Questions by Topic v0.12.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "All H2 structured questions (30 marks each): Paper 1 Q1 (Cluster 1), Paper 1 Q2 (Cluster 2) and Paper 2 Q2 (Cluster 3). That is 141 questions from 47 school-years, with 549 diagrams (438 pages, 61 MB).",
+    "Grouped by cluster, then by syllabus topic, then by school and year: 1.1 Environment and Resources (22), 1.2 Development and the Global Economy (25), 2.1 Tropical Climates and Drainage Basins (20), 2.2 Landforms in the Tropics (27), 3.1 Cities in a Sustainable Future (28), 3.2 The Future with Climate Change (19).",
+    "Under each question heading, a 'Syllabus' line lists every key question its parts test, most marks first (as in doc 1).",
+    "Question wording is typed from each school's question paper; diagrams are cropped from the school's Insert.",
+    "Checks run on every question: part labels in order, marks add up to 30, and labels and marks match the reading notes (all 141 match). Every diagram was checked by eye."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "A question is filed under the topic with the most marks. 81 questions test two topics; for each one I counted marks part by part. In 62 the first-listed key question's topic has the most marks. In 6 the two topics tie, and the first-listed one is used. In 13 the other topic has more marks, so the question is filed there (section 3).",
+    "Two questions also test a key question from another cluster (CJC 2025 P1 Q2: 1.1.3b; HCI 2025 P1 Q1: 2.2.3c). They stay in their own paper's cluster.",
+    "Diagrams for a question are the resources its wording refers to, not the Insert's 'for Question N' labels.",
+    "Word files were converted to PDF with LibreOffice before extracting text and cropping, so line breaks and spacing can differ slightly from the printed paper.",
+    "Pages or pictures printed sideways are turned upright. Very tall diagrams are split across pages at blank lines instead of being shrunk to one page.",
+    "Diagrams are compressed (max 1300 px, JPEG or 256-colour PNG). Fine print in dense tables may be slightly softer than the original.",
+    "The section line is standardised: 'Section A — Cluster 1 / Cluster 2' for Paper 1 and 'Section B — Cluster 3' for Paper 2."
+   ]
+  },
+  {
+   "title": "3. To review: questions filed under their second-listed topic",
+   "note": "Marks counted part by part from the wording. The first-listed key question (the one tested by the single biggest part) is in a different topic from where most of the marks are.",
+   "table": {
+    "columns": ["Question", "Marks by topic", "Filed under", "Your decision"],
+    "rows": [
+     ["RVHS 2024 P2 Q2 (temperature change, ecological footprint)", "3.1: 13 / 3.2: 17", "3.2"],
+     ["DHS 2025 P1 Q2 (monsoon, mass movement, Ganges delta)", "2.1: 11 / 2.2: 19", "2.2"],
+     ["SAJC 2025 P2 Q2 (CC and liveability, partnerships, ice cores)", "3.1: 6 / 3.2: 24", "3.2"],
+     ["TJC 2025 P2 Q2 (African cities, waste, reimaging, CC)", "3.1: 19 / 3.2: 11", "3.1"],
+     ["TMJC 2025 P2 Q2 (CO2 trend, proxies, liveability)", "3.1: 12 / 3.2: 18", "3.2"],
+     ["VJC 2025 P1 Q2 (Mekong delta, El Niño, cyclones)", "2.1: 11 / 2.2: 19", "2.2"],
+     ["CJC 2026 P1 Q1 (hydropower, SDGs, Vietnam exports, GPNs)", "1.1: 14 / 1.2: 16", "1.2"],
+     ["DHS 2026 P1 Q2 (ENSO, cyclones, Yellow River delta)", "2.1: 14 / 2.2: 16", "2.2"],
+     ["MI 2026 P1 Q2 (Myanmar climate, mass movement, landforms)", "2.1: 14 / 2.2: 16", "2.2"],
+     ["MI 2026 P2 Q2 (waste, slums, CO2, coastal flooding)", "3.1: 12 / 3.2: 18", "3.2"],
+     ["TMJC 2026 P1 Q2 (climates, weathering, delta; part (e) has no key question)", "2.1: 11 / 2.2: 15", "2.2"],
+     ["VJC 2026 P1 Q1 (uranium, Orano GPN)", "1.1: 14 / 1.2: 16", "1.2"],
+     ["YIJC 2026 P1 Q1 (Middle East GDP, gas reserves, service sector)", "1.1: 19 / 1.2: 11", "1.1"]
+    ]
+   }
+  },
+  {
+   "title": "4. To review: ties",
+   "note": "Equal marks in both topics; filed under the first-listed key question's topic.",
+   "table": {
+    "columns": ["Question", "Marks by topic", "Filed under", "Your decision"],
+    "rows": [
+     ["NJC 2024 P2 Q2 (slums, women, ocean cores, responses)", "3.1: 15 / 3.2: 15", "3.1"],
+     ["TJC 2025 P1 Q1 (India SDGs, trade, UK car network)", "1.1: 15 / 1.2: 15", "1.1"],
+     ["VJC 2025 P1 Q1 (rare earths, car industry, WTO)", "1.1: 15 / 1.2: 15", "1.1"],
+     ["RVHS 2026 P1 Q2 (tree cover, storage, Mekong delta)", "2.1: 15 / 2.2: 15", "2.1"],
+     ["SAJC 2026 P2 Q2 (liveability vs SUD, slums, ice cover, clouds)", "3.1: 15 / 3.2: 15", "3.1"],
+     ["TJC 2026 P2 Q2 (King's Cross, SDG scores, CO2 projections)", "3.1: 15 / 3.2: 15", "3.1"]
+    ]
+   }
+  },
+  {
+   "title": "5. To review: text and layout",
+   "note": "Places where the typed text or a diagram is not a plain copy of the paper.",
+   "table": {
+    "columns": ["School & Year", "What to check", "Your decision"],
+    "rows": [
+     ["CJC 2024 P1 R1, R2", "The world maps are printed sideways in the Insert; here they are turned upright under their headings."],
+     ["VJC 2026 P2 R5", "The infographic sits on a landscape page, so it appears smaller than other diagrams."],
+     ["SAJC 2025 P1 R4", "In the PDF made from the Word file, the axis labels 'Temperature' and 'Rainfall' are broken into short pieces."],
+     ["SAJC 2025 P1 R1", "Some parts of the cocoa infographic show as black boxes (from the Word-to-PDF conversion); check against the printed Insert."],
+     ["JPJC 2024 P1 R2A, SAJC 2026 P1 R6", "A black band shows at the foot of the crop (from the Word-to-PDF conversion)."],
+     ["Several", "Some crops still include '[Turn over' or a page number at the bottom."]
+    ]
+   }
+  },
+  {
+   "title": "6. To consider",
+   "bullets": [
+    "The file is large (61 MB). It could be split into three files, one per cluster, which would also suit revising one cluster at a time.",
+    "Group each topic further by key question. Many questions test four or five key questions, so this would mean listing a question more than once.",
+    "Add a contents list at the start (school and year, with page numbers), and start each question on a new page for printing."
+   ]
+  }
+ ]
+}
