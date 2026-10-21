@@ -1,6 +1,6 @@
 """Crop each 'Resource N ...' block of an Insert PDF into its own PNG.
 usage: crop_resources.py <insert.pdf> <outdir> [dpi]"""
-import re, sys, os
+import re, sys, os, subprocess
 import pdfplumber, pypdfium2 as pdfium
 
 pdf_path, outdir = sys.argv[1], sys.argv[2]
@@ -20,27 +20,51 @@ def lines_of(page):
         out.append((min(w['top'] for w in ws), max(w['bottom'] for w in ws), ' '.join(w['text'] for w in ws)))
     return out
 
+def trim_bands(im):
+    """Cut plain bands at the left/right edge (e.g. the grey comment margin of a PDF printed with Word markup)."""
+    from PIL import ImageStat
+    g = im.convert('L')
+    def plain(x):
+        col = g.crop((x, 0, x + 1, g.height))
+        lo, hi = col.getextrema()
+        return hi - lo < 8 and lo > 190
+    r = g.width
+    while r > 50 and plain(r - 1):
+        r -= 1
+    l = 0
+    while l < r - 50 and plain(l):
+        l += 1
+    if r < g.width - 20 or l > 20:
+        return im.crop((max(0, l - 8), 0, min(g.width, r + 8), im.height))
+    return im
+
+
 doc = pdfium.PdfDocument(pdf_path)
 with pdfplumber.open(pdf_path) as pdf:
     blocks = []  # (page_idx, top, label)
-    footers, tops, stop_pages = {}, {}, set()
+    footers, tops, stop_pages, stops = {}, {}, set(), {}
     for i, page in enumerate(pdf.pages):
         ls = lines_of(page)
         # content bottom = last line that isn't a page number / footer
-        body = [l for l in ls if not re.fullmatch(r'\s*(\d+|\[?Turn over\]?|©.*|.*\bPrelim.*\d{4}.*|\[?\d+\]?)\s*', l[2], re.I)]
+        body = [l for l in ls if not re.fullmatch(r'\s*(\d+|\[?Turn over\]?|©.*|.*\bPrelim.*\d{4}.*|\[?\d+\]?|end( of insert)?|'
+                                                  r'.*\b(8834|9173)\b.*|.*\bH[12] Geography\b.*|higher [12] geography.*)\s*', l[2], re.I)]
         bots = [l[1] for l in body]
         for obj in list(page.images) + list(page.rects) + list(page.curves) + list(page.lines):
-            if obj['top'] > page.height * 0.9:
+            if obj['top'] > page.height * 0.87:
                 continue   # logos/rules in the page footer
             if obj['bottom'] < page.height - 30 and (obj['bottom'] - obj['top']) < page.height * 0.9:
                 bots.append(obj['bottom'])
         footers[i] = (max(bots) + 6) if bots else page.height
+        stop = [l[0] for l in ls if l[0] > page.height * 0.4 and re.fullmatch(r'\s*(end( of (insert|paper))?|(re)?sources?|(copyright )?acknowledge?ments?)\s*:?\s*', l[2], re.I)]
+        if stop:   # 'End' / 'Sources' list below the last resource on the page
+            stops[i] = stop[0]
         tops[i] = min([l[0] for l in body] + [im['top'] for im in page.images]) if (body or page.images) else None
         txt = ' '.join(l[2] for l in ls).lower()
         if 'acknowledg' in txt or 'blank page' in txt or ('copyright' in txt and 'permission' in txt):
             stop_pages.add(i)
         short = [l for l in ls if len(l[2].replace(' ', '')) <= 3]
-        if len(ls) > 15 and len(short) > 0.5 * len(ls):
+        side = sum(1 for c in page.chars if abs(c['matrix'][1]) > 0.5)
+        if (len(ls) > 15 and len(short) > 0.5 * len(ls)) or (side > 20 and side > 0.5 * len(page.chars)):
             stop_pages.add(i)   # landscape (rotated) page: text reads as vertical letters, its heading isn't found
         for top, bot, text in ls:
             m = HEAD.match(text)
@@ -55,14 +79,16 @@ with pdfplumber.open(pdf_path) as pdf:
         nxt = blocks[n + 1] if n + 1 < len(blocks) else None
         page = pdf.pages[pi]
         bottom = nxt[1] - 4 if nxt and nxt[0] == pi else footers[pi]
+        if stops.get(pi, 0) > top + 20:
+            bottom = min(bottom, stops[pi] - 4)
         scale = dpi / 72
         img = doc[pi].render(scale=scale).to_pil()
         crop = img.crop((0, max(0, int((top - 6) * scale)), img.width, int(bottom * scale)))
         # trim white margins
         from PIL import ImageOps
         bbox = ImageOps.invert(crop.convert('L')).getbbox()
-        if bbox:
-            crop = crop.crop((max(0, bbox[0] - 10), 0, min(crop.width, bbox[2] + 10), crop.height))
+        if bbox:   # trim white margins left, right and below
+            crop = crop.crop((max(0, bbox[0] - 10), 0, min(crop.width, bbox[2] + 10), min(crop.height, bbox[3] + 12)))
         # resources spanning to next page with no new heading: append continuation
         parts = [crop]
         if nxt is None or nxt[0] > pi:
@@ -87,8 +113,37 @@ with pdfplumber.open(pdf_path) as pdf:
             for p in parts:
                 canvas.paste(p, (0, y)); y += p.height
             crop = canvas
-        crops.append([label, crop, text])
+        crops.append([label, trim_bands(crop), text])
+    # landscape pages (content turned sideways): heading from the rotated text, whole content area turned upright
     from PIL import Image
+    for pi in sorted(stop_pages):
+        page = pdf.pages[pi]
+        side = [c for c in page.chars if abs(c['matrix'][1]) > 0.5]   # text turned 90 degrees
+        words = subprocess.run(['pdftotext', '-raw', '-f', str(pi + 1), '-l', str(pi + 1), pdf_path, '-'],
+                               capture_output=True, text=True).stdout
+        words = ' '.join(words.split())
+        if len(side) < 10 or 'acknowledg' in words.lower() or any(b[0] == pi for b in blocks):
+            continue
+        heads = re.findall(r'Resources?\s+(\d+[A-Z]?)((?:\s*(?:,|and|&)\s*\d+[A-Z]?)*)\s+for\b', words)
+        if not heads:
+            continue
+        labels = []
+        for first, rest in heads:
+            labels += ['R' + first.upper()] + ['R' + x.upper() for x in re.findall(r'\d+[A-Z]?', rest)]
+        boxes = [(c['x0'], c['top'], c['x1'], c['bottom']) for c in side]
+        for obj in list(page.images) + list(page.rects) + list(page.curves) + list(page.lines):
+            if page.height * 0.06 < obj['top'] and obj['bottom'] < page.height * 0.93:
+                boxes.append((obj['x0'], obj['top'], obj['x1'], obj['bottom']))
+        x0, t0 = max(0, min(b[0] for b in boxes) - 6), max(0, min(b[1] for b in boxes) - 6)
+        x1, t1 = min(page.width, max(b[2] for b in boxes) + 6), min(page.height, max(b[3] for b in boxes) + 6)
+        scale = dpi / 72
+        img = doc[pi].render(scale=scale).to_pil().crop((int(x0 * scale), int(t0 * scale), int(x1 * scale), int(t1 * scale)))
+        m = side[0]['matrix']
+        img = img.rotate(-90 if m[1] > 0 else 90, expand=True)   # text running upwards -> turn clockwise
+        crops.append([labels[0], img, f'(landscape page {pi + 1}) ' + ', '.join(labels)])
+        for extra in labels[1:]:
+            open(os.path.join(outdir, f'{extra}.alias'), 'w').write(labels[0])
+    crops.sort(key=lambda c: [int(re.match(r'R(\d+)', c[0]).group(1)), c[0]])
     merged = []
     for i, (label, crop, text) in enumerate(crops):
         nxt = crops[i + 1] if i + 1 < len(crops) else None

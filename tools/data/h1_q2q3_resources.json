@@ -1,0 +1,432 @@
+{
+ "ACJC_2024_Q2": [
+  "img/2024_ACJC_H1/R4.png",
+  "img/2024_ACJC_H1/R5.png"
+ ],
+ "ACJC_2024_Q3": [
+  "img/2024_ACJC_H1/R6.png",
+  "img/2024_ACJC_H1/R7.png",
+  "img/2024_ACJC_H1/R8.png"
+ ],
+ "ASRJC_2024_Q2": [
+  "img/2024_ASRJC_H1/R4.png",
+  "img/2024_ASRJC_H1/R5A.png",
+  "img/2024_ASRJC_H1/R6.png"
+ ],
+ "ASRJC_2024_Q3": [
+  "img/2024_ASRJC_H1/R7.png",
+  "img/2024_ASRJC_H1/R8.png",
+  "img/2024_ASRJC_H1/R9.png",
+  "img/2024_ASRJC_H1/R10A.png",
+  "img/2024_ASRJC_H1/R10B.png"
+ ],
+ "CJC_2024_Q2": [
+  "img/2024_CJC_H1/R4.png",
+  "img/2024_CJC_H1/R5.png"
+ ],
+ "CJC_2024_Q3": [
+  "img/2024_CJC_H1/R6.png",
+  "img/2024_CJC_H1/R7.png",
+  "img/2024_CJC_H1/R8.png"
+ ],
+ "DHS_2024_Q2": [
+  "img/2024_DHS_H1/R4A.png",
+  "img/2024_DHS_H1/R4B.png",
+  "img/2024_DHS_H1/R5A.png",
+  "img/2024_DHS_H1/R5B.png"
+ ],
+ "DHS_2024_Q3": [
+  "img/2024_DHS_H1/R6.png",
+  "img/2024_DHS_H1/R7.png",
+  "img/2024_DHS_H1/R8A.png",
+  "img/2024_DHS_H1/R8B.png"
+ ],
+ "EJC_2024_Q2": [
+  "img/2024_EJC_H1/R5.png",
+  "img/2024_EJC_H1/R6A.png",
+  "img/2024_EJC_H1/R6B.png"
+ ],
+ "EJC_2024_Q3": [
+  "img/2024_EJC_H1/R7A.png",
+  "img/2024_EJC_H1/R8.png",
+  "img/2024_EJC_H1/R9.png",
+  "img/2024_EJC_H1/R10.png"
+ ],
+ "HCI_2024_Q2": [
+  "img/2024_HCI_H1/R4.png",
+  "img/2024_HCI_H1/R5.png",
+  "img/2024_HCI_H1/R6.png",
+  "img/2024_HCI_H1/R7.png"
+ ],
+ "HCI_2024_Q3": [
+  "img/2024_HCI_H1/R8.png",
+  "img/2024_HCI_H1/R9.png",
+  "img/2024_HCI_H1/R10.png"
+ ],
+ "JPJC_2024_Q2": [
+  "img/2024_JPJC_H1/R5.png",
+  "img/2024_JPJC_H1/R6A.png",
+  "img/2024_JPJC_H1/R6B.png",
+  "img/2024_JPJC_H1/R7.png"
+ ],
+ "JPJC_2024_Q3": [
+  "img/2024_JPJC_H1/R8.png",
+  "img/2024_JPJC_H1/R9.png"
+ ],
+ "NYJC_2024_Q2": [
+  "img/2024_NYJC_H1/R4.png",
+  "img/2024_NYJC_H1/R5.png",
+  "img/2024_NYJC_H1/R6.png"
+ ],
+ "NYJC_2024_Q3": [
+  "img/2024_NYJC_H1/R7.png",
+  "img/2024_NYJC_H1/R8.png",
+  "img/2024_NYJC_H1/R9.png"
+ ],
+ "SAJC_2024_Q2": [
+  "img/2024_SAJC_H1/R4.png",
+  "img/2024_SAJC_H1/R5.png",
+  "img/2024_SAJC_H1/R6.png"
+ ],
+ "SAJC_2024_Q3": [
+  "img/2024_SAJC_H1/R7.png",
+  "img/2024_SAJC_H1/R8.png",
+  "img/2024_SAJC_H1/R9.png"
+ ],
+ "TJC_2024_Q2": [
+  "img/2024_TJC_H1/R5.png",
+  "img/2024_TJC_H1/R6A.png",
+  "img/2024_TJC_H1/R6B.png",
+  "img/2024_TJC_H1/R7.png"
+ ],
+ "TJC_2024_Q3": [
+  "img/2024_TJC_H1/R8.png",
+  "img/2024_TJC_H1/R9.png",
+  "img/2024_TJC_H1/R10.png"
+ ],
+ "TMJC_2024_Q2": [
+  "img/2024_TMJC_H1/R4.png",
+  "img/2024_TMJC_H1/R5.png",
+  "img/2024_TMJC_H1/R6.png"
+ ],
+ "TMJC_2024_Q3": [
+  "img/2024_TMJC_H1/R7.png",
+  "img/2024_TMJC_H1/R8.png",
+  "img/2024_TMJC_H1/R9.png"
+ ],
+ "VJC_2024_Q2": [
+  "img/2024_VJC_H1/R4.png",
+  "img/2024_VJC_H1/R5.png",
+  "img/2024_VJC_H1/R6.png"
+ ],
+ "VJC_2024_Q3": [
+  "img/2024_VJC_H1/R7.png",
+  "img/2024_VJC_H1/R8.png",
+  "img/2024_VJC_H1/R9.png"
+ ],
+ "YIJC_2024_Q2": [
+  "img/2024_YIJC_H1/R4A.png",
+  "img/2024_YIJC_H1/R4B.png",
+  "img/2024_YIJC_H1/R5.png",
+  "img/2024_YIJC_H1/R6.png",
+  "img/2024_YIJC_H1/R7.png"
+ ],
+ "YIJC_2024_Q3": [
+  "img/2024_YIJC_H1/R8.png",
+  "img/2024_YIJC_H1/R9.png",
+  "img/2024_YIJC_H1/R10.png",
+  "img/2024_YIJC_H1/R11.png"
+ ],
+ "ACJC_2025_Q2": [
+  "img/2025_ACJC_H1/R5.png",
+  "img/2025_ACJC_H1/R6.png",
+  "img/2025_ACJC_H1/R7.png"
+ ],
+ "ACJC_2025_Q3": [
+  "img/2025_ACJC_H1/R8.png",
+  "img/2025_ACJC_H1/R9.png",
+  "img/2025_ACJC_H1/R10.png"
+ ],
+ "ASRJC_2025_Q2": [
+  "img/2025_ASRJC_H1/R4.png",
+  "img/2025_ASRJC_H1/R5.png",
+  "img/2025_ASRJC_H1/R6A.png",
+  "img/2025_ASRJC_H1/R6B.png"
+ ],
+ "ASRJC_2025_Q3": [
+  "img/2025_ASRJC_H1/R7.png",
+  "img/2025_ASRJC_H1/R8.png",
+  "img/2025_ASRJC_H1/R9A.png",
+  "img/2025_ASRJC_H1/R9B.png"
+ ],
+ "CJC_2025_Q2": [
+  "img/2025_CJC_H1/R5.png",
+  "img/2025_CJC_H1/R6.png",
+  "img/2025_CJC_H1/R7.png"
+ ],
+ "CJC_2025_Q3": [
+  "img/2025_CJC_H1/R8.png",
+  "img/2025_CJC_H1/R9.png",
+  "img/2025_CJC_H1/R10.png"
+ ],
+ "DHS_2025_Q2": [
+  "img/2025_DHS_H1/R4.png",
+  "img/2025_DHS_H1/R5A.png",
+  "img/2025_DHS_H1/R5B.png",
+  "img/2025_DHS_H1/R5C.png",
+  "img/2025_DHS_H1/R6.png"
+ ],
+ "DHS_2025_Q3": [
+  "img/2025_DHS_H1/R7.png",
+  "img/2025_DHS_H1/R8.png",
+  "img/2025_DHS_H1/R9.png"
+ ],
+ "EJC_2025_Q2": [
+  "img/2025_EJC_H1/R4.png",
+  "img/2025_EJC_H1/R5.png"
+ ],
+ "EJC_2025_Q3": [
+  "img/2025_EJC_H1/R6.png",
+  "img/2025_EJC_H1/R7.png",
+  "img/2025_EJC_H1/R8.png"
+ ],
+ "HCI_2025_Q2": [
+  "img/2025_HCI_H1/R5.png",
+  "img/2025_HCI_H1/R6.png",
+  "img/2025_HCI_H1/R7A.png",
+  "img/2025_HCI_H1/R7B.png",
+  "img/2025_HCI_H1/R8.png"
+ ],
+ "HCI_2025_Q3": [
+  "img/2025_HCI_H1/R9.png",
+  "img/2025_HCI_H1/R10.png",
+  "img/2025_HCI_H1/R11.png"
+ ],
+ "JPJC_2025_Q2": [
+  "img/2025_JPJC_H1/R4.png",
+  "img/2025_JPJC_H1/R5.png",
+  "img/2025_JPJC_H1/R6.png"
+ ],
+ "JPJC_2025_Q3": [
+  "img/2025_JPJC_H1/R7.png",
+  "img/2025_JPJC_H1/R8.png",
+  "img/2025_JPJC_H1/R9.png",
+  "img/2025_JPJC_H1/R10.png"
+ ],
+ "NJC_2025_Q2": [
+  "img/2025_NJC_H1/R5.png",
+  "img/2025_NJC_H1/R6.png",
+  "img/2025_NJC_H1/R7.png"
+ ],
+ "NJC_2025_Q3": [
+  "img/2025_NJC_H1/R8A.png",
+  "img/2025_NJC_H1/R8B.png",
+  "img/2025_NJC_H1/R9.png"
+ ],
+ "NYJC_2025_Q2": [
+  "img/2025_NYJC_H1/R5.png",
+  "img/2025_NYJC_H1/R6.png",
+  "img/2025_NYJC_H1/R7.png",
+  "img/2025_NYJC_H1/R8.png"
+ ],
+ "NYJC_2025_Q3": [
+  "img/2025_NYJC_H1/R9.png",
+  "img/2025_NYJC_H1/R10.png",
+  "img/2025_NYJC_H1/R11.png"
+ ],
+ "SAJC_2025_Q2": [
+  "img/2025_SAJC_H1/R5.png",
+  "img/2025_SAJC_H1/R6.png",
+  "img/2025_SAJC_H1/R7.png"
+ ],
+ "SAJC_2025_Q3": [
+  "img/2025_SAJC_H1/R8.png",
+  "img/2025_SAJC_H1/R9.png",
+  "img/2025_SAJC_H1/R10.png"
+ ],
+ "TJC_2025_Q2": [
+  "img/2025_TJC_H1/R6.png",
+  "img/2025_TJC_H1/R7.png",
+  "img/2025_TJC_H1/R8.png"
+ ],
+ "TJC_2025_Q3": [
+  "img/2025_TJC_H1/R9.png",
+  "img/2025_TJC_H1/R10.png",
+  "img/2025_TJC_H1/R11.png"
+ ],
+ "TMJC_2025_Q2": [
+  "img/2025_TMJC_H1/R4.png",
+  "img/2025_TMJC_H1/R5.png"
+ ],
+ "TMJC_2025_Q3": [
+  "img/2025_TMJC_H1/R6.png",
+  "img/2025_TMJC_H1/R7.png"
+ ],
+ "VJC_2025_Q2": [
+  "img/2025_VJC_H1/R5.png",
+  "img/2025_VJC_H1/R6A.png",
+  "img/2025_VJC_H1/R6B.png",
+  "img/2025_VJC_H1/R7.png"
+ ],
+ "VJC_2025_Q3": [
+  "img/2025_VJC_H1/R8.png",
+  "img/2025_VJC_H1/R9.png",
+  "img/2025_VJC_H1/R10.png"
+ ],
+ "YIJC_2025_Q2": [
+  "img/2025_YIJC_H1/R4.png",
+  "img/2025_YIJC_H1/R5.png",
+  "img/2025_YIJC_H1/R6.png"
+ ],
+ "YIJC_2025_Q3": [
+  "img/2025_YIJC_H1/R7.png",
+  "img/2025_YIJC_H1/R8.png",
+  "img/2025_YIJC_H1/R9.png"
+ ],
+ "ACJC_2026_Q2": [
+  "img/2026_ACJC_H1/R5.png",
+  "img/2026_ACJC_H1/R6.png",
+  "img/2026_ACJC_H1/R7.png"
+ ],
+ "ACJC_2026_Q3": [
+  "img/2026_ACJC_H1/R8.png",
+  "img/2026_ACJC_H1/R9.png",
+  "img/2026_ACJC_H1/R10.png"
+ ],
+ "ASRJC_2026_Q2": [
+  "img/2026_ASRJC_H1/R4.png",
+  "img/2026_ASRJC_H1/R5.png",
+  "img/2026_ASRJC_H1/R6A.png",
+  "img/2026_ASRJC_H1/R6B.png"
+ ],
+ "ASRJC_2026_Q3": [
+  "img/2026_ASRJC_H1/R7.png",
+  "img/2026_ASRJC_H1/R8.png",
+  "img/2026_ASRJC_H1/R9.png",
+  "img/2026_ASRJC_H1/R10.png"
+ ],
+ "CJC_2026_Q2": [
+  "img/2026_CJC_H1/R5.png",
+  "img/2026_CJC_H1/R6.png",
+  "img/2026_CJC_H1/R7.png"
+ ],
+ "CJC_2026_Q3": [
+  "img/2026_CJC_H1/R8.png",
+  "img/2026_CJC_H1/R9.png"
+ ],
+ "DHS_2026_Q2": [
+  "img/2026_DHS_H1/R4.png",
+  "img/2026_DHS_H1/R5.png",
+  "img/2026_DHS_H1/R6.png"
+ ],
+ "DHS_2026_Q3": [
+  "img/2026_DHS_H1/R7.png",
+  "img/2026_DHS_H1/R8.png",
+  "img/2026_DHS_H1/R9.png",
+  "img/2026_DHS_H1/R10.png"
+ ],
+ "EJC_2026_Q2": [
+  "img/2026_EJC_H1/R5.png",
+  "img/2026_EJC_H1/R6.png",
+  "img/2026_EJC_H1/R7.png"
+ ],
+ "EJC_2026_Q3": [
+  "img/2026_EJC_H1/R8.png",
+  "img/2026_EJC_H1/R9.png",
+  "img/2026_EJC_H1/R10.png"
+ ],
+ "HCI_2026_Q2": [
+  "img/2026_HCI_H1/R4A.png",
+  "img/2026_HCI_H1/R4B.png",
+  "img/2026_HCI_H1/R5.png",
+  "img/2026_HCI_H1/R6.png"
+ ],
+ "HCI_2026_Q3": [
+  "img/2026_HCI_H1/R7.png",
+  "img/2026_HCI_H1/R8.png",
+  "img/2026_HCI_H1/R9.png"
+ ],
+ "JPJC_2026_Q2": [
+  "img/2026_JPJC_H1/R4A.png",
+  "img/2026_JPJC_H1/R4B.png",
+  "img/2026_JPJC_H1/R5.png",
+  "img/2026_JPJC_H1/R6.png"
+ ],
+ "JPJC_2026_Q3": [
+  "img/2026_JPJC_H1/R7.png",
+  "img/2026_JPJC_H1/R8.png",
+  "img/2026_JPJC_H1/R9.png"
+ ],
+ "NJC_2026_Q2": [
+  "img/2026_NJC_H1/R6.png",
+  "img/2026_NJC_H1/R7.png",
+  "img/2026_NJC_H1/R8.png"
+ ],
+ "NJC_2026_Q3": [
+  "img/2026_NJC_H1/R9.png",
+  "img/2026_NJC_H1/R10.png"
+ ],
+ "NYJC_2026_Q2": [
+  "img/2026_NYJC_H1/R5.png",
+  "img/2026_NYJC_H1/R6.png",
+  "img/2026_NYJC_H1/R7.png"
+ ],
+ "NYJC_2026_Q3": [
+  "img/2026_NYJC_H1/R8.png",
+  "img/2026_NYJC_H1/R9.png",
+  "img/2026_NYJC_H1/R10.png"
+ ],
+ "RI_2026_Q2": [
+  "img/2026_RI_H1/R5.png",
+  "img/2026_RI_H1/R6A.png",
+  "img/2026_RI_H1/R6B.png",
+  "img/2026_RI_H1/R7.png"
+ ],
+ "RI_2026_Q3": [
+  "img/2026_RI_H1/R8.png",
+  "img/2026_RI_H1/R9.png",
+  "img/2026_RI_H1/R10.png"
+ ],
+ "SAJC_2026_Q2": [
+  "img/2026_SAJC_H1/R5.png",
+  "img/2026_SAJC_H1/R6.png",
+  "img/2026_SAJC_H1/R7.png",
+  "img/2026_SAJC_H1/R8.png"
+ ],
+ "SAJC_2026_Q3": [
+  "img/2026_SAJC_H1/R9.png",
+  "img/2026_SAJC_H1/R10.png",
+  "img/2026_SAJC_H1/R11.png"
+ ],
+ "TJC_2026_Q2": [
+  "img/2026_TJC_H1/R5.png",
+  "img/2026_TJC_H1/R6.png",
+  "img/2026_TJC_H1/R7.png"
+ ],
+ "TJC_2026_Q3": [
+  "img/2026_TJC_H1/R8.png",
+  "img/2026_TJC_H1/R9.png",
+  "img/2026_TJC_H1/R10.png"
+ ],
+ "TMJC_2026_Q2": [
+  "img/2026_TMJC_H1/R4.png",
+  "img/2026_TMJC_H1/R5.png",
+  "img/2026_TMJC_H1/R6.png"
+ ],
+ "TMJC_2026_Q3": [
+  "img/2026_TMJC_H1/R7.png",
+  "img/2026_TMJC_H1/R8.png",
+  "img/2026_TMJC_H1/R9.png"
+ ],
+ "YIJC_2026_Q2": [
+  "img/2026_YIJC_H1/R5.png",
+  "img/2026_YIJC_H1/R6.png",
+  "img/2026_YIJC_H1/R7.png",
+  "img/2026_YIJC_H1/R8.png"
+ ],
+ "YIJC_2026_Q3": [
+  "img/2026_YIJC_H1/R9.png",
+  "img/2026_YIJC_H1/R10.png",
+  "img/2026_YIJC_H1/R11.png"
+ ]
+}

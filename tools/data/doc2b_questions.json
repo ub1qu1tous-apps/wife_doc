@@ -1,0 +1,4292 @@
+[
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.1b",
+   "1.2.2a",
+   "1.2.2b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the temperature change since the mid-19th century. Resource 5 shows the 20 largest contributors to cumulative carbon dioxide (CO2) emissions from 1850 to 2021."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the pattern of temperature anomalies shown in Resource 4.",
+    4
+   ],
+   [
+    "(b)",
+    "Compare the patterns of CO2 emissions from the top ten countries shown in Resource 5.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain why the areas showing the greatest increase in temperature in Resource 4 do not necessarily correspond to the countries with greatest CO2 emissions shown in Resource 5.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain two arguments that support the view that contemporary climate change is caused by human activities.",
+    4
+   ],
+   [
+    "(e)",
+    "Describe two natural causes of climate change leading to glacial and inter-glacial periods.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_ACJC_H1/R4.png",
+   "img/2024_ACJC_H1/R5.png"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2c",
+   "1.1.1b",
+   "1.1.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 6 shows photographs of the London docklands in 1968 and 2018. Resource 7 shows the population changes in the London docklands towns from 1801 to 2019. Resource 8 shows an article about Canary Wharf."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 6, describe the changes in the London docklands from 1968 to 2018.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain the economic reasons for urban reimaging efforts.",
+    4
+   ],
+   [
+    "(c)",
+    "Describe the changes in population in the London Dockland towns from 1801 to 2019 as shown in Resource 7.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 8, explain the impacts of urban reimaging on sustainable urban development.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain the tensions between sustainable urban development and liveability.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_ACJC_H1/R6.png",
+   "img/2024_ACJC_H1/R7.png",
+   "img/2024_ACJC_H1/R8.png"
+  ]
+ },
+ {
+  "school": "ASRJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b",
+   "1.1.1b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows population growth in urban and rural areas in more developed regions and less developed regions from 1950 to 2030.",
+   "Cañada Real is a 15-km informal settlement located in Madrid, Spain. With over 8000 inhabitants, most dwellers live below the poverty line in informal, low-quality housing. Resource 5 shows an aerial view of the Cañada Real settlement and an example of a dwelling in the settlement. Resource 6 provides information on the living conditions in the Cañada Real settlement."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 4, compare the population growth trends between more developed and less developed regions from 1950 to 2030.",
+    5
+   ],
+   [
+    "(b)",
+    "Explain one implication of urban population loss on progress towards sustainable urban development.",
+    3
+   ],
+   [
+    "(c)",
+    "With reference to Resource 5, describe the characteristics of the Cañada Real informal settlement.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resources 5 and 6, explain how the deprivations experienced by residents in the Cañada Real settlement can impact sustainable urban development.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain why slums may develop in urban areas of less developed countries.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_ASRJC_H1/R4.png",
+   "img/2024_ASRJC_H1/R5A.png",
+   "img/2024_ASRJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "ASRJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3c",
+   "1.1.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows the Gender Equality score by region, from 1975 – 2020. Resource 8 shows the hours spent on leisure, housework, and work by females and males in Japan, segmented by age group. Resource 9 shows the percentage difference in full-time earnings between men and women in selected OECD nations in 2016. Countries in the Organisation for Economic Co- operation and Development (OECD) are generally considered to be developed countries. Resource 10 depicts a strategy implemented in Tokyo, Japan to address issues faced by women living in the city."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain the difference between sustainable urban development and urban liveability.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 7, compare the Gender Equality score between the North America region and the Asia/Pacific region from 1975 – 2020.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain the importance of gender equality for cities to become more liveable.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 8 and Resource 9, explain how gender inequality impacts the well-being of women aged 20 to 50 in Japan.",
+    6
+   ],
+   [
+    "(e)",
+    "With reference to Resource 10, suggest how the strategy implemented addresses issues faced by women living in Tokyo, Japan.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_ASRJC_H1/R7.png",
+   "img/2024_ASRJC_H1/R8.png",
+   "img/2024_ASRJC_H1/R9.png",
+   "img/2024_ASRJC_H1/R10A.png",
+   "img/2024_ASRJC_H1/R10B.png"
+  ]
+ },
+ {
+  "school": "CJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2a",
+   "1.1.1c",
+   "1.1.2c",
+   "1.1.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 is a cartogram of world consumption in 2003. Resource 5 shows the changes in the management of all local authority collected waste and recycling rates in England from 2000-01 to 2021/22."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 4, describe the patterns of world consumption in 2003.",
+    4
+   ],
+   [
+    "(b)",
+    "Cite data from Resource 5 to describe the changes in England’s recycling from 2000-01 to 2021/22.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 5, suggest how England’s waste management has influenced its progress towards environmental sustainability.",
+    5
+   ],
+   [
+    "(d)",
+    "Suggest why urban reimaging may result in trade-offs.",
+    4
+   ],
+   [
+    "(e)",
+    "Using examples, explain why assessments of liveability are subjective.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_CJC_H1/R4.png",
+   "img/2024_CJC_H1/R5.png"
+  ]
+ },
+ {
+  "school": "CJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.2c",
+   "1.2.1c",
+   "1.2.2b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 6 is a map of sea surface height change from 1992 to 2019. Resource 7 shows mean global surface temperature anomalies from climate models and observations of surface temperature between 1970 and 2030 using a baseline average from 1900 to 2000. Resource 8 shows a map of the European Union showing percentage of people who think they have to move because of climate change."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite data from Resource 6 to describe changes in sea surface height between 1992 and 2019.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how human actions can lead to trends seen in Resource 7.",
+    5
+   ],
+   [
+    "(c)",
+    "Suggest reasons for the variations shown in Resource 8",
+    5
+   ],
+   [
+    "(d)",
+    "Explain one positive impact of climate change.",
+    2
+   ],
+   [
+    "(e)",
+    "Explain why the impact of climate change may be uncertain.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_CJC_H1/R6.png",
+   "img/2024_CJC_H1/R7.png",
+   "img/2024_CJC_H1/R8.png"
+  ]
+ },
+ {
+  "school": "DHS",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b",
+   "1.1.2c",
+   "1.1.1a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resources 4A and 4B show models of urban land use in developed and developing countries respectively. Resources 5A and 5B show Northumberland Street in the central business district of Newcastle-upon-Tyne before reimaging in 1979 and after reimaging in 2016. Newcastle-upon-Tyne is a large city in England, a developed country."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Compare the urban land-use models shown in Resources 4A and 4B.",
+    5
+   ],
+   [
+    "(b)",
+    "Suggest possible reasons for the locations of the slum housing seen in Resources 4A and 4B.",
+    4
+   ],
+   [
+    "(c)",
+    "Suggest reasons why developed countries such as England undertake urban reimaging efforts.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resources 5A and 5B, suggest ways in which the changes shown between 1979 and 2016 have improved sustainable development of Newcastle-upon-Tyne.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain the concept of sustainable development, as defined in ‘Our Common Future’.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_DHS_H1/R4A.png",
+   "img/2024_DHS_H1/R4B.png",
+   "img/2024_DHS_H1/R5A.png",
+   "img/2024_DHS_H1/R5B.png"
+  ]
+ },
+ {
+  "school": "DHS",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1b",
+   "1.2.2a",
+   "1.2.2b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 6 shows the changes to the position of the ice front of the Larsen B Ice Shelf, Antarctica, from 1947 to 2002. Resource 7 shows the number of people per country living on land expected to be below sea level by 2100. Resource 8A shows the temperature difference of mean sea surface temperature compared to the 20th century average between 60°N and 60°S from 1880 to 2020. Resource 8B shows the location of a population of American lobster in the North Atlantic between 1980 and 2020."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 6, describe the changes to the position of the ice front of the Larsen B Ice Shelf, Antarctica, from 1947 to 2002.",
+    5
+   ],
+   [
+    "(b)",
+    "Explain how changes in ice sheet and one other natural factor can influence temperatures through feedback mechanisms.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 7, describe the distribution of the number of people living on land predicted to be below sea level by 2100.",
+    5
+   ],
+   [
+    "(d)",
+    "Describe the changes in the mean sea surface temperatures compared to the 20th century average shown in Resource 8A.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 8B, suggest possible impacts of climate change on aquatic ecosystems.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_DHS_H1/R6.png",
+   "img/2024_DHS_H1/R7.png",
+   "img/2024_DHS_H1/R8A.png",
+   "img/2024_DHS_H1/R8B.png"
+  ]
+ },
+ {
+  "school": "EJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1b",
+   "1.2.1c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the relationship between temperature anomalies, atmospheric CO 2 (from Law Dome and Mauna Loa) and the number of sunspots from 1850 to 2000. Resource 6A shows the changes in low-level cloud cover from 1850 to 2005 while Resource 6B shows the changes in average surface temperature from 1850 to 2005."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Compare the key changes in temperature anomalies with sunspot numbers from 1850 to 2000 as shown in Resource 5.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 5, explain the key changes in temperature anomalies from 1850 to 2000.",
+    4
+   ],
+   [
+    "(c)",
+    "Using examples, explain the influence of human activities on the global carbon cycle.",
+    6
+   ],
+   [
+    "(d)",
+    "Describe the relationship between changes in low-level cloud cover and average surface temperature as shown in Resources 6A and 6B.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain how the increase in cloud cover could have affected global temperatures.",
+    3
+   ]
+  ],
+  "resources": [
+   "img/2024_EJC_H1/R5.png",
+   "img/2024_EJC_H1/R6A.png",
+   "img/2024_EJC_H1/R6B.png"
+  ]
+ },
+ {
+  "school": "EJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b",
+   "1.2.2b",
+   "1.1.3c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resources 7A and 7B show the geographical distribution of slum population across India districts and Mumbai wards respectively. Resource 8 shows the location of Dharavi slum in Mumbai, India. Resource 9 is a factsheet on some of the locations and their functions in Dharavi slum in Mumbai, India. Resource 10 shows an extract from a news article on how climate change has brought about challenges for women living in slums in India."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the distribution of slum population across India and Mumbai as shown in Resources 7A and 7B.",
+    5
+   ],
+   [
+    "(b)",
+    "Using Resources 8 and 9, explain why Dharavi might be attractive to slum dwellers.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how the development of slums can affect the natural environment.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 10, explain how climate change may cause issues for women living in slums.",
+    4
+   ],
+   [
+    "(e)",
+    "Using Resource 10, suggest how women can improve their lives in the slums.",
+    3
+   ]
+  ],
+  "resources": [
+   "img/2024_EJC_H1/R7A.png",
+   "img/2024_EJC_H1/R8.png",
+   "img/2024_EJC_H1/R9.png",
+   "img/2024_EJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "HCI",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2a",
+   "1.1.1b",
+   "1.1.1c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows urban growth in selected cities. Resource 5 shows urban population annual growth rates in primary cities and suburbs in New York and Boston metropolitan areas 2010 – 2020. Resource 6 shows some details of the Deonar dumping ground fire in Mumbai, India and its location within the Mumbai Metropolitan Region. Resource 7 shows solid waste production in Mumbai and Sweden and solid waste management by Tekniska Verken in Sweden."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite data to compare urban growth in selected cities shown in Resource 4.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resource 4, explain how demand may be placed on natural environments in Lagos and Mumbai.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 5, suggest the possible challenges faced by New York and Boston in progressing towards sustainable urban development.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 6, explain the limitations of landfills as a waste management strategy.",
+    6
+   ],
+   [
+    "(e)",
+    "With reference to Resource 7, suggest how less demand is placed on the environment when waste is viewed as a potential resource.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2024_HCI_H1/R4.png",
+   "img/2024_HCI_H1/R5.png",
+   "img/2024_HCI_H1/R6.png",
+   "img/2024_HCI_H1/R7.png"
+  ]
+ },
+ {
+  "school": "HCI",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.1c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows changes in global surface temperature between 1880 to 2020. Resource 9 shows effects of major drivers on biodiversity in Earth’s ecosystems. Resource 10 shows global warming and the tipping points of Earth’s climate systems."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite data from Resource 8 to describe the changes in global surface temperature for annual average and natural drivers only between 1880 and 2020.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 9, compare the effect of habitat change and climate change on biodiversity in ecosystems.",
+    5
+   ],
+   [
+    "(c)",
+    "Explain how ecosystems may be affected by contemporary climate change.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 10, describe the main effects of global warming on the Earth’s climate systems.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resources 8, 9 and 10, suggest how changes to aquatic and terrestrial ecosystems can impact humans.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2024_HCI_H1/R8.png",
+   "img/2024_HCI_H1/R9.png",
+   "img/2024_HCI_H1/R10.png"
+  ]
+ },
+ {
+  "school": "JPJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1c",
+   "1.1.1b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the percentage of the total population that lives in urban areas for selected world regions from 1990 to 2050 (projected). Resource 6A shows the ecological footprints of Athens, Greece and Cairo, Egypt. Resource 6B shows the biocapacity data for Greece and Egypt. Resource 7 shows Athens’ urban sustainability achievements between 2015 – 2023."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 5, describe the urban population changes in world regions between 1990 to 2050 (projected).",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 6A, compare the ecological footprint of Athens and Cairo.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resources 6A and 6B, describe the relationship between the ecological footprint of each city and the biocapacity of its country.",
+    3
+   ],
+   [
+    "(d)",
+    "Suggest ways in which these cities can reduce their ecological footprints.",
+    5
+   ],
+   [
+    "(e)",
+    "With reference to Resources 6 and 7, explain the possible future trends of Athens’ ecological footprint.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_JPJC_H1/R5.png",
+   "img/2024_JPJC_H1/R6A.png",
+   "img/2024_JPJC_H1/R6B.png",
+   "img/2024_JPJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "JPJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.2b",
+   "1.2.1b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows contributions of selected greenhouse gases to global warming since 1850. Resource 9 shows projected impacts of climate change for selected continents (millions of people) by 2080."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one natural factor that can influence temperature variability in the Quaternary period.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 8, describe the contribution of the different gases to global warming.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 8, explain how human factors are contributing to global warming.",
+    5
+   ],
+   [
+    "(d)",
+    "Using Resource 9, contrast the predicted impacts of climate change on Europe with those on Africa.",
+    3
+   ],
+   [
+    "(e)",
+    "Suggest why the major emitters of greenhouse gas emissions may suffer the least impact of climate change.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_JPJC_H1/R8.png",
+   "img/2024_JPJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "NYJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the proportion of global urban population living in slums (percentage) and total slum population (millions) between 2000 and 2020. Resource 5 is a photograph of Happyland, part of the Tondo slum in Manila. Resource 6 shows the relationship between GDP per capita and the prevalence of undernourishment and TB incidence per 100 000 population in 2021."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the changes in the global urban population living in slums between 2000 and 2020 as shown in Resource 4.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest reasons for the trends shown in Resource 4.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 5, describe three aspects of the deprivation experienced by slum dwellers in Tondo, Manila.",
+    3
+   ],
+   [
+    "(d)",
+    "Describe the relationship between GDP per capita and the prevalence of undernourishment and TB incidence as shown in Resource 6.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain how tuberculosis (TB) can spread in slums, such as that shown in Resource 5.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_NYJC_H1/R4.png",
+   "img/2024_NYJC_H1/R5.png",
+   "img/2024_NYJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "NYJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.2b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows the number of days with temperature increase above pre-industrial levels between 1990 to 2023. Resource 8 shows climate change impact on various aspects of nature. Resource 9 shows the global climate change vulnerability index in 2017."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the changes in temperature from 1990 to 2023 as shown in Resource 7.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 8, describe how climate change can impact nature in two areas.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how the two areas identified in part (b) can impact the human system.",
+    4
+   ],
+   [
+    "(d)",
+    "Describe the pattern of climate change vulnerability across the world in 2017 as shown in Resource 9.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 9, suggest why some countries are more vulnerable to climate change than others.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_NYJC_H1/R7.png",
+   "img/2024_NYJC_H1/R8.png",
+   "img/2024_NYJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "SAJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3a",
+   "1.1.2b",
+   "1.1.1a",
+   "1.1.1c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the City Liveability Index in March 2023. Resource 5 shows a slum in Kibera, Nigeria. Resource 6 shows the indicators of sustainability of a city in the United States of America, Pittsburgh, and the United States of America."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 4, describe the variations in liveability across space.",
+    4
+   ],
+   [
+    "(b)",
+    "Using examples, explain how the environment could affect the liveability of a place.",
+    6
+   ],
+   [
+    "(c)",
+    "With reference to Resource 5, explain the possible impact of slums on sustainable urban development.",
+    4
+   ],
+   [
+    "(d)",
+    "Compare the sustainability of Pittsburgh and the United States of America shown in Resource 6.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain why cities in developed countries are likely to have high ecological footprints.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_SAJC_H1/R4.png",
+   "img/2024_SAJC_H1/R5.png",
+   "img/2024_SAJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "SAJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1a",
+   "1.2.2a",
+   "1.2.1c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows a cross-section from the Mediterranean Sea to the Arctic Ocean under glacial and interglacial conditions. Resource 8 shows how the ice cap and the glacier limits changed with climate variability on Disko Island, Greenland. Resource 9 shows a graphical representation of ice coverage (in km2) on Disko Island, Greenland."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 7, describe the ways in which the transect changed between glacial and interglacial periods.",
+    6
+   ],
+   [
+    "(b)",
+    "Citing data from Resources 8 and 9, describe how ice coverage (i.e. ice caps and glacier limits) has changed in Disko Island, Greenland.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how the changes in (b) show past climate variability.",
+    2
+   ],
+   [
+    "(d)",
+    "Explain why the changes in ice coverage, such as those observed in Greenland shown in Resource 9 and elsewhere in the world, are of major concern to coastal communities.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain how human activities influence contemporary climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_SAJC_H1/R7.png",
+   "img/2024_SAJC_H1/R8.png",
+   "img/2024_SAJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "TJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1c",
+   "1.1.3a",
+   "1.1.2c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the city liveability index of cities in 2023. Resources 6A and 6B shows the changes before and after urban reimaging in Birmingham’s city centre. Resource 7 shows the resource flows depicting urban metabolism of Birmingham, United Kingdom."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 5, describe the distribution of cities based on their city liveability index in 2023.",
+    5
+   ],
+   [
+    "(b)",
+    "Using Resources 6A and 6B, contrast the changes shown in the centre of Birmingham.",
+    5
+   ],
+   [
+    "(c)",
+    "Using an example, explain how there is both complementarity and tension between sustainable urban development and liveability.",
+    3
+   ],
+   [
+    "(d)",
+    "Using Resource 7, describe the main patterns of resource flows depicting urban metabolism in Birmingham.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain how the demand placed on the environment by urban areas could result in environmental problems in surrounding areas.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_TJC_H1/R5.png",
+   "img/2024_TJC_H1/R6A.png",
+   "img/2024_TJC_H1/R6B.png",
+   "img/2024_TJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "TJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.2a",
+   "1.2.1b",
+   "1.2.2b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows the average solar radiation and average global surface temperature change, 1910-2010. Resource 9 shows the top emitter countries and their major sources of CO2 emissions. Resource 10 shows some possible consequences of contemporary climate change."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 8, compare the trends in average solar radiation and average global surface temperature change.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 9, describe the cumulative contributions of CO2 emissions by the top emitter countries between 1850-2021",
+    5
+   ],
+   [
+    "(c)",
+    "Explain how the global carbon cycle can be negatively impacted by human activities such as those shown in Resource 9.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 10, describe the main patterns of the possible consequences of contemporary climate change.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain how climate change could affect two groups of people differently in countries at lower levels of development.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2024_TJC_H1/R8.png",
+   "img/2024_TJC_H1/R9.png",
+   "img/2024_TJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "TMJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the percentage of global population living in urban areas by continent from 1950 to 2030. Resource 5 is a graph that depicts the relationship between urbanisation level and GDP per capita of some countries in the world. Resource 6 is an extract from the 2022 Sustainable Development Report."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the global urban population growth from 1950 to 2030 as shown in Resource 4.",
+    4
+   ],
+   [
+    "(b)",
+    "With evidence from Resource 5, state and explain the relationship between urbanisation level and GDP per capita.",
+    3
+   ],
+   [
+    "(c)",
+    "With reference to Resources 4 and 5, account for the high urbanisation level in the more developed regions.",
+    4
+   ],
+   [
+    "(d)",
+    "Referring to Resource 6, explain how high urbanisation level can affect the sustainable development of the world regions.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain how urban population loss leads to challenges in progressing towards sustainable urban development.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2024_TMJC_H1/R4.png",
+   "img/2024_TMJC_H1/R5.png",
+   "img/2024_TMJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "TMJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1c",
+   "1.2.2a",
+   "1.1.2a",
+   "1.2.1c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 is a map showing the global waste production in 2018. Resource 8 shows the total amount of waste generated by the different economic activities in Kazakhstan, Denmark and United Kingdom in 2018. Resource 9 traces the greenhouse gas emissions from the different waste treatment during the period 1965 to 2100."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the global distribution in waste generation in 2018 shown in Resource 7.",
+    4
+   ],
+   [
+    "(b)",
+    "Compare the total waste generation by the different economic activities in the three countries as shown in Resource 8.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain the challenges that cities face in reducing their plastic waste to achieve urban sustainability.",
+    4
+   ],
+   [
+    "(d)",
+    "Describe the changes in annual greenhouse gas emissions from the different types of waste treatment during the period 1965 to 2100 shown in Resource 9.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain how the increased greenhouse gas emissions from landfills could impact the environment negatively.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_TMJC_H1/R7.png",
+   "img/2024_TMJC_H1/R8.png",
+   "img/2024_TMJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "VJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2a",
+   "1.1.1c",
+   "1.1.2b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the changes in the Earth Overshoot Day from 1971 to 2024. Resource 5 shows waste disposed by types of settlements in Mthatha, South Africa. Resource 6 shows the locations of different types of settlements in Mthatha. Mthatha is a fast-growing city in South Africa."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain what is meant by ecological footprint.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resource 4, describe the change in the arrival of the Earth Overshoot Day between 1971 to 2024.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 5, compare the waste disposed by informal slum settlements and low-density residential settlements.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain the reasons for the development of slums in urban areas of countries at low levels of development.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resources 5 and 6, explain how Mthatha’s challenges in managing non-hazardous solid waste can limit its progress towards sustainable urban development.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_VJC_H1/R4.png",
+   "img/2024_VJC_H1/R5.png",
+   "img/2024_VJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "VJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.3b",
+   "1.2.2a",
+   "1.2.1b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows the percentage of carbon emissions from individual consumption by income groups. Resource 8 shows changes to the global carbon cycle from 2011 to 2020. Resource 9 shows a type of response to climate change."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the percentage of carbon dioxide emissions by income groups as seen in Resource 7.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 8, explain how humans have influenced the global carbon cycle from 2011 to 2020.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain the impact of changes to the global carbon cycle seen in Resource 8 on global temperatures and aquatic ecosystems.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain how changes in ice sheets can affect global temperatures through positive feedback mechanisms.",
+    4
+   ],
+   [
+    "(e)",
+    "Using Resource 9, explain the role of key actors in responding to climate change.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_VJC_H1/R7.png",
+   "img/2024_VJC_H1/R8.png",
+   "img/2024_VJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "YIJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Many creative industry parks ( ) are located on former industrial sites in Beijing's urban area. Amongst the creative spaces, 798 Art District (Dashanzi Art District) is one of the largest agglomeration of Chinese contemporary art communities on the site of a previous military industrial complex. It acted as a role model in the transformation of the Beijing Municipality from a national industrial city to an emerging global creative city and is located in the northeast corner of Beijing. In 2006, the industrial site was designated as one of 30 officially recognised industrial districts for cultural and creative industries. 798 District has now evolved into the third most visited destination in Beijing, after the Forbidden City and the Great Wall.",
+   "Resource 4A and 4B show photographs of 798 Art District before and after reimaging. Resource 5 shows a map of Beijing. Resource 6 shows the employment structure of cultural and creative industries in Beijing. Resource 7 is an interview extract with an artist who arrived at 798 District before 2005.",
+   "*Agglomeration means the clustering of activities."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 4, suggest why reimaging was necessary.",
+    4
+   ],
+   [
+    "(b)",
+    "Describe the spatial distribution of the creative industry parks in Beijing, using Resource 5.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 6, explain how changes in employment of the creative and cultural sector between 2007 and 2012 may affect economic development in Beijing.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resources 5 and 6, explain the role of the Beijing government in shaping the reimaging strategies?",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to all Resources, suggest the impact on sustainable urban development due to the agglomeration of the cultural and creative activities in 798 Art District.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_YIJC_H1/R4A.png",
+   "img/2024_YIJC_H1/R4B.png",
+   "img/2024_YIJC_H1/R5.png",
+   "img/2024_YIJC_H1/R6.png",
+   "img/2024_YIJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "YIJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.3c",
+   "1.2.1c",
+   "1.2.2c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "India holds the record for the highest ever recorded temperature of 53³C. 78% of the Indian population has personally experienced the effects of climate change. However, Climate Action Tracker's 2021 rating system revealed that India’s action on reducing carbon emissions and global warming was still ‘highly insufficient’.",
+   "Resource 8 shows the projected changes in global annual mean precipitation for the low and high emissions scenarios. Resource 9 shows the impact of climate change on India. Resource 10 shows the carbon emission per person of some countries. Resource 11 is an extract of a report from an official website of the United States government."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Compare the projected changes in global annual mean precipitation for the low emission (left) and high emission (right) scenarios in Resource 8.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 9, explain how climate change may threaten sustainable development in India.",
+    5
+   ],
+   [
+    "(c)",
+    "Account for the uncertainty over future impacts of climate change shown in Resource 9.",
+    3
+   ],
+   [
+    "(d)",
+    "Describe the carbon dioxide emission per person shown in Resource 10.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to the Resource 9, 10 and 11, explain why existing climate action by India may not be sufficient to respond to climate change.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2024_YIJC_H1/R8.png",
+   "img/2024_YIJC_H1/R9.png",
+   "img/2024_YIJC_H1/R10.png",
+   "img/2024_YIJC_H1/R11.png"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2a",
+   "1.1.2b",
+   "1.1.1c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the projected waste generation by region from 2016 to 2050. Resource 6 shows a landfill site. Resource 7 shows a slum in Manila, the Philippines."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 5, compare the waste generation by region from 2016 to 2050.",
+    5
+   ],
+   [
+    "(b)",
+    "Using Resource 6, describe the environmental problems that occur in areas surrounding landfills sites.",
+    3
+   ],
+   [
+    "(c)",
+    "With the use of examples, explain how cities can manage non-hazardous solid waste.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 7, describe the deprivations experienced by slum dwellers.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain the reasons for development of slums in urban areas of countries at lower levels of development.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_ACJC_H1/R5.png",
+   "img/2025_ACJC_H1/R6.png",
+   "img/2025_ACJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2b",
+   "1.2.1b",
+   "1.2.3a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows the extent of Arctic summer sea ice from 1979 to 2024. Resource 9 shows the variations in vulnerability to the impacts of climate change. Resource 10 shows the cumulative share of historical fossil carbon dioxide emissions by continents since 1860."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 8, explain the feedback mechanism leading to the changes to the extent of Arctic summer sea ice from 1979 to 2024.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 9, describe the variations in vulnerability to the impacts of climate change.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 9, explain why some places are more vulnerable to the impacts of climate change.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain how Resources 9 and 10 reflect climate injustice.",
+    4
+   ],
+   [
+    "(e)",
+    "Describe four adaptation strategies that have been used to reduce vulnerability to the impacts of climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_ACJC_H1/R8.png",
+   "img/2025_ACJC_H1/R9.png",
+   "img/2025_ACJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "ASRJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the percentage share of urban population living in slums for select regions from 1990 to 2014. Resource 5 shows the percentage share of urban population living in slums in Africa in 2014. Resource 6A shows a photograph of the Makoko informal settlement in Lagos, Nigeria. Resource 6B shows a photograph of the Kibera informal settlement in Nairobi, Kenya."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 4, compare the percentage of urban slum population between Sub-Saharan Africa and South Asia from 1990 to 2014.",
+    5
+   ],
+   [
+    "(b)",
+    "Describe the variations in the percentage share of urban population living in slums across Africa as seen in Resource 5.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 6A and 6B, suggest how the multiple deprivations experienced by slum dwellers may impact sustainable urban development.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain why slums may develop in urban areas of less developed countries.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain how the lives of slum dwellers in cities can be improved.",
+    3
+   ]
+  ],
+  "resources": [
+   "img/2025_ASRJC_H1/R4.png",
+   "img/2025_ASRJC_H1/R5.png",
+   "img/2025_ASRJC_H1/R6A.png",
+   "img/2025_ASRJC_H1/R6B.png"
+  ]
+ },
+ {
+  "school": "ASRJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2b",
+   "1.2.3a",
+   "1.2.2a",
+   "1.2.1b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows the annual mean sea level trend (mm/year) in the Western Pacific region from 1993 to 2024. Resource 8 shows the relationship between adaptative capacity index and exposure index of countries at different levels of development. Resource 9A and 9B shows two different coastal adaptation strategies in Fiji."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 7, describe the annual sea level trend in the western Pacific Ocean from 1993 to 2024.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how changes in the extent of ice sheets can influence contemporary climate change.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 8, describe the relationship between the adaptive capacity index and the exposure index of countries in relation to the different levels of development.",
+    4
+   ],
+   [
+    "(d)",
+    "Cite examples to explain why different groups of people have differences in climate change vulnerability.",
+    4
+   ],
+   [
+    "(e)",
+    "Using Resources 9A and 9B, compare the impacts of the two coastal adaptation strategies on the environment and local communities.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_ASRJC_H1/R7.png",
+   "img/2025_ASRJC_H1/R8.png",
+   "img/2025_ASRJC_H1/R9A.png",
+   "img/2025_ASRJC_H1/R9B.png"
+  ]
+ },
+ {
+  "school": "CJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3a",
+   "1.2.2a",
+   "1.1.3b",
+   "1.1.3c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "The EIU's index assesses 173 cities worldwide across 30 indicators, categorised into stability, healthcare, culture and environment, education and infrastructure.",
+   "Resource 5 shows a map depicting the world’s most and least liveable cities in 2025. Resource 6 shows the performance of the most liveable cities in the EIU categories, in 2025. Resource 7 shows a photograph of a street in Vancouver."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the distribution of the world’s most and least liveable cities in 2025 shown in Resource 5.",
+    4
+   ],
+   [
+    "(b)",
+    "Compare the performance of Copenhagen and Vancouver in the liveability categories shown in Resource 6.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how Copenhagen’s performance in liveability categories shown in Resource 6 can influence the well-being of elderly women in the city.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resources 6 and 7, suggest how Vancouver can improve its liveability.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain how climate change can impact liveability rankings.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_CJC_H1/R5.png",
+   "img/2025_CJC_H1/R6.png",
+   "img/2025_CJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "CJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2b",
+   "1.2.1c",
+   "1.2.1a",
+   "1.2.2a",
+   "1.2.2c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows the perceptions of countries on climate change. Resource 9 shows carbon dioxide emissions by income level from 1946 to 2023. Resource 10 shows changes in agricultural productivity because of climate change."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite data from Resource 8 to compare low- and high- income countries’ perceptions of climate change.",
+    5
+   ],
+   [
+    "(b)",
+    "Explain the evidence of past climate variability derived from proxy indicators.",
+    4
+   ],
+   [
+    "(c)",
+    "Describe the changes in carbon dioxide emissions over time shown in Resource 9.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 10, describe changes in agricultural productivity because of climate change.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain reasons for uncertainty over present and future impacts of contemporary climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_CJC_H1/R8.png",
+   "img/2025_CJC_H1/R9.png",
+   "img/2025_CJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "DHS",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b",
+   "1.1.1c",
+   "1.1.1a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the classification of the development status of countries by the Human Development Index (HDI) in 2022 and the sustainability indicators: World Biocapacity in 1961 and 2022 and the Ecological Footprint of countries in 2022. Resources 5A, 5B and 5C show the performance of three indicators of the slum deprivation index: sanitation, waste disposal and dwellings of slum settlements in the Lagos metropolis, Nigeria. Resource 6 shows a ‘highly deprived’ slum in the Lagos metropolis. The level of deprivation is based on the combined assessment of the indicators: sanitation, waste disposal and dwellings of the slum deprivation index."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the relationship between development and sustainability of the countries shown in Resource 4.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 4, explain the possible challenges for the countries, with very high development and low development, in achieving sustainable urban development.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 5A, 5B and 5C, describe the performance of the slum settlements as shown by the indicators of the slum deprivation index.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 6, explain the issues of deprivation the residents of such slums face.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain the challenges to manage slums such as those in the Lagos metropolis.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2025_DHS_H1/R4.png",
+   "img/2025_DHS_H1/R5A.png",
+   "img/2025_DHS_H1/R5B.png",
+   "img/2025_DHS_H1/R5C.png",
+   "img/2025_DHS_H1/R6.png"
+  ]
+ },
+ {
+  "school": "DHS",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.2a",
+   "1.2.3a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows annual carbon emissions by world region from 1850 to 2022. Resource 8 shows the mean annual global sea level change from 1992 to 2010. Resource 9 shows strategies that have been proposed to manage sea level rise in the low-lying South Pacific islands. The South Pacific islands are low-income countries and located in the southern Pacific Ocean."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 7, compare the changes in annual carbon emissions by world region from 1850 to 2022.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest reasons for the trends in carbon emissions recorded for Asia and China from 1850 to 2022.",
+    4
+   ],
+   [
+    "(c)",
+    "Describe the distribution of mean annual global sea level change shown in Resource 8.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain how global warming has resulted in sea level rise in the global oceans.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 9, explain the suitability of the proposed strategies to manage sea level rise in the South Pacific islands.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_DHS_H1/R7.png",
+   "img/2025_DHS_H1/R8.png",
+   "img/2025_DHS_H1/R9.png"
+  ]
+ },
+ {
+  "school": "EJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1b",
+   "1.1.3a",
+   "1.1.1a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the urban population growth by region from 1950 to 2050. Resource 5 shows the access to basic services and green spaces in selected cities in 2022."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain how the current level of technology can limit the ability of countries to meet present and future needs.",
+    4
+   ],
+   [
+    "(b)",
+    "Cite data from Resource 4 to describe the trends in urban population growth across world regions.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how urban growth shown in Resource 4 may influence progress towards sustainable urban development.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 5, compare the access to basic services and green spaces between cities of different income levels.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain the complementarity and tension between sustainable urban development and liveability.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2025_EJC_H1/R4.png",
+   "img/2025_EJC_H1/R5.png"
+  ]
+ },
+ {
+  "school": "EJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.3a",
+   "1.2.1a",
+   "1.2.2c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 6 shows the changes in sea ice concentration in the Arctic and Antarctic from March 2020 to September 2020. Resource 7 shows the changes in temperatures relative to global average in 2021. Resource 8 shows the Melbourne Skyfarm, a 2000-square metre urban rooftop farm in Melbourne, Australia."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain how the study of ocean cores indicates evidence of past climate variability.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 6, compare the changes in the Arctic and Antarctic Sea ice concentration from March 2020 to September 2020.",
+    4
+   ],
+   [
+    "(c)",
+    "Describe the temperature change relative to global average shown in Resource 7.",
+    5
+   ],
+   [
+    "(d)",
+    "Explain two reasons for uncertainty over the present and future impacts of contemporary climate change.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain how the strategies shown in Resource 8 can help cities respond to climate change.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2025_EJC_H1/R6.png",
+   "img/2025_EJC_H1/R7.png",
+   "img/2025_EJC_H1/R8.png"
+  ]
+ },
+ {
+  "school": "HCI",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b",
+   "1.1.1b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows share of urban population in total (%) in Africa. Resource 6 shows the population pyramid of Ethiopia in 2021. Resource 7A shows the Setegn Meda slum in Addis Ababa, Ethiopia. Resource 7B shows the Integrated Housing Development Programme (IHDP) housing – Jemo condominium - in Addis Ababa, Ethiopia. Resource 8 shows perceptions of residents on comfort and positive characteristics of IDHP housing in three cities in Ethiopia."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite data from Resource 5 to describe the changes in urban population across Africa between 1950 and 2010.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest how population characteristics shown in Resource 6 may influence urbanisation rates in Ethiopia.",
+    6
+   ],
+   [
+    "(c)",
+    "Compare the conditions of the two housing areas in Addis Ababa, Ethiopia shown in Resources 7A and 7B.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain the impact of multiple deprivations experienced by slum dwellers living in Addis Ababa, Ethiopia on sustainable urban development.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resources 7B and 8, suggest why the Integrated Housing Development Programme (IHDP) in Ethiopia may have limited success.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_HCI_H1/R5.png",
+   "img/2025_HCI_H1/R6.png",
+   "img/2025_HCI_H1/R7A.png",
+   "img/2025_HCI_H1/R7B.png",
+   "img/2025_HCI_H1/R8.png"
+  ]
+ },
+ {
+  "school": "HCI",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.3a",
+   "1.2.3c",
+   "1.2.2a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 9 shows the carbon dioxide emissions per person of various countries in 2023. Resource 10 shows the largest industry of each state in the United States by GDP. Resource 11 shows different ways of adapting to sea level rise."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Contrast the carbon dioxide emissions per person and population of the United States, China and India seen in Resource 9.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 10, suggest reasons for United States’ carbon dioxide emissions per person in Resource 9.",
+    5
+   ],
+   [
+    "(c)",
+    "Describe how sea level rise induced by climate change may affect coastal regions.",
+    3
+   ],
+   [
+    "(d)",
+    "With reference to Resource 11, explain the challenges of adapting to sea level rise.",
+    4
+   ],
+   [
+    "(e)",
+    "Using Resources 9 and 11, explain how adaptation and mitigation measures help manage the impacts of climate change.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_HCI_H1/R9.png",
+   "img/2025_HCI_H1/R10.png",
+   "img/2025_HCI_H1/R11.png"
+  ]
+ },
+ {
+  "school": "JPJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1c",
+   "1.1.2a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows waste generation at both global and projected levels. Resource 5 shows ecological footprints of Singapore and Sweden from 1973 to 2024. Resource 6 shows the trend of Singapore’s overall and domestic (household) recycling rate from 2014 to 2024."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 4, describe the spatial pattern of waste generation in 2016.",
+    3
+   ],
+   [
+    "(b)",
+    "Suggest possible reasons for the unequal increase in forecasted waste generation levels across different regions by 2050, as shown in Resource 4.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 5, compare the ecological footprints between Singapore and Sweden.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest why some cities in developed countries may have low ecological footprints.",
+    7
+   ],
+   [
+    "(e)",
+    "Explain how the trend of Singapore’s recycling rate as shown in Resource 6 may impact sustainable urban development.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_JPJC_H1/R4.png",
+   "img/2025_JPJC_H1/R5.png",
+   "img/2025_JPJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "JPJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.2b",
+   "1.2.1b",
+   "1.2.2c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows the sea ice age percentage within the Arctic Ocean for the week of 11–18 March from 1985 to 2022. Resource 8 shows the minimum extent of Arctic Sea ice from 1979 to 2024. Resource 9 shows current and northern sea routes. Resource 10 shows the projected changes in agricultural productivity due to climate change by 2080."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 7, compare the sea ice age percentage within the Arctic Ocean in 1985 and 2022.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 8, describe the trend in the minimum extent of Arctic Sea ice from 1979 to 2024.",
+    4
+   ],
+   [
+    "(c)",
+    "Outline how changes in ice sheets can affect temperatures through feedback mechanisms.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain why in-situ data on vast polar regions remains incomplete, and how this limits certainty in understanding future climate change impacts.",
+    4
+   ],
+   [
+    "(e)",
+    "Citing data from Resources 9 and 10, explain how contemporary climate change may affect different places in different ways.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_JPJC_H1/R7.png",
+   "img/2025_JPJC_H1/R8.png",
+   "img/2025_JPJC_H1/R9.png",
+   "img/2025_JPJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "NJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3a",
+   "1.1.1a",
+   "1.2.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the change in liveability scores from 2021 to 2022 in the European region, from a Locations Ratings Survey done by ECA International, a company that provides data, software and global mobility expertise to multinational companies. Resource 6 shows an infographic on Copenhagen, Denmark as a bike-friendly city. Resource 7 shows 7 of the 17 Sustainable Development Goals (SDGs) indexes by the OECD’s localised framework which normalises the SDG indicators from 0 to 100 – where 100 is the suggested end value of an indicator to be achieved by 2030."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 5, describe the change in liveability scores from 2021 to 2022 in the European region.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain the factors influencing the liveability of a place.",
+    5
+   ],
+   [
+    "(c)",
+    "Describe how strategies such as those implemented by Copenhagen shown in Resource 6 can help cities respond to contemporary climate change.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 7, compare the sustainability performance between Copenhagen, Denmark and Zurich, Switzerland.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resources 6 and 7, suggest possible challenges in progressing towards sustainable development.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2025_NJC_H1/R5.png",
+   "img/2025_NJC_H1/R6.png",
+   "img/2025_NJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "NJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1a",
+   "1.2.1c",
+   "1.2.2c",
+   "1.2.2a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8A shows atmospheric carbon dioxide levels from 800,000 years ago based on ice core data to current levels in 2025. Resource 8B shows global ocean heat content trends from 1955 to 2020. Resource 9 shows cloud feedback mechanisms."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 8A, describe how atmospheric carbon dioxide levels have changed over the past 800,000 years.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how ice cores serve as proxy indicators of past climate variability.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 8A and 8B, explain the significance of human activities on the global carbon cycle.",
+    5
+   ],
+   [
+    "(d)",
+    "Explain the impact of contemporary climate change on aquatic ecosystems.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 9, explain how clouds in a warming climate illustrate uncertainty over the future impact of contemporary climate change.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2025_NJC_H1/R8A.png",
+   "img/2025_NJC_H1/R8B.png",
+   "img/2025_NJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "NYJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b",
+   "1.1.1a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the number of people living in slums between 2000 to 2018. Resource 6 shows a photograph of a slum in Nairobi, Kenya. Resource 7 shows an infographic of SDG 11 on Making cities and human settlements inclusive, safe and resilient and sustainable. Resource 8 shows a photograph of a slum settlement in Africa before and after an in-situ upgrading project"
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the spatial distribution of people living in slums between 2000 to 2018 as shown in Resource 5.",
+    3
+   ],
+   [
+    "(b)",
+    "Explain the spatial pattern of slum distribution shown in Resource 5.",
+    5
+   ],
+   [
+    "(c)",
+    "Describe two visible features in Resource 6 that show the area has the characteristics of a slum.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resources 6 and 7, explain how slums hinder progress towards SDG 11 through their social and environmental impacts.",
+    6
+   ],
+   [
+    "(e)",
+    "Using Resource 8, explain how in-situ upgrading contributes to achieving sustainable urban development in slum areas.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_NYJC_H1/R5.png",
+   "img/2025_NYJC_H1/R6.png",
+   "img/2025_NYJC_H1/R7.png",
+   "img/2025_NYJC_H1/R8.png"
+  ]
+ },
+ {
+  "school": "NYJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2b",
+   "1.2.2a",
+   "1.2.3a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 9 shows contributors to Global Sea Level Rise between 2003 and 2014. Resource 10 is a map showing the degree of vulnerability of cities to climate change in 2018. Resource 11 shows imports and exports of energy products in Singapore between 2018 to 2023."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 9, describe the trends in global mean sea level and its contributing factors between 2003 and 2014.",
+    3
+   ],
+   [
+    "(b)",
+    "Explain the trends of the two main contributors to sea level rise between 2003 and 2014.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 10, describe the relationship between average annual % change in population growth (2018–2035) and climate change vulnerability across different regions.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 10, explain how future population growth influences climate change vulnerability across different regions.",
+    6
+   ],
+   [
+    "(e)",
+    "With reference to Resource 11, suggest measures that could help Singapore reduce its dependence on imported fossil fuels and shift towards low-carbon energy sources.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_NYJC_H1/R9.png",
+   "img/2025_NYJC_H1/R10.png",
+   "img/2025_NYJC_H1/R11.png"
+  ]
+ },
+ {
+  "school": "SAJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2c",
+   "1.1.3c",
+   "1.1.2b",
+   "1.1.1b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Yeongdo-gu is a district in Busan. Huinnyeol Culture Village is an urban reimaging project in Yeondo-gu.",
+   "Resource 5 shows Huinnyeol Culture Village in the 1950s. Resource 6 shows Huinnyeol Culture Village today. Resource 7 shows the population of selected districts in Busan in 5-year intervals between 2005 to 2020."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 5, explain why Huinnyeol Culture Village may be considered a slum in the 1950s.",
+    4
+   ],
+   [
+    "(b)",
+    "Compare the population changes of Haeundae-gu and Yeongdo-gu between 2005 and 2020 as shown in Resource 7.",
+    4
+   ],
+   [
+    "(c)",
+    "Differentiate between Huinnyeol Culture Village in the 1950s and today as shown in Resources 5 and 6.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain the possible impact that projects such as Huinnyeol Culture Village shown in Resource 6 can have on sustainable urban development.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain the impact of climate change on the liveability of less developed cities for women.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_SAJC_H1/R5.png",
+   "img/2025_SAJC_H1/R6.png",
+   "img/2025_SAJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "SAJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.1b",
+   "1.2.3a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows global temperature anomaly in 2022 compared to 1950-1980 average. Resource 9 shows projected average temperature increase and precipitation decrease in selected Asian cities until 2050. Resource 10 shows the impact of atmospheric carbon dioxide concentration on ocean."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using examples, explain how feedback mechanisms could result in temperature variability.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 8, describe the changes in the mass of icesheets of Greenland and Antarctica.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 9, compare the projected climate extremes that Asian cities will experience till 2050.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 10, explain the impacts of atmospheric carbon dioxide concentration on aquatic ecosystems.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain two adaptation strategies that can be implemented in cities near the coast to respond to contemporary climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_SAJC_H1/R8.png",
+   "img/2025_SAJC_H1/R9.png",
+   "img/2025_SAJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "TJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2a",
+   "1.1.1c",
+   "1.1.1b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 6 shows e-waste generated per person in 2019. Resource 7 shows the number of households reporting diseases at different distances from unplanned waste sites in Islamabad, Pakistan in 2021. Resource 8 shows a photograph of Allerton Waste Recovery Park in North Yorkshire, UK."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 6, describe the distribution of countries with 15.0 kg and above of e-waste generated per person.",
+    5
+   ],
+   [
+    "(b)",
+    "Explain the demand that urban areas with large ecological footprints place on natural environments.",
+    3
+   ],
+   [
+    "(c)",
+    "Using Resource 7, describe the relationship between diseases and distance from unplanned waste sites in Islamabad, Pakistan.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain how contemporary urban population trends in developed countries might affect progress towards sustainable development.",
+    4
+   ],
+   [
+    "(e)",
+    "Using Resource 8, explain the possible strengths and weaknesses of Allterton Waste Recovery Park as a waste management strategy.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_TJC_H1/R6.png",
+   "img/2025_TJC_H1/R7.png",
+   "img/2025_TJC_H1/R8.png"
+  ]
+ },
+ {
+  "school": "TJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2b",
+   "1.2.1c",
+   "1.2.2c",
+   "1.2.1b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 9 shows the role of human and natural drivers in global temperature change from 1850 to 2020. Resource 10 shows emissions of CO2 and the average national vulnerability of population to climate change, by country in 2019. Resource 11 shows the wide variations of future climate change predicted by modelling."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain how Resource 9 supports the view that human activities are the main cause of recent global warming.",
+    5
+   ],
+   [
+    "(b)",
+    "Explain how changes in thermohaline circulation could influence temperature variability during the Quaternary period.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 10, describe the relationship between emissions of CO2 and the average national vulnerability of population to climate change.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain two reasons why some countries are more vulnerable to the impacts of climate change than others.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 11, explain why there might be uncertainty over present and future impacts of contemporary climate change.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2025_TJC_H1/R9.png",
+   "img/2025_TJC_H1/R10.png",
+   "img/2025_TJC_H1/R11.png"
+  ]
+ },
+ {
+  "school": "TMJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1c",
+   "1.1.1b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the global ecological footprint distribution. Resource 5 shows urbanisation trends until 2030."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Define what is meant by the Ecological Footprint.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resource 4, describe the global ecological footprint distribution.",
+    3
+   ],
+   [
+    "(c)",
+    "With reference to Resource 4 and your own knowledge, explain why ecological footprint distribution differs globally.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 5, account for the urbanisation trends until 2030.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain how the observed trends in Resource 5 can hinder the achievement of sustainable urban development.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_TMJC_H1/R4.png",
+   "img/2025_TMJC_H1/R5.png"
+  ]
+ },
+ {
+  "school": "TMJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2c",
+   "1.2.1b",
+   "1.2.2a",
+   "1.2.1c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 6 shows the projected changes in mean annual precipitation between 1981- 2000 and 2081-2100 for Australia presented by two climate models, the Australian CSIRO-Mk3 6.0 model and the Chinese FGOALS G2 model. Resource 7 shows the consumption-based carbon emissions per capita of selected countries. Consumption-based emissions are national emissions that have been adjusted for trade. They are calculated as domestic (or ‘production-based’ emissions) emissions minus the emissions generated in the production of goods and services that are exported to other countries or regions, plus emissions from the production of goods and services that are imported."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Compare the projected changes in precipitation between the Australian CSIRO-Mk3 6.0 model and the Chinese FGOALS G2 model shown in Resource 6.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest possible reasons for the variations in future impacts of contemporary climate change such as those shown in Resource 6.",
+    5
+   ],
+   [
+    "(c)",
+    "Explain some impacts the precipitation changes projected by the CSIRO-Mk3 6.0 model may have on the terrestrial ecosystem of Australia.",
+    4
+   ],
+   [
+    "(d)",
+    "Describe the relationship between consumption-based carbon emissions and GDP per capita shown in Resource 7.",
+    3
+   ],
+   [
+    "(e)",
+    "Explain how natural factors could have led to temperature variations in the Quaternary Period.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2025_TMJC_H1/R6.png",
+   "img/2025_TMJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "VJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1b",
+   "1.1.2c",
+   "1.1.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 is a graph which shows the changes in urban population for 4 cities between 1950 to 2030. Resource 6A is a photograph of a section of the abandoned West Side Freight Line before its transformation into the High Line. Resource 6B are photographs of some sections of the elevated High Line after urban reimaging. Resource 7 is an excerpt of a news article on the High Line published in 2024."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 5, compare the changes in urban population of the 4 cities between 1950 to 2030.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how urban population loss influence progress towards sustainable urban development.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resources 6A and 6B, describe the changes in the area occupied by the High Line before and after urban reimaging.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resources 6B and 7, explain how the High Line urban reimaging project can lead to complementarity and tensions between sustainable urban development and liveability.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain two factors that contribute to varying success of urban reimaging strategies across places.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_VJC_H1/R5.png",
+   "img/2025_VJC_H1/R6A.png",
+   "img/2025_VJC_H1/R6B.png",
+   "img/2025_VJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "VJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.1a",
+   "1.2.1b",
+   "1.2.2a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows summer ice cover in the Northern Hemisphere 18,000 years ago and in the present day. Resource 9 shows the change in annual primary forest loss in Brazil from 2002 to 2023. Resource 10 shows surface air temperature anomalies in 2023 as compared with the 30-year average (1991-2020)."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 8, describe the changes to summer ice cover in the Northern Hemisphere from 18,000 years ago to present day.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how the observed changes to ice cover could have accelerated global warming.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 9, describe the change in annual primary forest loss in Brazil from 2002 to 2023.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain how deforestation and industrialisation can disrupt the global carbon cycle.",
+    6
+   ],
+   [
+    "(e)",
+    "Using Resource 10, describe surface air temperature anomalies in 2023.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_VJC_H1/R8.png",
+   "img/2025_VJC_H1/R9.png",
+   "img/2025_VJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "YIJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b",
+   "1.1.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the Slum Severity Index (SSI) in India, a household-level measure that captures multiple housing deprivations in a single index. It includes three additional housing amenities, namely the availability of kitchens and clean fuel, electricity, and bathrooms. These three additional housing amenities are not currently part of the UN-Habitat definition. Resource 5 shows a photograph of a slum in Mumbai, India. Resource 6 shows a slum improvement project in Mumbai, India."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 4, describe the pattern of Average Slum Severity Index (SSI) in India.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest two reasons why slums can develop in urban areas of a country like India.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 4 and Resource 5, explain the impact of multiple deprivations experienced by slum dwellers on sustainable urban development in cities like Mumbai, India.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 5 and Resource 6, account for the limited success of strategies used to improve the lives of slum dwellers.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain two factors affecting liveability in urban areas.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_YIJC_H1/R4.png",
+   "img/2025_YIJC_H1/R5.png",
+   "img/2025_YIJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "YIJC",
+  "year": 2025,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1b",
+   "1.2.2b",
+   "1.2.1c",
+   "1.2.2c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows the Greenland and Antarctic ice sheet mass balance change and contribution to global sea level from 1992 to 2020. Resource 8 shows the net greenhouse gas fluxes from forests between 2001 and 2019. Resource 9 shows the estimated impact on Gross Domestic Product (GDP) / Capita Growth due to climate change in 2100."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 7, describe the Greenland and Antarctic ice sheet mass balance change and contribution to global sea level from 1992 to 2020.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how changes in ice sheets can influence temperature through feedback mechanisms.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 8, explain how humans can influence the global carbon cycle.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 9, account for the variations in impacts of contemporary climate change on places.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain two reasons why there might be uncertainty over present and future impacts of contemporary climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2025_YIJC_H1/R7.png",
+   "img/2025_YIJC_H1/R8.png",
+   "img/2025_YIJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3a",
+   "1.1.3b",
+   "1.1.1a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the world’s 20 most liveable cities ranked. Resource 6 shows a news article on the proposed redevelopment of Gillman Barracks and Maju Forest. Resource 7 shows the changes in childless elderly people living alone from 2024 to 2050."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the distribution of the world’s 20 most liveable cities shown in Resource 5.",
+    5
+   ],
+   [
+    "(b)",
+    "Describe the factors influencing liveability of a place.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 6, explain the possible trade-offs between the different dimensions of sustainable urban development.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 7, describe the changes in childless elderly people living alone from 2024 to 2050.",
+    3
+   ],
+   [
+    "(e)",
+    "Suggest two strategies to address the issues faced by the elderly living in cities.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_ACJC_H1/R5.png",
+   "img/2026_ACJC_H1/R6.png",
+   "img/2026_ACJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.2c",
+   "1.2.3b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows the carbon dioxide emissions from fossil fuels and land-use change in the United States, China and Brazil from 1850 to 2024. Resource 9 shows the projected global greenhouse gas emissions and future warming scenarios varying by actions taken. Resource 10 shows the partnership between the World Wildlife Fund (WWF), a non-governmental organisation (NGO), and IKEA, a transnational corporation, in responding to climate change through the promotion of climate projects and sustainable business practices."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Compare the changes in carbon dioxide emissions from fossil fuels and land-use change among the United States, China and Brazil between 1980 and 2024, as shown in Resource 8.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 8, explain how humans have contributed to contemporary climate change.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 9, compare the future trends in the projected global greenhouse gas emissions under different scenarios.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 9, explain why future impacts of climate change are uncertain.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 10, explain how partnerships between firms and NGOs can enhance responses to climate change.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2026_ACJC_H1/R8.png",
+   "img/2026_ACJC_H1/R9.png",
+   "img/2026_ACJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "ASRJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2c",
+   "1.1.2a",
+   "1.1.1c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Bangkok is the capital city of Thailand, a less economically developed country. The city registered 9.1 million residents as of 2024.",
+   "Resource 4 shows waste generated in Bangkok, Thailand from 2003 to 2020. Resource 5 shows plastic leakage hotspots in a district in Bangkok, Thailand. Plastic leakage refers to plastic waste that escapes waste management systems in an area and accumulates in the surrounding environment. Resource 6A shows photographs of the Benjakitti Forest Park, a recently completed urban regeneration project located in central Bangkok. Resource 6B is an article on the Benjakitti Forest Park."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the trends in waste generation in Bangkok, Thailand from 2003 to 2020 as shown in Resource 4.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 4 and 5, suggest why waste management is important for Bangkok, Thailand.",
+    4
+   ],
+   [
+    "(c)",
+    "Suggest strategies that cities like Bangkok, Thailand can implement to manage waste sustainably.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain why urban reimaging is needed for cities in less economically developed countries.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 6, explain how the Benjakitti Forest Park contributes to the sustainable urban development of Bangkok, Thailand.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2026_ASRJC_H1/R4.png",
+   "img/2026_ASRJC_H1/R5.png",
+   "img/2026_ASRJC_H1/R6A.png",
+   "img/2026_ASRJC_H1/R6B.png"
+  ]
+ },
+ {
+  "school": "ASRJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.2b",
+   "1.2.3a",
+   "1.2.3c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "The Sahel is a semi-arid region in Northern Africa bordering the Sahara Desert, and includes less economically developed countries such as Senegal, Mali, Niger, and Nigeria. The population of the Sahel is rapidly increasing, projected to reach over 500 million in 2050.",
+   "Resource 7 shows the global distribution of areas of greatest concern from climate-related impacts of global warming. Resource 8 shows annual precipitation anomalies for the Sahel from 1915 to 2015. Resource 9 shows the projected impact of climate change on cereal productivity in 2080, as a percentage change from 2000. Resource 10 is an article on the impact of climate change on malaria transmission in African countries."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 7, describe the global distribution of areas of greatest concern from climate-related impacts of global warming.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 8, describe the differences in trends in annual precipitation anomalies for the Sahel between the period of 1915 to 1965 and the period of 1966 to 2015.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resources 8, 9 and 10, explain the impacts of climate change on the Sahel.",
+    6
+   ],
+   [
+    "(d)",
+    "Suggest how countries like those located in the Sahel could respond to climate change.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain the political and economic challenges in implementing strategies to respond to climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_ASRJC_H1/R7.png",
+   "img/2026_ASRJC_H1/R8.png",
+   "img/2026_ASRJC_H1/R9.png",
+   "img/2026_ASRJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "CJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3a",
+   "1.1.1a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 is a map showing changes in liveability rankings in Asia Pacific, from 2021 to 2022. Resource 6 shows the types of green spaces and their uses in Bueno Aires, Argentina. Resource 7 shows a reimagined street in New York City (before and after)."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the changes in liveability rankings in Asia Pacific shown in Resource 5.",
+    4
+   ],
+   [
+    "(b)",
+    "Compare the uses across the types of green spaces as shown in Resource 6.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how the uses of green spaces shown in Resource 6 might influence sustainable urban development in Bueno Aires.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 7, describe the features that might improve liveability for New York City residents.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain why liveability assessments are subjective.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2026_CJC_H1/R5.png",
+   "img/2026_CJC_H1/R6.png",
+   "img/2026_CJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "CJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.3c",
+   "1.2.2a",
+   "1.2.2b",
+   "1.2.3b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows the impact of climate change on the world’s biggest economies in 2048. Resource 9 shows the climate protection performance of countries in 2023."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite data from Resource 8 to describe the impact of climate change on the world’s biggest economies.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain the impacts of contemporary climate change on aquatic and terrestrial ecosystems.",
+    5
+   ],
+   [
+    "(c)",
+    "Describe the variations in climate protection performance across regions as shown in Resource 9.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest reasons for the variations in climate protection performance as shown in Resource 9.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain the roles of firms and non-governmental organisation (NGOs) in climate change response.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_CJC_H1/R8.png",
+   "img/2026_CJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "DHS",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2b",
+   "1.2.1c",
+   "1.2.1a",
+   "1.2.2c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the maximum continental and sea ice cover in the Northern Hemisphere during the Last Glacial Maximum and today. Resource 5 shows the projected percentage change in Gross Domestic Product per capita (GDP per capita) in countries due to climate change. Resource 6 shows a map of countries with ocean pH monitoring equipment."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 4, compare the maximum continental and sea ice cover in the Northern Hemisphere during the Last Glacial Maximum with that of today.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain the role of human activities in accelerating the warming of the atmosphere through positive feedbacks.",
+    5
+   ],
+   [
+    "(c)",
+    "Using Resource 5, describe the distribution of the projected percentage change in Gross Domestic Product per capita (GDP per capita) as a result of climate change.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 5, explain the distribution of the projected percentage change in Gross Domestic Product per capita (GDP per capita) as a result of climate change.",
+    5
+   ],
+   [
+    "(e)",
+    "With reference to Resource 6, suggest reasons for the uncertainties over the present and future effects of climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_DHS_H1/R4.png",
+   "img/2026_DHS_H1/R5.png",
+   "img/2026_DHS_H1/R6.png"
+  ]
+ },
+ {
+  "school": "DHS",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1b",
+   "1.2.2b",
+   "1.1.2b",
+   "1.2.1c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows the percentage of population living in urban areas. Resource 8 shows the percentage change in size of urban area and population density in selected Indian cities from 2005 to 2020. Resource 9 shows a slum in Delhi, India. Resource 10 shows the percentage of slum houses with selected features before and after redevelopment in Delhi, India."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using data from Resource 7, describe the trends of the percentage of population living in urban areas.",
+    5
+   ],
+   [
+    "(b)",
+    "Using Resource 8, compare the percentage change in the size of urban area and population density across Indian cities from 2005 to 2020.",
+    3
+   ],
+   [
+    "(c)",
+    "Explain how cities with a large demand on the environment contribute to contemporary climate change.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 9, explain how the characteristics of the slum increases residents’ vulnerability to climate change.",
+    5
+   ],
+   [
+    "(e)",
+    "Using Resource 10, explain how slum redevelopment has improved the social well-being of slum residents in Delhi.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2026_DHS_H1/R7.png",
+   "img/2026_DHS_H1/R8.png",
+   "img/2026_DHS_H1/R9.png",
+   "img/2026_DHS_H1/R10.png"
+  ]
+ },
+ {
+  "school": "EJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.1c",
+   "1.1.2a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the regional waste generation (2016 to 2050). Resource 6 shows the Ecological Footprint by country (2018). Resource 7 shows an infographic on the Beverage Container Return Scheme in in Singapore."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 5, compare the forecasted regional waste generation between Sub-Saharan Africa and Europe & Central Asia.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 6, describe the global pattern of ecological footprint shown.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain the challenges that cities face in reducing their non-hazardous solid waste to achieve urban sustainability.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest why some cities in high income countries may have low ecological footprints.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 7, explain how the strategy shown can contribute to urban sustainability.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_EJC_H1/R5.png",
+   "img/2026_EJC_H1/R6.png",
+   "img/2026_EJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "EJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1a",
+   "1.2.3c",
+   "1.2.2b",
+   "1.2.1c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows the CO2 concentrations and Antarctic temperatures for the past 800,000 years. Resource 9 shows the global levels of climate vulnerability. Resource 10 is a cartoon depicting challenges in implementing strategies in response to climate change."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 8, describe the relationship between CO2 concentrations and Antarctic temperatures over the past 800 000 years.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how ice cores provide evidence of past climate variability.",
+    3
+   ],
+   [
+    "(c)",
+    "Explain how the increased concentration of greenhouse gases can contribute to contemporary climate change.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 9, suggest why climate vulnerability differs between the regions shown.",
+    5
+   ],
+   [
+    "(e)",
+    "With reference to Resource 10, explain the challenges in implementing strategies in response to climate change.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2026_EJC_H1/R8.png",
+   "img/2026_EJC_H1/R9.png",
+   "img/2026_EJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "HCI",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3c",
+   "1.1.2c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4A shows different mobility patterns between women and men in Vienna. Resource 4B shows different activities of the unpaid reproductive work performed by women and men in Vienna. Resource 5 shows the level of satisfaction of women living in Vienna with their living situation in 2022. Resource 6 shows Vienna’s measures for a 15-minute city."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the distribution of mobility patterns and activities of unpaid reproductive work between women and men shown in Resources 4A and 4B.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 5, cite data to compare the level of satisfaction of women living in Vienna with the aspects of their living situation.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how gender equality contributes to progress towards liveable cities.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest how the concept of a 15-minute city and micromobility shown in Resource 6 may address the needs of women in Vienna shown in Resources 4A, 4B and 5.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain why the success in urban reimaging strategies may vary across places.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_HCI_H1/R4A.png",
+   "img/2026_HCI_H1/R4B.png",
+   "img/2026_HCI_H1/R5.png",
+   "img/2026_HCI_H1/R6.png"
+  ]
+ },
+ {
+  "school": "HCI",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.2a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows Antarctic daily sea ice extent 1981-2010 average, 2023 and 2025. Resource 8 shows dominant drivers of tree loss by region, 2001 – 2025. Resource 9 shows the process of melting ice sheets."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite data to describe the Antarctic daily sea ice extent for 2025, 2023 and 1981-2010 average shown in Resource 7.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest reasons for the Antarctic daily sea ice extent in 2023 shown in Resource 7.",
+    4
+   ],
+   [
+    "(c)",
+    "Compare the dominant drivers of tree loss by region shown in Resource 8.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resources 8 and 9, explain how positive feedback may accelerate warming.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain why climate change in the past 200 years is likely caused by human activities.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_HCI_H1/R7.png",
+   "img/2026_HCI_H1/R8.png",
+   "img/2026_HCI_H1/R9.png"
+  ]
+ },
+ {
+  "school": "JPJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2c",
+   "1.1.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4A shows Warton Road in Stratford, East London, in 2005, before reimaging. Resource 4B shows the same location in 2012, after reimaging. Resource 5 shows changes in selected land uses in East London from 2005 to 2015. Resource 6 shows the Olympic Park and surrounding areas in East London during the London 2012 Olympic Games and in 2015."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain the economic reasons for urban reimaging efforts.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resources 4A and 4B, describe the changes to the built environment along Warton Road, Stratford, from 2005 to 2012.",
+    3
+   ],
+   [
+    "(c)",
+    "Explain how the changes to the built environment as shown in Resources 4A and 4B may improve the liveability of Stratford, East London.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resources 5 and 6, explain how the London 2012 Olympic Games has contributed to sustainable urban development.",
+    6
+   ],
+   [
+    "(e)",
+    "Using named example(s), suggest why urban reimaging strategies may be unsuccessful.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_JPJC_H1/R4A.png",
+   "img/2026_JPJC_H1/R4B.png",
+   "img/2026_JPJC_H1/R5.png",
+   "img/2026_JPJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "JPJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.2c",
+   "1.2.1c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows global sea surface temperature anomalies, March 2024. Resource 8 shows an article on the impacts of climate change on aquatic ecosystems. Resource 9 shows projected global mean sea-level rise under different greenhouse gas emissions scenarios."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 7, describe the global sea surface temperature anomalies in March 2024.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest how contemporary climate change may accelerate warming through positive feedbacks.",
+    3
+   ],
+   [
+    "(c)",
+    "With reference to Resource 8, explain how changes in aquatic ecosystems as a result of contemporary climate change can affect humans.",
+    7
+   ],
+   [
+    "(d)",
+    "Using Resource 9, compare possible pathways for future sea level rise under different greenhouse gas emissions scenarios.",
+    4
+   ],
+   [
+    "(e)",
+    "Suggest reasons why projections of future sea-level rise remain uncertain.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_JPJC_H1/R7.png",
+   "img/2026_JPJC_H1/R8.png",
+   "img/2026_JPJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "NJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2c",
+   "1.1.1c"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 6 shows the location of four waterfront redevelopment projects in Shanghai, China. Resource 7 shows a comparison of the four waterfront redevelopment projects. Resource 8 shows a view of the Pudong financial district in Shanghai in 1987 and 2013."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resources 6 and 7, compare the four waterfront redevelopment projects in Shanghai.",
+    5
+   ],
+   [
+    "(b)",
+    "Suggest reasons for the different development strategies used.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 8, compare the financial district of Pudong before and after the redevelopment.",
+    4
+   ],
+   [
+    "(d)",
+    "Account for the varying success of urban reimaging strategies across cities.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain the demand placed on natural environments by urban areas.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_NJC_H1/R6.png",
+   "img/2026_NJC_H1/R7.png",
+   "img/2026_NJC_H1/R8.png"
+  ]
+ },
+ {
+  "school": "NJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.1c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 9 shows the indicators of global climate change over the last 2024 years. Resource 10 shows the simulated annual mean precipitation changes relative to 1850– 1900 at global warming level of 2°C."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 9, describe the indicators of global climate change over the last 2024 years.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain why atmospheric carbon dioxide levels are increasing.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 10, describe the simulated annual mean precipitation changes.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest possible reasons for the changes shown in Resource 10.",
+    5
+   ],
+   [
+    "(e)",
+    "Describe how the impact of climate change on aquatic and terrestrial ecosystems may affect humans.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2026_NJC_H1/R9.png",
+   "img/2026_NJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "NYJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2c",
+   "1.1.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the spatial variation in average house prices (£) across the Netherlands in 2022. Resource 6 shows the changes to a neighbourhood in the Netherlands before and after urban reimaging. Resource 7 shows the Urban Renewal Matrix, which presents the social, economic and physical outcomes of urban renewal."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 5, describe the spatial variation in average house prices (£) across the Netherlands in 2022.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resource 5, explain possible reasons for the spatial variation in average house prices across the Netherlands in 2022.",
+    6
+   ],
+   [
+    "(c)",
+    "With reference to Resource 6, describe the changes to the physical environment resulting from urban reimaging.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 7, explain why the impacts of urban reimaging on local residents may be uneven.",
+    5
+   ],
+   [
+    "(e)",
+    "With reference to Resource 7, suggest two ways urban reimaging could be managed to improve the liveability of the neighbourhood for existing residents.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_NYJC_H1/R5.png",
+   "img/2026_NYJC_H1/R6.png",
+   "img/2026_NYJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "NYJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2b",
+   "1.2.2a",
+   "1.2.3a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows the climate change vulnerability across Southeast Asia, excluding Myanmar, where darker colours indicate higher levels of vulnerability. Resource 9 shows Estimated impacts of climate change across Southeast Asia. Resource 10 shows the spatial variation in adaptive capacity to climate change across Southeast Asia, where higher index values indicate greater adaptive capacity."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite data from Resource 8 to describe the spatial variation in climate change vulnerability across Southeast Asia.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 9, compare the estimated impacts of sea-level rise with those of a 2°C rise in temperature across Southeast Asia.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 9, explain two possible impacts associated with a 2°C rise in temperature across Southeast Asia.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 8 and 10, explain why countries in Southeast Asia may differ in their ability to cope with and adapt to the impacts of climate change.",
+    6
+   ],
+   [
+    "(e)",
+    "Suggest two adaptation strategies that could reduce the vulnerability of communities to climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_NYJC_H1/R8.png",
+   "img/2026_NYJC_H1/R9.png",
+   "img/2026_NYJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "RI",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3c",
+   "1.1.2c",
+   "1.2.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows how selected cities performed for 2023 Dell Women Entrepreneur and 2023 Mercer Quality of Life indices. Resource 6A shows the Stratford waterfront area in London, UK before the redevelopment project. Resource 6B shows the Stratford waterfront area in London, UK after the redevelopment project. Resource 7 shows the projected plan for Long Island in Singapore."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 5, describe the relationship between gender equality and urban liveability.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resources 6A and 6B, describe the changes to the Stratford waterfront area in London, UK.",
+    6
+   ],
+   [
+    "(c)",
+    "Using Resource 7, explain how strategies for climate change adaptation impact sustainable urban development.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain how urban reimaging may improve liveability for women.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2026_RI_H1/R5.png",
+   "img/2026_RI_H1/R6A.png",
+   "img/2026_RI_H1/R6B.png",
+   "img/2026_RI_H1/R7.png"
+  ]
+ },
+ {
+  "school": "RI",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1c",
+   "1.2.1a",
+   "1.2.2b",
+   "1.2.3c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows atmospheric CO2 concentration and Antarctictemperatures for the last 800,000 years. Resource 9 shows the feedback mechanism triggered by deforestation. Resource 10 shows a cartoon on climate change."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Cite relevant data from Resource 8 to explain how changes in atmospheric CO2 concentration provide evidence of climate variability.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 8, explain the effects of current CO2 concentration on the natural greenhouse effect.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain how deforestation affect global temperature through the feedback mechanism shown in Resource 9.",
+    5
+   ],
+   [
+    "(d)",
+    "Describe how the impacts of contemporary climate change may vary.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 10, explain the challenges in responding to climate change.",
+    3
+   ]
+  ],
+  "resources": [
+   "img/2026_RI_H1/R8.png",
+   "img/2026_RI_H1/R9.png",
+   "img/2026_RI_H1/R10.png"
+  ]
+ },
+ {
+  "school": "SAJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2b",
+   "1.1.3a",
+   "1.1.1b"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows a map of the Dharavi slum in Mumbai, India. Resource 6 shows a photograph of the living conditions in Dharavi slum. Resource 7 shows the population and growth rate of Mumbai from 1901 to 2001. Resource 8 shows an article excerpt on slum expansion and housing policies in Mumbai, India."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using examples, explain one tension and one complementarity that can arise between sustainable urban development and liveability.",
+    5
+   ],
+   [
+    "(b)",
+    "Using Resources 5 and 6, explain how living conditions in Dharavi present challenges to achieving sustainable urban development in Mumbai.",
+    4
+   ],
+   [
+    "(c)",
+    "Describe the population growth rate of Mumbai from 1901 to 2001 as shown in Resource 7.",
+    3
+   ],
+   [
+    "(d)",
+    "Explain why slums develop in urban areas of countries at low levels of development.",
+    5
+   ],
+   [
+    "(e)",
+    "Using Resource 8, explain the challenges in trying to improve the lives of slum dwellers in low-income cities, such as Mumbai.",
+    5
+   ]
+  ],
+  "resources": [
+   "img/2026_SAJC_H1/R5.png",
+   "img/2026_SAJC_H1/R6.png",
+   "img/2026_SAJC_H1/R7.png",
+   "img/2026_SAJC_H1/R8.png"
+  ]
+ },
+ {
+  "school": "SAJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2c",
+   "1.2.1b",
+   "1.2.1c",
+   "1.2.1a"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 9 shows changes in temperature and atmospheric carbon dioxide concentration over the past 800,000 years. Resource 10 shows the contribution of human and natural factors to observed global warming. Resource 11 shows projected global surface temperature change under three future emissions scenarios."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 9, describe the relationship between changes in temperature and atmospheric carbon dioxide concentration over the past 800 000 years.",
+    3
+   ],
+   [
+    "(b)",
+    "Explain how natural factors may cause changes in global temperature.",
+    6
+   ],
+   [
+    "(c)",
+    "With reference to Resource 10, explain why human activities are considered the main cause of contemporary climate change.",
+    5
+   ],
+   [
+    "(d)",
+    "Using Resource 11, compare the projected global surface temperature change under the three emissions scenarios.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 11, explain two reasons why there is uncertainty over the extent of future global warming.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_SAJC_H1/R9.png",
+   "img/2026_SAJC_H1/R10.png",
+   "img/2026_SAJC_H1/R11.png"
+  ]
+ },
+ {
+  "school": "TJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2c",
+   "1.1.2b",
+   "1.1.3a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows the share of the urban population living in slums by country in 2024. Resource 6 is a cartoon that shows the impact of urban reimaging. Resource 7 shows the changes in Dundee docklands after urban reimaging in Scotland."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 5, describe the global distribution of countries with more than 70% of their urban population living in slums in 2024.",
+    3
+   ],
+   [
+    "(b)",
+    "Explain why slums develop in rapidly urbanising cities.",
+    5
+   ],
+   [
+    "(c)",
+    "Using Resource 6, suggest the possible negative impacts of urban reimaging.",
+    5
+   ],
+   [
+    "(d)",
+    "Using Resource 7, describe the changes in the sustainability of Dundee docks before and after urban reimaging.",
+    5
+   ],
+   [
+    "(e)",
+    "With the use of example(s), explain how and why there might be tension between sustainable urban development and liveability.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_TJC_H1/R5.png",
+   "img/2026_TJC_H1/R6.png",
+   "img/2026_TJC_H1/R7.png"
+  ]
+ },
+ {
+  "school": "TJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.1a",
+   "1.2.2a",
+   "1.2.1c",
+   "1.2.2c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 8 shows atmospheric carbon dioxide concentrations over the past 800 000 years. Resource 9 shows the sources of greenhouse gas emissions in the United Kingdom (UK) and Ethiopia in 2023. Resource 10 shows the predicted changing extent of permafrost in northern Eurasia and North America."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 8, describe how atmospheric carbon dioxide concentration has changed over the past 800 000 years.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how ice and ocean cores provide evidence for past climate variability.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 9, compare the sources of greenhouse gas emissions in UK and Ethiopia in 2023.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 10, describe the predicted changes to the extent of permafrost in northern Eurasia and North America.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain why there is uncertainty over the future impacts of contemporary climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_TJC_H1/R8.png",
+   "img/2026_TJC_H1/R9.png",
+   "img/2026_TJC_H1/R10.png"
+  ]
+ },
+ {
+  "school": "TMJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.3a",
+   "1.1.1a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 4 shows the top 10 most liveable cities on the Economist Intelligence Unit’s Global Liveability Index for 2026. Resource 5 shows the map of the top 10 and bottom 10 cities based on Mercer’s Quality of Living City Ranking, 2024. Resource 6 shows China’s Urban Sustainability Indicators compared to developed world standards, 2022."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Define what is meant by Urban liveability?",
+    3
+   ],
+   [
+    "(b)",
+    "Describe the distribution of urban liveability shown in Resource 5.",
+    3
+   ],
+   [
+    "(c)",
+    "Suggest reasons for the differences in rankings of the most liveable cities between Resource 4 and Resource 5.",
+    6
+   ],
+   [
+    "(d)",
+    "Using Resource 6, describe China’s progress towards achieving social and environmental sustainability.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain how China’s progress towards social and environmental sustainability may impact the liveability of Chinese cities.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2026_TMJC_H1/R4.png",
+   "img/2026_TMJC_H1/R5.png",
+   "img/2026_TMJC_H1/R6.png"
+  ]
+ },
+ {
+  "school": "TMJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2a",
+   "1.2.3a",
+   "1.1.1a",
+   "1.1.3b"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 7 shows the changes in average temperature for Singapore from 1990 to 2026. Resource 8 shows the circles of sustainability for Beijing and Singapore. Resource 9 shows the rooftop garden of Kampong Admiralty, a vertical retirement village in Singapore. Development of such gardens are increasingly encouraged by the government as a response to climate change."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 7, describe the changes in average temperature for Singapore from 1990 to 2026.",
+    3
+   ],
+   [
+    "(b)",
+    "Suggest how the changes in temperature shown in Resource 7 may affect the liveability of Singapore.",
+    5
+   ],
+   [
+    "(c)",
+    "Compare the urban sustainability performance between Beijing and Singapore shown in Resource 8.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest how development of rooftop gardens such as that shown in Resource 9 may contribute to the sustainable urban development of Singapore.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain how complexes like Kampong Admiralty can contribute to the liveability of the elderly in Singapore.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_TMJC_H1/R7.png",
+   "img/2026_TMJC_H1/R8.png",
+   "img/2026_TMJC_H1/R9.png"
+  ]
+ },
+ {
+  "school": "YIJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q2",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q2",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.1.2a",
+   "1.1.1c",
+   "1.2.2a"
+  ],
+  "primary": "1.1",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 5 shows Singapore’s waste recycled (2015-2025). Resource 6 shows Singapore’s changing plastic waste (2014-2023). Resource 7 shows garbage and sewage waste pile up on Mumbai’s Juhu Beach. Resource 8 shows the changing Earth’s surface temperature (1850-2025)."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 5, describe the changes in Singapore's waste recycling rates between 2015 and 2025.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 6, explain why plastic waste remains a significant waste management challenge in Singapore.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 7, explain how the accumulation of plastic waste can reduce the liveability of nearby coastal communities.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resources 7 and 8, explain how climate change may worsen the impacts of plastic pollution on aquatic ecosystems.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain why no single waste management strategy can effectively address non hazardous solid waste problems.",
+    6
+   ]
+  ],
+  "resources": [
+   "img/2026_YIJC_H1/R5.png",
+   "img/2026_YIJC_H1/R6.png",
+   "img/2026_YIJC_H1/R7.png",
+   "img/2026_YIJC_H1/R8.png"
+  ]
+ },
+ {
+  "school": "YIJC",
+  "year": 2026,
+  "level": "H1",
+  "slot": "Q3",
+  "paper": "H1 Paper 1 (8834/01)",
+  "qno": "Q3",
+  "kind": "structured",
+  "marks": 22,
+  "topics": [
+   "1.2.2b",
+   "1.2.2a",
+   "1.2.1a",
+   "1.2.2c"
+  ],
+  "primary": "1.2",
+  "stem": [
+   "Section B — Cluster 1: Sustainable Future and Climate Change",
+   "Resource 9 shows the global climate risk index (2000-2019). Resource 10 shows some primary climate hazards. Resource 11 shows positive and negative climate feedback loop."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Using Resource 9, describe the spatial pattern of areas vulnerable to climate change.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 9 and 10, explain why some urban areas are more vulnerable to climate change than others.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain two positive impacts of contemporary climate change on places.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain why the study of ice cores provides convincing evidence of climate change.",
+    4
+   ],
+   [
+    "(e)",
+    "Using Resource 11, explain why there is uncertainty in projections of future climate change.",
+    4
+   ]
+  ],
+  "resources": [
+   "img/2026_YIJC_H1/R9.png",
+   "img/2026_YIJC_H1/R10.png",
+   "img/2026_YIJC_H1/R11.png"
+  ]
+ }
+]

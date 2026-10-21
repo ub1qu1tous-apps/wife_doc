@@ -14,7 +14,15 @@ MARKS = re.compile(r'\[\s*(\d{1,2})\s*(?:marks?)?\s*\]\s*$', re.I)
 
 def pdf_lines(pdf):
     txt = subprocess.run(['pdftotext', '-layout', pdf, '-'], capture_output=True, text=True).stdout
-    return txt.replace('\f', '\n').split('\n')
+    lines = txt.replace('\f', '\n').split('\n')
+    # a mark split over two lines ('... [6' / ']' or '... [' / '3]'): move the whole mark to the second line
+    for i in range(len(lines) - 1):
+        a = re.search(r'\s\[\s*(\d*)\s*$', lines[i])
+        b = re.match(r'^(.*?)\s*(\d*)\]\s*$', lines[i + 1])
+        if a and b and (a.group(1) + b.group(2)).isdigit() and not re.search(r'\[', b.group(1)):
+            lines[i] = lines[i][:a.start()]
+            lines[i + 1] = f'{b.group(1)}   [{a.group(1) + b.group(2)}]'
+    return lines
 
 
 def extract(pdf, qno, section_name):
@@ -29,15 +37,15 @@ def extract(pdf, qno, section_name):
     heading = [lines[sec_i].strip()] + [l.strip() for l in lines[sec_i + 1:start] if l.strip() and not FOOTER.search(l)]
     # end: next section heading, or the next question number at the same indent right after a mark
     indent = len(lines[start]) - len(lines[start].lstrip())
-    nxt = re.compile(rf'^\s{{{indent}}}{qno + 1}[.)]?\s+\S')
-    prev = ''
+    nxt = re.compile(rf'^\s{{{max(0, indent - 3)},{indent + 3}}}{qno + 1}[.)]?\s+\S')
+    marked = False   # a mark has been seen in this question (so a line starting 'qno+1' is not a stem line)
     end = len(lines)
     for i in range(start + 1, len(lines)):
-        if re.fullmatch(r'\s*section [b-d]\s*', lines[i], re.I) or (nxt.match(lines[i]) and MARKS.search(prev)):
+        if re.fullmatch(r'\s*section [b-d]\s*', lines[i], re.I) or (nxt.match(lines[i]) and marked):
             end = i
             break
-        if lines[i].strip() and not FOOTER.search(lines[i]):
-            prev = lines[i]
+        if lines[i].strip() and not FOOTER.search(lines[i]) and re.search(r'\[\s*\d{1,2}\s*(?:marks?)?\s*\]', lines[i], re.I):
+            marked = True
     body = [l for l in lines[start:end] if not FOOTER.search(l) or l.strip().startswith('(')]
     body[0] = re.sub(rf'^\s*{qno}[.)]?\s+', '', body[0])
 

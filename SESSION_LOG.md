@@ -3,13 +3,13 @@
 **Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it.
 
 **Task in progress (session 2):** build docs 2b, 2c, 2d, 2e, 2f (the user said "build all of them"), each with Review Notes. Build them one after another and commit + push after each.
-- Done: —
-- Next: 2b H1 Structured (H1 Q2–Q3).
+- Done: 2b (v0.8).
+- Next: 2c H1 Essay (H1 Q4–Q6), then 2d, 2e, 2f.
 - An hourly scheduled check-in (`trig_01GQooXWiM5ucgbmSySZBKG3`, :12 past each hour) is bound to this session. Delete it and clear this note when all five are done.
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, each with a `– Review Notes` companion. Still to build: 2b–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
-- **Current version:** v0.7
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.8.docx`, each with a `– Review Notes` companion. Still to build: 2c–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.8
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -17,6 +17,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.8 | 2026-10-21 | **Doc 2b full build**: H1 Structured questions by topic, 82 questions (full wording + 266 diagrams) |
 | v0.7 | 2026-10-21 | **Doc 1 rebuilt at syllabus key-question level** (all 716 questions; 38 pages) |
 | v0.6 (preview) | 2026-10-21 | Doc 1 preview at syllabus key-question level (ACJC 2024 row) |
 | v0.5 | 2026-10-21 | **Doc 2a full build**: H1 Fieldwork questions by topic, 41 questions (full wording + 166 resource images) |
@@ -284,3 +285,14 @@
 - Added a "Next session starts here" line at the top of this log.
 - User chose to put the rules on both branches. `CLAUDE.md` was also committed to `main`, identical to the branch copy, so a later merge has no conflict there. No other work went to `main`.
 - Files: `CLAUDE.md`, `SESSION_LOG.md`. Doc version unchanged (v0.7).
+
+### 2026-10-21 — Session 2: doc 2b (H1 Structured) full build v0.8
+- User: "build all of them" (2b–2f). Long-task note at the top of this log and an hourly check-in set up, per the new rule.
+- **Sources:** H1 manifest as for 2a. New `tools/h2_manifest.json` for the H2 docs (47 school-years). All 68 Word files converted to PDF.
+- **Wording:** `tools/pipeline/run_questions.py h1b` (Q2–Q3, Section B). Extractor fixes: marks split over two lines (TMJC 2026), next question at a different indent (SAJC 2024), part marks on the first line (TMJC 2024/2025). Q1 wording for 2a re-checked: unchanged.
+- **Checks:** all 82 questions have parts in order, marks summing to 22, and labels/marks matching the reading notes (`check_vs_notes.py`). No footer text left in the wording.
+- **Diagrams:** 266. Cropper now handles sideways pages (NYJC 2024, TJC 2024/2025, HCI 2026, YIJC 2026, EJC 2024), stops at 'End'/'Sources'/'Acknowledgements', drops more footers, trims bottom whitespace and the JPJC 2026 grey margin. Hand fixes in `manual_fixes.py`: EJC 2024 R7A/7B maps taken from the Word file (lost in conversion); TJC 2026 R5/R9 rebuilt from the Word file (shown sideways). All 266 checked by eye on contact sheets.
+- **Filing:** by topic with the most marks. 8 questions span 1.1 and 1.2; counted part by part, all agree with the first-listed key question (1.1: 43, 1.2: 39).
+- **Builder:** `topic_label` shows key-question names on each question's Syllabus line.
+- Output: `docs/2b H1 Structured Questions by Topic v0.8.docx` (204 pages, 28 MB) + `– Review Notes v0.8` (spec `tools/review/2b_h1_structured.json`). Data: `tools/data/doc2b_questions.json`, `tools/data/h1_q2q3_resources.json`.
+- Next: 2c H1 Essay.

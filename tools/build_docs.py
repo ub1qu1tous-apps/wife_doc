@@ -32,8 +32,11 @@ H2_SLOTS = [('P1 Q1', 'Cluster 1', 'Structured'), ('P1 Q2', 'Cluster 2', 'Struct
 
 
 def topic_label(level, code):
-    """'1.2.2' -> '1.2.2 Possible Effects of Climate Change'."""
-    return f"{code} {TOPICS[level]['subtopics'].get(code) or TOPICS[level]['topics'].get(code) or code}"
+    """'1.2.2' -> '1.2.2 Possible Effects of Climate Change'; key question '1.2.2b' -> '1.2.2b Possible Effects of ... – <KQ>'."""
+    t = TOPICS[level]
+    if code in t.get('kq', {}):
+        return f"{code} {t['subtopics'][code[:-1]]} – {t['kq'][code]}"
+    return f"{code} {t['subtopics'].get(code) or t['topics'].get(code) or code}"
 
 
 def short_label(level, code):
