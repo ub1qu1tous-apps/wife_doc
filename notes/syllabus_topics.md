@@ -57,3 +57,10 @@ Paper 2: Q1 = Cluster 4 Fieldwork; Q2 = Cluster 3 structured; Sec C Q3/Q4 = Clus
 ## Labelling convention
 - Cell/label = code + short name, e.g. `1.2.2 Effects of CC`; a structured question spanning sub-topics lists each, e.g. `1.2.1 Science of CC; 1.2.3 Responses to CC`.
 - Fieldwork = `Fieldwork – <area>`, e.g. `Fieldwork – Elderly needs`, `Fieldwork – CC response`, `Fieldwork – Flood risk`; if the scenario is outside the 2/3 syllabus areas, say so, e.g. `Fieldwork – Other (transport)`.
+
+## Key-question level (finer than sub-topic) — added v0.6
+Each sub-topic has three syllabus Key Questions, coded a/b/c in syllabus order, e.g. `1.1.1b` = SUD › "How do urban population trends influence progress towards SD?". Full list with short labels: `tools/syllabus_topics.json` → `kq`.
+- H1 1.1.1: a What is SD · b Urban population trends · c Demand on natural environments (H2 3.1.1a is "Measuring SUD" instead of a).
+- 1.1.2 / 3.1.2: a Waste · b Slums · c Reimaging. 1.1.3 / 3.1.3: a SUD & liveability · b Elderly · c Women.
+- 1.2.1 / 3.2.1: a Past variability · b Natural factors · c Human influence. 1.2.2 / 3.2.2: a Impacts on ecosystems & humans · b Uneven impacts · c Uncertainty. 1.2.3 / 3.2.3: a Mitigation & adaptation · b Key actors · c Success & challenges.
+- H2 Cluster 1–2: see JSON (e.g. 1.1.3a Renewable energy, b Transboundary water, c Extractive industries; 2.1.1a Climate zones, b Hadley/ITCZ, c Monsoons/cyclones/ENSO; 2.2.1a Weathering, b Mass movement, c Fluvial processes).

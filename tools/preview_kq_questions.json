@@ -1,0 +1,166 @@
+[
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q1",
+  "topics": [
+   "2"
+  ],
+  "fieldwork_area": "Elderly needs"
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q2",
+  "topics": [
+   "1.2.1c",
+   "1.2.1b",
+   "1.2.2a",
+   "1.2.2b"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q3",
+  "topics": [
+   "1.1.2c",
+   "1.1.1b",
+   "1.1.3a"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q4",
+  "topics": [
+   "1.1.1b"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q5",
+  "topics": [
+   "1.2.2b"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H1",
+  "slot": "Q6",
+  "topics": [
+   "1.2.3c"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P1 Q1",
+  "topics": [
+   "1.2.2b",
+   "1.2.2c",
+   "1.2.3b",
+   "1.2.1c"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P1 Q2",
+  "topics": [
+   "2.2.1a",
+   "2.2.1b",
+   "2.2.2a",
+   "2.2.2c",
+   "2.1.1a",
+   "2.1.1c"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P1 Q3",
+  "topics": [
+   "1.1.1c"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P1 Q4",
+  "topics": [
+   "1.2.3a"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P1 Q5",
+  "topics": [
+   "2.1.2b",
+   "2.1.2c"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P1 Q6",
+  "topics": [
+   "2.2.3b"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "topics": [
+   "4"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q2",
+  "topics": [
+   "3.2.2a",
+   "3.2.2b",
+   "3.2.3a",
+   "3.2.1c"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q3",
+  "topics": [
+   "3.1.3b",
+   "3.1.3c"
+  ]
+ },
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q4",
+  "topics": [
+   "3.2.3a"
+  ]
+ }
+]

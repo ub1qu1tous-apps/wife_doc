@@ -37,8 +37,11 @@ def topic_label(level, code):
 
 
 def short_label(level, code):
-    """'1.2.2' -> '1.2.2 Effects of CC' (grid cells)."""
-    return f"{code} {TOPICS[level]['short'].get(code) or TOPICS[level]['topics'].get(code) or code}"
+    """'1.2.2' -> '1.2.2 Effects of CC'; key-question code '1.1.1b' -> '1.1.1b SUD: Urban population trends' (grid cells)."""
+    t = TOPICS[level]
+    if code in t.get('kq', {}):
+        return f"{code} {t['short'][code[:-1]]}: {t['kq'][code]}"
+    return f"{code} {t['short'].get(code) or t['topics'].get(code) or code}"
 
 
 def base_doc(title, version, landscape=False, preview=False):
@@ -147,7 +150,8 @@ def build_grid(questions, outdir, version, preview):
         p = doc.add_paragraph()
         p.add_run(name + ': ').bold = True
         tops = TOPICS[level]
-        items = [f"{c} {tops['subtopics'][c]}" for c in tops['subtopics']]
+        items = [f"{c} {tops['subtopics'][c]}" + (' — ' + ', '.join(f"{k[-1]}) {v}" for k, v in tops['kq'].items() if k[:-1] == c) if 'kq' in tops else '')
+                 for c in tops['subtopics']]
         items.append('Fieldwork – Elderly needs / Community response to CC' + (' / Fluvial flood risk' if level == 'H2' else '') + ' / Others')
         r = p.add_run('; '.join(items))
         r.font.size = Pt(8)

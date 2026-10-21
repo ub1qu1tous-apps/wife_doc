@@ -10,6 +10,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.6 (preview) | 2026-10-21 | Doc 1 preview at syllabus key-question level (ACJC 2024 row) |
 | v0.5 | 2026-10-21 | **Doc 2a full build**: H1 Fieldwork questions by topic, 41 questions (full wording + 166 resource images) |
 | v0.4 | 2026-10-21 | **Doc 1 full build**: topic grid for all 47 school-years (H1 + H2 tables, 716 questions), syllabus topic only |
 | v0.3 (preview) | 2026-10-21 | Fieldwork split out of doc 2: 6 question docs (2a H1 Fieldwork, 2b H1 Structured, 2c H1 Essay, 2d H2 Fieldwork, 2e H2 Structured, 2f H2 Essay) |
@@ -171,3 +172,9 @@
 - **Doc:** grouped under Cluster 2 Fieldwork by area: Community response to CC (15), Elderly needs (17), Others (9). Schools sorted by name then year.
 - **File size:** images are capped at 1300 px and saved as JPEG or 256-colour PNG, whichever is smaller. That cut the file from 100 MB to 20.6 MB (166 pages).
 - Next: user to check doc 2a, then the next doc.
+
+### 2026-10-21 — Session 1 (cont.): doc 1 at key-question level (preview v0.6)
+- User asked for doc 1 to be more detailed, below sub-topic level. Example: ACJC 2024 Q4 is "SUD", but which part of SUD?
+- Added the syllabus Key Questions as a 4th level, coded a/b/c, e.g. `1.1.1b SUD: Urban population trends`. They're in `tools/syllabus_topics.json` (`kq`) and `notes/syllabus_topics.md`. Builder updated: grid cells and the code legend now show key-question labels.
+- Preview: `previews/1 Topic Grid by School (H1 & H2) v0.6 PREVIEW.docx` (ACJC 2024 row).
+- Next: on approval, relabel all 716 questions at key-question level and rebuild doc 1.
