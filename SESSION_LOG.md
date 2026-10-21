@@ -181,3 +181,10 @@
 
 ### 2026-10-21 — Session 1 (cont.): PR #2 merged
 - User merged PR #2 into `main` (up to commit `66c3baa`, previews v0.2 in `previews/`). Later work (previews v0.3, doc 1 v0.4, doc 2a v0.5, preview v0.6) is not on `main` yet. Merged `main` into the working branch so the branch stays current (no force-push).
+
+### 2026-10-21 — Session 1 (cont.): main reverted; user follows the branch
+- The user removed their local clone and asked for `main` to go back to its state before the merges.
+- First checked that the branch `claude/amazing-dirac-mpbgn8` on GitHub has everything: 441 source files, notes for 47 school-years, docs 1 and 2a, previews, tools.
+- Pushed one revert commit to `main` (`e0ae977`) undoing the PR #1 and PR #2 merges. `main` now matches the user's own "rearrange" commit `6396e50`: only `README.md` and `sources/`. Nothing was force-pushed; history is kept.
+- From now on the user's local folder follows the branch `claude/amazing-dirac-mpbgn8`, and all work is pushed there.
+- Note for later: if this branch is ever merged into `main` again, the revert must be reverted first. Otherwise the earlier work won't come back.
