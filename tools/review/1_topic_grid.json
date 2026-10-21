@@ -1,0 +1,381 @@
+{
+ "title": "Topic Grid by School (H1 & H2)",
+ "file": "1 Topic Grid by School (H1 & H2)",
+ "version": "v0.7",
+ "doc": "1 Topic Grid by School (H1 & H2) v0.7.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "One table for H1 (Q1–Q6) and one for H2 (P1 Q1–Q6, P2 Q1–Q4). Rows are school + year, sorted by school then year.",
+    "Each cell gives the syllabus Key Question(s) the question tests, e.g. '1.1.1b SUD: Urban population trends'.",
+    "716 questions from 47 school-years (2024: 15 schools, 2025: 15, 2026: 17).",
+    "Labels were assigned from the reading notes (question wording + marks of every sub-part), not from the answer schemes."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "The 2026 syllabuses (8834, 9173) are used for all three years, including the 2024 and 2025 papers.",
+    "Key Questions are coded a, b, c in the order they appear in the syllabus, under each sub-topic (e.g. 1.1.1a/b/c).",
+    "Structured questions: every sub-part is given a Key Question; the cell lists each one once, ordered by marks (highest first). Ties follow sub-part order.",
+    "Essays: normally one Key Question; two only when the question clearly spans two.",
+    "Fieldwork questions are labelled by the syllabus fieldwork area (H1: Community response to climate change, Needs of the elderly; H2 adds Fluvial flood risk). Scenarios outside these areas are filed as 'Others'.",
+    "VJC 2026 H1 is left out (question paper is password-protected). MI 2026, NJC 2024 and RVHS 2024–2026 have no H1 paper in the sources.",
+    "Where a school's paper and answer scheme disagree on marks, the question paper's marks were used.",
+    "Errors printed in the schools' own papers are not listed here (as you asked earlier); they are recorded in the reading notes if needed."
+   ]
+  },
+  {
+   "title": "3. To review: fieldwork filed under 'Others'",
+   "note": "These scenarios aren't one of the syllabus fieldwork areas, so they are filed under 'Others'. Fill in the area you want for each.",
+   "table": {
+    "columns": [
+     "School & Year",
+     "Paper / Q",
+     "Fieldwork scenario",
+     "Nearest area",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "ASRJC 2024",
+      "H1 Q1",
+      "Green Hub @ Bishan – sustainable practices",
+      "Community response to CC"
+     ],
+     [
+      "CJC 2024",
+      "H1 Q1",
+      "Use of single-use plastics in CJC (Singapore Green Plan)",
+      "Community response to CC"
+     ],
+     [
+      "DHS 2024",
+      "H1 Q1",
+      "'Reuse and Return' food containers, Tampines hawker centre",
+      "Community response to CC"
+     ],
+     [
+      "EJC 2024",
+      "H1 Q1",
+      "Green Hub @ Bishan – sustainable practices",
+      "Community response to CC"
+     ],
+     [
+      "JPJC 2024",
+      "H1 Q1",
+      "Promotion of cycling, Ang Mo Kio",
+      "Community response to CC"
+     ],
+     [
+      "JPJC 2024",
+      "H2 P2 Q1",
+      "Promotion of cycling, Ang Mo Kio",
+      "Community response to CC"
+     ],
+     [
+      "NJC 2025",
+      "H1 Q1",
+      "Food waste reduction initiatives, Bishan",
+      "Community response to CC"
+     ],
+     [
+      "NJC 2025",
+      "H2 P2 Q1",
+      "Youth textile recycling & upcycling, Serangoon",
+      "Community response to CC"
+     ],
+     [
+      "ACJC 2026",
+      "H1 Q1",
+      "Community response to expansion of cycling paths, Ang Mo Kio",
+      "Community response to CC"
+     ],
+     [
+      "JPJC 2026",
+      "H1 Q1",
+      "Beverage Container Return Scheme participation by age, Bukit Panjang",
+      "Community response to CC"
+     ],
+     [
+      "NJC 2026",
+      "H1 Q1",
+      "Perceptions of sustainable healthy diets, Fremantle",
+      "Community response to CC"
+     ],
+     [
+      "NJC 2026",
+      "H2 P2 Q1",
+      "E-waste recycling & repair by age, Ang Mo Kio",
+      "Community response to CC"
+     ],
+     [
+      "RVHS 2026",
+      "H2 P2 Q1",
+      "Resource conservation features, City Square Mall",
+      "Community response to CC"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "4. To review: inconsistent fieldwork filing",
+   "note": "Similar scenarios ended up in different groups. Suggested rule: 'Community response to CC' only when the question itself frames the study as a response to climate change; otherwise 'Others'. Tell me the rule you want and I'll apply it everywhere.",
+   "table": {
+    "columns": [
+     "Scenario type",
+     "Filed as Community response to CC",
+     "Filed as Others",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Beverage Container Return Scheme (BCRS)",
+      "ASRJC 2026 H2 P2, SAJC 2026 H1, TMJC 2026 H1",
+      "JPJC 2026 H1"
+     ],
+     [
+      "Cycling / car-lite",
+      "ASRJC 2025, TMJC 2026 H2 P2",
+      "JPJC 2024 H1 & H2 P2, ACJC 2026 H1"
+     ],
+     [
+      "Recycling / repair",
+      "EJC 2026 H1 (REhub), TJC 2026 H1, ASRJC 2026 H1 (Repair Kopitiam)",
+      "NJC 2025 H2 P2 (textiles), NJC 2026 H2 P2 (e-waste)"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "5. To review: borderline Key Question choices",
+   "note": "Questions where two Key Questions were both reasonable. The chosen one is in the grid; write the other code in the last column if you prefer it.",
+   "table": {
+    "columns": [
+     "School & Year",
+     "Paper / Q",
+     "Question focus",
+     "Chosen",
+     "Alternative",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "RVHS 2024",
+      "H2 P2 Q4",
+      "Uncertainty as the greatest impediment to CC responses",
+      "3.2.3c; 3.2.2c",
+      "3.2.3c only"
+     ],
+     [
+      "TJC 2024",
+      "H1 Q6",
+      "Uncertainty as the biggest challenge to CC responses",
+      "1.2.3c; 1.2.2c",
+      "1.2.3c only"
+     ],
+     [
+      "SAJC 2024",
+      "H2 P2 Q4",
+      "CC due more to natural than human causes",
+      "3.2.1b; 3.2.1c",
+      "3.2.1b only"
+     ],
+     [
+      "TJC 2024",
+      "H2 P2 Q4",
+      "'SUD is difficult to achieve'",
+      "3.1.1b",
+      "3.1.1c or 3.1.1a"
+     ],
+     [
+      "TMJC 2024",
+      "H1 Q3(e)",
+      "Landfill GHG harming the environment",
+      "1.2.2a",
+      "1.2.1c"
+     ],
+     [
+      "YIJC 2024",
+      "H2 P1 Q1(a)(b)",
+      "E-waste collection",
+      "1.1.2b",
+      "1.1.1c / 1.1.1b"
+     ],
+     [
+      "YIJC 2024",
+      "H2 P1 Q5",
+      "Monsoons characterise tropical climate",
+      "2.1.1c",
+      "add 2.1.1a"
+     ],
+     [
+      "ASRJC 2025",
+      "H2 P1 Q1(c)",
+      "Tiffany links places",
+      "1.2.2a",
+      "1.2.2b"
+     ],
+     [
+      "CJC 2024",
+      "H2 P2 Q4",
+      "CC as the greatest challenge to SUD",
+      "3.2.2a; 3.1.1b",
+      "3.2.2a only"
+     ],
+     [
+      "DHS 2024",
+      "H1 Q3(a)",
+      "Larsen B ice front retreat",
+      "1.2.1b",
+      "1.2.2a"
+     ],
+     [
+      "DHS 2024",
+      "H2 P1 Q4",
+      "GPNs and interdependence",
+      "1.2.2b",
+      "1.2.2a"
+     ],
+     [
+      "HCI 2024",
+      "H1 Q2(e)",
+      "Waste viewed as a resource",
+      "1.1.2a",
+      "1.1.1c"
+     ],
+     [
+      "NJC 2024",
+      "H2 P1 Q3",
+      "World's progress towards SD insufficient",
+      "1.1.1b",
+      "1.1.1c"
+     ],
+     [
+      "NJC 2024",
+      "H2 P2 Q4",
+      "'Not possible to stop CC'",
+      "3.2.3c",
+      "3.2.3a"
+     ],
+     [
+      "CJC 2025",
+      "H2 P1 Q2(a)",
+      "Nile discharge before/after GERD",
+      "1.1.3b",
+      "2.1.3c"
+     ],
+     [
+      "CJC 2025",
+      "H2 P2 Q3",
+      "Harder to adapt than to manage slums",
+      "3.2.3c; 3.1.2b",
+      "3.2.3a instead of 3.2.3c"
+     ],
+     [
+      "SAJC 2025",
+      "H2 P2 Q4",
+      "Humans the main cause of CC",
+      "3.2.1c",
+      "3.2.1b; 3.2.1c"
+     ],
+     [
+      "TJC 2025",
+      "H2 P2 Q4",
+      "Relative effectiveness of actors",
+      "3.2.3b",
+      "add 3.2.3c"
+     ],
+     [
+      "NYJC 2025",
+      "H2 P1 Q2(f)",
+      "Humans modifying meanders",
+      "2.2.3b",
+      "2.2.3c"
+     ],
+     [
+      "DHS 2026",
+      "H2 P2 Q3",
+      "Benefits of strategies uneven (sustainable cities)",
+      "3.1.2c; 3.1.2b",
+      "all of 3.1.2a/b/c"
+     ],
+     [
+      "HCI 2026",
+      "H1 Q3(d)",
+      "Positive feedback: tree loss and ice sheets",
+      "1.2.1c",
+      "1.2.1b"
+     ],
+     [
+      "MI 2026",
+      "H2 P1 Q6",
+      "Human activities in karst formation",
+      "2.2.2b; 2.2.2c",
+      "2.2.2b only"
+     ],
+     [
+      "NJC 2026",
+      "H2 P1 Q1(c)",
+      "Ilmenite production and reserves",
+      "1.1.2b",
+      "1.1.3c"
+     ],
+     [
+      "RI 2026",
+      "H2 P1 Q1(e)",
+      "TNC trade-offs for SD in host economies",
+      "1.2.2c",
+      "1.1.1a"
+     ],
+     [
+      "SAJC 2026",
+      "H2 P2 Q4",
+      "Climate change brings few benefits",
+      "3.2.2a",
+      "3.2.2b"
+     ],
+     [
+      "TJC 2026",
+      "H2 P1 Q5",
+      "Limited control over the occurrence of floods",
+      "2.1.3a; 2.1.3c",
+      "2.1.3c only"
+     ],
+     [
+      "TMJC 2026",
+      "H1 Q3(d)",
+      "Rooftop gardens",
+      "1.2.3a",
+      "1.1.2c"
+     ],
+     [
+      "YIJC 2026",
+      "H2 P1 Q2(d)",
+      "Channelisation and fluvial processes",
+      "2.2.1c",
+      "2.1.3c"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "6. To review: other points",
+   "bullets": [
+    "TMJC 2026 H2 P1 Q2(e) (where Amazon deforestation happens, 4 marks) matches no syllabus Key Question, so it carries no code in its cell.",
+    "Two questions really cross clusters, so their cells show codes from both: CJC 2025 H2 P1 Q2 (Nile/GERD – includes 1.1.3b transboundary water) and HCI 2025 H2 P1 Q1 (Medog dam – includes 2.2.3c delta ecosystem services).",
+    "Recurring boundary calls, applied the same way everywhere: 'interdependence/interconnectedness' parts → 1.2.2a; monsoon rainfall explained through the ITCZ → 2.1.1c; how sea-level rise happens → x.2.2a (effects of CC); ice-sheet changes as a driver → x.2.1b."
+   ]
+  },
+  {
+   "title": "7. To consider",
+   "bullets": [
+    "Add a summary table: how often each Key Question was tested, by year (useful for spotting 'due' topics).",
+    "Shade cells by cluster or topic so patterns stand out when printed.",
+    "Add a short focus line under each code (e.g. 'Nike', 'London Docklands') to help recall the question.",
+    "Split the H2 table into separate Paper 1 and Paper 2 tables to make it less dense."
+   ]
+  }
+ ]
+}

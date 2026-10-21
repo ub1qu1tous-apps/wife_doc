@@ -1,0 +1,77 @@
+{
+ "title": "H1 Fieldwork Questions by Topic",
+ "file": "2a H1 Fieldwork Questions by Topic",
+ "version": "v0.5",
+ "doc": "2a H1 Fieldwork Questions by Topic v0.5.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "All H1 Section A fieldwork questions (Q1, 30 marks): 41 questions from 41 school-years, with 166 diagrams.",
+    "Grouped under Cluster 2: Fieldwork by syllabus fieldwork area – Community response to CC (15), Elderly needs (17), Others (9) – then by school and year.",
+    "Question wording is copied from each school's question paper (typed text, not screenshots). Diagrams are cropped from the school's Insert."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "Diagrams for a question are the resources its wording refers to (e.g. 'Resources 1 and 2'), not the Insert's 'for Question N' labels. For example, the YIJC 2024 Insert labels Resource 7 'for Question 1' by mistake, so it is left out.",
+    "Word files (EJC 2024, JPJC 2024, SAJC 2024–2026, CJC/DHS/RI/TJC/TMJC 2026) were converted to PDF with LibreOffice before extracting text and cropping, so line breaks and spacing can differ slightly from the printed paper.",
+    "The section line is standardised to 'Section A — Cluster 2 Fieldwork' (NYJC 2025 keeps its own title).",
+    "Diagrams are compressed (max 1300 px, JPEG or 256-colour PNG) to keep the file small (21 MB). Fine print in dense tables may be slightly softer than the original.",
+    "VJC 2026 is left out (password-protected question paper). MI 2026, NJC 2024 and RVHS 2024–2026 have no H1 paper.",
+    "Which fieldwork area a question is in follows doc 1; the 'Others' list and the inconsistent filings are in doc 1's review notes."
+   ]
+  },
+  {
+   "title": "3. To review: text and layout",
+   "note": "Places where the typed question text or the cropped diagram is not a perfect copy of the paper.",
+   "table": {
+    "columns": [
+     "School & Year",
+     "What to check",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "DHS 2025",
+      "A small table in the question (elderly population by age group) is typed as one line of text."
+     ],
+     [
+      "YIJC 2026",
+      "The respondent breakdown by age group is typed as one line of text."
+     ],
+     [
+      "CJC 2025",
+      "The last bullet of the list of observation sites ('Alison Park') runs into the next sentence."
+     ],
+     [
+      "SAJC 2026",
+      "Bullet points (●) appear inline in the text instead of as a list."
+     ],
+     [
+      "EJC 2024",
+      "Resource 1 and 2 crops include the page number / '[Turn over' at the bottom."
+     ],
+     [
+      "JPJC 2026",
+      "Insert crops show a grey margin on the right (left over from Word comment bubbles in the school's file)."
+     ],
+     [
+      "HCI 2024–2025, SAJC 2024–2026",
+      "Some crops may still include the school's page footer line."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "4. To consider",
+   "bullets": [
+    "Tag each sub-part with its fieldwork stage from the syllabus (pre-fieldwork: question/hypothesis, planning, ethics, risks; data collection; post-fieldwork: presentation, analysis, evaluation). This would let students practise, say, all 'risk' questions together.",
+    "Start each school's question on a new page for printing.",
+    "Use screenshots of the question paper instead of typed text, for an exact copy of tables and layout (larger file, not searchable).",
+    "Add a contents list at the start (school and year, with page numbers)."
+   ]
+  }
+ ]
+}

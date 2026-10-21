@@ -1,7 +1,7 @@
 # Session log
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`. Still to build: 0 (review), 2b–2f. Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, each with a `– Review Notes` companion. Still to build: 2b–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
 - **Current version:** v0.7
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
@@ -200,3 +200,18 @@
 - Spot-checked 30 random essays against their wording; all fit.
 - Ambiguous calls that the helpers flagged (kept as chosen): e.g. "natural vs human causes" essays get one code; "interdependence" sub-parts → 1.2.2a; ITCZ-driven monsoon rainfall → 2.1.1c; sea-level-rise mechanisms → x.2.2a. TMJC 2026 H2 P1 Q2(e) (Amazon deforestation location, 4 marks) has no matching key question, so it carries no code.
 - Output: `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (38 pages; legend now lists every key question); the old v0.4 file was removed.
+
+### 2026-10-21 — Session 1 (cont.): Review Notes for every doc
+- User asked for every doc to have its own document of assumptions and things to review and consider. This is now a working rule in `CLAUDE.md`.
+- Added `tools/review_docs.py`, which builds a review doc from a spec in `tools/review/<doc>.json`. Each review doc has four parts: what the doc is and how it was built, assumptions, items to review (tables with a "Your decision" column), and things to consider.
+- `docs/1 Topic Grid by School (H1 & H2) – Review Notes v0.7.docx`:
+  - assumptions
+  - the 13 "Others" fieldwork questions
+  - inconsistent fieldwork filing: BCRS, cycling and recycling scenarios are split between "CC response" and "Others" (suggested rule given)
+  - 28 borderline key-question calls, each with an alternative
+  - the TMJC 2026 part with no matching key question, the cross-cluster cases, and ideas to consider
+- `docs/2a H1 Fieldwork Questions by Topic – Review Notes v0.5.docx`:
+  - assumptions: how resources are chosen, Word→PDF conversion, image compression
+  - places where the text or crops aren't a perfect copy: flattened tables, page numbers and footers in some crops, JPJC 2026 comment margin
+  - ideas, e.g. tagging sub-parts by fieldwork stage
+- The per-doc Review Notes replace the earlier single "0 Items to Review" doc (that preview stays in `previews/`). Following the user's earlier instruction, errors printed in schools' papers are not listed.
