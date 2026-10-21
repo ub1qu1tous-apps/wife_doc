@@ -178,3 +178,6 @@
 - Added the syllabus Key Questions as a 4th level, coded a/b/c, e.g. `1.1.1b SUD: Urban population trends`. They're in `tools/syllabus_topics.json` (`kq`) and `notes/syllabus_topics.md`. Builder updated: grid cells and the code legend now show key-question labels.
 - Preview: `previews/1 Topic Grid by School (H1 & H2) v0.6 PREVIEW.docx` (ACJC 2024 row).
 - Next: on approval, relabel all 716 questions at key-question level and rebuild doc 1.
+
+### 2026-10-21 — Session 1 (cont.): PR #2 merged
+- User merged PR #2 into `main` (up to commit `66c3baa`, previews v0.2 in `previews/`). Later work (previews v0.3, doc 1 v0.4, doc 2a v0.5, preview v0.6) is not on `main` yet. Merged `main` into the working branch so the branch stays current (no force-push).
