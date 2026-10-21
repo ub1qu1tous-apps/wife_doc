@@ -1,6 +1,11 @@
 # Session log
 
-**Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it. Next step: the user picks which of docs 2b–2f to build next (asked in session 2, not yet answered).
+**Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it.
+
+**Task in progress (session 2):** build docs 2b, 2c, 2d, 2e, 2f (the user said "build all of them"), each with Review Notes. Build them one after another and commit + push after each.
+- Done: —
+- Next: 2b H1 Structured (H1 Q2–Q3).
+- An hourly scheduled check-in (`trig_01GQooXWiM5ucgbmSySZBKG3`, :12 past each hour) is bound to this session. Delete it and clear this note when all five are done.
 
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, each with a `– Review Notes` companion. Still to build: 2b–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
