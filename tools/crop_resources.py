@@ -6,7 +6,9 @@ import pdfplumber, pypdfium2 as pdfium
 pdf_path, outdir = sys.argv[1], sys.argv[2]
 dpi = int(sys.argv[3]) if len(sys.argv) > 3 else 170
 os.makedirs(outdir, exist_ok=True)
-HEAD = re.compile(r'^\s*(Resource|Figure|Fig\.?|Table)\s+([0-9]+[A-Za-z]?)\b', re.I)
+HEAD = re.compile(r'^\s*(Resources?|Figure|Fig\.?|Table)\s+([0-9]+[A-Za-z]?)\b', re.I)
+MULTI = re.compile(r'^\s*Resources\s+\d+[A-Za-z]?((?:\s*(?:,|and|&)\s*\d+[A-Za-z]?)+)(.*)$', re.I)   # 'Resources 4 and 5 for Question 2'
+aliases, multi = {}, []
 
 def lines_of(page):
     words = page.extract_words(keep_blank_chars=False, use_text_flow=True)
@@ -17,7 +19,7 @@ def lines_of(page):
     out = []
     for k in sorted(rows):
         ws = sorted(rows[k], key=lambda w: w['x0'])
-        out.append((min(w['top'] for w in ws), max(w['bottom'] for w in ws), ' '.join(w['text'] for w in ws)))
+        out.append((min(w['top'] for w in ws), max(w['bottom'] for w in ws), ' '.join(w['text'] for w in ws), ws))
     return out
 
 def trim_bands(im):
@@ -66,28 +68,47 @@ with pdfplumber.open(pdf_path) as pdf:
         side = sum(1 for c in page.chars if abs(c['matrix'][1]) > 0.5)
         if (len(ls) > 15 and len(short) > 0.5 * len(ls)) or (side > 20 and side > 0.5 * len(page.chars)):
             stop_pages.add(i)   # landscape (rotated) page: text reads as vertical letters, its heading isn't found
-        for top, bot, text in ls:
+        for top, bot, text, ws in ls:
             m = HEAD.match(text)
             if m and re.search(r'https?:|www\.|adapted from|source:|\.com|\.org', text, re.I):
                 continue   # source/acknowledgement line, not a resource heading
-            if m and re.match(r'\s*\S+\s+\S+\s+(?!for\b)[a-z]', text):
+            mm = MULTI.match(text) if m else None
+            if mm and re.match(r'\s*(for\b|$|[A-Z(:–-])', mm.group(2)):
+                extra = ['R' + x.upper() for x in re.findall(r'\d+[A-Za-z]?', mm.group(1))]
+                multi.append(((i, top), ['R' + m.group(2).upper()] + extra))
+            elif m and re.match(r'\s*\S+\s+\S+\s+(?!for\b)[a-z]', text):
                 continue   # a sentence such as "Resource 1 shows ..." (question paper text), not a heading
-            if m and m.group(1).lower() == 'resource':
+            if m and m.group(1).lower().startswith('resource'):
                 covered = any(im['top'] < top and bot < im['bottom'] and im['bottom'] - im['top'] < page.height * 0.85 for im in page.images)
-                blocks.append((i, top, 'R' + m.group(2).upper(), text.strip(), covered))
+                # two headings side by side on one line ('Resource 7A for Question 2   Resource 7B for Question 2'): split columns
+                starts = [k for k in range(len(ws) - 1) if ws[k]['text'].lower() == 'resource' and re.fullmatch(r'\d+[A-Za-z]?', ws[k + 1]['text'])]
+                if len(starts) >= 2:
+                    edges = [0] + [(ws[k - 1]['x1'] + ws[k]['x0']) / 2 for k in starts[1:]] + [page.width]
+                    for n_, k in enumerate(starts):
+                        blocks.append((i, top, 'R' + ws[k + 1]['text'].upper(), ' '.join(w['text'] for w in ws[k:(starts + [len(ws)])[n_ + 1]]),
+                                       covered, edges[n_], edges[n_ + 1]))
+                    continue
+                blocks.append((i, top, 'R' + m.group(2).upper(), text.strip(), covered, 0, page.width))
+    # 'Resources 1A and 1B for Question 1': one crop for all of them, unless each also has its own heading further on (JPJC)
+    for key, labs in multi:
+        others = [b[2] for b in blocks if (b[0], b[1]) != key]
+        if all(l in others for l in labs):
+            blocks = [b for b in blocks if (b[0], b[1]) != key]
+        else:
+            aliases.update({x: labs[0] for x in labs[1:]})
     # a label that sits under a picture and also appears elsewhere is a stray hidden label (NJC 2026 H1 'Resource 10' under R9)
     labels = [b[2] for b in blocks]
-    blocks = [b[:4] for b in blocks if not (b[4] and labels.count(b[2]) > 1)]
+    blocks = [b[:4] + b[5:] for b in blocks if not (b[4] and labels.count(b[2]) > 1)]
     crops = []
-    for n, (pi, top, label, text) in enumerate(blocks):
-        nxt = blocks[n + 1] if n + 1 < len(blocks) else None
+    for n, (pi, top, label, text, xa, xb) in enumerate(blocks):
+        nxt = next((b for b in blocks[n + 1:] if not (b[0] == pi and abs(b[1] - top) < 10)), None)   # skip a side-by-side partner
         page = pdf.pages[pi]
         bottom = nxt[1] - 4 if nxt and nxt[0] == pi else footers[pi]
         if stops.get(pi, 0) > top + 20:
             bottom = min(bottom, stops[pi] - 4)
         scale = dpi / 72
         img = doc[pi].render(scale=scale).to_pil()
-        crop = img.crop((0, max(0, int((top - 6) * scale)), img.width, int(bottom * scale)))
+        crop = img.crop((int(xa * scale), max(0, int((top - 6) * scale)), int(xb * scale), int(bottom * scale)))
         # trim white margins
         from PIL import ImageOps
         bbox = ImageOps.invert(crop.convert('L')).getbbox()
@@ -172,6 +193,9 @@ with pdfplumber.open(pdf_path) as pdf:
                 print('DUPLICATE', label, '|', text[:70])
             continue
         final[label] = (crop, text)
+    for extra, first in aliases.items():
+        if extra not in final:
+            open(os.path.join(outdir, f'{extra}.alias'), 'w').write(first)
     for label, (crop, text) in final.items():
         fn = os.path.join(outdir, f'{label}.png')
         crop.save(fn)

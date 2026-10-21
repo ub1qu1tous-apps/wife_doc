@@ -24,6 +24,8 @@ for k, r in qs.items():
             want.append(alias.get(x, x))
         elif x.isdigit() and any(h.startswith(x) and h[len(x):].isalpha() for h in have):   # 'Resource 4' -> 4A, 4B
             want += [h for h in have if h.startswith(x) and h[len(x):].isalpha()]
+        elif x[-1].isalpha() and x[:-1] in have:   # question says 2A/2B, Insert has one 'Resource 2' with both parts
+            want.append(x[:-1])
         else:
             print(f'{k}: no crop for R{x} (have {have})'); missing += 1
     out[k] = [f'img/{year}_{school}_{tag}/R{x}.png' for x in dict.fromkeys(want)]

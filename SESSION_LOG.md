@@ -3,13 +3,13 @@
 **Next session starts here:** read the "Session 1 HANDOFF" entry, then the entries after it.
 
 **Task in progress (session 2):** build docs 2b, 2c, 2d, 2e, 2f (the user said "build all of them"), each with Review Notes. Build them one after another and commit + push after each.
-- Done: 2b (v0.8, fixed in v0.10), 2c (v0.9). H2 wording extracted and checked for all sections; H2 inserts cropped.
-- Next: 2d H2 Fieldwork (P2 Q1), then 2e, 2f.
+- Done: 2b (v0.10), 2c (v0.9), 2d (v0.11). H2 wording extracted and checked for all sections; H2 inserts cropped.
+- Next: 2e H2 Structured (P1 Q1–Q2, P2 Q2), then 2f H2 Essay.
 - An hourly scheduled check-in (`trig_01GQooXWiM5ucgbmSySZBKG3`, :12 past each hour) is bound to this session. Delete it and clear this note when all five are done.
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, each with a `– Review Notes` companion. Still to build: 2d–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
-- **Current version:** v0.10
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.11.docx`, each with a `– Review Notes` companion. Still to build: 2e–2f (each with Review Notes). Built one doc at a time. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.11
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). 2025/2026 notes carry syllabus-topic lines; 2024 notes still need them (add at build time).
@@ -17,6 +17,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.11 | 2026-10-21 | **Doc 2d full build**: H2 Fieldwork questions by topic, 47 questions (full wording + 215 diagrams) |
 | v0.10 | 2026-10-21 | **Doc 2b fix** (replaces v0.8): NJC 2026 Q3 diagrams corrected (whole R9, real R10); 'Co-operation' hyphen |
 | v0.9 | 2026-10-21 | **Doc 2c full build**: H1 Essay questions by topic, 123 essays grouped by sub-topic |
 | v0.8 | 2026-10-21 | **Doc 2b full build**: H1 Structured questions by topic, 82 questions (full wording + 266 diagrams) |
@@ -314,3 +315,13 @@
 - **H2 wording:** P2 fieldwork Q1 is 40 marks (not 30). Extractor fixes for H2: labels and marks printed down a column over three lines (SAJC Word files), bare part labels ('(f)' on its own line), the question number repeated before (a) on a new page (TMJC 2024 P2), a wrapped stem line starting with the next question number (CJC 2024, RVHS 2025: the question number is the leftmost), papers that letter their sections differently (MI, TMJC 2025, YIJC: P2 has only Sections A and B), and cover pages that list sections (ACJC 2026). SAJC 2024 P2 Q1(g) '[10]' is printed one character per line, so its mark is set by hand (`MARK_FIXES` in `run_questions.py`).
 - **Checks:** P2 Q1 (47), P1 Q1–Q2 (94), P2 Q2 (47): every part label and mark matches the notes. Essays P1 Q3–Q6 (188) and P2 Q3–Q4 (94): wording matches the notes (3 differ only by the notes' paraphrase).
 - Known: doc 2a (v0.5) still has a few words split at a line-end hyphen (e.g. 'self- recording'); fixed if 2a is rebuilt.
+
+### 2026-10-21 — Session 2: doc 2d (H2 Fieldwork) full build v0.11
+- **Diagrams:** `tools/pipeline/crop_h2.py` crops all 94 H2 Inserts (P1, P2). Cropper changes: headings side by side on one line are split into columns (JPJC 2026 R7A/7B, SAJC 2024 R2A/2B, SAJC 2025 R4/R5, ASRJC 2024; also fixed a broken RVHS 2024 H2 P1 R6A); plural headings ('Resources 4A and 4B for Question 2') give one crop with an alias, unless each part has its own heading later (JPJC). Every re-crop was compared with the previous run; only the intended crops changed (ASRJC 2024 H1 R5 is now two crops – same content as in 2b).
+- `pick_resources.py`: a question's 'Resource 2A/2B' falls back to the Insert's single 'Resource 2' (TMJC 2026). All H2 P1/P2 crops are used by some question; no referenced resource is missing.
+- Hand fixes added to `manual_fixes.py`: CJC 2026 P2 R4 (table placed above its heading in the converted PDF – heading moved back on top), SAJC 2026 P2 R1 (picture turned 90° in Word – turned upright).
+- **Builder:** images taller than 1.9 × their width are split across pages at blank rows instead of being shrunk to one page (multi-page questionnaires). No 2b image is affected.
+- **Checks:** 47 questions, 40 marks each, labels/marks match the notes. All 215 diagrams checked by eye on contact sheets.
+- Areas: Community response to CC 22, Fluvial flood risk 15, Elderly needs 6, Others 4 (JPJC 2024, NJC 2025, NJC 2026, RVHS 2026).
+- Output: `docs/2d H2 Fieldwork Questions by Topic v0.11.docx` (197 pages, 25 MB) + `– Review Notes v0.11` (spec `tools/review/2d_h2_fieldwork.json`). Data: `tools/data/doc2d_questions.json`, `tools/data/h2_p2q1_resources.json`.
+- Next: 2e H2 Structured.

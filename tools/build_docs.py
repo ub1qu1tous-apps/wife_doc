@@ -166,7 +166,7 @@ def build_grid(questions, outdir, version, preview):
 
 def compact_image(path, max_px=1300):
     """Shrink a crop for embedding: cap its size, then keep whichever of JPEG / 256-colour PNG is smaller."""
-    im = Image.open(path).convert('RGB')
+    im = (path if isinstance(path, Image.Image) else Image.open(path)).convert('RGB')
     im.thumbnail((max_px, max_px * 3))
     jpg, png = io.BytesIO(), io.BytesIO()
     im.save(jpg, 'JPEG', quality=82, optimize=True)
@@ -174,6 +174,19 @@ def compact_image(path, max_px=1300):
     best = min(jpg, png, key=lambda b: b.getbuffer().nbytes)
     best.seek(0)
     return best
+
+
+def split_tall(im, page_h):
+    """Cut a very tall image into page-high pieces, each cut at the whitest row in the last fifth of the piece."""
+    g = im.convert('L')
+    pieces, y0 = [], 0
+    while im.height - y0 > page_h:
+        lo, hi = y0 + int(page_h * 0.8), y0 + page_h
+        cut = max(range(lo, hi), key=lambda y: (sum(g.crop((0, y, g.width, y + 1)).getdata()), -abs(y - hi)))
+        pieces.append(im.crop((0, y0, im.width, cut)))
+        y0 = cut
+    pieces.append(im.crop((0, y0, im.width, im.height)))
+    return pieces
 
 
 def add_question(doc, q, img_root):
@@ -200,6 +213,11 @@ def add_question(doc, q, img_root):
         doc.add_paragraph()
         path = os.path.join(img_root, res)
         w, h = Image.open(path).size
+        if h / w > 1.9:   # would shrink below ~12 cm wide on one page (multi-page questionnaires): split at blank rows
+            for piece in split_tall(Image.open(path).convert('RGB'), int(w * 23.5 / 15.5)):
+                doc.add_picture(compact_image(piece), width=Cm(15.5))
+                doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+            continue
         if h / w * 15.5 > 23.5:     # very tall resource: fit to page height instead
             doc.add_picture(compact_image(path), height=Cm(23.5))
         else:

@@ -1,0 +1,3264 @@
+[
+ {
+  "school": "ACJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of six students worked on an investigation on flood risk around the Punggol Waterway which flows through the Punggol Waterway Park and Punggol residential estate. The Punggol Waterway connects the Serangoon River in the east to the Punggol River in the west. These three bodies of waters are dammed to create the Punggol- Serangoon Reservoir. They selected two sites X and Y along the Punggol Waterway for their investigation.",
+   "Their hypothesis is that flood risk is higher in built-up areas relative to vegetated areas.",
+   "To assess the flood risk of the Punggol Waterway Park and Punggol residential estate, they collect data on infiltration rates and selected river variables. They collected data on a weekend in November from 9 am to 4 pm. At each site, two students worked on the infiltration test, while four worked on collecting data on selected river variables. All six of them worked at site X, and then then moved onto site Y after lunch.",
+   "For infiltration, the students chose a location at each site, as shown in Resource 2. The equipment used included an infiltrometer made of white plastic tubing with a diameter of 10 cm and a height of 30 cm. The infiltrometer was hammered into the ground using a pebble found nearby. A student used a pail to fetch water from the river for the infiltration test. Water was poured to the top of the infiltrometer, and using a stopwatch, the water level dropping in the infiltrometer was read every 5 minutes. When water reached the base of the infiltrometer, water was poured into the infiltrometer again.",
+   "For the river variables, the following data were collected:",
+   "• Channel width – Two students on the footbridge that span the river at each site used a tape measure to stretch across the bridge to measure the river width from above.",
+   "• Channel depth – This was obtained by extending a long nylon string with a plumb bob (weight) from the bridge at regular intervals of 5 metres across the span of the footbridge from one river to the opposite bank. The plumb bob was lowered into the river to touch the river bed, and the river depth was obtained by measuring the length of the string and the plumb bob.",
+   "• River velocity – This was measured using a floating orange to travel a 5-metre distance along the river. Velocity readings were taken once at each site.",
+   "Resource 1 is a land use map of the area adjacent to the Punggol Waterway, showing sites X and Y on the river. Resource 2 shows the photographs of sites X and Y. Resource 3 shows the infiltration rates at site X and site Y. Resource 4 shows the results of the river investigation."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain if the students’ hypothesis and choice of sites are appropriate.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1 and 2, describe how the students could reduce the impacts of their investigation.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how the students can mitigate the potential risks of their fieldwork investigation at the sites shown in Resource 2.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain how the reliability of the infiltration and river data shown in Resources 3 and 4 can be improved.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain the data that the students should gather if they were to conduct a supplementary questionnaire survey on flood risk in the Punggol area.",
+    5
+   ],
+   [
+    "(f)",
+    "Explain the extent of the usefulness of the river data shown in Resource 4 in the investigation of flood risk.",
+    5
+   ],
+   [
+    "(g)",
+    "The student concluded that vegetated areas show lower flood risk compared to built-up areas. With reference to Resources 1, 2, 3 and 4, evaluate the validity of the students’ conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_ACJC_H2P2/R2.png",
+   "img/2024_ACJC_H2P2/R1.png",
+   "img/2024_ACJC_H2P2/R3.png",
+   "img/2024_ACJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "ACJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "There are plans to turn the coastal mangrove area around the Sungai Mandai Besar River in northern Singapore into a nature park that will be named the Mandai Mangrove & Mudflat Nature Park. A group of five students wanted to assess the flood risk around the Sungai Mandai Besar River. The river is concretised into a canal for most of its course except for the short stretch at the river mouth.",
+   "The hypothesis the students chose:",
+   "‘Fluvial flood risk is lower near the river mouth than around the canalised parts of the Sungai Mandai Besar River.’",
+   "To assess the flood risk of the areas surrounding the river, the students collected data on infiltration rates and selected river variables.",
+   "They collected data on a weekday in December from 10 am to 4 pm. At each site, two students worked on the infiltration test, while three worked on collecting data on selected river variables. All five of them worked at Site A first. They were only able to start work at Site B after the thunderstorm ended at 3 pm. They collected infiltration data around Site B, and only the river velocity data at Site B.",
+   "The equipment that the students used for their field investigation included:",
+   "• A single-ring infiltrometer made of white plastic tubing with a diameter of 10 cm and a height of 30 cm",
+   "• Two brightly marked half-filled plastic mineral water bottles as the velocity-floats",
+   "• Two stop watches",
+   "• A pail to fetch water from the river for the infiltration test",
+   "For the infiltration test, the students chose two locations at each site. At Site A, the infiltration test was taken at the grassy patch next to the river bank (indicated as A1 in Resource 1) and on forested land (indicated as A2). At Site B, two infiltration sites were chosen [indicated as B1 (concrete surface) and B2 (muddy river banks) in Resource 1].",
+   "Resource 1 is a land use map of the area adjacent to the Sungai Mandai Besar River, showing Sites A and B and the four infiltration sites A1, A2, B1 and B2. Resource 2 shows the photographs of Sites A and B. Resource 3 shows the infiltration rates at each of the four sites around the Sungai Mandai Besar River. Resource 4 shows the findings of the investigation at Sites A and B"
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain whether the hypothesis chosen is suitable for their investigation of flood risk around the Sungai Mandai Besar River.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1 and 2, describe how the students could reduce the impacts of their investigation at the two sites A and B.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain how the students could overcome potential risks when they conduct their fieldwork investigation at the two sites A and B.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain how the reliability of the infiltration and river variable data shown in Resources 3 and 4 could be improved.",
+    6
+   ],
+   [
+    "(e)",
+    "How useful is the method of data representation of infiltration rates shown in Resource 3 for the investigation of flood risk in the Sungai Mandai Besar area?",
+    4
+   ],
+   [
+    "(f)",
+    "The students wanted to conduct a questionnaire survey of the people working and living around the Sungai Mandai Besar regarding their experience of flooding in the area. Describe a suitable sampling method that they could use for the survey.",
+    4
+   ],
+   [
+    "(g)",
+    "With the aid of all the Resources, assess the validity of the students’ conclusion that fluvial flood risk is lower near the river mouth than around the canalised parts of Sungai Mandai Besar River.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_ACJC_H2P2/R1.png",
+   "img/2025_ACJC_H2P2/R2.png",
+   "img/2025_ACJC_H2P2/R3.png",
+   "img/2025_ACJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "ACJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of six Geography students conducted a fieldwork investigation into the community’s response to electric vehicle (EV) adoption in the neighbourhood of Tengah. The investigation aimed to examine how government incentives have encouraged EV adoption.",
+   "Their investigation sought to answer the following research question:",
+   "To what extent does the availability of EV charging infrastructure influence community responses towards EV adoption in Tengah?",
+   "The students selected two EV charging sites for their investigation: a multi-storey carpark at Block 129 (Site A) and a multi-storey carpark at Block 117 (Site B). On a Saturday, from 9.00 a.m. to 3.00 p.m., they conducted a questionnaire with 30 EV owners using the charging facilities at the two sites to find out their opinions. The students waited until EV owners had parked at the charging lots before approaching them to participate in the survey.",
+   "Resource 1 shows the locations of the two investigation sites (Sites A and B) in Tengah. Resource 2 shows photographs of Sites A and Site B. Resource 3 shows the questionnaire used by the students. Resource 4 shows the results for selected questions in the questionnaire."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness of the research question for the students’ investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest how the students could minimise potential risks while conducting the questionnaire at the sites shown in Resources 1 and 2.",
+    5
+   ],
+   [
+    "(c)",
+    "Explain three ethical considerations that the students should take into account when conducting their questionnaire survey.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain the strengths and weaknesses of the questionnaire shown in Resource 3.",
+    6
+   ],
+   [
+    "(e)",
+    "Using Resource 4, sketch a suitable method to represent the data on EV owners’ responses to Question 7. Justify your choice of method.",
+    5
+   ],
+   [
+    "(f)",
+    "Suggest two other types of primary data that could be collected to complement the questionnaire findings in answering the research question.",
+    4
+   ],
+   [
+    "(g)",
+    "Using all the Resources, evaluate the validity of the students’ fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_ACJC_H2P2/R1.png",
+   "img/2026_ACJC_H2P2/R2.png",
+   "img/2026_ACJC_H2P2/R3.png",
+   "img/2026_ACJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "ASRJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 4 junior college students was given an assignment for the one-week school holiday in September to examine the effectiveness of road safety measures in enhancing the safety and liveability of housing estates in Singapore for the elderly.",
+   "The students’ key geographical question was: “How can the inadequacies of road safety measures in housing estates in Singapore be improved to enhance safety for the elderly?”.",
+   "To explore this, they first conducted secondary research on the locations where road safety measures had been put in place to cater to the needs of the elderly. They then eventually decided to conduct observations and questionnaire surveys in Ang Mo Kio Street 31 where the Friendly Streets initiative was piloted. This initiative by the Land Transport Authority (LTA) aims to make daily journeys to key amenities in neighbourhoods safer, more convenient and comfortable for those walking or cycling.",
+   "The observations and questionnaire surveys were conducted on a weekday, between 12 to 2pm. The students used the first 30 minutes to individually take photographs of the road safety measures along Ang Mo Kio Street 31. They then conducted questionnaire surveys in pairs by stationing themselves at the signalised crossings at Blk 314 and Blk 320 respectively. They approached every elderly person who walked past them to administer the questionnaire survey. The students administered the survey to a total of 18 elderly.",
+   "Resource 1 shows photographs of the road safety measures that are part of the Friendly Streets initiative implemented in Ang Mo Kio Street 31. Resource 2 is a map of the designated Friendly Street at Ang Mo Kio Street 31 and its vicinity. Resource 3 shows the profile of the respondents to the questionnaire survey. Resource 4 shows the findings from the questionnaire survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why the students’ geographical question may not be appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest how the students could minimise potential risks during data collection.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain how the students could minimise the impact of their investigation.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, explain why the respondents to the questionnaire survey may not be representative of the elderly residents in Ang Mo Kio Street 31.",
+    5
+   ],
+   [
+    "(e)",
+    "With the aid of a sketch diagram, explain how the students could better represent the data on distribution of respondents who are residents, by blocks along Ang Mo Kio Street 31 as seen in Resource 3.",
+    5
+   ],
+   [
+    "(f)",
+    "With reference to Resource 4, describe the elderly’s views on how the road safety measures have enhanced the safety and liveability in their housing estate.",
+    5
+   ],
+   [
+    "(g)",
+    "The students concluded that the road safety measures implemented in Ang Mo Kio Street 31 was not effective in enhancing the safety and liveability of the housing estate for its elderly residents as there were several areas for improvement. Evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_ASRJC_H2P2/R1.png",
+   "img/2024_ASRJC_H2P2/R2.png",
+   "img/2024_ASRJC_H2P2/R3.png",
+   "img/2024_ASRJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Elderly needs"
+ },
+ {
+  "school": "ASRJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Singapore’s Islandwide Cycling Network (ICN) Programme aims to support the nation’s car-lite vision and encourage greener, healthier commutes. Unveiled in 2020, there are currently more than 730km of cycling paths and park connectors across the island. By promoting cycling, the initiative demonstrates how sustainable transportation can play a vital role in strengthening community efforts to combat climate change.",
+   "A group of four Junior College students were tasked to investigate the community’s views and levels of participation in sustainable transportation. They were given the one-week September school holidays to conduct their investigation. They decided to test the following hypothesis:",
+   "Young adults are more likely than the elderly to adopt cycling as a form of sustainable transportation in Singapore.",
+   "The students produced a questionnaire to collect information from a total of 40 residents at two different locations in Punggol. The students split themselves into pairs, with each pair conducting questionnaires for an hour at the respective locations from 12pm on a weekday of the September school holidays.",
+   "Resource 1 is a map showing the location of the two investigation sites in Punggol. Resource 2A shows a picture of investigation Site A. Resource 2B shows a picture of investigation Site B. Resource 3 is the questionnaire used by the students. Resource 4A shows the results by age group for question 3 of the questionnaire. Resource 4B shows the results by age group for question 4 of the questionnaire."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain whether the hypothesis is suitable for the investigation.",
+    3
+   ],
+   [
+    "(b)",
+    "Suggest a suitable sampling method for the students to select participants for the questionnaire.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 1, 2A, and 2B, suggest how the students could minimise potential risks in conducting the survey.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resources 1, 2A, and 2B, suggest how the students could minimise the impact of their investigation at the two sites.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain how the design of the questionnaire shown in Resource 3 can be improved.",
+    6
+   ],
+   [
+    "(f)",
+    "With the aid of a sketch diagram, explain how the students could better represent the data seen in Resource 4A",
+    5
+   ],
+   [
+    "(g)",
+    "Compare the results for question 4 for the 20-39 age group with the 60 and above age group shown in Resource 4B.",
+    4
+   ],
+   [
+    "(h)",
+    "Evaluate the validity of the students’ fieldwork at Punggol.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_ASRJC_H2P2/R1.png",
+   "img/2025_ASRJC_H2P2/R2A.png",
+   "img/2025_ASRJC_H2P2/R2B.png",
+   "img/2025_ASRJC_H2P2/R3.png",
+   "img/2025_ASRJC_H2P2/R4A.png",
+   "img/2025_ASRJC_H2P2/R4B.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "ASRJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of four students wanted to investigate the effectiveness of the Beverage Container Return Scheme (BCRS) in encouraging recycling habits amongst residents in Bishan. The BCRS is a national recycling programme where used plastic beverage containers can be returned to reverse vending machines, known as Return Right reverse vending machines, in exchange for a 10-cent deposit refund. The scheme aims to reduce plastic waste and support climate change mitigation efforts.",
+   "The hypothesis for their investigation was:",
+   "\"The greater the convenience of recycling, the more likely that residents in Bishan will engage in recycling behaviours.\"",
+   "After secondary research, the students decided to conduct their investigation at Block 512 in Bishan, where a \"Return Right\" reverse vending machine is in front of a supermarket, and neighbouring blocks. They conducted their data collection on a Friday afternoon between 3:00 pm and 5:00 pm.",
+   "One student was stationed near the reverse vending machine at Block 512 for the 2-hour duration to conduct a pedestrian count and observe the utilisation of the reverse vending machine.",
+   "The remaining three students positioned themselves separately at various locations in the vicinity of the reverse vending machine and used convenience sampling to approach passers-by to complete a questionnaire survey. The questionnaire survey focused on their use of the reverse vending machine and their recycling habits. At the end of the 2-hour period, they had surveyed a total of 48 participants. Some of the students faced language barriers when communicating with elderly participants who spoke mainly in dialect.",
+   "Resource 1A shows a map of the investigation site and its vicinity. Resource 1B shows photographs of the investigation site and its vicinity. Resource 2 shows the profile of the respondents for the questionnaire survey. Resource 3 shows an extract from the questionnaire survey designed by the students. Resource 4A shows the results of Question 2 of the questionnaire survey. Resource 4B shows the results of the pedestrian count and observations of the utilisation of the Return Right reverse vending machine."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain the strengths and limitations of the students' hypothesis.",
+    5
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1A and 1B, suggest how the students could minimise potential risks and impacts during their data collection.",
+    6
+   ],
+   [
+    "(c)",
+    "Suggest how the students could ensure that their investigation is conducted ethically.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 2, explain why the sample for the questionnaire survey may not be representative of the profile of residents in Bishan.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain the strengths and limitations of the design of the questionnaire survey shown in Resource 3.",
+    6
+   ],
+   [
+    "(f)",
+    "With the aid of a sketch diagram, explain how the students could better represent the data shown in Resource 4A.",
+    5
+   ],
+   [
+    "(g)",
+    "The students concluded that greater convenience does not increase the likelihood of engaging in recycling behaviours amongst residents in Bishan. Evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_ASRJC_H2P2/R1A.png",
+   "img/2026_ASRJC_H2P2/R1B.png",
+   "img/2026_ASRJC_H2P2/R2.png",
+   "img/2026_ASRJC_H2P2/R3.png",
+   "img/2026_ASRJC_H2P2/R4A.png",
+   "img/2026_ASRJC_H2P2/R4B.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "CJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 4 students from East Austin conducted fieldwork to investigate the impact of global warming on the liveability of the elderly in the neighbourhood. They focused on factors affecting the physical wellbeing of the elderly in East Austin, a neighbourhood in Austin, Texas. The research question was:",
+   "‘Has rising heat affected the physical wellbeing of elderly residents, aged 65 and above, living in East Austin?’",
+   "Before the start of their fieldwork, the students conducted secondary research by reading newspaper articles on the health risks associated with rising heat. Next, they met at 10am on a Saturday in June to conduct their fieldwork. At the start, the students worked in pairs and walked around the neighbourhood to take photographs of their observations on how rising heat might affect the physical wellbeing of the elderly. Next, each pair interviewed one elderly resident, at the sites they were at, about their experience coping with rising heat.",
+   "Based on their findings from the first day, the students went home and crafted a questionnaire to collect further data. They went back to the neighbourhood the following day at 10am to distribute the questionnaire to 20 elderly residents.",
+   "Resource 1 shows the map of the neighbourhood surveyed in East Austin, Texas. Resource 2 shows photographs taken by students, and selected quotes from the interviews. Resource 3 shows results of the questionnaire survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain the suitability of the students’ research question.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1 and 2, suggest how students could reduce potential risks.",
+    6
+   ],
+   [
+    "(c)",
+    "With reference to Resource 2, suggest how rising heat may affect the physical wellbeing of elderly residents in East Austin.",
+    5
+   ],
+   [
+    "(d)",
+    "Explain three criteria students could use to select participants to take their questionnaire.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain why the sequence of the students’ data collection was useful in improving the accuracy and/or reliability of their investigation.",
+    5
+   ],
+   [
+    "(f)",
+    "Suggest improvements to the representation of the data as shown in Resource 3.",
+    5
+   ],
+   [
+    "(g)",
+    "Evaluate the students’ investigation of whether rising heat has affected the physical wellbeing of elderly residents in East Austin.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_CJC_H2P2/R1.png",
+   "img/2024_CJC_H2P2/R2.png",
+   "img/2024_CJC_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Elderly needs"
+ },
+ {
+  "school": "CJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of four students conducted fieldwork to understand fluvial flood risk in Kuantan Town, Malaysia. They wanted to examine whether certain areas along the river experience different levels of flooding during the monsoon season.",
+   "The students selected two sites along public esplanades - Site A at Esplanade Kuantan and Site B at Esplanade Tanjung Api.",
+   "Their investigation focused on testing the hypothesis: ‘The Esplanade Kuantan area (Site A) has a higher flood risk than Esplanade Tanjung Api (Site B) due to differences in urban development along the river.’",
+   "For each site, they created a grid of twenty-five 20m x 20m squares covering an area extending 100m from the river's edge. Using Google Earth imagery, they classified each grid square as either:",
+   "• Built-up: Areas covered by buildings, roads, and paved surfaces",
+   "• Recreational space: Parks, sports facilities, and landscaped areas",
+   "• Natural surface: Undeveloped areas with trees, shrubs, or grass",
+   "During their field survey, the students used the public walkways at both sites to collect data. Using measuring tapes, they recorded the distance between the river's edge and the nearest buildings. They also noted the riverbank characteristics and measured the width of public walkways. All measurements were taken between 9am and 11am on a weekday to ensure consistency.",
+   "Resource 1 is a location map showing Sites A and B along the Kuantan River. Resource 2 shows photographs of Sites A and B. Resource 3 shows a sample grid classification. Resource 4 shows the data collected by the students at both sites."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resources 2 and 3, explain the risks the students might face when collecting data at these sites.",
+    5
+   ],
+   [
+    "(b)",
+    "With reference to Resources 2 and 3, suggest how the students could minimise their impact at these public spaces during data collection.",
+    5
+   ],
+   [
+    "(c)",
+    "Explain how the timing of data collection could affect the results of this investigation.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, explain two problems the students might face when using this method to classify different types of land use.",
+    4
+   ],
+   [
+    "(e)",
+    "Suggest what other data about the sites the students should collect to better understand flood risk.",
+    5
+   ],
+   [
+    "(f)",
+    "Suggest three ways the students could improve the reliability of their data collection.",
+    6
+   ],
+   [
+    "(g)",
+    "Evaluate the effectiveness of the students' methodology in testing their hypothesis about flood risk at the two sites.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_CJC_H2P2/R1.png",
+   "img/2025_CJC_H2P2/R2.png",
+   "img/2025_CJC_H2P2/R3.png",
+   "img/2025_CJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "CJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of four students conducted fieldwork to investigate how a community living in the Red River Delta, Vietnam, is responding to increased flood risk associated with climate change. They wanted to examine whether residents in the area were adequately prepared for the more frequent and severe flooding that the region has experienced in recent years.",
+   "The students conducted their investigation at Giao Lạc, a low-lying fishing village close to the mouth of the Red River. The village has experienced notable flooding in three of the past five years.",
+   "Their investigation focused on testing the hypothesis: 'Most residents in the village have a low level of flood preparedness despite experiencing increased flooding in recent years.'",
+   "To collect data, the students spent approximately four hours at the village on a single afternoon.",
+   "They conducted a focus group discussion with eight adult residents. They used a set of questions to assess their awareness of flood risk, experience of past flood events, and knowledge of emergency procedures. The students took turns leading different sections of the discussion, with two students recording responses by hand while the other two observed and added supplementary notes. The eight residents who participated in the focus group included six women and two men, ranging in age from 45 to 72. Most were engaged in rice farming or aquaculture.",
+   "For the environmental survey, the students split into two pairs. Each pair surveyed a road using a checklist.",
+   "Resource 1 provides background information on Giao Lạc. Resource 2 shows photographs of sites in the village. Resource 3 shows the results of the focus group discussion. Resource 4 shows the environmental survey checklist completed by the students."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why the students’ hypothesis is appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1 and 2, suggest how the students could reduce potential risks during their fieldwork.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain the ethical issues the students need to consider when conducting their investigation.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, describe the residents’ level of flood preparedness.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain three criteria the students could use to select residents to participate in their focus group discussion.",
+    5
+   ],
+   [
+    "(f)",
+    "Explain how the data collected from the focus group discussion might not be entirely reliable.",
+    5
+   ],
+   [
+    "(g)",
+    "Evaluate the validity of the students' investigation on flood preparedness in Giao Lạc village.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_CJC_H2P2/R1.png",
+   "img/2026_CJC_H2P2/R2A.png",
+   "img/2026_CJC_H2P2/R2B.png",
+   "img/2026_CJC_H2P2/R2C.png",
+   "img/2026_CJC_H2P2/R3.png",
+   "img/2026_CJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "DHS",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of six students undertook an investigation of how flood risk differs along the river near their school. The following was their research question:",
+   "“How does flood risk vary along the river near our school?”",
+   "The six students worked in pairs and each pair was assigned one of the fieldwork sites. The students collected the data on an afternoon in January. At each site, the following data was collected:",
+   "- River velocity using the float method and flowmeter",
+   "- Channel width and depth using measuring tape and rule",
+   "The students used different floats at each site. Additionally, they only had one flowmeter which was shared amongst the three pairs of students.",
+   "Resource 1A is a map showing the fieldwork sites. Resource 1B shows the land use near the river today. Resources 2A and 2B show the methods the students used to measure velocity in the river. Resources 3A and 3B shows the velocity measurements and cross-section measurement collected by the students respectively."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to the research question, explain if it is of a suitable scale.",
+    3
+   ],
+   [
+    "(b)",
+    "Explain one strength and one limitation of using each method in measuring river velocity shown in Resources 2A and 2B.",
+    4
+   ],
+   [
+    "(c)",
+    "Suggest issues related to research ethics and how the students can address them in this geographical investigation.",
+    6
+   ],
+   [
+    "(d)",
+    "Suggest the considerations that the students should have in the selection of the investigation sites and the sampling method.",
+    5
+   ],
+   [
+    "(e)",
+    "With reference to Resource 3A, describe the measurements recorded.",
+    6
+   ],
+   [
+    "(f)",
+    "Suggest two limitations of the method of data representation in Resource 3B.",
+    2
+   ],
+   [
+    "(g)",
+    "Sketch the cross-section at Site C shown in Resource 3B.",
+    4
+   ],
+   [
+    "(h)",
+    "Evaluate the students’ investigation of flood risk along the river.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_DHS_H2P2/R1A.png",
+   "img/2024_DHS_H2P2/R1B.png",
+   "img/2024_DHS_H2P2/R2A.png",
+   "img/2024_DHS_H2P2/R2B.png",
+   "img/2024_DHS_H2P2/R3A.png",
+   "img/2024_DHS_H2P2/R3B.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "DHS",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Sungei Bedok is a river in the eastern part of Singapore that flows through areas with different categories of land use. Ten junior college students were interested in comparing these land uses to investigate whether some were subject to higher flood risk than others.",
+   "Before the main fieldwork, the group conducted a recce trip (a short preliminary visit) on 6 August, during which they took photographs of the river and noted potential study sites across seven land uses. They also observed that most of Sungei Bedok had been canalised and concluded that the bankfull width and depth would remain uniform throughout the entire stretch.",
+   "The actual field investigation was carried out on 15 August. On that day, they took a single reading of bankfull width and depth, and administered a bi-polar survey to assess and compare flood risk across different land uses. For each land use category, they selected two sites to conduct the bi-polar survey.",
+   "Resource 1 shows a land use map of the vicinity of Sungei Bedok. Resource 2 shows a photo taken of the section of Sungei Bedok where they collected data on 15 August. Resource 3 shows a bi-polar survey crafted by the students. Resource 4 shows collated results of bipolar survey across all land uses."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Suggest a hypothesis and explain why it is appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain why it was important for students to go on a recce trip before the actual fieldwork.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 2, explain how features of this river could mitigate flood risk.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 2, describe how bankfull depth and width could be measured accurately.",
+    5
+   ],
+   [
+    "(e)",
+    "With reference to Resources 1 and 2, describe the risks faced by the students during data collection.",
+    4
+   ],
+   [
+    "(f)",
+    "Using Resource 4, sketch a graph to present the ‘net score’ for each land use.",
+    4
+   ],
+   [
+    "(g)",
+    "Suggest two types of additional data the students could collect to strengthen their investigation.",
+    4
+   ],
+   [
+    "(h)",
+    "Evaluate the students’ investigation of flood risk across land uses along Sungei Bedok.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_DHS_H2P2/R1.png",
+   "img/2025_DHS_H2P2/R2.png",
+   "img/2025_DHS_H2P2/R3.png",
+   "img/2025_DHS_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "DHS",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Eight students undertook an investigation into access to heat-relief facilities in Chinatown, Boston City, Massachusetts, USA. These facilities are established and managed by local community organisations. They examined the relationship between heat exposure and access to heat-relief facilities by investigating the hypothesis:",
+   "“Residents of Boston Chinatown living in areas of greater heat exposure have better access to heat-relief facilities.”",
+   "They selected four residential sites A, B, C and D, within Boston Chinatown. They collected data between 1.00 p.m. and 3.00 p.m. on a weekday in July, during the summer period.",
+   "Two students were assigned to each site. At their assigned site, they measured air temperature using a digital thermometer and estimated the percentage of shade cover. Both students then walked separately from their respective sites to the nearest heat-relief facility, and their recorded walking times were added together and divided by two to obtain the mean walking time. They also conducted a questionnaire survey with the first 10 adult respondents at each site who were available and willing to participate, asking about their perceived accessibility of heat-relief facilities.",
+   "Resource 1 is a map of Boston Chinatown showing Sites A, B, C and D and heat-relief facilities. Resource 2 shows information about the age profile of respondents and Boston Chinatown residents. Resource 3 shows the findings of the investigation at the four sites."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness in the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 1, explain the strengths and limitations of the students’ choice of the four sites.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 1, suggest how the students could minimise potential risks during data collection.",
+    4
+   ],
+   [
+    "(d)",
+    "Explain the ethical issues that may arise from the students’ investigation.",
+    4
+   ],
+   [
+    "(e)",
+    "Explain why the walking time recorded by the students may not be a fully valid measure of residents’ access to heat-relief facilities.",
+    4
+   ],
+   [
+    "(f)",
+    "Compare heat exposure at Sites A, B, C and D, as shown in Resource 3.",
+    4
+   ],
+   [
+    "(g)",
+    "Using Resource 3, construct a suitable graph to show the relationship between air temperature and mean walking time at the four sites.",
+    5
+   ],
+   [
+    "(h)",
+    "The students concluded that residents living in areas of greater heat exposure have better access to heat-relief facilities. Evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_DHS_H2P2/R1.png",
+   "img/2026_DHS_H2P2/R2.png",
+   "img/2026_DHS_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "EJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of four students from a Junior College undertook an investigation to ascertain the flood risk along Singapore’s Kallang River during the June holidays. The students decided to focus their investigation on the stretch of the Kallang River along the Bishan-Ang Mo Kio Park. The group came up with the following hypothesis:",
+   "“The flood risk is higher downstream of the Kallang River in Bishan-Ang Mo Kio Park.”",
+   "The group sought permission from PUB and National Parks to conduct their geographical investigation in June 2024. After referring to an old online map of the park, they decided to measure the river’s discharge data across two sites along the river, that they felt were easier to access, as seen in Resource 1.",
+   "They conducted their investigation on two consecutive Wednesdays, from 9am to 12pm, covering one site on each day. It had rained on the first Wednesday, but the rain stopped before the group commenced their fieldwork at 9am.",
+   "To measure river velocity, they used the following equipment:  Oranges  Tape measure  Stopwatch",
+   "At Site 2, the group found that the orange often became stuck in debris in the river.",
+   "To measure the river’s cross-sectional area, they used the following equipment:  Tape measure  Ranging poles  Meter rulers",
+   "After the data was collected, the students calculated the discharge of the river by multiplying the cross-sectional area of the channel by the velocity.",
+   "The students collected flood risk perception data by approaching the first park users they saw who were within the vicinity of both sites, interviewing one park user each.",
+   "Resource 1 is a map of Bishan-Ang Mo Kio Park, showing the locations of the two sites along the Kallang River. Resources 2A and 2B are photographs of the river at Sites 1 and 2. Resource 3 shows the data collection sheet used by the students. Resource 4 show the flood risk perception survey that was conducted."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why this hypothesis is appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 2A and 2B, suggest how the students could minimise potential risks during data collection.",
+    6
+   ],
+   [
+    "(c)",
+    "Describe how the team could collect data on the velocity of the channel at Site 2, as shown in Resource 2B.",
+    5
+   ],
+   [
+    "(d)",
+    "Explain the limitations in conducting the investigation on two consecutive Wednesdays, covering one site on each day.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 3, explain how the design of the data collection sheet could be improved.",
+    5
+   ],
+   [
+    "(f)",
+    "Explain how the data collected using the survey shown in Resource 4 might not be accurate.",
+    6
+   ],
+   [
+    "(g)",
+    "Evaluate the usefulness of this investigation in examining the factors influencing flood risk along Singapore’s Kallang River.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_EJC_H2P2/R1.png",
+   "img/2024_EJC_H2P2/R2A.png",
+   "img/2024_EJC_H2P2/R2B.png",
+   "img/2024_EJC_H2P2/R3.png",
+   "img/2024_EJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "EJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of four students from a Junior College embarked on an investigation to find out about flood mitigation strategies and public perception of flood risk along two rivers in Singapore – Punggol Waterway (Site A) and Kallang River (Site B). Their hypothesis is as follows:",
+   "‘The flood risk along Punggol Waterway is lower than the flood risk along Kallang River.’",
+   "They employed the following methods:",
+   "• Flood risk perception survey",
+   "• Bi-polar survey of the success of flood mitigation strategies at each site.",
+   "The students conducted their investigation at Site A on 10 December (Tuesday) and Site B on 15 December (Sunday). They collected data in pairs and devised the following schedule to ensure that each pair had the chance to try out different methods:",
+   "10 December 15 December Flood perception survey Pair 1 Pair 2 Bi-polar survey Pair 2 Pair 1",
+   "On 10 December, the students conducted the flood risk perception survey with every tenth resident they met while walking around Site A from 9-10am. They only managed to get 3 respondents.",
+   "On 15 December, they modified the process by surveying every fifth resident instead of tenth, from 9am-12pm, at Site B. The pair conducting the bi-polar survey at Site B was done by 10am and returned to Site A to survey additional residents from 11am-12pm.",
+   "Resources 1A and 1B show the photos taken at Sites A and B respectively. Resource 2 shows the demographics of the population who attempted the flood risk perception survey at each site. Resource 3 shows the tabulation of data for the flood risk perception survey. Resource 4 shows the bipolar survey used by the students."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness in the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how the sampling of respondents for the flood risk perception surveys could be improved.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resources 1A and 1B, suggest how the students could minimise potential risks during data collection.",
+    6
+   ],
+   [
+    "(d)",
+    "Compare the characteristics of the respondents in Sites A and B as shown in Resource 2.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain how the data in Resource 3 may be represented using a suitable graphical method.",
+    5
+   ],
+   [
+    "(f)",
+    "Explain the limitations of the data collection sheet shown in Resource 4.",
+    5
+   ],
+   [
+    "(g)",
+    "The students concluded that their hypothesis is true. Evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_EJC_H2P2/R1A.png",
+   "img/2025_EJC_H2P2/R1B.png",
+   "img/2025_EJC_H2P2/R2.png",
+   "img/2025_EJC_H2P2/R3.png",
+   "img/2025_EJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "EJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Three students from Noya Junior College wanted to find out if the reasons for the adoption of electric vehicles vary across age groups. They came up with the following hypothesis:",
+   "“Singaporeans below the age of 36 years old who drive electric vehicles are more likely to do so to combat climate change than Singaporeans above the age of 60 years old.”",
+   "The group decided to conduct their fieldwork in a neighbourhood with both public and private housing located within the Thomson-Sin Ming area as seen in Resource 1.",
+   "• In the private housing estate, the students walked around to identify households with electric vehicles in the garage. They interviewed households with electric vehicles in the garage.",
+   "• In the public housing estate, the students stationed themselves next to the electric car lots in the public car parks. They interviewed residents who parked there.",
+   "The students conducted the interviews on three weekday afternoons during their lunch hour, between 12-2pm.",
+   "Resource 1 is a map of the neighbourhood within the Thomson-Sin Ming area. Resource 2 shows the interview questions the students used. Resource 3 shows a pie chart of age of respondents. Resource 4 is a line graph for considerations in purchasing an electric vehicle."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain two ways in which the hypothesis is appropriate.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 1, explain why the site might not be suitable for the investigation.",
+    3
+   ],
+   [
+    "(c)",
+    "Explain two sources of secondary data that could help the students achieve their investigation aim.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest how the students could minimise potential risks in undertaking fieldwork.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 2, explain how the interview questions could be improved.",
+    5
+   ],
+   [
+    "(f)",
+    "Explain how the sampling of respondents as shown in Resource 3 could be improved.",
+    6
+   ],
+   [
+    "(g)",
+    "Suggest an alternative graphical method for the data shown in Resource 4 and explain why it is better.",
+    4
+   ],
+   [
+    "(h)",
+    "Evaluate the validity of the students’ fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_EJC_H2P2/R1.png",
+   "img/2026_EJC_H2P2/R2.png",
+   "img/2026_EJC_H2P2/R3.png",
+   "img/2026_EJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "HCI",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Four 17-year old students undertook an investigation about the perception of consumers of community responses to climate change in Singapore. They examined the perception of consumers by investigating the hypothesis -",
+   "‘Consumers in Singapore see a stronger role for community response than for government and businesses in tackling climate change.’",
+   "Community response was defined as ‘any action carried out by non-governmental and non-corporate stakeholders’.",
+   "The students collected primary data by conducting a survey in May and did so by asking their friends to participate in an online survey and sought their help to forward the link to family and friends. When they were unable to reach their targeted sample size of 100 respondents, the students decided to expand their number of responses for the survey by conducting the survey individually outside a busy shopping mall - Bugis Junction - on a Wednesday and Thursday afternoon. Passers-by were approached to do the survey.",
+   "In addition to the survey, the students conducted face-to-face interviews with 6 family members and neighbours, including two elderly neighbours. The students also conducted some research on consumers’ perception on climate change and found some data from a perception survey conducted by the National Climate Change Secretariat (NCCS) in 2019.",
+   "Resource 1 shows street-level views outside Bugis Junction. Resource 2 shows surveyed Singapore consumers’ perception of different actors’ importance in fighting climate change. Resource 3 shows 2019 selected survey findings by NCCS about Singapore consumers’ perception on the responsibility of different actors in fighting climate change."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why the hypothesis is appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 1, suggest the challenges that the students may face conducting the survey online and at Bugis Junction.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 1, suggest how the students could minimise potential risks when administering the survey at Bugis Junction.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain the ethical considerations that the students should take note of when conducting the interviews with family members and neighbours.",
+    6
+   ],
+   [
+    "(e)",
+    "Suggest why it may be better for the students to administer the surveys first before conducting face-to-face interviews.",
+    5
+   ],
+   [
+    "(f)",
+    "Compare the consumers’ perception of the actors’ importance in fighting climate change shown in Resource 2.",
+    4
+   ],
+   [
+    "(g)",
+    "The students concluded that consumers in Singapore think that community response to climate change is more important than the government and businesses. With reference to Resources 1, 2 and 3, evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_HCI_H2P2/R1.png",
+   "img/2024_HCI_H2P2/R2.png",
+   "img/2024_HCI_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "HCI",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of students from Singapore decided to investigate the influence of land use on infiltration rates. They did this to better understand fluvial flood risk in their neighbourhood. Having read literature on the subject, they suggested the hypothesis:",
+   "Residential areas reduce infiltration rates.",
+   "The students identified two sites for their investigation. Site X is next to a private residential high-rise building (Resource 1A), while Site Y is located within a nature park (Resource 1B).",
+   "They decided to collect the data on a weekday in August at 11am. The equipment the students used for their investigation was:",
+   "• A tin can, 12cm long, with both ends removed with a can opener",
+   "• A ruler and stopwatch",
+   "• Recording sheets (Resources 3A and 3B) and pencil.",
+   "The students used a hammer to sink the can into the ground. However, they only managed to do so to a depth of 1cm (Resource 1C).",
+   "Water was poured into the can until it was full. After a few minutes, the students recorded the drop in water level using a ruler. They then added water to bring the level back to approximately the original level at the start. They took approximately 30 minutes to collect data at Site X. Thereafter, they walked to Site Y (15 minutes’ walk) and collected data for another approximately 30 minutes.",
+   "Resource 1A shows Site X next to a walled housing estate. Resource 1B shows Site Y situated within a nature park. Resource 1C shows the method used to measure infiltration rates at Site X. Resource 2 is a map of the study area where the students conducted the investigation. Resources 3A and 3B show the completed data collection sheets used during the investigation."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness of the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain why the area shown in Resources 1A, 1B and 2, are suitable for the students to conduct this geographical investigation.",
+    5
+   ],
+   [
+    "(c)",
+    "Explain precautions the students should take when conducting fieldwork at the sites shown in Resources 1A and 1B.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain the strengths and weaknesses of the data collection method shown in Resource 1C.",
+    5
+   ],
+   [
+    "(e)",
+    "Sketch line graphs to represent cumulative infiltration (mm) over cumulative time (mins) shown in Resources 3A and 3B.",
+    6
+   ],
+   [
+    "(f)",
+    "Explain why a line graph is an appropriate method to represent the data from Resources 3A and 3B.",
+    4
+   ],
+   [
+    "(g)",
+    "Evaluate the students’ investigation about infiltration rates affecting flood risk.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_HCI_H2P2/R1A.png",
+   "img/2025_HCI_H2P2/R1B.png",
+   "img/2025_HCI_H2P2/R3A.png",
+   "img/2025_HCI_H2P2/R3B.png",
+   "img/2025_HCI_H2P2/R1C.png",
+   "img/2025_HCI_H2P2/R2.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "HCI",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of four Geography students in Singapore investigated the effectiveness of sheltered walkways as an adaptation strategy for residents coping with rising temperatures. They focused on a route between an HDB residential block next to their school and a nearby Mass Rapid Transit (MRT) station.",
+   "The students noted that while a sheltered walkway existed, it was incomplete as the walkway did not cover the entire route to the MRT station. Instead of walking to the MRT station from their homes, many residents continued to take a bus to the MRT station.",
+   "The students came up with the following geographical question for their fieldwork:",
+   "“Why do residents take a bus to the MRT train station instead of using the walkway?”",
+   "They divided themselves into two pairs, and conducted their fieldwork from 4 to 6 pm, every Wednesday in May as it was their designated home-based learning (HBL) day. Each day, one pair would count the number of residents using the sheltered walkway to get to the MRT station, while another pair would count the number of residents alighting from the bus at the MRT station. The students also noted the weather and traffic conditions.",
+   "In addition, they used a digital temperature sensor to measure the ambient temperature at seven selected points along the route. They also noted the features and details of the immediate surroundings at each point. They did this at 2 pm on a sunny Thursday afternoon in June.",
+   "Resource 1A is a map showing the walking route and the selected temperature measurement points. Resource 1B shows a photograph of a section along the route between Measuring Points 6 and 7. Resource 2 shows the number of residents using the route in the month of May, together with the prevailing weather and traffic conditions on each day. Resource 3A shows the information collected at each selected point along the route in June. Resource 3B shows a picture of the digital temperature sensor."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why the students’ question is appropriate for their investigation.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1A and 1B, explain how students can minimise potential risks when conducting their fieldwork along the walkway between their school and the MRT train station.",
+    6
+   ],
+   [
+    "(c)",
+    "With reference to Resources 2 and 3A, explain one strength and one weakness of the data representation methods.",
+    2
+   ],
+   [
+    "(d)",
+    "Suggest reasons for the number of residents walking to the MRT train station shown in Resource 2.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resources 1A, 1B, and 3A, explain why the students’ selection of the 7 temperature measurement points is appropriate.",
+    5
+   ],
+   [
+    "(f)",
+    "With reference to Resources 3A and 3B, explain how the students can ensure the reliability of the ambient temperature data they had collected.",
+    6
+   ],
+   [
+    "(g)",
+    "The students wish to conduct a survey to find out why residents are not using the sheltered walkway more. Suggest two pieces of data that the students can collect to contribute to the analysis of data.",
+    4
+   ],
+   [
+    "(h)",
+    "The students concluded that residents do not use the sheltered walkway mainly because it did not fully cover the route between their homes and the train station. With reference to all the resources, evaluate the validity of the students’ conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_HCI_H2P2/R1A.png",
+   "img/2026_HCI_H2P2/R1B.png",
+   "img/2026_HCI_H2P2/R2.png",
+   "img/2026_HCI_H2P2/R3A.png",
+   "img/2026_HCI_H2P2/R3B.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "JPJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Ang Mo Kio is Singapore’s first cycling town, designed to promote cycling as a sustainable mode of transportation. Initial construction was completed in 2016, with ongoing works expected to finish by 2025. These efforts include increasing the length and interlinking of dedicated cycle paths to encourage cycling. The initiative underscores the importance of sustainable transportation in addressing climate change at the community level.",
+   "A group of 10 students decided to investigate the effectiveness of the promotion of cycling in changing commuting habits within Ang Mo Kio. They designed the following research question for their study:",
+   "‘How effective has the promotion of cycling been in changing commuting habits in Ang Mo Kio Town?’",
+   "The students crafted a questionnaire as shown in Resource 3. They planned to conduct surveys using the questionnaire on two weekdays in the month of June at five sites in Ang Mo Kio, as shown in Resources 1A and 1B. At each site, 20 respondents would be given five minutes each to respond to the questionnaire. Resource 2 shows survey site 1 in Ang Mo Kio. Resource 4 shows selected results from the survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain whether the research question is appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resources 1A and 1B, suggest why site 1 might be a better location than the other sites for the students to conduct the survey.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resources 1A and 2, explain how the students can best conduct their survey.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 2, suggest how the students can minimise the impact of their investigation.",
+    5
+   ],
+   [
+    "(e)",
+    "Construct a suitable data representation method for the results shown in Resource 4.",
+    4
+   ],
+   [
+    "(f)",
+    "Explain the strengths and weaknesses of the questionnaire shown in Resource 3.",
+    6
+   ],
+   [
+    "(g)",
+    "Using all the resources, evaluate the accuracy and reliability of the data collected.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_JPJC_H2P2/R3.png",
+   "img/2024_JPJC_H2P2/R1A.png",
+   "img/2024_JPJC_H2P2/R1B.png",
+   "img/2024_JPJC_H2P2/R2.png",
+   "img/2024_JPJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Others"
+ },
+ {
+  "school": "JPJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 12 students decided to investigate the flood risk in Bangkok, Thailand. More specifically, they were keen to understand the threat experienced by people in different flood risk zones. They visited fifteen households in each flood risk zone over three days—Monday, Wednesday, and Friday—and interviewed one member from each household using a questionnaire. The results of this questionnaire were then compared across the three flood risk zones.",
+   "Resource 1 shows the flood risk zones in Bangkok, Thailand. Resource 2 shows the questionnaire used in the investigation. Resource 3 shows the results of Question 6c in the questionnaire compared between the three flood risk zones.."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Suggest a suitable hypothesis for the fieldwork investigation and state two reasons why it is at a suitable scale.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resource 1, explain the benefits of collecting data at the three sites shown.",
+    4
+   ],
+   [
+    "(c)",
+    "Suggest two ethical issues the students should consider when conducting this investigation.",
+    5
+   ],
+   [
+    "(d)",
+    "Suggest how the students can improve their sampling for the investigation.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain the strengths and limitations of the questionnaire shown in Resource 2.",
+    6
+   ],
+   [
+    "(f)",
+    "Using Resource 3, explain what the results suggest about the threat experience of the people living in each of the three zones.",
+    6
+   ],
+   [
+    "(g)",
+    "Evaluate the effectiveness of this investigation in understanding the threat experienced by people in different flood risk zones.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_JPJC_H2P2/R1.png",
+   "img/2025_JPJC_H2P2/R2.png",
+   "img/2025_JPJC_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "JPJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Five Singaporean students investigated the effectiveness of the reusable bag initiative in supermarkets as a response to climate change on a Sunday afternoon. They came up with the following hypothesis:",
+   "Supermarket shoppers in Singapore are likely to bring their own reusable bags when charged a fee for disposable carrier bags.",
+   "To test their hypothesis, the students collected data at two supermarket outlets located within the same neighbourhood. Supermarket Outlet A imposes an additional charge of $0.05 for each disposable carrier bag, while Supermarket Outlet B does not. The students split themselves into two groups and collected data concurrently at both outlets. At each outlet, the students stood near the checkout counters to record the total number of shoppers who purchased groceries, and the number of shoppers who brought their own reusable bags. They also photographed shoppers at the checkout area.",
+   "With the help of their family members, they also recruited 5 residents living in the neighbourhood to complete an online survey.",
+   "Resource 1 is a map showing the locations of Supermarket Outlets A and B. Resources 2A and 2B show photographs taken by students at Supermarket Outlets A and B. Resource 3 shows the online survey form used by the students. Resource 4 shows the data collected at each supermarket outlet."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Suggest why the hypothesis is appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 1, explain the advantages of choosing the two supermarket outlets for data collection.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 2A, 2B and 3, explain possible ethical issues arising from the students’ data collection process.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, explain two strengths and one limitation of the online survey form.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain how the students could improve their sampling method for the online survey.",
+    6
+   ],
+   [
+    "(f)",
+    "Describe how the data shown in Resource 4 may be represented.",
+    4
+   ],
+   [
+    "(g)",
+    "With reference to all the Resources, evaluate the validity of the students’ fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_JPJC_H2P2/R1.png",
+   "img/2026_JPJC_H2P2/R2A.png",
+   "img/2026_JPJC_H2P2/R2B.png",
+   "img/2026_JPJC_H2P2/R3.png",
+   "img/2026_JPJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "MI",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 15 students decided to investigate the local community’s response to climate change in Rotterdam, the Netherlands. Rotterdam is a low-lying city that is increasingly vulnerable to intense rainfall and pluvial flooding. Various measures, including water squares, green spaces, permeable surfaces and stormwater-storage facilities, have been introduced to improve the city’s resilience.",
+   "The students selected five locations in Rotterdam: Water Square Benthemplein, Rotterdam Centraal and Kruisplein, Noordplein, Dakpark Rotterdam and Museumpark.",
+   "The students agreed to investigate the following hypothesis:",
+   "The extent of public climate-adaptation measures implemented by the Municipality of Rotterdam is greater than the extent of household climate-adaptation measures adopted by individuals in Rotterdam.",
+   "The students conducted secondary research online for basic information about the five locations and the climate-adaptation measures found at each location.",
+   "They designed a questionnaire to investigate people’s awareness of, support for and adoption of climate-adaptation measures. They also produced an environmental data-collection sheet to record the climate-adaptation features observed at each location.",
+   "The students used convenience sampling to survey 25 people at each location. They conducted their fieldwork from 11 am to 1 pm on two weekdays in October. It was cool and rainy on both days. In total, the students surveyed 125 people.",
+   "At each location, the students carried out the following steps:",
+   "• They approached people who appeared to be at least 18 years old.",
+   "• They verified whether each person lived, worked or studied in Rotterdam.",
+   "• They asked willing participants to complete the questionnaire.",
+   "• They identified climate-adaptation features within 50 metres of the survey point.",
+   "• They used the environmental data-collection sheet to give each feature a score based on its perceived effectiveness in managing intense rainfall.",
+   "Resource 1 shows the locations of the five fieldwork sites in Rotterdam. Resource 2 shows basic information about the five locations and their climate-adaptation measures. Resource 3 is a photograph of Benthemplein Water Square during dry and wet weather. Resource 4A shows the survey questionnaire used by the students. Resource 4B shows the environmental data-collection sheet used by the students. Resource 5 shows the results collected for environmental perception survey during the investigation."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain the suitability of the students’ hypothesis for investigating the Rotterdam community’s response to climate change.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain the limitations of the sampling method used by the students.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 1 and 3, explain how the students could minimise potential risks when undertaking the fieldwork.",
+    6
+   ],
+   [
+    "(d)",
+    "Using Resources 4A and 4B, explain the strengths and limitations of the survey questionnaire and environmental perception survey.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain how students could improve the accuracy and reliability of their data collection procedures during the geographical investigation.",
+    5
+   ],
+   [
+    "(f)",
+    "Suggest how the ‘mean environmental perception scores for Museumpark’ shown in Resource 5 may be represented.",
+    5
+   ],
+   [
+    "(g)",
+    "Using all the Resources, evaluate the validity of the data collected in determining whether the students’ hypothesis about public implementation and household adoption is supported.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_MI_H2P2/R1.png",
+   "img/2026_MI_H2P2/R2.png",
+   "img/2026_MI_H2P2/R3.png",
+   "img/2026_MI_H2P2/R4A.png",
+   "img/2026_MI_H2P2/R4B.png",
+   "img/2026_MI_H2P2/R5.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "NJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 4 students is interested to investigate if neighbourhoods in Singapore meet the needs of the elderly. They read an article of about upcoming project, the Toa Payoh Integrated Development, and want to investigate if it would supplement the Toa Payoh neighbourhood in meeting the needs of the elderly when it is completed.",
+   "The students came up with the following hypothesis:",
+   "“With the Toa Payoh Integrated Development, Toa Payoh will meet the needs of the elderly in the neighbourhood.”",
+   "The students went to Toa Payoh Hub to collect the data for the investigation every Monday from 8pm to 9pm for 4 weeks in August. To gather data from the elderly, the group administered a survey questionnaire in English. However, the group faced difficulties collecting the data as the elderly were cautious about them being scammers and some could not respond in English. The group ended up with a total of 15 responses.",
+   "Resource 1 shows the map of Toa Payoh. Resource 2 shows the article on the upcoming Toa Payoh Integrated Development. Resource 3 shows the survey the students have crafted for the investigation. Resource 4 shows selected responses by the elderly to Question 10 of the survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why the students’ hypothesis is suitable for investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 2, explain how Toa Payoh Integrated Development can help to meet the needs of the elderly.",
+    5
+   ],
+   [
+    "(c)",
+    "Explain the ethical considerations the group should bear in mind when conducting surveys.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, explain the strengths of the survey questionnaire that the students have crafted in providing data for this study.",
+    6
+   ],
+   [
+    "(e)",
+    "Develop a plan on one other primary data collection method that can help to supplement the students’ investigation.",
+    7
+   ],
+   [
+    "(f)",
+    "Using Resource 4, describe how the data collected from Question 7 of the survey can be analysed.",
+    4
+   ],
+   [
+    "(g)",
+    "Based on the students’ investigation, the students concluded that their hypothesis can be accepted. Evaluate the validity of the fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_NJC_H2P2/R1.png",
+   "img/2024_NJC_H2P2/R2.png",
+   "img/2024_NJC_H2P2/R3.png",
+   "img/2024_NJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Elderly needs"
+ },
+ {
+  "school": "NJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of six students in Singapore carried out fieldwork to investigate how to engage youth in recycling efforts and encourage them to adopt environmentally sustainable practices through textile recycling and upcycling. The hypothesis for their investigation was:",
+   "‘Youth aged between 15 and 35 years old residing in Serangoon are more likely to participate in textile recycling and upcycling if they have greater awareness of the environmental impact of the textiles industry and textile waste.’",
+   "To test their hypothesis, they decided to observe people who deposited their clothes into the textile recycling bins at three chosen sites in an urban neighbourhood, Serangoon, on a Friday during the June holidays. The students split themselves into three groups, and collected data at the three sites concurrently. The neighbourhood was chosen due to its proximity to their school.",
+   "At each site, the students sat nearby to record the total number of people who deposited their clothes and noted the number of youth after asking them if they were aged between 15 and 35.",
+   "By using convenience sampling, they administered a survey to 30 respondents aged between 15 and 35 at the three sites, with 10 respondents per site, to better understand their level of awareness of the environmental impact of the textiles industry and textile waste, as well as their level of participation in textile recycling and upcycling. They obtained consent and veified their ages before starting the survey. At the same time, an in-depth interview was conducted with six of the respondents to gain deeper insights. Based on their data collected, they concluded their hypothesis was valid.",
+   "Resource 1A is a map showing the locations of the three chosen sites in Serangoon marked as X, Y and Z. Resource 1B shows photographs of the three chosen sites. Resource 2 shows the data collected at each site. Resource 3 shows the questionnaire survey used by the students. Resource 4 shows selected results of",
+   "the questionnaire survey. Resource 5 shows selected excerpts of the in-depth interviews."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why this hypothesis is appropriate for the fieldwork.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1A and 1B, explain the strengths and weaknesses of the students’ choice of sites and neighborhood.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain the strengths and limitations of the sampling method used by the students.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 2, sketch a graph to present the data and justify your choice.",
+    5
+   ],
+   [
+    "(e)",
+    "With reference to Resource 3, explain the strengths of the survey form used.",
+    6
+   ],
+   [
+    "(f)",
+    "Suggest how the students could improve the accuracy and reliability of their data in Resource 4.",
+    5
+   ],
+   [
+    "(g)",
+    "With reference to all the resources, evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_NJC_H2P2/R1A.png",
+   "img/2025_NJC_H2P2/R1B.png",
+   "img/2025_NJC_H2P2/R2.png",
+   "img/2025_NJC_H2P2/R3.png",
+   "img/2025_NJC_H2P2/R4.png",
+   "img/2025_NJC_H2P2/R5.png"
+  ],
+  "fieldwork_area": "Others"
+ },
+ {
+  "school": "NJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of five students in Singapore carried out fieldwork to investigate the attitudes and behaviours of adults aged 21 – 65 towards e-waste recycling and repair as environmentally sustainable practices. According to the National Environment Agency (NEA), e-waste is electrical and electronic equipment of any kind that has been discarded and includes anything powered by an electrical source, such as from a power socket or a battery.",
+   "Their hypothesis was:",
+   "Younger adults aged 21 to 45 residing in Ang Mo Kio are more likely to participate in sustainable practices with respect to e-waste than those aged 46 to 65.",
+   "The students chose Ang Mo Kio as it is a mature residential estate with an ethnic mix that mirrors Singapore’s national ethnic composition. They used systematic sampling, selecting every 30th person outside Ang Mo Kio Hub to complete a questionnaire, until they obtained a total of 50 respondents aged 21 to 65. They conducted their survey on a Tuesday and Wednesday morning during the March holidays. They obtained consent from the respondents and verified their ages before administering the questionnaire.",
+   "Resource 1A is a map showing the location of Ang Mo Kio Hub. Resource 1B is a photograph of Ang Mo Kio Hub. Resource 2 shows selected demographic characteristics of Ang Mo Kio in comparison to Singapore. Resource 3 shows the questionnaire used by the students. Resource 4 shows responses to selected questions in the questionnaire."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness of the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resources 1A, 1B and 2, explain why the site chosen is suitable for the investigation.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 1A and 1B, suggest how the students could minimise the impact of their investigation.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 3, explain the strengths and weaknesses of the questionnaire.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain how the students could improve the accuracy and reliability of the survey data collected.",
+    5
+   ],
+   [
+    "(f)",
+    "Suggest how the data collected for Q1 in Resource 4 may be represented.",
+    3
+   ],
+   [
+    "(g)",
+    "In addition to the data collected by the students, suggest other types of data that they could have collected to help them in their investigation.",
+    5
+   ],
+   [
+    "(h)",
+    "With reference to all the resources, evaluate the validity of the students’ fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_NJC_H2P2/R1A.png",
+   "img/2026_NJC_H2P2/R1B.png",
+   "img/2026_NJC_H2P2/R2.png",
+   "img/2026_NJC_H2P2/R3.png",
+   "img/2026_NJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Others"
+ },
+ {
+  "school": "NYJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 20 students wanted to investigate if the community is actively responding to climate change. They visited Tampines Town which was slated to be one of the eco-towns in Singapore, and did investigations on people’s awareness and response to climate change actions in Tampines Hub.",
+   "They developed the following hypothesis: The majority of the population in Tampines are aware of and are actively carrying out actions to mitigate climate change.",
+   "The students went to Tampines Hub on a Saturday morning from 9am to 11 am, where the Hub is expected to be more crowded to get a bigger sample size. They went in groups of 5 all around Tampines Hub and approached any person who was willing to do their questionnaire.",
+   "They managed to survey 100 people in total, with 10 being in the age group of 51 and above and 2 of the respondents being Primary 5 students (See Resource 1) who were there on a visit to learn about the waste digester. They also took photographs of shoppers using the reverse vending machine in Tampines Hub and other eco-friendly facilities like the reusable bag station that were present in Tampines Hub.",
+   "Resource 1 shows pictures the students took of people engaged in green actions and facilities in Tampines Hub. Resource 2 shows the questionnaire survey that the students conducted. Resource 3A, 3B and 3C shows the results of the questionnaire that the student did to show their questionnaire findings."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness of the student’s hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Describe what you think the students were trying to show in each of the photographs they took.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 1, describe two possible issues related to research ethics that can arise from this investigation and how the students can overcome them.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest how the students could minimise potential risks while carrying out their questionnaire survey (Resource 2) at Tampines Hub.",
+    6
+   ],
+   [
+    "(e)",
+    "With reference to Resources 1, 3A and 3B, explain the importance of community participation in climate change initiatives.",
+    6
+   ],
+   [
+    "(f)",
+    "With reference to Resources 3A, 3B and 3C, explain the strengths and limitations of the data presentation methods the students have used.",
+    6
+   ],
+   [
+    "(g)",
+    "Based on observations at Tampines Hub (Resource 1) and results from the questionnaire survey, the students concluded that their hypothesis is correct. Evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_NYJC_H2P2/R1.png",
+   "img/2024_NYJC_H2P2/R2.png",
+   "img/2024_NYJC_H2P2/R3A.png",
+   "img/2024_NYJC_H2P2/R3B.png",
+   "img/2024_NYJC_H2P2/R3C.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "NYJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 10 geography students from a junior college in Singapore undertook an investigation on flood risk in the Klang district of Selangor, Malaysia, during the June holidays.",
+   "The students focused on three flood-prone areas: Jalan Tepi Sungei (Site 1), Jalan Tengku Kelana (Site 2) and Kampung Datuk Dagang (Site 3). All 3 sites are located next to the Klang River. They came up with this hypothesis:",
+   "Kampung Datuk Degang faces the highest flood risk due to its lack of mitigation infrastructure and strategies.",
+   "Due to safety concerns, the students could not enter the river for measurements and focus instead on perceptions of flood risk and evidence of flood mitigation infrastructure. At each site, they collected data from 8 residents or business owners through a questionnaire survey. They also recorded visible flood defenses and land use features at each location through observation.",
+   "Resource 1 shows the area around the Klang River where the students conducted their investigation. Resources 2A, 2B, and 2C present the three investigation sites, highlighting the flood defences in place and the observed land use. Resource 3 contains the questionnaire used by the students to gather perceptions of flood risk at all three sites. Resource 4 provides a table summarising the survey results collected from across the three sites."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 1, explain why the students’ hypothesis is appropriate for the investigation.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resources 2B and 2C, explain how the students could minimise potential risks when visiting the two sites.",
+    6
+   ],
+   [
+    "(c)",
+    "Suggest suitable sampling methods that the students could adopt for their survey at Sites 2A and 2C respectively.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, explain the limitations of the survey on perceptions of flood risk in improving the students’ investigation.",
+    6
+   ],
+   [
+    "(e)",
+    "Describe two other suitable data collection methods that could help improve the students’ investigation.",
+    4
+   ],
+   [
+    "(f)",
+    "With reference to Resource 4, use an appropriate data representation technique to present the data for Question 1 and explain why it is suitable.",
+    5
+   ],
+   [
+    "(g)",
+    "With reference to all the resources, evaluate the validity of the students’ conclusion that their hypothesis is true.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_NYJC_H2P2/R1.png",
+   "img/2025_NYJC_H2P2/R2A.png",
+   "img/2025_NYJC_H2P2/R2B.png",
+   "img/2025_NYJC_H2P2/R3.png",
+   "img/2025_NYJC_H2P2/R4.png",
+   "img/2025_NYJC_H2P2/R2C.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "NYJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 10 students wanted to investigate how the business community in Singapore is responding to climate change. They selected an “Eco-Commercial District” in Jurong East, which contains a mixture of transnational corporations (TNCs) and local small-and-medium enterprises (SMEs). The investigation focused on the businesses’ climate change mitigation measures and their willingness and capacity to invest in such measures.",
+   "They developed the following hypothesis to guide their investigation:",
+   "‘Large transnational corporations (TNCs) exhibit a higher willingness and capacity to adopt climate change mitigation measures than local small-and-medium enterprises (SMEs).’",
+   "The students divided themselves into two groups and conducted their fieldwork on a Tuesday in October, from 2.00 pm to 5.00 pm. They moved around the commercial district and approached business managers or shop tenants who were willing to participate in the survey. In total, they surveyed six business representatives: two TNC managers and four SME representatives.",
+   "In addition to the questionnaire survey, the students conducted physical audits of all six-business premises surveyed—two TNCs and four SMEs. They recorded visible features associated with climate change mitigation, such as energy-efficient lighting, environmentally friendly packaging and energy-efficient appliances. They also took photographs of green initiatives adopted by the TNCs and SMEs, such as recycling facilities and other environmentally sustainable practices.",
+   "Resource 1 shows photographs taken by the students of business premises and green initiatives in the commercial district.",
+   "Resource 2 shows the questionnaire administered to the TNC and SME representatives.",
+   "Resource 3 shows selected data collected from the questionnaire survey.",
+   "Resource 4 shows a comparison of the physical audit of sustainability performance for the two TNCs and four SMEs."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness of the students' hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain three potential safety risks that the students may encounter while conducting fieldwork in the commercial district and how each risk could be minimised.",
+    6
+   ],
+   [
+    "(c)",
+    "Using Resource 1, describe two research ethics issues that may arise during the investigation and suggest how each could be addressed.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 2, explain how the design of the survey questionnaire used to collect data from the business community could be improved.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain why it would be useful to conduct a short interview after administering the questionnaire.",
+    4
+   ],
+   [
+    "(f)",
+    "With reference to Resource 4, explain the strengths and limitations of using a radar chart to represent the audit scores for the various organisations.",
+    6
+   ],
+   [
+    "(g)",
+    "With reference to all the Resources, evaluate the validity of the students’ investigation of how the business community in Singapore is responding to climate change.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_NYJC_H2P2/R1.png",
+   "img/2026_NYJC_H2P2/R2.png",
+   "img/2026_NYJC_H2P2/R3.png",
+   "img/2026_NYJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "RI",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of students from Marymount Junior College wanted to investigate the local community's response to dengue cases in the Marymount–Shunfu area. The target population comprised approximately 8,000 residents living in the area, with about half residing in HDB public housing and the other half living in private housing. The students decided to test the following hypothesis:",
+   "Within the Marymount–Shunfu area, residents living in private housing are more likely to adopt dengue prevention measures than residents living in public housing.",
+   "The students used a questionnaire survey to collect primary data for their investigation. The survey was conducted during the June school holidays, as June is typically associated with a higher incidence of dengue cases in Singapore. In addition, the month is characterised by warmer temperatures and occasional rainfall, creating favourable conditions for mosquito breeding. Mosquitoes are the vectors that transmit the dengue virus.",
+   "To administer the questionnaire, the students selected two locations: inside Shunfu Market and outside Marymount MRT Station. At both locations, they randomly approached members of the public to participate in the survey. Each respondent was given a printed questionnaire sheet and a pen to complete the survey.",
+   "In total, the students surveyed more than 100 individuals across both locations. Following data collection, incomplete questionnaires and responses from individuals who did not reside within the study area were excluded. This screening process resulted in a final sample of 62 valid responses, consisting of fully completed questionnaires from residents of the Marymount– Shunfu area, the target population for the study.",
+   "Resource 1 shows a map of the area under study within the Marymount-Shunfu area. Resources 2A and 2B show photographs of the two locations for conducting questionnaire surveys. Resource 3 shows the questionnaire sheet handed out by the students. Resource 4 shows the results for Q3.1 to Q3.8 from the 62 valid responses."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why this hypothesis is a suitable one for the investigation of community response to climate change.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 1, compare the two locations chosen to conduct the questionnaire survey.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 2A and 2B, suggest how the students could minimise potential risks when visiting both locations.",
+    6
+   ],
+   [
+    "(d)",
+    "Using Resource 3, describe the strengths and limitations of the questionnaire survey.",
+    6
+   ],
+   [
+    "(e)",
+    "Using Resource 4, compare the results for public housing with private housing.",
+    4
+   ],
+   [
+    "(f)",
+    "Sketch a radar chart to represent the data from Resource 4 and explain its strength.",
+    6
+   ],
+   [
+    "(g)",
+    "Evaluate the data collection process of this fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_RI_H2P2/R1.png",
+   "img/2026_RI_H2P2/R2A.png",
+   "img/2026_RI_H2P2/R2B.png",
+   "img/2026_RI_H2P2/R3.png",
+   "img/2026_RI_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "RVHS",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "As part of a class project investigating the needs of the elderly in Bukit Merah estate, a group of eight junior college students chose to investigate the effectiveness of a “Silver Zone” retrofit of a stretch of road at Bukit Merah View, a housing estate with a prominent elderly demographic profile.",
+   "Silver Zones are areas designated by the Land Transport Authority (LTA) with enhanced road safety measures which make it safer and more convenient for senior pedestrians to cross the roads. These features include distinctive signs, road features and markings which help to lower vehicle speeds and guide pedestrians to designated crossing points.",
+   "The group decided to investigate the effectiveness of the Silver Zone features in Bukit Merah View.",
+   "They crafted a questionnaire survey asking their respondents on their current perceptions of their neighbourhood’s accessibility as well as their opinions on the differences made by the Silver Zone features.",
+   "Their data collection plan involved them breaking into two groups of four students, groups A and B. Group A would gather responses through convenience sampling at the void decks of apartment blocks adjacent to the Silver Zone, while Group B would ply the pedestrian walkways along the Silver Zone to gather responses through convenience sampling. In accommodating their school timetable, the group planned to carry out their fieldwork over three weekday afternoons between 3pm and 7pm.",
+   "On the third session of their fieldwork, stormy weather forced Group B to take shelter, causing them to start only after the weather has cleared at 6pm.",
+   "Resource 1 shows a map of the estate and the sites of data collection in the group’s plan. Resource 2 outlines the key Silver Zone features implemented at the site. Resource 3 shows the questionnaire survey drafted by the students. Resource 4 shows raw data of the students’ findings."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain a suitable hypothesis for the students’ fieldwork investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain three safety considerations the students should have planned for in their fieldwork.",
+    6
+   ],
+   [
+    "(c)",
+    "Citing data from Resource 1 and the preamble, explain how the students’ data collection method could be improved.",
+    6
+   ],
+   [
+    "(d)",
+    "Citing information from Resource 3, explain the strengths and limitations of the questionnaire the group designed.",
+    6
+   ],
+   [
+    "(e)",
+    "Using a suitable form of data representation, present the group’s findings as shown in Resource 4.",
+    4
+   ],
+   [
+    "(f)",
+    "Citing data from Resource 4, compare the findings from Groups A and B.",
+    4
+   ],
+   [
+    "(g)",
+    "Evaluate the usefulness of the group’s fieldwork findings to the class project on understanding the needs of the elderly in Bukit Merah estate.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_RVHS_H2P2/R1.png",
+   "img/2024_RVHS_H2P2/R2.png",
+   "img/2024_RVHS_H2P2/R3.png",
+   "img/2024_RVHS_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Elderly needs"
+ },
+ {
+  "school": "RVHS",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A team of 10 students was tasked to study flood risk variation along the 3.2-kilometre stretch of the Kallang River flowing through Bishan-Ang Mo Kio Park as shown in Resource 1. The students theorised that the flood risk of a river is associated with its channel characteristics and decided to collect fieldwork data at multiple locations along the Kallang River, as depicted in Resource 2. The students had access to the following equipment and completed their fieldwork measurements on a Saturday morning: ▪ Ranging Poles ▪ Metre ruler ▪ Tape Measure ▪ Spirit Level ▪ Thick Rope",
+   "In addition, the students decided to observe the intensity of human activities at the park. They carried out the observation study on a Tuesday morning from 8am to 9am at location 7 shown in Resource 1. Resource 3 shows the data they have collected from the observation study."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe how the students could have carried out their fieldwork to collect data that was used to produce figures presented in Resource 2.",
+    6
+   ],
+   [
+    "(b)",
+    "With reference to Resource 1, explain the safety precautions the students had to take as they did their fieldwork to gather data for the figures in Resource 2.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 2, suggest how the students could minimise the impact of their fieldwork at Kallang River.",
+    5
+   ],
+   [
+    "(d)",
+    "One student commented that flood risk is greatest at Point E along the Kallang River. Do you agree? Provide an explanation.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 3, explain two ways to improve the data collection for the observation study on the intensity of human activities at the park.",
+    4
+   ],
+   [
+    "(f)",
+    "Additionally, the students planned to conduct a survey with the residents to gather perceptual data on flood risk at Bishan-Ang Mo Kio Park. Design a questionnaire which they could use to conduct the survey.",
+    6
+   ],
+   [
+    "(g)",
+    "Evaluate the usefulness of the students’ fieldwork study on flood risk at Bishan-Ang Mo Kio Park.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_RVHS_H2P2/R1.png",
+   "img/2025_RVHS_H2P2/R2.png",
+   "img/2025_RVHS_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "RVHS",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of four 18-year-old junior college students in Singapore wanted to investigate how effective shopping mall features can be in resource conservation. After conducting research online, they chose City Square Mall as the site of their investigation. Since its opening in 2009, City Square Mall has positioned itself as the first eco-mall, designed with sustainability in mind and built with green spaces at its core. The latter includes City Green, a 49 000 square feet urban park with a Green Roof. In 2025, the mall completed a revamp which included the walls and floors containing upcycled materials and sustainability-themed murals. Prior to their fieldwork, the students conceived the following hypothesis: ‘Jalan Besar residents consider the features at City Square Mall effective in resource conservation.’ During the 2026 June holidays, the students carried out their fieldwork investigations over two consecutive Sundays from 2 to 6 pm. As both days had fine weather, they stationed themselves within City Green and obtained 120 responses in total to their questionnaire survey through convenience sampling. The responses came from 24 in the 10s to 20s age group, 64 in the 30s to 50s age group and 32 in those aged 60 and above. The students observed that City Green tended to be frequented by families with young children. Upon the conclusion of their fieldwork and through their post-fieldwork data analysis, the students concluded that City Square Mall is effective in resource conservation.",
+   "Resource 1 shows the location of City Square Mall and its environs. Resource 2A shows City Square Mall with City Green in front, while Resource 2B shows a sustainability-themed wall mural inside the mall. Resource 3 shows the questionnaire survey used by the students in their investigation. Resource 4 shows the responses to Question 3 in the questionnaire survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Describe the strengths and limitations of the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Using Resource 1, explain why the choice of City Square Mall as the investigation site is a suitable one.",
+    6
+   ],
+   [
+    "(c)",
+    "Suggest how the students may reduce the impacts of their investigations.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, explain the strengths and weaknesses of the questionnaire survey used by the students.",
+    7
+   ],
+   [
+    "(e)",
+    "Using Resource 4, present the responses to Questions 3(c) and (e) using another data representation method and explain why it is better than the data representation method used in Resource 4.",
+    5
+   ],
+   [
+    "(f)",
+    "Explain how the conduct of a pilot survey could have benefited the students’ investigation.",
+    4
+   ],
+   [
+    "(g)",
+    "With reference to the preamble and the Resources, evaluate the validity of the students’ conclusion",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_RVHS_H2P2/R1.png",
+   "img/2026_RVHS_H2P2/R2A.png",
+   "img/2026_RVHS_H2P2/R2B.png",
+   "img/2026_RVHS_H2P2/R3.png",
+   "img/2026_RVHS_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Others"
+ },
+ {
+  "school": "SAJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Eight students were tasked with undertaking a fieldwork exercise to ascertain the flood risk along the Kallang River in Singapore.",
+   "They chose Sites A and B in Bishan Ang-Mo Kio Park for their fieldwork and came up with the following hypothesis:",
+   "‘Site B has a higher flood risk than Site A.’",
+   "The students formed two teams for the fieldwork. At each site, the students took repeated measurements of the river to calculate the river’s velocity. They took the measurements on a weekend in September between 11 a.m. and 2 p.m. The measurements were recorded using a data collection sheet.",
+   "Each team received the following equipment for the fieldwork:",
+   "• Ping-Pong ball (floating object)",
+   "• Tape measure (in metres and centimetres)",
+   "• Stopwatch",
+   "At Site B, students found that the floating object often became stuck in vegetation along the river channel.",
+   "Resource 1 shows a map of the Kallang River in Bishan-Ang Mo Kio Park, Singapore with Sites A and B indicated. Resource 2 shows the photographs of Sites A and B. Resource 3 shows the data collected by the two teams to calculate the velocity at Sites A and B."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With the help of Resources 1 and 2, explain two strengths and two limitations of the hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1 and 2, suggest how students can minimise three potential risks during data collection.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain the steps involved in determining the velocity at Site B as shown in Resource 2.",
+    8
+   ],
+   [
+    "(d)",
+    "With refence to Resource 3, explain the considerations that students might have had when designing the data collection sheet.",
+    5
+   ],
+   [
+    "(e)",
+    "Sketch two-line graphs to represent the velocity of the river in Sites A and B over time as shown in Resource 3.",
+    5
+   ],
+   [
+    "(f)",
+    "Explain how the data collected in Resource 3 proves the students’ hypothesis.",
+    2
+   ],
+   [
+    "(g)",
+    "Evaluate the extent to which the fieldwork that was conducted was useful in understanding flood risk along the Kallang River.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_SAJC_H2P2/R1.png",
+   "img/2024_SAJC_H2P2/R2.png",
+   "img/2024_SAJC_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "SAJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Four students undertook an investigation about the responses of park users to the proposed Long Island reclamation project at East Coast Park in Singapore.",
+   "They examined the following hypothesis:",
+   "Park users at East Coast Park are supportive of the proposed Long Island project as a response to climate change.",
+   "Long Island is a planned reclamation project off East Coast Park that will create a new tidal lagoon between the current coastline and the reclaimed land. The project is intended to manage the impacts of climate change by acting as a coastal defence against sea-level rise and storm surges, while also potentially serving as an additional reservoir for freshwater supply.",
+   "The students decided to collect the data on a Saturday in July, near the East Coast Lagoon Food Centre.",
+   "They used a mixed-methods approach:",
+   "• A short multiple-choice survey was distributed to park users passing by the East Coast Lagoon Food Village during the morning session.",
+   "• A focus group discussion was conducted in the afternoon of the same day with 8 members of a local cycling club who regularly meet at East Coast Park.",
+   "• Secondary data was collected from newspaper reports and government press releases between 2022 and 2025. These were used to examine whether the main reasons cited in support of Long Island (e.g. stronger coastal protection, new recreational opportunities) matched the perceptions expressed by park users in the primary data.",
+   "Resource 1 is a map of East Coast Park. Resource 2 shows the proposed development of Long Island along East Coast Park. Resource 3 shows a photograph of the survey being conducted at the East Coast Lagoon Food Village. Resource 4 shows the survey questions. Resource 5A shows the distribution of support for Long Island based on user type. Resource 5B shows the degree of support for Long Island. The results are based on 20 completed surveys. Resource 6 shows extracts of secondary data from newspaper reports and government publications."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain two ways in which the students could improve their hypothesis to better capture park users’ responses to Long Island.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 3, explain two ethical issues the students should have considered when conducting their survey.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resource 5A and 5B, describe the main trends shown in the survey responses.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resources 5A, 5B and 6, explain how the students could have presented their findings more effectively to compare park users’ views with the claims in secondary sources.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain the considerations that could have led students to opt for a mixed-methods approach.",
+    4
+   ],
+   [
+    "(f)",
+    "The students concluded that most park users at East Coast Park are supportive of the Long Island project. Evaluate the validity of this conclusion.",
+    10
+   ],
+   [
+    "(g)",
+    "Outline how you would design an extension to this fieldwork to investigate the views of other stakeholders (e.g. environmental groups or businesses). Include your choice of methods and justify them.",
+    7
+   ]
+  ],
+  "resources": [
+   "img/2025_SAJC_H2P2/R1.png",
+   "img/2025_SAJC_H2P2/R2.png",
+   "img/2025_SAJC_H2P2/R3.png",
+   "img/2025_SAJC_H2P2/R4.png",
+   "img/2025_SAJC_H2P2/R5A.png",
+   "img/2025_SAJC_H2P2/R5B.png",
+   "img/2025_SAJC_H2P2/R6.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "SAJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of six junior college students from Singapore took part in a school exchange programme with a partner school in Bangkok, Thailand. As part of the exchange, they carried out a fieldwork investigation into community responses to heatwaves as an impact of contemporary climate change.",
+   "The students investigated the following hypothesis:",
+   "‘People who perceive heatwaves as a greater risk are more likely to adopt measures to reduce their exposure to heat.’",
+   "Before designing their questionnaire, the Singapore students held an informal discussion with eight students from their partner school. They asked them how very hot weather affected daily life in Bangkok and what measures people commonly used during heatwaves. The Singapore students then used the issues raised during this discussion to decide the questions and response options included in their questionnaire.",
+   "The Singapore students selected three contrasting public locations in Bangkok: Siam Square, Lumphini Park and Chatuchak Market.",
+   "The six Singapore students divided themselves into three pairs, with one pair at each site. At each site, they surveyed 30 people using convenience sampling and the same questionnaire. The surveys were conducted between 10a.m. and 4p.m. on a Saturday.",
+   "Resource 1 shows the locations and selected characteristics of the three fieldwork sites. Resource 2 shows the questionnaire that the Singapore students used. Resource 3 shows the results of the questionnaire survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one limitation of the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 1, explain two considerations the students should take into account when selecting sites for this investigation.",
+    4
+   ],
+   [
+    "(c)",
+    "Describe how the students could use convenience sampling to select respondents at each fieldwork site and explain one limitation of this sampling method.",
+    4
+   ],
+   [
+    "(d)",
+    "Suggest two ways in which the students could reduce the risks to themselves while carrying out the fieldwork investigation.",
+    4
+   ],
+   [
+    "(e)",
+    "With reference to Resource 2, explain the strengths and limitations of the questionnaire used to collect primary data.",
+    6
+   ],
+   [
+    "(f)",
+    "Using the data in Resource 3, represent the relationship between perceived heatwave risk and the mean number of measures adopted by respondents in a suitable graphical form.",
+    4
+   ],
+   [
+    "(g)",
+    "Using Resource 3, analyse the relationship between perceived heatwave risk and the measures taken by respondents during heatwaves.",
+    4
+   ],
+   [
+    "(h)",
+    "Evaluate the validity of the students’ fieldwork in determining the relationship between perceived heatwave risk and community responses to heatwaves in Bangkok.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_SAJC_H2P2/R1.png",
+   "img/2026_SAJC_H2P2/R2.png",
+   "img/2026_SAJC_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "TJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "As global temperatures rise and extreme weather events become more frequent, the impact of climate change is increasingly felt in urban areas, particularly in the form of the Urban Heat Island (UHI) effect. A group of four students carried out an investigation to study the relationship between the UHI effect and willingness for climate change action among residents in different parts of Singapore. The hypothesis guiding this investigation is:",
+   "‘Residents living in areas with higher Urban Heat Island Vulnerability Index are more willing to adopt measures to mitigate climate change.’",
+   "Two sites with differing levels of UHI vulnerability were selected for comparison, and a total of 50 questionnaires were administered — 25 at each site. The four students carried out the survey simultaneously on a weekday Thursday afternoon between 2 to 4pm in October by approaching every third person encountered at each site shown in Resource 2. This was followed by conducting in-depth interviews with ten respondents on a separate day to gather insights into their attitudes and willingness to take action against climate change.",
+   "Resource 1 shows the map of urban heat vulnerability index in Singapore. Resources 2A and 2B shows the sampling locations of Bukit Merah and Serangoon respectively. Resource 3 shows the survey questionnaire used in the investigation. Resource 4 shows selected data from the questionnaire survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why the hypothesis is appropriate for the investigation.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 2A and 2B, explain how the students could minimise potential risks during the investigation.",
+    6
+   ],
+   [
+    "(c)",
+    "Explain three criteria the students could use to select respondents for the interview.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, explain how the design of the survey questionnaire used to collect data could be improved.",
+    5
+   ],
+   [
+    "(e)",
+    "Using Resource 4, explain whether the results support the hypothesis.",
+    5
+   ],
+   [
+    "(f)",
+    "Use an appropriate data representation technique to represent the data shown in Resource 4.",
+    5
+   ],
+   [
+    "(g)",
+    "Evaluate the validity of the students’ investigation.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_TJC_H2P2/R2A.png",
+   "img/2024_TJC_H2P2/R2B.png",
+   "img/2024_TJC_H2P2/R1.png",
+   "img/2024_TJC_H2P2/R3.png",
+   "img/2024_TJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "TJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 24 students chose to investigate flood risk along the Hawkcombe stream in Somerset, a rural area in the United Kingdom.",
+   "They proposed the following hypothesis:",
+   "“Flood risk increases downstream along the Hawkcombe stream.”",
+   "The students collected data at six sites along the stream on a weekday afternoon in September. They travelled between the sites in minibuses and each team of four students disembarked to walk to the site. They took photos of the site for visual analysis and started taking measurements as soon as they could in order not to waste time.",
+   "They measured channel width and depth to calculate the wetted perimeter. To measure the river’s wetted perimeter, the teams used the following equipment:",
+   "• Tape measure",
+   "• Metre rulers The teams laid the unweighted tape measure along the riverbed and took one depth measurement in the middle of the river. This data was used to calculate the river’s wetted perimeter. Their results are shown in Resource 4.",
+   "After conducting the river fieldwork, the students conducted a questionnaire survey with residents about flood risk perceptions of the Hawkcombe stream near their sampled site.",
+   "Resource 1 shows the flood risk map of the Hawkcombe stream in Somerset. Resource 2A shows Site 1. Resource 2B shows Site 6. Resource 3 shows the questionnaire survey. Resource 4 shows the results of channel characteristics measured at six sites."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain why the hypothesis chosen by the students is appropriate for investigating flood risk along the Hawkcombe stream.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 2A and 2B, suggest two potential risks to students’ personal safety when collecting data at both sites, and explain how these risks could be minimised.",
+    6
+   ],
+   [
+    "(c)",
+    "Using Resources 2A and 2B, suggest how physical characteristics of the channel and its location could influence flood risk at Sites 1 and 6.",
+    4
+   ],
+   [
+    "(d)",
+    "Using Resource 3, explain the strengths and limitations of the questionnaire survey in providing data about flood risk perceptions of the Hawkcombe stream.",
+    6
+   ],
+   [
+    "(e)",
+    "Use a suitable data technique to represent the changes in wetted perimeter downstream along the Hawkcombe stream shown in Resource 4.",
+    5
+   ],
+   [
+    "(f)",
+    "In addition to the data collected by the students, suggest other types of data that they could have collected to help them in their investigation of flood risk.",
+    5
+   ],
+   [
+    "(g)",
+    "The students have concluded that Site 6 has the highest risk of flooding. Using all the resources provided, evaluate the validity of this conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_TJC_H2P2/R4.png",
+   "img/2025_TJC_H2P2/R1.png",
+   "img/2025_TJC_H2P2/R2A.png",
+   "img/2025_TJC_H2P2/R2B.png",
+   "img/2025_TJC_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "TJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Eight students investigated community responses to climate-change mitigation in two contrasting residential areas of Nottingham, United Kingdom. They carried out secondary research on the two areas studied. Clifton South consists mainly of post-war housing and has received council-led energy retrofitting. The Park Estate contains mainly older, higher-value housing, and parts of the area are subject to conservation controls.",
+   "The students investigated the following research question:",
+   "“How do community responses to climate-change mitigation vary between Clifton South and The Park Estate in Nottingham?”",
+   "On one Saturday in June, the students carried out a visual audit of visible mitigation measures along one transect in each area. Five sampling sites were selected along each transect. The visual audits were conducted from public pavements to observe and do the count.",
+   "The students also carried out a questionnaire survey with 60 residents in each area between 11:00 and 15:00 on the same Saturday. At the busiest public location close to each transect, they approached every third passer-by who appeared to be aged 18 or above.",
+   "Resource 1 shows the two transects and sampling sites. Resource 2 shows the two study areas. Resource 3 shows the visual audit results. Resource 4 shows the survey questionnaire used in the investigation. Resource 5 shows selected results from the questionnaire survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one limitation of the students’ research question.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1 and 2, explain how the students could minimise potential risks and address ethical concerns when conducting the investigation.",
+    5
+   ],
+   [
+    "(c)",
+    "With reference to Resource 3, explain the limitations of the sampling method used by the students for the visual audit.",
+    5
+   ],
+   [
+    "(d)",
+    "Explain two other sources of secondary data that could help students achieve their investigation aim.",
+    2
+   ],
+   [
+    "(e)",
+    "Explain the strengths and weaknesses of the survey questionnaire shown in Resource 4.",
+    5
+   ],
+   [
+    "(f)",
+    "Using Resource 5A, compare residents’ attitudes to climate-change mitigation in Clifton South and The Park Estate.",
+    5
+   ],
+   [
+    "(g)",
+    "Using Resource 5B, sketch a suitable graph to compare the residents’ mitigation action in Clifton South and The Park Estate.",
+    5
+   ],
+   [
+    "(h)",
+    "With reference to all the resources, evaluate the validity of the students’ fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_TJC_H2P2/R1.png",
+   "img/2026_TJC_H2P2/R2.png",
+   "img/2026_TJC_H2P2/R3.png",
+   "img/2026_TJC_H2P2/R4.png",
+   "img/2026_TJC_H2P2/R5A.png",
+   "img/2026_TJC_H2P2/R5B.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "TMJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "As Singapore is faced with the problem of ageing population, a group of 8 National University of Singapore (NUS) student undertook an investigation to study the liveability of neighbourhoods in Tokyo, Japan to see liveability needs are more important for the elderly. They wish to study the environmental quality and the residents’ quality of life in urban neighbourhoods, which are two aspects of urban liveability.",
+   "Environmental quality refers to characteristics of the natural and built environments. Quality of life is a measurement of a person’s well-being and happiness which includes aspects such as safety and community spirit.",
+   "The students decided to conduct their investigation in two urban neighbourhoods in Tokyo -- Sugamo district (which is known to be an elderly friendly area) and San’ya district (a more impoverished area). They collected both primary and secondary data for their investigation from government reports and survey for their investigation. They formed two groups, A and B, of 4 students each.",
+   "Group A collected secondary data from official sources and learnt that Sugamo district has been redeveloped in 2005 to include flat shopping streets, ramps and safer road crossings while San’ya did not undergo any redevelopment. They came up with this hypothesis:",
+   "Hypothesis of Group A: Sugamo has better environmental quality and its residents have a higher quality of life than the residents of San’ya.",
+   "Group B referred to a Tokyo University research article that states that although San’ya is an impoverished area, there is strong community spirit and the cost of living there is the lowest in Tokyo. They came up with this hypothesis:",
+   "Hypothesis of Group B: Sugamo has better environmental quality, but its residents have a lower quality of life than the residents of San’ya.",
+   "The students went on to collect primary data on the environmental characteristics and residents’ perception of quality of life in these neighbourhoods. The students allocated one week for field investigation. They walked around both neighbourhoods to collect primary data from the residents and aimed to find 25 elderly respondent at each site. They also conducted an environmental study by themselves and also took photos of the elderly in the area.",
+   "Resource 1 shows the photos taken by the students of Sugamo and San’ya. Resource 2 is the environmental survey form used by the students. Resource 3 shows the students’ and residents’ perception of environmental quality in Sugamo and San’ya. Resource 4 shows the residents’ perception of quality of life in Sugamo and San’ya."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain how the students can minimise potential risks they might encounter when conducting their fieldwork in the two neighbourhoods shown in Resource 1.",
+    5
+   ],
+   [
+    "(b)",
+    "Using Resource 1, explain how students can minimise potential ethical issues faced when conducting their fieldwork in both neighbourhoods.",
+    4
+   ],
+   [
+    "(c)",
+    "Describe an appropriate sampling method for the students to collect residents’ response on the residents’ perception of quality of life in Sugamo and Sanya.",
+    6
+   ],
+   [
+    "(d)",
+    "With reference to Resource 2, explain why the environmental survey results differ between the residents and the students in Resource 3.",
+    4
+   ],
+   [
+    "(e)",
+    "Sketch a suitable representation of the students’ results for Sugamo and San’ya from Resource 3.",
+    5
+   ],
+   [
+    "(f)",
+    "Suggest three potential limitations arising from the survey results from the residents’ perception of quality of life in Sugamo and San’ya.",
+    6
+   ],
+   [
+    "(g)",
+    "Evaluate the usefulness of Resources 1, 3 and 4 in helping students understand factors affecting liveability for the elderly in Sugamo and San’ya and suggest which hypothesis should be accepted.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_TMJC_H2P2/R1.png",
+   "img/2024_TMJC_H2P2/R2.png",
+   "img/2024_TMJC_H2P2/R3.png",
+   "img/2024_TMJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Elderly needs"
+ },
+ {
+  "school": "TMJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of ten 17-year-old students undertook an investigation to find out if the needs of the elderly in Singapore are being met. They identified Bishan, an estate located right in the middle of Singapore as their chosen neighbourhood for research. Bishan has a mix of public and private housing units. The public housing units range from 3-room flats to executive maisonettes. Similarly, the private housing comprises 4 condominiums and landed property units. Based on secondary research, the students found that the total population of elderly in the neighbourhood is 1298. 71% of the elderly population live in public housing and the remaining 29% live in private housing.",
+   "The following was their hypothesis:",
+   "“Elderly living in public housing have more unmet needs compared to elderly living in private housing.”",
+   "The students conducted an on-site survey of the needs of elderly in both the public and private housing in the neighbourhood on four weekdays of their choice in the month of June. A total of 80 households with elderly residents were selected – 60 households chosen from 3-room flats in blocks 176, 177 and 178 of the public housing and 20 households from the private housing estate along Clover Avenue. As part of the safety precautions briefed by their Geography teacher, the students conducted the research in pairs and were explicitly forbidden to enter the homes of their respondents to conduct the survey.",
+   "Additionally, the students also observed the daily routine of two elderly men, who live in Block 175 of the public housing, for two hours on eight weekdays of their choice in the month of June. To improve the reliability of their investigation, they observed the men at different times during the day for the 8 weekdays and concluded that the old men spent most of the observed hours in the company of other elderly men chatting and playing board games at the Senior Citizens Corner at the void deck of Block 176.",
+   "Resource 1 shows the map of Bishan and the selected sites where the survey was conducted. Resources 2A and 2B show two sites where the survey was conducted. Resource 3 shows the questionnaire the students used for the on-site survey. Resource 4 shows the responses for selected parts of Question 6 of the questionnaire."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain the strengths and weaknesses of the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1, 2A and 2B, explain the strengths and weaknesses of the student’s choice of the neighbourhoods in which the elderly were surveyed.",
+    6
+   ],
+   [
+    "(c)",
+    "Suggest how the students can address two issues related to research ethics that may arise in this geographical investigation.",
+    4
+   ],
+   [
+    "(d)",
+    "Describe potential risks associated with this investigation at the sites shown in Resources 2A and 2B and suggest how the risks can be minimised.",
+    5
+   ],
+   [
+    "(e)",
+    "The students concluded that the data collected using the questionnaire may not be accurate. With reference to Resource 3, explain how the questionnaire could be modified to improve the accuracy of the data collected.",
+    6
+   ],
+   [
+    "(f)",
+    "Using Resource 4, sketch a suitable form of data representation to show the results for “accompany me to hospital”. Justify your choice of method.",
+    5
+   ],
+   [
+    "(g)",
+    "Using all resources available, evaluate the validity of the student’s fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_TMJC_H2P2/R1.png",
+   "img/2025_TMJC_H2P2/R2A.png",
+   "img/2025_TMJC_H2P2/R2B.png",
+   "img/2025_TMJC_H2P2/R3.png",
+   "img/2025_TMJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Elderly needs"
+ },
+ {
+  "school": "TMJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 10 students wanted to investigate if Singapore’s car-lite plan to reduce carbon emissions have managed to encourage more walking and cycling in Singaporeans. They decided to survey Singaporean residents in Punggol and Serangoon.",
+   "The students agreed to the following hypothesis:",
+   "Residents in Punggol are more likely to walk and cycle than residents in Serangoon.",
+   "The students researched on the internet for some basic information about the locations.",
+   "They produced a questionnaire survey to collect information about the needs of 20 residents in each of the location as shown in Site A (Punggol Waterway Point) and Site B (Serangoon Nex). Site A is a popular shopping centre in Punggol next to a park connector for walking and cycling. Site B is a popular shopping centre in Serangoon next to various amenities but not near to any park connectors.",
+   "They decided to use a systematic sampling method, standing outside both shopping centre entrance and asking every fifth person that walked out of the shopping centre on a Tuesday in June to help complete their questionnaire survey, they stood from 1pm to 4pm and collected responses from 20 residents in each location.",
+   "Resource 1 shows the location of the two survey neighbourhoods in Singapore. Resource 2A and 2B shows their actual survey location outside Punggol Waterway Point and Serangoon Nex. Resource 3 shows the questionnaire survey administered by the students. Resource 4 shows part of the results collected by the students."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness in the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain how the students can minimise potential risks they might encounter when conducting their fieldwork in the two neighbourhoods shown in Resources 2A and 2B.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 1, 2A and 2B, explain the strengths and weaknesses of the students’ choice of the neighbourhood in which the residents were surveyed.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain the limitations of the sampling method used by students.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain three ways in which the data collection sheet shown in Resource 3 can be improved.",
+    6
+   ],
+   [
+    "(f)",
+    "Using a suitable data representation method, show the responses of Punggol and Serangoon residents to question 4 as reflected in Resource 4.",
+    4
+   ],
+   [
+    "(g)",
+    "With reference to the resources, evaluate the validity of the students’ fieldwork and suggest if the hypothesis is valid.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_TMJC_H2P2/R1.png",
+   "img/2026_TMJC_H2P2/R2.png",
+   "img/2026_TMJC_H2P2/R3.png",
+   "img/2026_TMJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "VJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of four 18-year-old students in Singapore undertook a fieldwork investigation to understand the flood risk in Edogawa City in Tokyo, Japan. Edogawa City, a city with more than 695 000 people, is bounded by the Arakawa River in west and Edo River in the east and is in the downstream location of both rivers. The investigation took place during 4-7 June of their June holidays.",
+   "Prior to their trip to Japan, they researched for online secondary data provided by the Risk Management Department of Edogawa City for the flood hazard map in Edogawa City. They used this map to identify four sites to conduct their fieldwork in and crafted their hypothesis based on that.",
+   "They planned to investigate the river velocity, channel width, channel depth. They also planned to repeat the velocity readings 3 times then find the average. Students were provided the following equipment:",
+   "• Tape measure (50 metre)",
+   "• 10m twine x 2",
+   "• Metre ruler",
+   "• Stop-watch",
+   "• 5 oranges",
+   "• Ranging poles",
+   "However, during their fieldwork in Japan, they found that they were not able to conduct their river studies. Since they could not conduct it, they searched online for data on the river measurements that they required.",
+   "They continued with their second data collection method, which is to conduct surveys with 25 people at each of the four sites. They went to one site per day, from 2-4pm to conduct the survey. They used systematic sampling to identify the sample population and also ensured that there was a mix of people from different age groups and genders.",
+   "Resource 1 shows the four sites of investigation chosen by the students based on a flood hazard map by the city government. Resource 2 shows a ground view of one of the sites. Resource 3 show the river measurements of the four sites based on online sources. Resource 4 shows the questionnaire survey that the students used. Resource 5 shows the tabulated results of Question 3 from the questionnaire survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "With reference to Resource 1, suggest a suitable hypothesis and explain why it is suitable.",
+    3
+   ],
+   [
+    "(b)",
+    "With reference to Resource 1, suggest reasons why the students chose to do fieldwork at these four sites.",
+    4
+   ],
+   [
+    "(c)",
+    "Using Resource 2 and 3 only, suggest why it was not feasible to take river measurements at the chosen sites.",
+    5
+   ],
+   [
+    "(d)",
+    "Describe the steps students could have taken to measure the river velocity with the given equipment.",
+    6
+   ],
+   [
+    "(e)",
+    "Using Resource 4, explain the strengths and weaknesses in their questionnaire survey.",
+    6
+   ],
+   [
+    "(f)",
+    "Using a suitable data representation method, present the results to Question 3 in the questionnaire survey shown in Resource 5, and justify your choice.",
+    6
+   ],
+   [
+    "(g)",
+    "The students concluded that Site 1 has the highest flood risk. With reference to all resources, evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_VJC_H2P2/R1.png",
+   "img/2024_VJC_H2P2/R2.png",
+   "img/2024_VJC_H2P2/R3.png",
+   "img/2024_VJC_H2P2/R4.png",
+   "img/2024_VJC_H2P2/R5.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "VJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "Bidadari Park is a 13-hectare park, situated near a densely built-up area with historically high flood risk due to insufficient drainage capacity. The park was designed with innovative nature-based flood management features to alleviate flooding in the nearby Macpherson Estate, with bioswales, marshlands, terraced wetlands and a huge retention pond, Alkaff Lake, which discharges into the nearby Pelton Canal which feeds the Kallang River.",
+   "6 junior college Geography students were tasked to study the effectiveness of the nature-based flood management features in lowering flood risk and the flood risk perception of residents of Bidadari Estate. In particular, they decided to focus the study on bioswales as these were plentiful and easily accessible in the park.",
+   "The hypothesis of their study was as follows:",
+   "Residents of Bidadari Estate feel nature-based flood management features are effective in lowering flood risk in the area.",
+   "The students visited the park on 2 occasions during the June holidays- on a completely dry day and a wet day, spending 6 hours on the dry day and 1 hour on the wet day.",
+   "On the dry day, the students carried out a site audit to document the different types of nature-based flood management features found in the park. In particular, they identified 3 bioswales and noted their conditions on the dry day with brief notes. They also surveyed 100 park users via convenience sampling, asking them some questions about flood risk perception.",
+   "On the wet day, the students decided to observe pooling of water in the park, studying in particular, the 3 identified bioswales. They quickly recorded the conditions in their notebook, with accompanying photographs, as it was raining lightly intermittently.",
+   "Resource 1 is a map of Bidadari Park. Resource 2 is the site audit recording sheet. Resource 3 shows a sample of the questionnaire survey. Resource 4 are results for Question 6 from the questionnaire survey. Resource 5 shows the brief notes taken down by the students and accompanying photos on the wet day."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness of this hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resources 1 and 2, explain the usefulness of conducting a site audit.",
+    4
+   ],
+   [
+    "(c)",
+    "With reference to Resources 1 and 2, describe some risks the students could have encountered in conducting the geographical investigation and suggest how these risks can be minimised.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain the limitations of the sampling method used by the students.",
+    4
+   ],
+   [
+    "(e)",
+    "Using Resource 3, suggest three improvements to the questionnaire survey.",
+    6
+   ],
+   [
+    "(f)",
+    "Using a suitable data representation method, present the results to Question 6 in the questionnaire survey in Resource 4 and justify your choice.",
+    6
+   ],
+   [
+    "(g)",
+    "Evaluate the validity of this study in assessing how nature-based flood management features have lowered flood risk in Bidadari estate.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_VJC_H2P2/R1.png",
+   "img/2025_VJC_H2P2/R2.png",
+   "img/2025_VJC_H2P2/R3.png",
+   "img/2025_VJC_H2P2/R4.png",
+   "img/2025_VJC_H2P2/R5.png"
+  ],
+  "fieldwork_area": "Fluvial flood risk"
+ },
+ {
+  "school": "VJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of students from Wayne State University conducted a geographical investigation in District 5 of Detroit (Resource 1). Following decades of industrial decline and population loss, many vacant lots in Detroit were transformed into community gardens through organisations such as Keep Growing Detroit which operates mainly in District 5. These gardens allow residents to grow fruits and vegetables, compost food waste and share harvested produce within their neighbourhoods. Besides improving local food security, community gardening has also been promoted to reduce food miles, minimise food waste and strengthen community resilience to climate change.",
+   "The students wanted to investigate whether participating in community gardening encourages residents to adopt more sustainable food practices. They came up with the hypothesis:",
+   "‘Residents of Detroit who participate in community gardens are more likely to adopt sustainable food practices.’",
+   "Prior to the investigation, permission was obtained from the community garden coordinators to conduct research at the gardens. On a Saturday morning between 9am to 12pm, the students interviewed 8 residents who were actively participating in community gardening. They also carried out participant observation by joining gardening activities such as planting vegetables, composting food waste and harvesting crops. During the activity, they observed how participants interacted with one another, recorded field notes on sustainable gardening practices and photographed features such as compost bins, rainwater harvesting systems and shared vegetable plots.",
+   "Resource 1 is a map of Detroit with the respective districts and farming sites. Resource 2 shows selected responses from the interviews conducted with 8 residents. Resource 3 shows pictures and selected notes from the participant observation."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness of the students’ hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "With reference to Resource 1, explain why the chosen sites are suitable for the investigation.",
+    4
+   ],
+   [
+    "(c)",
+    "Identify three ethical issues that may arise from conducting the participant observation and suggest how the students can address these issues.",
+    6
+   ],
+   [
+    "(d)",
+    "Explain the value of conducting participant observations with the interviews.",
+    5
+   ],
+   [
+    "(e)",
+    "Using Resources 2 and 3, describe the residents’ attitudes towards sustainable food practices.",
+    6
+   ],
+   [
+    "(f)",
+    "The students wanted to do an additional survey to support their research findings. Suggest how they could use systematic sampling to select their survey respondents.",
+    5
+   ],
+   [
+    "(g)",
+    "With reference to all the Resources, evaluate the validity of the students’ fieldwork.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2026_VJC_H2P2/R1.png",
+   "img/2026_VJC_H2P2/R2.png",
+   "img/2026_VJC_H2P2/R3.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "YIJC",
+  "year": 2024,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of eight geography students from Sparkyi Junior College wanted to investigate Singaporeans' awareness of climate change. They chose two housing estates near the college for their study: Yishun and Canberra. Yishun, an estate with a history of around 30 years, is still classified as a non-mature estate. In contrast, Canberra is a relatively new estate, with many flats just meeting the 5-year minimum occupation period (MOP). The estates are only three minutes apart by Mass Rapid Transit (MRT).",
+   "The students formulated the following research question: \"Do residents in older housing estates have lower awareness of climate change compared to those in newer estates?\"",
+   "To explore this question, they divided themselves into two groups and conducted a questionnaire survey to assess residents' awareness of climate change. They visited the two estates on a Wednesday morning during their June holidays, from 10 am to 12 pm. Since the students were less familiar with Canberra, they spent the first 30 minutes conducting an on-site field inspection there, taking photographs and recording aspects of the estate that demonstrate awareness of climate change. They noted that the population profile in Canberra housing estate seem younger than that of Yishun estate.",
+   "Using random sampling, each student surveyed 3 residents at void decks and/or coffee shops. They surveyed a total of 12 residents at each estate. However, the students encountered language barriers, as they could not converse in dialect.",
+   "Resource 1 shows a map of the 2 sites for the fieldwork. Resource 2 shows the photographs taken during the students' on-site field inspection of Canberra estate demonstrating awareness of sustainability issues. Resource 3 provides the data recording sheet used in the survey. Resource 4 presents the survey findings."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain one strength and one weakness in the students’ research question.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain the types of secondary data the students needed to examine the research question.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how the students could minimise potential risk arising from undertaking the investigation in the two housing estates.",
+    5
+   ],
+   [
+    "(d)",
+    "Explain how the students could minimise possible impact of their investigation on the residents?",
+    4
+   ],
+   [
+    "(e)",
+    "Explain the benefits of conducting an on-site field inspection of the Canberra estate at the start of the investigation.",
+    4
+   ],
+   [
+    "(f)",
+    "With reference to Resource 3, explain how the design of the data recording sheet for the survey could be improved.",
+    5
+   ],
+   [
+    "(g)",
+    "Explain the strengths and limitations of the data representation shown in Resource 4.",
+    4
+   ],
+   [
+    "(h)",
+    "The students concluded that the residents in younger estates in Singapore has better awareness of climate change than the residents in older estates in Singapore. Evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2024_YIJC_H2P2/R1.png",
+   "img/2024_YIJC_H2P2/R2.png",
+   "img/2024_YIJC_H2P2/R3.png",
+   "img/2024_YIJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "YIJC",
+  "year": 2025,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of 8 JC2 geography students wanted to investigate community responses to climate change risks in Singapore.",
+   "They selected the Marine Parade area, with its housing developments facing direct exposure to the risk of sea-level rise. They chose Neptune Court, a private condominium development with 752 residential units and the public housing blocks of Marine Terrace (Blocks 1 to 3) with 288 residential units.",
+   "The students’ hypothesis was: “People living in Marine Parade are more ready for climate change than other people in Singapore.”",
+   "They only used a survey as part of data collection. They conducted the survey on a Tuesday during the June school holidays from 1pm to 3pm at Neptune Court and repeated it at Marine Terrace the following Tuesday at the same time slot. To quickly meet their target of 20 people per housing development, the students prioritized approaching people who were in groups, before asking individuals.",
+   "The students also visited East Coast Park after completing their survey as it was near the two neighbourhoods. They also took some photographs and videos of all the locations they visited.",
+   "Resource 1 is a 3D map of the students’ fieldwork locations. Resource 2 shows a photograph taken by the students. Resource 3 shows the profiles of the survey respondents. Resource 4 shows all the questions and responses of the survey."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain two improvements the students can make to their hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Suggest how the students could mitigate two risks during data collection.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how students could reduce the impacts of their investigation.",
+    4
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, explain how the students could improve their sample population.",
+    6
+   ],
+   [
+    "(e)",
+    "Explain how the students can collect two other types of data for their investigation.",
+    6
+   ],
+   [
+    "(f)",
+    "Using Resource 4, represent the data with a more appropriate data representation method.",
+    6
+   ],
+   [
+    "(g)",
+    "Based on the survey results, the students concluded that people living in Marine Parade are more ready for climate change than other people in Singapore. Evaluate the validity of their conclusion.",
+    10
+   ]
+  ],
+  "resources": [
+   "img/2025_YIJC_H2P2/R1.png",
+   "img/2025_YIJC_H2P2/R2.png",
+   "img/2025_YIJC_H2P2/R3.png",
+   "img/2025_YIJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ },
+ {
+  "school": "YIJC",
+  "year": 2026,
+  "level": "H2",
+  "slot": "P2 Q1",
+  "paper": "H2 Paper 2 (9173/02)",
+  "qno": "Q1",
+  "kind": "fieldwork",
+  "marks": 40,
+  "topics": [
+   "4"
+  ],
+  "primary": "4",
+  "stem": [
+   "Section A — Cluster 4: Fieldwork",
+   "A group of ten 18-year-old students from Crystalis Junior College will visit Freiburg from 1–10 December to investigate whether Freiburg's sustainability strategies are transferable to Singapore's high-density urban context.",
+   "Freiburg is widely recognised as Germany's \"green city\" and is regarded as a leading example of urban sustainability and renewable energy transition. In their background research, the students found that approximately 60% of Germany's electricity is generated from renewable sources, compared to about 5% in Singapore. They also learnt that the Vauban district is well known for its sustainable transport system, low car ownership and widespread use of rooftop solar photovoltaic (PV) systems.",
+   "The students developed the following hypothesis:",
+   "High levels of resident support for renewable energy and sustainable transport strategies contribute significantly to the success of Freiburg's sustainable urban model.",
+   "To investigate this hypothesis, the students will conduct a questionnaire survey of 40 residents in the Vauban district of Freiburg using convenience sampling. The survey will examine residents' support for renewable energy, including their willingness to adopt rooftop solar panels, as well as their use of sustainable transport. The students will also carry out an on-site field inspection to observe renewable energy installations and sustainable transport infrastructure.",
+   "Resource 1 shows a map of the fieldwork site in the Vauban district. Resource 2 shows photographs taken during the on-site field inspection. Resource 3 provides the questionnaire used by the students. Resource 4 shows the residents’ responses to selected survey questions."
+  ],
+  "parts": [
+   [
+    "(a)",
+    "Explain the strengths and weaknesses of the students' hypothesis.",
+    4
+   ],
+   [
+    "(b)",
+    "Explain the advantages and limitations of using convenience sampling for this investigation.",
+    4
+   ],
+   [
+    "(c)",
+    "Explain how an on-site field inspection of the Vauban district provides evidence that complements the survey findings when investigating the students' hypothesis.",
+    5
+   ],
+   [
+    "(d)",
+    "With reference to Resource 3, suggest and justify improvements to the survey questionnaire.",
+    5
+   ],
+   [
+    "(e)",
+    "Explain how the students could process and present the survey data in Resource 4 to facilitate analysis of their hypothesis.",
+    5
+   ],
+   [
+    "(f)",
+    "Evaluate the extent to which the data collection methods used in this investigation enabled the students to test their hypothesis effectively.",
+    10
+   ],
+   [
+    "(g)",
+    "Explain how you would design an extension to this investigation to determine whether Freiburg's sustainability strategies are transferable to Singapore.",
+    7
+   ]
+  ],
+  "resources": [
+   "img/2026_YIJC_H2P2/R1.png",
+   "img/2026_YIJC_H2P2/R2.png",
+   "img/2026_YIJC_H2P2/R3.png",
+   "img/2026_YIJC_H2P2/R4.png"
+  ],
+  "fieldwork_area": "Community response to CC"
+ }
+]
