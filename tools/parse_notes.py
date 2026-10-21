@@ -1,7 +1,9 @@
 """Collect the per-question syllabus topics from notes/<year>/<SCHOOL>.md.
 
 Each paper section ("## H1 Paper 1 ...", "## H2 Paper 1 ...", "## H2 Paper 2 ...") ends with
-"Syllabus topics: Q1 <label> | Q2 <label> | ...". Prints JSON: one record per question.
+"Syllabus topics: Q1 <label> | Q2 <label> | ..." (sub-topic level) and, under it,
+"Syllabus KQs: Q1 <codes> | ..." (syllabus key-question level, e.g. 1.1.1b). Key-question codes are used
+when present. Prints JSON: one record per question.
 """
 import glob, json, os, re, sys
 
@@ -28,6 +30,19 @@ def parse(path):
     for line in open(path, encoding='utf8'):
         if line.startswith('## '):
             level, prefix = paper_of(line[3:].strip())
+        elif line.startswith('Syllabus KQs:') and level:
+            for slot in line.split(':', 1)[1].strip().rstrip('.').split(' | '):
+                m = re.match(r'\s*Q(\d)\s+(.*)', slot)
+                rec = next((r for r in out if r['level'] == level and r['slot'] == f'{prefix}Q{m.group(1)}'), None) if m else None
+                if rec is None:
+                    print(f'?? KQ slot {path}: {slot!r}', file=sys.stderr)
+                    continue
+                if 'fieldwork_area' not in rec:
+                    codes = list(dict.fromkeys(re.findall(r'\b\d\.\d\.\d[abc]\b', m.group(2))))
+                    if codes:
+                        rec['topics'] = codes
+                    else:
+                        print(f'?? no KQ code {path}: {slot!r}', file=sys.stderr)
         elif line.startswith('Syllabus topics:') and level:
             for slot in line.split(':', 1)[1].strip().rstrip('.').split(' | '):
                 m = re.match(r'\s*Q(\d)\s+(.*)', slot)

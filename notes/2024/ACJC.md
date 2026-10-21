@@ -35,6 +35,7 @@ Format: Sec A Q1 (fieldwork) compulsory; Sec B Q2, Q3 both; Sec C answer 2 of Q4
 
 User's 2024 H1 grid labels: SQ1 Elderly | SQ2 CC | SQ3 Reimaging | E4 SUD | E5 Effects of CC | E6 Strategies of CC.
 Syllabus topics: Q1 Fieldwork – Elderly needs | Q2 1.2.1 Science of CC; 1.2.2 Effects of CC | Q3 1.1.2 Sustainable Cities (reimaging); 1.1.1 SUD (population change); 1.1.3 Liveable Cities (SUD vs liveability) | Q4 1.1.1 SUD (rapid urban growth) | Q5 1.2.2 Effects of CC | Q6 1.2.3 Responses to CC
+Syllabus KQs: Q1 Fieldwork – Elderly needs | Q2 1.2.1c; 1.2.1b; 1.2.2a; 1.2.2b | Q3 1.1.2c; 1.1.1b; 1.1.3a | Q4 1.1.1b | Q5 1.2.2b | Q6 1.2.3c
 
 ## H2 Paper 1 (9173/01), 26 Aug 2024, 3h
 Format: Sec A Q1 (Cluster 1) + Q2 (Cluster 2) both; Sec B one of Q3/Q4 + one of Q5/Q6 [20 each].
@@ -63,6 +64,7 @@ Format: Sec A Q1 (Cluster 1) + Q2 (Cluster 2) both; Sec B one of Q3/Q4 + one of 
 
 User's 2024 H2 P1 grid: Nike TNC | Karst | Challenges of SUD [sic; actually SD] | Role of state | Drainage balance | Fluvial landforms.
 Syllabus topics: Q1 1.2.2 GPNs of TNCs (Nike); 1.2.3 Actors (labour); 1.2.1 Development (economic structure) | Q2 2.2.1 Geomorphic Processes (weathering, rockfall); 2.1.1 Tropical Climates; 2.2.2 Karst | Q3 1.1.1 Understanding SD (challenges) | Q4 1.2.3 Actors (state) | Q5 2.1.2 Drainage Basin Hydrology | Q6 2.2.3 Fluvial Landforms
+Syllabus KQs: Q1 1.2.2b; 1.2.2c; 1.2.3b; 1.2.1c | Q2 2.2.1a; 2.2.1b; 2.2.2a; 2.2.2c; 2.1.1a; 2.1.1c | Q3 1.1.1c | Q4 1.2.3a | Q5 2.1.2b; 2.1.2c | Q6 2.2.3b
 
 ## H2 Paper 2 (9173/02), 28 Aug 2024, 3h
 Format: Sec A Q1 fieldwork; Sec B Q2; Sec C one of Q3/Q4 [20].
@@ -90,3 +92,4 @@ Format: Sec A Q1 fieldwork; Sec B Q2; Sec C one of Q3/Q4 [20].
 
 User's 2024 H2 P2 grid: SQ1 Flood risk | Cluster 3 SQ CC | E3 Strategies of social groups | E4 Strategies of CC.
 Syllabus topics: Q1 Fieldwork – Flood risk | Q2 3.2.2 Effects of CC (SIDS); 3.2.3 Responses to CC; 3.2.1 Science of CC (feedbacks) | Q3 3.1.3 Liveable Cities (social groups) | Q4 3.2.3 Responses to CC (mitigation)
+Syllabus KQs: Q1 Fieldwork – Flood risk | Q2 3.2.2a; 3.2.2b; 3.2.3a; 3.2.1c | Q3 3.1.3b; 3.1.3c | Q4 3.2.3a
