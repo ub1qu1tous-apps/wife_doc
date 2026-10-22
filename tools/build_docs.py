@@ -6,7 +6,7 @@ Doc 2: questions listed by syllabus topic, split into 6 docs
        (H1/H2 x fieldwork, structured, essay); each entry = school + year,
        full question text, then the resources (diagrams) it uses.
 
-usage: build_docs.py <questions.json> <outdir> <version> [--preview] [--only grid|review|bytopic] [--doc 2a]
+usage: build_docs.py <questions.json> <outdir> <version> [--preview] [--only grid|review|bytopic] [--doc 2a] [--rows ACJC,NJC]
 """
 import io, json, os, sys
 from docx import Document
@@ -100,6 +100,43 @@ def cell_text(cell, lines, size=8):
             r.italic, r.font.color.rgb = True, GREY
 
 
+# cell shading by syllabus topic (the topic a question is filed under in doc 2). H1 Cluster 1 has the same content as
+# H2 Cluster 3 (cities, climate change), so it gets the same colours.
+TOPIC_FILL = {'H1': {'1.1': 'FFF2CC', '1.2': 'FFE699', 'F': 'FBE4D5'},
+              'H2': {'1.1': 'DEEAF6', '1.2': 'BDD7EE', '2.1': 'E2EFD9', '2.2': 'C5E0B3',
+                     '3.1': 'FFF2CC', '3.2': 'FFE699', 'F': 'FBE4D5'}}
+PRIMARY_OVERRIDE = {k: v for k, v in json.load(open(os.path.join(HERE, 'data', 'primary_overrides.json'))).items()
+                    if not k.startswith('_')}
+FOCUS = {k: v for k, v in json.load(open(os.path.join(HERE, 'data', 'focus_lines.json'))).items() if not k.startswith('_')}
+
+
+def filed_topic(q):
+    """Topic code ('1.1', ...) a question is filed under in doc 2, or 'F' for fieldwork."""
+    if q.get('fieldwork_area'):
+        return 'F'
+    return PRIMARY_OVERRIDE.get(f"{q['school']}_{q['year']}_{q['slot']}") or q['topics'][0][:3]
+
+
+def run_shade(run, hex_fill):
+    rPr = run._r.get_or_add_rPr()
+    shd = OxmlElement('w:shd')
+    shd.set(qn('w:val'), 'clear'); shd.set(qn('w:color'), 'auto'); shd.set(qn('w:fill'), hex_fill)
+    rPr.append(shd)
+
+
+def colour_key(doc, level):
+    p = doc.add_paragraph()
+    p.paragraph_format.space_before = Pt(2)
+    r = p.add_run('Cell colour = topic the question is filed under in doc 2:  ')
+    r.italic, r.font.size, r.font.color.rgb = True, Pt(8), GREY
+    names = dict(TOPICS[level]['topics'], F='Fieldwork')
+    for code, fill in TOPIC_FILL[level].items():
+        r = p.add_run(f' {code if code != "F" else ""} {names.get(code, code).strip()} '.replace('  ', ' '))
+        r.font.size = Pt(8)
+        run_shade(r, fill)
+        p.add_run('  ').font.size = Pt(8)
+
+
 def grid_table(doc, level, slots, qs, schools_years, title, missing=()):
     doc.add_heading(title, level=1)
     t = doc.add_table(rows=2, cols=len(slots) + 1)
@@ -128,26 +165,90 @@ def grid_table(doc, level, slots, qs, schools_years, title, missing=()):
             lines = [(short_label(level, c), True, False) for c in q['topics']]
             if q.get('fieldwork_area'):
                 lines = [(f"Fieldwork – {q['fieldwork_area']}", True, False)]
+            focus = FOCUS.get(f'{school}_{year}_{level}_{slot}')
+            if focus:
+                lines.append((focus, False, True))
             cell_text(cells[i], lines)
+            shade(cells[i], TOPIC_FILL[level][filed_topic(q)])
     if missing:
         r = doc.add_paragraph().add_run('No paper in sources: ' + ', '.join(missing))
         r.italic, r.font.size, r.font.color.rgb = True, Pt(8), GREY
+    colour_key(doc, level)
     widths = [Cm(2.2)] + [Cm((doc.sections[0].page_width.cm - 3.0 - 2.2) / len(slots))] * len(slots)
     for row in t.rows:
         for w, c in zip(widths, row.cells):
             c.width = w
 
 
-def build_grid(questions, outdir, version, preview):
+def frequency_table(doc, level, questions, title):
+    """How many questions tested each key question (or fieldwork area), per year."""
+    qs = [q for q in questions if q['level'] == level]
+    years = sorted({q['year'] for q in qs})
+    papers = {y: len({q['school'] for q in qs if q['year'] == y}) for y in years}
+    count = {}
+    for q in qs:
+        keys = [f"F:{q['fieldwork_area']}"] if q.get('fieldwork_area') else list(dict.fromkeys(q['topics']))
+        for k in keys:
+            count.setdefault(k, {}).setdefault(q['year'], 0)
+            count[k][q['year']] += 1
+    tops = TOPICS[level]
+    rows = [(k, f"{k} {tops['short'][k[:-1]]}: {v}", TOPIC_FILL[level][k[:3]]) for k, v in tops['kq'].items()]
+    areas = ['Community response to CC', 'Elderly needs'] + (['Fluvial flood risk'] if level == 'H2' else []) + ['Others']
+    rows += [(f'F:{a}', f'Fieldwork – {a}', TOPIC_FILL[level]['F']) for a in areas]
+    doc.add_heading(title, level=2)
+    note = doc.add_paragraph().add_run(
+        'Number of questions that test each key question (a structured question counts once for every key question its '
+        'parts test). Papers in the sources: ' + ', '.join(f'{y}: {papers[y]} schools' for y in years) +
+        '. A dash means not tested that year.')
+    note.italic, note.font.size, note.font.color.rgb = True, Pt(8), GREY
+    t = doc.add_table(rows=1, cols=len(years) + 2)
+    t.style = 'Table Grid'
+    t.alignment = WD_TABLE_ALIGNMENT.CENTER
+    for c, h in zip(t.rows[0].cells, ['Key question'] + [str(y) for y in years] + ['Total']):
+        cell_text(c, [(h, True, False)])
+        shade(c, 'D9E2F3')
+    repeat_header(t.rows[0])
+    for k, label, fill in rows:
+        cells = t.add_row().cells
+        cell_text(cells[0], [(label, False, False)])
+        shade(cells[0], fill)
+        for c, y in zip(cells[1:], years):
+            n = count.get(k, {}).get(y, 0)
+            cell_text(c, [(str(n) if n else '–', False, not n)])
+            c.paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
+        tot = sum(count.get(k, {}).values())
+        cell_text(cells[-1], [(str(tot) if tot else '–', True, not tot)])
+        cells[-1].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
+    widths = [Cm(14.0)] + [Cm(2.5)] * (len(years) + 1)
+    t.autofit = False
+    for col, w in zip(t.columns, widths):   # LibreOffice reads the grid columns, Word the cell widths
+        col.width = w
+    for row in t.rows:
+        for w, c in zip(widths, row.cells):
+            c.width = w
+
+
+def build_grid(questions, outdir, version, preview, only_schools=None):
     doc = base_doc('Other JC Prelims – Topics by School (H1 & H2)', version, landscape=True, preview=preview)
+    if only_schools:
+        p = doc.add_paragraph().add_run(f"Preview: grid rows for {', '.join(only_schools)} only; the frequency summary "
+                                        "counts all 47 school-years.")
+        p.bold, p.font.size = True, Pt(9)
     for level, slots, title in (('H1', H1_SLOTS, 'H1 Geography (8834) – Paper 1'),
-                                ('H2', H2_SLOTS, 'H2 Geography (9173) – Papers 1 & 2')):
+                                ('H2', H2_SLOTS[:6], 'H2 Geography (9173) – Paper 1'),
+                                ('H2', H2_SLOTS[6:], 'H2 Geography (9173) – Paper 2')):
         qs = {(q['school'], q['year'], q['slot']): q for q in questions if q['level'] == level}
         rows = sorted({(s, y) for s, y, _ in qs})
         all_rows = sorted({(q['school'], q['year']) for q in questions})
+        if only_schools:
+            rows = [r for r in rows if r[0] in only_schools]
+            all_rows = [r for r in all_rows if r[0] in only_schools]
         missing = [f'{s} {y}' + (' (password-protected QP, left out)' if (s, y) == ('VJC', 2026) else '')
                    for s, y in all_rows if (s, y) not in rows]
         grid_table(doc, level, slots, qs, rows, title, missing)
+    doc.add_heading('How often each key question was tested', level=1)
+    frequency_table(doc, 'H1', questions, 'H1 Geography (8834)')
+    frequency_table(doc, 'H2', questions, 'H2 Geography (9173), Papers 1 and 2')
     doc.add_heading('Syllabus topic codes', level=1)
     for level, name in (('H1', 'H1 Geography 8834'), ('H2', 'H2 Geography 9173')):
         p = doc.add_paragraph()
@@ -307,7 +408,8 @@ if __name__ == '__main__':
     if only in (None, 'review') and os.path.exists(review_file):
         print(build_review(json.load(open(review_file)), outdir, version, preview))
     if only in (None, 'grid'):
-        print(build_grid(questions, outdir, version, preview))
+        rows_only = sys.argv[sys.argv.index('--rows') + 1].split(',') if '--rows' in sys.argv else None
+        print(build_grid(questions, outdir, version, preview, rows_only))
     if only in (None, 'bytopic'):
         for p in build_by_topic(questions, outdir, version, preview, img_root):
             print(p)

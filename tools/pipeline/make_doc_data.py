@@ -22,12 +22,7 @@ H2P1_CLUSTER = {'Q1': 'Cluster 1: Global Development and Natural Resources', 'Q2
 # Structured questions whose part-by-part mark count puts more marks in another topic than the first-listed key
 # question's (counted by hand from the wording, 2026-10-21). Ties keep the first key question: NJC 2024 P2 Q2,
 # TJC 2025 P1 Q1, VJC 2025 P1 Q1, RVHS 2026 P1 Q2, SAJC 2026 P2 Q2, TJC 2026 P2 Q2.
-PRIMARY_OVERRIDE = {
-    'RVHS_2024_P2 Q2': '3.2', 'DHS_2025_P1 Q2': '2.2', 'SAJC_2025_P2 Q2': '3.2', 'TJC_2025_P2 Q2': '3.1',
-    'TMJC_2025_P2 Q2': '3.2', 'VJC_2025_P1 Q2': '2.2', 'CJC_2026_P1 Q1': '1.2', 'DHS_2026_P1 Q2': '2.2',
-    'MI_2026_P1 Q2': '2.2', 'MI_2026_P2 Q2': '3.2', 'TMJC_2026_P1 Q2': '2.2', 'VJC_2026_P1 Q1': '1.2',
-    'YIJC_2026_P1 Q1': '1.1',
-}
+PRIMARY_OVERRIDE = {k: v for k, v in json.load(open('tools/data/primary_overrides.json')).items() if not k.startswith('_')}
 
 doc, out = sys.argv[1], sys.argv[2]
 level, kind, specs = DOCS[doc]

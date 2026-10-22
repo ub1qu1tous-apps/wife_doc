@@ -1,12 +1,6 @@
 # Session log
 
-**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entry after it. All docs are built (doc 1 v0.7, docs 2a–2f v0.14); the user hasn't yet answered the Review Notes items.
-
-**Task in progress (session 3):** doc 1 Review Notes section 7 ("To consider"), all four ideas: (1) key-question frequency summary by year, (2) shade cells by topic, (3) short focus line under each code, (4) split H2 into P1 and P2 tables. Rebuild doc 1 as v0.15 + Review Notes v0.15 (after the preview is approved).
-- Done: —
-- User then asked: "do a preview for all 4 ideas in 1 doc" → first a preview (`previews/1 Topic Grid ... v0.15 PREVIEW.docx`: ACJC 2024–2026 rows + full frequency summary); full rebuild only after approval.
-- Next: focus-line extraction from the notes, builder changes, preview build, check.
-- Hourly check-in: `trig_01JqXZqiJLfKKWX8cSNr55Kk` (:19 past each hour).
+**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entries after it. All docs are built (doc 1 v0.7, docs 2a–2f v0.14). Waiting on the user: approval of the doc 1 v0.15 preview (section 7 ideas), then the full doc 1 rebuild (needs focus lines written for all 716 questions).
 
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
@@ -18,6 +12,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.15 (preview) | 2026-10-22 | Doc 1 preview of Review Notes section 7 ideas: frequency summary by year, topic shading, focus lines, H2 split into P1/P2 tables (ACJC rows) |
 | v0.14 | 2026-10-22 | **Docs 2a–2f rebuilt**: each school's question starts on a new page (user request); 2a rebuilt with current scripts (hyphen fixes, re-cropped); resources listed in Insert order |
 | v0.13 | 2026-10-21 | **Doc 2f full build**: H2 Essay questions by topic, 282 essays grouped by sub-topic |
 | v0.12 | 2026-10-21 | **Doc 2e full build**: H2 Structured questions by topic, 141 questions (full wording + 549 diagrams) |
@@ -379,3 +374,14 @@
 - Review Notes v0.14 for all six: page counts, a "Changes in v0.14" line, the page layout added to assumptions, and the "new page" idea removed from "To consider". Old v0.5/v0.9–v0.13 doc 2 files removed.
 - Data: `tools/data/doc2[a-f]_questions.json`, `h1_q1_resources.json`, `h1_q2q3_resources.json`, `h2_p2q1_resources.json` updated.
 - Open: user's feedback and the Review Notes decisions (see Session 2 HANDOFF).
+
+### 2026-10-22 — Session 3: doc 1 preview v0.15 (Review Notes section 7)
+- User: "from 1 Topic Grid … Review Notes v0.7 do number 7", then "do a preview for all 4 ideas in 1 doc". Section 7 ("To consider") = (1) frequency summary, (2) shade cells by topic, (3) focus line under each code, (4) split H2 into P1 and P2 tables.
+- Note: idea 3 brings back a case/focus line in grid cells, which the user had removed at v0.2 ("syllabus topic only"); the preview lets them decide.
+- **Builder (`tools/build_docs.py`):** H2 grid split into Paper 1 and Paper 2 tables; each cell shaded by the topic it is filed under in doc 2 (H1 Cluster 1 uses the same yellows as H2 Cluster 3, since the content is the same; fieldwork peach), with a colour key under each table; optional grey focus line from `tools/data/focus_lines.json`; new section "How often each key question was tested" (per level, KQ × 2024/2025/2026/Total, fieldwork areas included; counts every question once per KQ it tests); `--rows ACJC` limits grid rows for a preview.
+- Filing overrides moved from `make_doc_data.py` into `tools/data/primary_overrides.json` (shared by doc 1 shading and doc 2 filing; 2e data re-made and identical).
+- Focus lines written by hand for the 48 ACJC cells only (from the notes; the notes' bold titles often just restate the topic, so they can't be used directly).
+- Checks: fieldwork totals in the frequency table = 41 (H1) and 47 (H2), matching docs 2a/2d. Pages viewed.
+- Output: `previews/1 Topic Grid by School (H1 & H2) v0.15 PREVIEW.docx` (6 pages).
+- The hourly check-in set up for this task (`trig_01JqXZqiJLfKKWX8cSNr55Kk`) was deleted once the preview was done, since the next step waits on the user.
+- Next (on approval): write focus lines for the other 668 cells, rebuild doc 1 as v0.15, update its Review Notes (section 7 done; new assumptions on shading and counts).
