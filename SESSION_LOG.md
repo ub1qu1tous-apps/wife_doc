@@ -2,6 +2,11 @@
 
 **Next session starts here:** read the "Session 2 HANDOFF" entry at the end of this log. All docs (1, 2a–2f) are built; the user hasn't yet reviewed 2b–2f or answered the Review Notes items.
 
+**Task in progress (session 3):** user asked: "For all doc 2 start each school's question on a new page for printing." Rebuild 2a–2f as v0.14 (+ Review Notes v0.14), commit + push after each doc.
+- Done: —
+- Next: builder change, then 2a (rebuilt from the current pipeline, so its crops get re-checked by eye), 2b, 2c, 2d, 2e, 2f.
+- Hourly check-in bound to this session: `trig_013f89DV5XTYYt44tDM4j9NF` (:35 past each hour). Delete it and clear this note when done.
+
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.11.docx`, `docs/2e H2 Structured Questions by Topic v0.12.docx`, `docs/2f H2 Essay Questions by Topic v0.13.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
 - **Current version:** v0.13
