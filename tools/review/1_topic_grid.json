@@ -1,16 +1,20 @@
 {
  "title": "Topic Grid by School (H1 & H2)",
  "file": "1 Topic Grid by School (H1 & H2)",
- "version": "v0.7",
- "doc": "1 Topic Grid by School (H1 & H2) v0.7.docx",
+ "version": "v0.15",
+ "doc": "1 Topic Grid by School (H1 & H2) v0.15.docx",
  "sections": [
   {
    "title": "1. What this doc is and how it was built",
    "bullets": [
-    "One table for H1 (Q1–Q6) and one for H2 (P1 Q1–Q6, P2 Q1–Q4). Rows are school + year, sorted by school then year.",
+    "Three tables: H1 Paper 1 (Q1–Q6), H2 Paper 1 (Q1–Q6) and H2 Paper 2 (Q1–Q4). Rows are school + year, sorted by school then year. 39 pages, landscape.",
     "Each cell gives the syllabus Key Question(s) the question tests, e.g. '1.1.1b SUD: Urban population trends'.",
+    "Under the codes, a short grey 'focus' line names the case, place or angle of the question (e.g. 'London Docklands, Canary Wharf', 'Mitigation the best response?').",
+    "Each cell is shaded by the topic the question is filed under in docs 2b–2f, with a colour key under each table. H1 Cluster 1 uses the same yellows as H2 Cluster 3 because they cover the same content; fieldwork is peach.",
     "716 questions from 47 school-years (2024: 15 schools, 2025: 15, 2026: 17).",
-    "Labels were assigned from the reading notes (question wording + marks of every sub-part), not from the answer schemes."
+    "Labels were assigned from the reading notes (question wording + marks of every sub-part), not from the answer schemes.",
+    "A section 'How often each key question was tested' gives, for H1 and H2, the number of questions testing each key question and fieldwork area in 2024, 2025 and 2026, with totals.",
+    "Changes in v0.15 (your section 7 choices from the v0.7 notes): the H2 table is split into Paper 1 and Paper 2, cells are shaded by topic, every cell has a focus line, and the frequency summary is added."
    ]
   },
   {
@@ -23,7 +27,10 @@
     "Fieldwork questions are labelled by the syllabus fieldwork area (H1: Community response to climate change, Needs of the elderly; H2 adds Fluvial flood risk). Scenarios outside these areas are filed as 'Others'.",
     "VJC 2026 H1 is left out (question paper is password-protected). MI 2026, NJC 2024 and RVHS 2024–2026 have no H1 paper in the sources.",
     "Where a school's paper and answer scheme disagree on marks, the question paper's marks were used.",
-    "Errors printed in the schools' own papers are not listed here (as you asked earlier); they are recorded in the reading notes if needed."
+    "Errors printed in the schools' own papers are not listed here (as you asked earlier); they are recorded in the reading notes if needed.",
+    "Focus lines were written by hand for all 716 questions from the reading notes (case study, place, or a short paraphrase of an essay's claim). They are a memory aid, not part of the syllabus labels.",
+    "Shading follows the doc 2 filing: a structured question takes the topic of its first-listed key question, except the 13 H2 questions where a part-by-part mark count put more marks in another topic (listed in the 2e Review Notes). Essays take the topic of their key question.",
+    "Frequency counts: a question counts once for every key question its parts test, so one structured question can add to several rows. Different numbers of schools set papers each year (H1: 13, 14, 14; H2: 15, 15, 17), so compare years with that in mind."
    ]
   },
   {
@@ -371,10 +378,9 @@
   {
    "title": "7. To consider",
    "bullets": [
-    "Add a summary table: how often each Key Question was tested, by year (useful for spotting 'due' topics).",
-    "Shade cells by cluster or topic so patterns stand out when printed.",
-    "Add a short focus line under each code (e.g. 'Nike', 'London Docklands') to help recall the question.",
-    "Split the H2 table into separate Paper 1 and Paper 2 tables to make it less dense."
+    "Mark the key questions that were not set in 2026 (or have the lowest totals) as 'due' topics, e.g. with a bold border in the frequency table.",
+    "Show the same focus line in the question headings of docs 2b–2f, so a question can be found quickly from doc 1.",
+    "The H2 Paper 1 table runs to 17 pages because structured cells list up to 7 key questions. For printing, cells could show only the top 2–3 key questions (most marks)."
    ]
   }
  ]

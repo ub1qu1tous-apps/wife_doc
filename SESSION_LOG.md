@@ -1,15 +1,10 @@
 # Session log
 
-**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entries after it. All docs are built (doc 1 v0.7, docs 2a–2f v0.14). Waiting on the user: approval of the doc 1 v0.15 preview (section 7 ideas), then the full doc 1 rebuild (needs focus lines written for all 716 questions).
-
-**Task in progress (session 3):** user approved the doc 1 v0.15 preview: "Do all 4 ideas for doc 1." Write focus lines for all 716 grid cells (`tools/data/focus_lines.json`; ACJC done), in batches by year (2024, 2025, 2026), commit + push after each batch; then rebuild doc 1 as v0.15 (all rows), check it, update its Review Notes to v0.15.
-- Done: focus lines for all 716 cells.
-- Next: full doc 1 v0.15 build, checks, Review Notes v0.15.
-- Hourly check-in: `trig_01BnuHuQSVB7Yj9ztodXLPnR` (:38 past each hour).
+**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entries after it. All docs are built (doc 1 v0.15, docs 2a–2f v0.14). Waiting on the user: feedback and the Review Notes decisions.
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
-- **Current version:** v0.14
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.15.docx` (key-question level, focus lines, topic shading, frequency summary), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.15
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). All notes carry `Syllabus topics:` and `Syllabus KQs:` lines.
@@ -17,6 +12,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.15 | 2026-10-22 | **Doc 1 rebuilt** with the Review Notes section 7 ideas: H2 split into P1/P2 tables, cells shaded by topic, focus line for all 716 questions, key-question frequency summary by year |
 | v0.15 (preview) | 2026-10-22 | Doc 1 preview of Review Notes section 7 ideas: frequency summary by year, topic shading, focus lines, H2 split into P1/P2 tables (ACJC rows) |
 | v0.14 | 2026-10-22 | **Docs 2a–2f rebuilt**: each school's question starts on a new page (user request); 2a rebuilt with current scripts (hyphen fixes, re-cropped); resources listed in Insert order |
 | v0.13 | 2026-10-21 | **Doc 2f full build**: H2 Essay questions by topic, 282 essays grouped by sub-topic |
@@ -390,3 +386,11 @@
 - Output: `previews/1 Topic Grid by School (H1 & H2) v0.15 PREVIEW.docx` (6 pages).
 - The hourly check-in set up for this task (`trig_01JqXZqiJLfKKWX8cSNr55Kk`) was deleted once the preview was done, since the next step waits on the user.
 - Next (on approval): write focus lines for the other 668 cells, rebuild doc 1 as v0.15, update its Review Notes (section 7 done; new assumptions on shading and counts).
+
+### 2026-10-22 — Session 3: doc 1 v0.15 (all four section 7 ideas)
+- User approved the preview: "Do all 4 ideas for doc 1." Long-task note and hourly check-in (`trig_01BnuHuQSVB7Yj9ztodXLPnR`) used; both removed now.
+- **Focus lines:** written by hand for all 716 cells in `tools/data/focus_lines.json` (case/place for structured and fieldwork questions, a short paraphrase for essays; max 48 characters), one commit per year. Helpers: `tools/pipeline/focus_sources.py <year>` lists cells still without a line next to the note's title; `tools/pipeline/add_focus.py` merges lines and rejects unknown cells.
+- **Build:** `tools/build_docs.py questions.json docs v0.15 --only grid` → `docs/1 Topic Grid by School (H1 & H2) v0.15.docx` (39 pages: H1 table, H2 P1 table 17 pages, H2 P2 table, frequency summary, code legend).
+- **Checks:** every focus line appears in the rendered PDF (5 YIJC cells confirmed by eye where the PDF text order hid them); all 47 school-years present; fieldwork totals 41/47; pages viewed (H1, H2 P1, H2 P2, frequency tables).
+- **Review Notes v0.15:** layout and shading described, new assumptions (hand-written focus lines; shading follows doc 2 filing incl. the 13 overrides; how counts work and schools per year H1 13/14/14, H2 15/15/17); section 7 now has new ideas (mark 'due' key questions, same focus line in doc 2 headings, shorter cells for printing). Sections 3–6 (items for the user) unchanged. v0.7 files removed.
+- Open: user's feedback and Review Notes decisions.
