@@ -2,6 +2,11 @@
 
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entries after it. All docs are built (doc 1 v0.7, docs 2a–2f v0.14). Waiting on the user: approval of the doc 1 v0.15 preview (section 7 ideas), then the full doc 1 rebuild (needs focus lines written for all 716 questions).
 
+**Task in progress (session 3):** user approved the doc 1 v0.15 preview: "Do all 4 ideas for doc 1." Write focus lines for all 716 grid cells (`tools/data/focus_lines.json`; ACJC done), in batches by year (2024, 2025, 2026), commit + push after each batch; then rebuild doc 1 as v0.15 (all rows), check it, update its Review Notes to v0.15.
+- Done: ACJC 2024–2026 (48 cells).
+- Next: 2024 batch.
+- Hourly check-in: `trig_01BnuHuQSVB7Yj9ztodXLPnR` (:38 past each hour).
+
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
 - **Current version:** v0.14
