@@ -3,8 +3,8 @@
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entries after it. All docs are built (doc 1 v0.7, docs 2a–2f v0.14). Waiting on the user: approval of the doc 1 v0.15 preview (section 7 ideas), then the full doc 1 rebuild (needs focus lines written for all 716 questions).
 
 **Task in progress (session 3):** user approved the doc 1 v0.15 preview: "Do all 4 ideas for doc 1." Write focus lines for all 716 grid cells (`tools/data/focus_lines.json`; ACJC done), in batches by year (2024, 2025, 2026), commit + push after each batch; then rebuild doc 1 as v0.15 (all rows), check it, update its Review Notes to v0.15.
-- Done: ACJC 2024–2026; all of 2024 and 2025 (494 cells).
-- Next: 2026 batch.
+- Done: focus lines for all 716 cells.
+- Next: full doc 1 v0.15 build, checks, Review Notes v0.15.
 - Hourly check-in: `trig_01BnuHuQSVB7Yj9ztodXLPnR` (:38 past each hour).
 
 ## Current state
