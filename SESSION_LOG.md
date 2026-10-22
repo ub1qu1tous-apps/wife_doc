@@ -1,15 +1,10 @@
 # Session log
 
-**Next session starts here:** read the "Session 2 HANDOFF" entry at the end of this log. All docs (1, 2a–2f) are built; the user hasn't yet reviewed 2b–2f or answered the Review Notes items.
-
-**Task in progress (session 3):** user asked: "For all doc 2 start each school's question on a new page for printing." Rebuild 2a–2f as v0.14 (+ Review Notes v0.14), commit + push after each doc.
-- Done: —
-- Next: builder change, then 2a (rebuilt from the current pipeline, so its crops get re-checked by eye), 2b, 2c, 2d, 2e, 2f.
-- Hourly check-in bound to this session: `trig_013f89DV5XTYYt44tDM4j9NF` (:35 past each hour). Delete it and clear this note when done.
+**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entry after it. All docs are built (doc 1 v0.7, docs 2a–2f v0.14); the user hasn't yet answered the Review Notes items.
 
 ## Current state
-- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.5.docx`, `docs/2b H1 Structured Questions by Topic v0.10.docx`, `docs/2c H1 Essay Questions by Topic v0.9.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.11.docx`, `docs/2e H2 Structured Questions by Topic v0.12.docx`, `docs/2f H2 Essay Questions by Topic v0.13.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
-- **Current version:** v0.13
+- **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
+- **Current version:** v0.14
 - **Sources:** `sources/Other JC Prelims 2024|2025|2026/` (JC prelim H1 8834 & H2 9173 papers, inserts, answers) + syllabus PDFs `sources/8834_y26_sy.pdf`, `sources/9173_y26_sy.pdf`.
 - **User spec:** see the "user spec received" log entry. Topics per syllabus (`notes/syllabus_topics.md`). Ignore VJC 2026 H1 QP.
 - **Reading notes:** `notes/<year>/<SCHOOL>.md` — **all 47 school-years read** (2024: 15, 2025: 15, 2026: 17). All notes carry `Syllabus topics:` and `Syllabus KQs:` lines.
@@ -17,6 +12,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| v0.14 | 2026-10-22 | **Docs 2a–2f rebuilt**: each school's question starts on a new page (user request); 2a rebuilt with current scripts (hyphen fixes, re-cropped); resources listed in Insert order |
 | v0.13 | 2026-10-21 | **Doc 2f full build**: H2 Essay questions by topic, 282 essays grouped by sub-topic |
 | v0.12 | 2026-10-21 | **Doc 2e full build**: H2 Structured questions by topic, 141 questions (full wording + 549 diagrams) |
 | v0.11 | 2026-10-21 | **Doc 2d full build**: H2 Fieldwork questions by topic, 47 questions (full wording + 215 diagrams) |
@@ -365,3 +361,15 @@
 4. `crop_h1.py`, `crop_h2.py`, then `manual_fixes.py`; `pick_resources.py`; check `contact_sheets.py` output by eye.
 5. `make_doc_data.py <2b..2f> <out.json>` → `tools/build_docs.py <out.json> docs <version> --only bytopic --doc <id>`.
 6. Update `tools/review/<doc>.json`, run `tools/review_docs.py`, log here, commit, push.
+
+### 2026-10-22 — Session 3: docs 2a–2f v0.14 (new page per school)
+- User request: "For all doc 2 start each school's question on a new page for printing."
+- Long-task note and an hourly check-in (`trig_013f89DV5XTYYt44tDM4j9NF`) were set up at the start; both removed now that the task is done.
+- **Builder (`tools/build_docs.py`):** each school-year's question(s) start on a new page; a cluster/topic heading moves to the new page with its first question; two questions from the same school under the same heading share a page (6 essays in 2c, 1 in 2f, 2 structured in 2b). Removed the empty paragraph after each question (it made 8 blank pages when a question exactly filled its last page).
+- **2a** rebuilt from the current pipeline (`run_h1.py`, current crops, `pick_resources.py`) instead of the session-1 data: 5 hyphen splits fixed; same resources per question; all 166 crops checked by eye on contact sheets. Section lines kept from v0.5.
+- `pick_resources.py` now lists a question's resources in Insert order (R1, R2, R3A, …); changes 6 questions in 2d, and 2a/2b back to number order. 2b: ASRJC 2024 Q2 R5A/R5B now separate crops (267 diagrams).
+- **Checks on the rendered PDFs (all six):** no page holds two schools' questions, no blank pages, no cluster/topic heading left at a page foot; sample pages viewed.
+- Pages: 2a 179, 2b 229, 2c 117, 2d 223, 2e 487, 2f 281. Sizes as before (2e 61 MB).
+- Review Notes v0.14 for all six: page counts, a "Changes in v0.14" line, the page layout added to assumptions, and the "new page" idea removed from "To consider". Old v0.5/v0.9–v0.13 doc 2 files removed.
+- Data: `tools/data/doc2[a-f]_questions.json`, `h1_q1_resources.json`, `h1_q2q3_resources.json`, `h2_p2q1_resources.json` updated.
+- Open: user's feedback and the Review Notes decisions (see Session 2 HANDOFF).

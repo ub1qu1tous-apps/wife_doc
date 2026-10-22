@@ -1,16 +1,17 @@
 {
  "title": "H2 Fieldwork Questions by Topic",
  "file": "2d H2 Fieldwork Questions by Topic",
- "version": "v0.11",
- "doc": "2d H2 Fieldwork Questions by Topic v0.11.docx",
+ "version": "v0.14",
+ "doc": "2d H2 Fieldwork Questions by Topic v0.14.docx",
  "sections": [
   {
    "title": "1. What this doc is and how it was built",
    "bullets": [
-    "All H2 Paper 2 Section A fieldwork questions (Q1, 40 marks): 47 questions from 47 school-years, with 215 diagrams (197 pages, 25 MB).",
+    "All H2 Paper 2 Section A fieldwork questions (Q1, 40 marks): 47 questions from 47 school-years, with 215 diagrams (223 pages, 25 MB).",
     "Grouped under Cluster 4: Fieldwork by syllabus fieldwork area – Community response to CC (22), Fluvial flood risk (15), Elderly needs (6), Others (4) – then by school and year. The areas are the same as in doc 1.",
     "Question wording is typed from each school's question paper; diagrams are cropped from the school's Insert.",
-    "Checks run on every question: part labels in order, marks add up to 40, and labels and marks match the reading notes (all 47 match). Every diagram was checked by eye."
+    "Checks run on every question: part labels in order, marks add up to 40, and labels and marks match the reading notes (all 47 match). Every diagram was checked by eye.",
+    "Changes in v0.14: each school's question starts on a new page. Diagrams are listed in Insert order (R1, R2, …); six questions previously listed them in the order the question first mentions them."
    ]
   },
   {
@@ -21,20 +22,40 @@
     "Questionnaires that run over more than a page are split across pages at blank lines instead of being shrunk to fit one page (ACJC 2025 R2, NJC 2025 R3, NJC 2026 R3, VJC 2026 R3).",
     "The section line is standardised to 'Section A — Cluster 4: Fieldwork' (a few schools letter their Paper 2 sections differently).",
     "Diagrams are compressed (max 1300 px, JPEG or 256-colour PNG). Fine print in dense tables may be slightly softer than the original.",
-    "The four 'Others' questions are JPJC 2024 (cycling in Ang Mo Kio), NJC 2025 (textile recycling), NJC 2026 (e-waste) and RVHS 2026 (resource conservation in a mall). They are in doc 1's 'Others' list for your decision."
+    "The four 'Others' questions are JPJC 2024 (cycling in Ang Mo Kio), NJC 2025 (textile recycling), NJC 2026 (e-waste) and RVHS 2026 (resource conservation in a mall). They are in doc 1's 'Others' list for your decision.",
+    "Each school's question starts on a new page for printing; a topic heading stays on the page of its first question."
    ]
   },
   {
    "title": "3. To review: text and layout",
    "note": "Places where the typed text or a diagram is not a plain copy of the paper.",
    "table": {
-    "columns": ["School & Year", "What to check", "Your decision"],
+    "columns": [
+     "School & Year",
+     "What to check",
+     "Your decision"
+    ],
     "rows": [
-     ["SAJC 2024 Q1(g)", "The paper prints the mark '[10]' one character per line down the margin. The mark is entered by hand as 10 (the parts then add up to 40)."],
-     ["SAJC 2026 R1", "The map and photos are printed sideways in the Insert; here they are turned upright under the heading."],
-     ["CJC 2026 R4", "In the PDF made from the Word file, the table sits above its heading. Here the heading is moved back on top."],
-     ["TMJC 2026 R4", "Some table cells show as solid black. This is probably from the Word-to-PDF conversion; check against the printed Insert."],
-     ["ACJC 2025 Q1", "The stem contains square brackets '[indicated as B1 (concrete surface) …]'; these are in the paper, not marks."]
+     [
+      "SAJC 2024 Q1(g)",
+      "The paper prints the mark '[10]' one character per line down the margin. The mark is entered by hand as 10 (the parts then add up to 40)."
+     ],
+     [
+      "SAJC 2026 R1",
+      "The map and photos are printed sideways in the Insert; here they are turned upright under the heading."
+     ],
+     [
+      "CJC 2026 R4",
+      "In the PDF made from the Word file, the table sits above its heading. Here the heading is moved back on top."
+     ],
+     [
+      "TMJC 2026 R4",
+      "Some table cells show as solid black. This is probably from the Word-to-PDF conversion; check against the printed Insert."
+     ],
+     [
+      "ACJC 2025 Q1",
+      "The stem contains square brackets '[indicated as B1 (concrete surface) …]'; these are in the paper, not marks."
+     ]
     ]
    }
   },
@@ -43,7 +64,7 @@
    "bullets": [
     "Tag each sub-part with its fieldwork stage (planning, ethics/risk, sampling, data collection, presentation, evaluation), so students can practise one stage across all schools.",
     "Merge with doc 2a (H1 fieldwork) by fieldwork area, since both levels share the Community response to CC and Elderly needs areas.",
-    "Start each school's question on a new page for printing, and add a contents list."
+    "Add a contents list at the start (school and year, with page numbers)."
    ]
   }
  ]

@@ -1,16 +1,17 @@
 {
  "title": "H1 Essay Questions by Topic",
  "file": "2c H1 Essay Questions by Topic",
- "version": "v0.9",
- "doc": "2c H1 Essay Questions by Topic v0.9.docx",
+ "version": "v0.14",
+ "doc": "2c H1 Essay Questions by Topic v0.14.docx",
  "sections": [
   {
    "title": "1. What this doc is and how it was built",
    "bullets": [
-    "All H1 Section C essay questions (Q4–Q6, 13 marks each): 123 questions from 41 school-years (19 pages). No essay uses a diagram.",
+    "All H1 Section C essay questions (Q4–Q6, 13 marks each): 123 questions from 41 school-years (117 pages). No essay uses a diagram.",
     "Grouped under Cluster 1 by syllabus sub-topic, then by school and year: 1.1.1 SUD (7), 1.1.2 Sustainable Cities (29), 1.1.3 Liveable Cities (34), 1.2.1 Science of CC (9), 1.2.2 Effects of CC (11), 1.2.3 Responses to CC (33).",
     "Under each question heading, a 'Syllabus' line gives the key question it tests (as in doc 1).",
-    "Question wording is typed from each school's question paper. Every essay was checked: 13 marks, and the wording matches the verbatim wording in the reading notes (all 123 match; the only differences are abbreviations in the notes)."
+    "Question wording is typed from each school's question paper. Every essay was checked: 13 marks, and the wording matches the verbatim wording in the reading notes (all 123 match; the only differences are abbreviations in the notes).",
+    "Changes in v0.14: each school's essay starts on a new page. Where one school set two essays on the same sub-topic, they share a page (6 cases)."
    ]
   },
   {
@@ -20,20 +21,46 @@
     "Within a sub-topic, essays are listed by school and year, not by key question (see section 4).",
     "Word files were converted to PDF with LibreOffice before extracting text, so line breaks can differ slightly from the printed paper.",
     "The section line is standardised to 'Section C — Cluster 1: Sustainable Future and Climate Change'.",
-    "VJC 2026 is left out (password-protected question paper). MI 2026, NJC 2024 and RVHS 2024–2026 have no H1 paper."
+    "VJC 2026 is left out (password-protected question paper). MI 2026, NJC 2024 and RVHS 2024–2026 have no H1 paper.",
+    "Each school's question starts on a new page for printing; a topic heading stays on the page of its first question."
    ]
   },
   {
    "title": "3. To review: essays that span two sub-topics",
    "note": "Each is filed under the first key question. Say if you would rather file it under the second.",
    "table": {
-    "columns": ["Essay", "Key questions", "Filed under", "Your decision"],
+    "columns": [
+     "Essay",
+     "Key questions",
+     "Filed under",
+     "Your decision"
+    ],
     "rows": [
-     ["CJC 2024 Q4 'Meeting the needs of the elderly is essential for successful urban reimaging.'", "1.1.2c Urban reimaging; 1.1.3b Elderly", "1.1.2 Sustainable Cities"],
-     ["JPJC 2024 Q6 'Climate change is the main factor that has increased the multiple deprivations experienced by slum dwellers.'", "1.1.2b Slums; 1.2.2b Vulnerability to CC", "1.1.2 Sustainable Cities"],
-     ["TJC 2024 Q6 'The uncertainties over future impacts of climate change are the most significant challenge in implementing strategies...'", "1.2.3c Challenges of responses; 1.2.2c Uncertainty", "1.2.3 Responses to CC"],
-     ["SAJC 2025 Q6 'Evaluate the impact of contemporary climate change on the demand that rapidly growing cities place on the natural environment.'", "1.1.1c Demand on environment; 1.2.2a Impacts of CC", "1.1.1 SUD"],
-     ["HCI 2026 Q6 'Evaluate the influence of high urbanization rates on contemporary climate change.'", "1.2.1c Human causes of CC; 1.1.1b Urban population trends", "1.2.1 Science of CC"]
+     [
+      "CJC 2024 Q4 'Meeting the needs of the elderly is essential for successful urban reimaging.'",
+      "1.1.2c Urban reimaging; 1.1.3b Elderly",
+      "1.1.2 Sustainable Cities"
+     ],
+     [
+      "JPJC 2024 Q6 'Climate change is the main factor that has increased the multiple deprivations experienced by slum dwellers.'",
+      "1.1.2b Slums; 1.2.2b Vulnerability to CC",
+      "1.1.2 Sustainable Cities"
+     ],
+     [
+      "TJC 2024 Q6 'The uncertainties over future impacts of climate change are the most significant challenge in implementing strategies...'",
+      "1.2.3c Challenges of responses; 1.2.2c Uncertainty",
+      "1.2.3 Responses to CC"
+     ],
+     [
+      "SAJC 2025 Q6 'Evaluate the impact of contemporary climate change on the demand that rapidly growing cities place on the natural environment.'",
+      "1.1.1c Demand on environment; 1.2.2a Impacts of CC",
+      "1.1.1 SUD"
+     ],
+     [
+      "HCI 2026 Q6 'Evaluate the influence of high urbanization rates on contemporary climate change.'",
+      "1.2.1c Human causes of CC; 1.1.1b Urban population trends",
+      "1.2.1 Science of CC"
+     ]
     ]
    }
   },

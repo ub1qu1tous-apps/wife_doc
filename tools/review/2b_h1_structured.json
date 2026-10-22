@@ -1,18 +1,19 @@
 {
  "title": "H1 Structured Questions by Topic",
  "file": "2b H1 Structured Questions by Topic",
- "version": "v0.10",
- "doc": "2b H1 Structured Questions by Topic v0.10.docx",
+ "version": "v0.14",
+ "doc": "2b H1 Structured Questions by Topic v0.14.docx",
  "sections": [
   {
    "title": "1. What this doc is and how it was built",
    "bullets": [
-    "All H1 Section B structured questions (Q2 and Q3, 22 marks each): 82 questions from 41 school-years, with 266 diagrams (204 pages, 28 MB).",
+    "All H1 Section B structured questions (Q2 and Q3, 22 marks each): 82 questions from 41 school-years, with 267 diagrams (229 pages, 28 MB).",
     "Grouped under Cluster 1 by syllabus topic: 1.1 Cities in a Sustainable Future (43) and 1.2 The Future with Climate Change (39), then by school and year.",
     "Under each question heading, a 'Syllabus' line lists every key question its parts test, most marks first. These are the same key questions as in doc 1.",
     "Question wording is typed from each school's question paper; diagrams are cropped from the school's Insert.",
     "Checks run on every question: part labels in order, marks add up to 22, and labels and marks match the reading notes (all 82 match). Every diagram was checked by eye.",
-    "Changes from v0.8: NJC 2026 Q3 now shows the whole of Resource 9 and the correct Resource 10 (v0.8 split R9 in two because of a hidden 'Resource 10' label in the Insert, and left out the real R10 map). ASRJC 2024 Q3 'Co- operation' now reads 'Co-operation'."
+    "Changes from v0.8: NJC 2026 Q3 now shows the whole of Resource 9 and the correct Resource 10 (v0.8 split R9 in two because of a hidden 'Resource 10' label in the Insert, and left out the real R10 map). ASRJC 2024 Q3 'Co- operation' now reads 'Co-operation'.",
+    "Changes in v0.14: each school's question starts on a new page. ASRJC 2024 Q2: Resources 5A and 5B (printed side by side) are now two separate diagrams instead of one, so 267 diagrams in all."
    ]
   },
   {
@@ -25,7 +26,8 @@
     "Three diagrams were rebuilt from the school's Word file because the PDF conversion lost or mangled them: EJC 2024 R7A/7B (maps missing) and TJC 2026 R5 and R9 (shown sideways). For TJC 2026, the heading above the picture is retyped.",
     "The section line is standardised to 'Section B — Cluster 1: Sustainable Future and Climate Change'.",
     "Diagrams are compressed (max 1300 px, JPEG or 256-colour PNG). Fine print in dense tables may be slightly softer than the original.",
-    "VJC 2026 is left out (password-protected question paper). MI 2026, NJC 2024 and RVHS 2024–2026 have no H1 paper."
+    "VJC 2026 is left out (password-protected question paper). MI 2026, NJC 2024 and RVHS 2024–2026 have no H1 paper.",
+    "Each school's question starts on a new page for printing; a topic heading stays on the page of its first question."
    ]
   },
   {
@@ -127,7 +129,6 @@
    "title": "5. To consider",
    "bullets": [
     "Group each topic further by key question (e.g. all 1.1.2b slum questions together). Many questions test several key questions, so this would either repeat questions or file each under its main key question only.",
-    "Start each school's question on a new page for printing.",
     "Add a contents list at the start (school and year, with page numbers).",
     "Use screenshots of the question paper instead of typed text, for an exact copy of the layout (larger file, not searchable)."
    ]

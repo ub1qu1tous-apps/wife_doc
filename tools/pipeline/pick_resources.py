@@ -3,7 +3,7 @@
 usage: SCRATCH=... python3 tools/pipeline/pick_resources.py <q_spec.json> <level-tag e.g. H1 | H2P1 | H2P2>
 Prints questions whose referenced resources have no crop; writes <q_spec>_res.json {key: [img paths]}.
 """
-import json, os, sys
+import json, os, re, sys
 sys.path.insert(0, 'tools')
 from resource_refs import refs
 
@@ -28,6 +28,7 @@ for k, r in qs.items():
             want.append(x[:-1])
         else:
             print(f'{k}: no crop for R{x} (have {have})'); missing += 1
-    out[k] = [f'img/{year}_{school}_{tag}/R{x}.png' for x in dict.fromkeys(want)]
+    want = sorted(dict.fromkeys(want), key=lambda x: (int(re.match(r'\d+', x).group()), x))   # Insert order: R1, R2, R3A, R3B, ...
+    out[k] = [f'img/{year}_{school}_{tag}/R{x}.png' for x in want]
 json.dump(out, open(qfile.replace('.json', '_res.json'), 'w'), indent=1)
 print(len(out), 'questions,', sum(map(len, out.values())), 'resources,', missing, 'missing')

@@ -1,7 +1,7 @@
 {
  "ACJC_2024_P2 Q1": [
-  "img/2024_ACJC_H2P2/R2.png",
   "img/2024_ACJC_H2P2/R1.png",
+  "img/2024_ACJC_H2P2/R2.png",
   "img/2024_ACJC_H2P2/R3.png",
   "img/2024_ACJC_H2P2/R4.png"
  ],
@@ -105,10 +105,10 @@
  "HCI_2025_P2 Q1": [
   "img/2025_HCI_H2P2/R1A.png",
   "img/2025_HCI_H2P2/R1B.png",
-  "img/2025_HCI_H2P2/R3A.png",
-  "img/2025_HCI_H2P2/R3B.png",
   "img/2025_HCI_H2P2/R1C.png",
-  "img/2025_HCI_H2P2/R2.png"
+  "img/2025_HCI_H2P2/R2.png",
+  "img/2025_HCI_H2P2/R3A.png",
+  "img/2025_HCI_H2P2/R3B.png"
  ],
  "HCI_2026_P2 Q1": [
   "img/2026_HCI_H2P2/R1A.png",
@@ -118,10 +118,10 @@
   "img/2026_HCI_H2P2/R3B.png"
  ],
  "JPJC_2024_P2 Q1": [
-  "img/2024_JPJC_H2P2/R3.png",
   "img/2024_JPJC_H2P2/R1A.png",
   "img/2024_JPJC_H2P2/R1B.png",
   "img/2024_JPJC_H2P2/R2.png",
+  "img/2024_JPJC_H2P2/R3.png",
   "img/2024_JPJC_H2P2/R4.png"
  ],
  "JPJC_2025_P2 Q1": [
@@ -176,9 +176,9 @@
   "img/2025_NYJC_H2P2/R1.png",
   "img/2025_NYJC_H2P2/R2A.png",
   "img/2025_NYJC_H2P2/R2B.png",
+  "img/2025_NYJC_H2P2/R2C.png",
   "img/2025_NYJC_H2P2/R3.png",
-  "img/2025_NYJC_H2P2/R4.png",
-  "img/2025_NYJC_H2P2/R2C.png"
+  "img/2025_NYJC_H2P2/R4.png"
  ],
  "NYJC_2026_P2 Q1": [
   "img/2026_NYJC_H2P2/R1.png",
@@ -231,18 +231,18 @@
   "img/2026_SAJC_H2P2/R3.png"
  ],
  "TJC_2024_P2 Q1": [
+  "img/2024_TJC_H2P2/R1.png",
   "img/2024_TJC_H2P2/R2A.png",
   "img/2024_TJC_H2P2/R2B.png",
-  "img/2024_TJC_H2P2/R1.png",
   "img/2024_TJC_H2P2/R3.png",
   "img/2024_TJC_H2P2/R4.png"
  ],
  "TJC_2025_P2 Q1": [
-  "img/2025_TJC_H2P2/R4.png",
   "img/2025_TJC_H2P2/R1.png",
   "img/2025_TJC_H2P2/R2A.png",
   "img/2025_TJC_H2P2/R2B.png",
-  "img/2025_TJC_H2P2/R3.png"
+  "img/2025_TJC_H2P2/R3.png",
+  "img/2025_TJC_H2P2/R4.png"
  ],
  "TJC_2026_P2 Q1": [
   "img/2026_TJC_H2P2/R1.png",

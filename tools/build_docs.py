@@ -189,9 +189,10 @@ def split_tall(im, page_h):
     return pieces
 
 
-def add_question(doc, q, img_root):
+def add_question(doc, q, img_root, new_page=False):
     level = q['level']
-    doc.add_heading(f"{q['school']} {q['year']} — {q['paper']}, {q['qno']}  [{q['marks']} marks]", level=3)
+    h = doc.add_heading(f"{q['school']} {q['year']} — {q['paper']}, {q['qno']}  [{q['marks']} marks]", level=3)
+    h.paragraph_format.page_break_before = new_page
     p = doc.add_paragraph()
     r = p.add_run('Syllabus: ' + '; '.join(topic_label(level, c) for c in q['topics'])
                   + (f"   |   Fieldwork area: {q['fieldwork_area']}" if q.get('fieldwork_area') else ''))
@@ -223,7 +224,6 @@ def add_question(doc, q, img_root):
         else:
             doc.add_picture(compact_image(path), width=Cm(15.5))
         doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-    doc.add_paragraph()
 
 
 def build_by_topic(questions, outdir, version, preview, img_root):
@@ -252,15 +252,22 @@ def build_by_topic(questions, outdir, version, preview, img_root):
         def heading(g):
             code, _, area = g.partition('|')
             return f'Fieldwork – {area}' if area else topic_label(level, code)
+        # each school's question(s) start on a new page for printing; a heading stays on the page of its first question
+        started = fresh = False
         for cluster, cl_name in tops['clusters'].items():
             in_cluster = [q for q in sel if q['primary'].split('.')[0] == cluster]
             if not in_cluster:
                 continue
-            doc.add_heading(f'Cluster {cluster}: {cl_name}', level=1)
+            h = doc.add_heading(f'Cluster {cluster}: {cl_name}', level=1)
+            h.paragraph_format.page_break_before, fresh = started, started
             for g in sorted({key(q) for q in in_cluster}, key=order):
-                doc.add_heading(heading(g), level=2)
+                h = doc.add_heading(heading(g), level=2)
+                if started and not fresh:
+                    h.paragraph_format.page_break_before = fresh = True
+                prev = None
                 for q in sorted((q for q in in_cluster if key(q) == g), key=lambda q: (q['school'], q['year'])):
-                    add_question(doc, q, img_root)
+                    add_question(doc, q, img_root, new_page=started and not fresh and (q['school'], q['year']) != prev)
+                    started, fresh, prev = True, False, (q['school'], q['year'])
         path = os.path.join(outdir, f"{fname} {version}{' PREVIEW' if preview else ''}.docx")
         doc.save(path)
         paths.append(path)
