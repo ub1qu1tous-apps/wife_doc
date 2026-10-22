@@ -2,6 +2,12 @@
 
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entry after it. All docs are built (doc 1 v0.7, docs 2a–2f v0.14); the user hasn't yet answered the Review Notes items.
 
+**Task in progress (session 3):** doc 1 Review Notes section 7 ("To consider"), all four ideas: (1) key-question frequency summary by year, (2) shade cells by topic, (3) short focus line under each code, (4) split H2 into P1 and P2 tables. Rebuild doc 1 as v0.15 + Review Notes v0.15 (after the preview is approved).
+- Done: —
+- User then asked: "do a preview for all 4 ideas in 1 doc" → first a preview (`previews/1 Topic Grid ... v0.15 PREVIEW.docx`: ACJC 2024–2026 rows + full frequency summary); full rebuild only after approval.
+- Next: focus-line extraction from the notes, builder changes, preview build, check.
+- Hourly check-in: `trig_01JqXZqiJLfKKWX8cSNr55Kk` (:19 past each hour).
+
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.7.docx` (key-question level), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
 - **Current version:** v0.14
