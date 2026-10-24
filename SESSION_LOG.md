@@ -1,6 +1,6 @@
 # Session log
 
-> **Task in progress (session 4):** user said 'do the rest' (2026-10-24): build docs 3c (Topic 2.1), 3d (2.2), 3e (3.1), 3f (3.2) to v1 in the approved 3a/3b format, one topic at a time. Per topic: slot plan → research → charts (`tools/case_charts.py`, prefix 2_1_ etc.) → `tools/data/case_studies_3X.json` → build to docs/ → check pages + docx checks (link URLs, r:ids, rPr order) → Review Notes v1 → log → commit + push. Done so far: none of 3c–3f. Hourly check-in continues this note until it's cleared.
+> **Task in progress (session 4):** user said 'do the rest' (2026-10-24): build docs 3c (Topic 2.1), 3d (2.2), 3e (3.1), 3f (3.2) to v1 in the approved 3a/3b format, one topic at a time. Per topic: slot plan → research → charts (`tools/case_charts.py`, prefix 2_1_ etc.) → `tools/data/case_studies_3X.json` → build to docs/ → check pages + docx checks (link URLs, r:ids, rPr order) → Review Notes v1 → log → commit + push. Done so far: 3c v1. Hourly check-in continues this note until it's cleared.
 
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 and 3b v1 done** (`docs/3a …Topic 1.1… v1.docx`, `docs/3b …Topic 1.2… v1.docx`). Next: 3c (Topic 2.1) when the user asks.
 
@@ -439,4 +439,9 @@
 - Cause: one source link (Kyoto University PDF, slot 8) had spaces in its URL; a link target must be a valid URI, and Word refuses the whole file. The v0.1 preview had no such link, which is why the problem started with v1.
 - Fix: `hyperlink()` in `tools/build_case_studies.py` now percent-encodes every URL. 3a v1 and 3b v1 rebuilt (content unchanged). Checks: no invalid URL characters, every r:id resolves, rPr order OK.
 - Check to run on every new docx: link targets valid, r:ids resolve, rPr order.
+
+### 2026-10-24 — Session 4: doc 3c v1 (Topic 2.1 complete)
+- Part of 'do the rest'. 11 slots / 12 cases: climate zones (Singapore, Niamey, Riyadh); 2020 Sahel floods (Hadley/ITCZ); India's driest August 2023 (monsoon); Cyclone Freddy 2023; 2015–16 El Niño and 2020–23 La Niña (Lismore); Amazon 2021 flood vs 2023 drought (water balance); Jakarta groundwater (storage); Chennai 2015 (pathways); Kerala 2018 (flood factors); Pakistan 2022 (impacts, vulnerability); KL SMART Tunnel (succeeded) and Jakarta 2020 floods (failed).
+- New `tools/check_docx.py` (link URLs, r:ids, rPr order) — all 3a–3c files pass.
+- Output: `docs/3c Case Studies – Topic 2.1 Tropical Climates and Drainage Basins v1.docx` (13 pages) + `– Review Notes v1`.
 

@@ -1,0 +1,897 @@
+{
+ "id": "3c",
+ "title": "Case Studies – Topic 2.1 Tropical Climates and Drainage Basins",
+ "file": "3c Case Studies – Topic 2.1 Tropical Climates and Drainage Basins",
+ "intro": [
+  "One real case (2015 or later where it is an event) for each case-study slot in H2 Topic 2.1. This is a physical topic, so most slots ask for factors (what drives the climate or the water), variations (over time and space) and impacts; the flood-management slot has a succeeded and a failed case.",
+  "Each case is about 1 page, with 1 chart drawn from its sources. The 'Links' line under each case shows other slots and topics where the same case can be used."
+ ],
+ "plan_title": "Case-study slots for Topic 2.1",
+ "plan": [
+  [
+   "1",
+   "2.1.1 Tropical Climates",
+   "Characteristics",
+   "Climate zones: rainfall amount and seasonality in humid vs arid tropics",
+   "Singapore, Niamey and Riyadh compared"
+  ],
+  [
+   "2",
+   "2.1.1 Tropical Climates",
+   "Factors",
+   "Hadley cells and their seasonal migration (ITCZ) shaping rainfall",
+   "2020 Sahel floods"
+  ],
+  [
+   "3",
+   "2.1.1 Tropical Climates",
+   "Factors",
+   "Monsoon circulation from land–sea heating, and its variation",
+   "India's driest August on record (2023)"
+  ],
+  [
+   "4",
+   "2.1.1 Tropical Climates",
+   "Factors",
+   "Conditions for tropical cyclones and their rainfall",
+   "Cyclone Freddy (2023)"
+  ],
+  [
+   "5",
+   "2.1.1 Tropical Climates",
+   "Factors",
+   "ENSO phases and rainfall over the tropical Pacific",
+   "2015–16 El Niño and 2020–23 La Niña"
+  ],
+  [
+   "6",
+   "2.1.2 Drainage Basin Hydrology",
+   "Variations",
+   "Input–output balance varying over time due to natural factors",
+   "Amazon: 2021 flood and 2023 drought"
+  ],
+  [
+   "7",
+   "2.1.2 Drainage Basin Hydrology",
+   "Variations",
+   "Storage varying due to human factors (groundwater)",
+   "Jakarta's groundwater and sinking city"
+  ],
+  [
+   "8",
+   "2.1.2 Drainage Basin Hydrology",
+   "Variations",
+   "Pathways changed by human factors (infiltration vs overland flow)",
+   "Chennai floods (2015)"
+  ],
+  [
+   "9",
+   "2.1.3 Floods in the Humid Tropics",
+   "Factors",
+   "Natural and human factors causing fluvial floods",
+   "Kerala floods (2018)"
+  ],
+  [
+   "10",
+   "2.1.3 Floods in the Humid Tropics",
+   "Impacts",
+   "Impacts of floods and varying vulnerability of places and people",
+   "Pakistan floods (2022)"
+  ],
+  [
+   "11",
+   "2.1.3 Floods in the Humid Tropics",
+   "Strategies",
+   "Strengths and limits of flood management; how far humans can control floods (succeeded + failed)",
+   "Succeeded: KL's SMART Tunnel. Failed: Jakarta's 2020 floods"
+  ]
+ ],
+ "cases": [
+  {
+   "slot": "1",
+   "heading": "2.1.1 Tropical Climates — Characteristics (climate zones)",
+   "case": "Singapore, Niamey and Riyadh compared",
+   "syllabus": "Classification of tropical locations into climate zones (Af, Am, Aw, BSh, BWh); high temperatures; variations in rainfall amount between humid and arid tropics; seasonal variations.",
+   "facts": [
+    [
+     "Places",
+     "Singapore (Af), Niamey, Niger (BSh), Riyadh, Saudi Arabia (BWh)"
+    ],
+    [
+     "Period",
+     "Long-term averages"
+    ],
+    [
+     "Scale",
+     "Singapore gets roughly 20 times Riyadh's yearly rain"
+    ],
+    [
+     "Key actors",
+     "National weather services; World Bank Climate Knowledge Portal"
+    ]
+   ],
+   "image": "2_1_climate_zones.png",
+   "caption": "Figure 1. Average annual rainfall at three tropical stations (World Bank; travel and encyclopedia climate tables; whiskers show the range between sources).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "All three places are hot all year, which is what marks them as tropical. What separates them is rain. Singapore averages about 2,166 mm a year with no dry season. Niamey gets about 550–600 mm, almost all from late June to mid-September. Riyadh gets only about 100–125 mm."
+    },
+    {
+     "title": "How it shows the climate zones",
+     "bullets": [
+      "Humid tropics (Af): Singapore has rain all year; even its 'drier' Southwest Monsoon (June–September) is wet by world standards.",
+      "Semi-arid tropics (BSh): Niamey has one short rainy season; August is the wettest month at about 180 mm.",
+      "Arid tropics (BWh): Riyadh is near-rainless in summer, with its little rain mostly in the cooler months."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Temperature unites the tropics; rainfall amount and season divide them. Use one number per zone.",
+      "Evaluation: sources differ (Niamey 550–750 mm), so quote a range and the station's period."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.1 Hadley cells and ITCZ (slot 2) · 2.1.1 monsoons (slot 3) · 2.1.2 input–output balance (slot 6).",
+   "sources": [
+    [
+     "World Bank Climate Knowledge Portal – Singapore current climate",
+     "https://climateknowledgeportal.worldbank.org/node/3682"
+    ],
+    [
+     "Weather2Travel – Niamey climate by month",
+     "https://www.weather2travel.com/niger/niamey/climate/?Units=0"
+    ],
+    [
+     "Wikipedia – Floods in Niger (Niamey rainfall)",
+     "https://en.wikipedia.org/wiki/Floods_in_Niger"
+    ],
+    [
+     "Emerald Insight – hydrology study of Riyadh (about 125 mm)",
+     "https://www.emeraldinsight.com/insight/content/doi/10.1108/14777830910939499/full/html"
+    ],
+    [
+     "FishBase – Saudi Arabia geography and climate (about 100 mm)",
+     "https://fishbase.mnhn.fr/country/CountryInfo_Biodiversity.php?c_code=682"
+    ]
+   ]
+  },
+  {
+   "slot": "2",
+   "heading": "2.1.1 Tropical Climates — Factors (Hadley cells and ITCZ)",
+   "case": "The 2020 Sahel floods",
+   "syllabus": "Role of surplus heat in driving Hadley cells; influence of the Hadley cells and their seasonal migration on rainfall patterns in the tropics.",
+   "facts": [
+    [
+     "Place",
+     "Sahel: Niger, Mali, Sudan and neighbours"
+    ],
+    [
+     "Period",
+     "July–October 2020"
+    ],
+    [
+     "Scale",
+     "2.7 million people affected by floods in 18 countries of West and Central Africa"
+    ],
+    [
+     "Key actors",
+     "National disaster agencies, WFP, communities along the Niger and Nile"
+    ]
+   ],
+   "image": "2_1_sahel_2020.png",
+   "caption": "Figure 2. The 2020 Sahel rainy season in four facts (WFP; Niger Ministry of Humanitarian Affairs; studies).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The Sahel's rain comes when the rising limb of the Hadley cell, marked by the ITCZ, moves north in the northern summer. In early August 2020 the ITCZ surged north of its long-term average position, and rainfall across the Sahel was well above average. The Niger River at Niamey reached its highest level on record, and Sudan declared a three-month state of emergency."
+    },
+    {
+     "title": "How it shows the factors",
+     "bullets": [
+      "Surplus heat drives the cell: strong heating near the overhead sun makes air rise, cool and condense at the ITCZ.",
+      "Seasonal migration: the ITCZ follows the overhead sun north in July–September, so the Sahel has one rainy season and a long dry season.",
+      "A small shift matters: the ITCZ sitting further north than usual brought extra rain to central Mali and Niger."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Link rainfall timing to the ITCZ's position; link rainfall amount to how far north it reaches.",
+      "Evaluation: floods were twice as widespread as in 2019, showing the high year-to-year variability of the semi-arid tropics."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.1 climate zones (slot 1) · 2.1.3 flood impacts (slot 10) · 3.2.2 uneven changes in rainfall.",
+   "sources": [
+    [
+     "Wikipedia – 2020 African Sahel floods",
+     "https://en.wikipedia.org/wiki/2020_African_Sahel_floods"
+    ],
+    [
+     "CNBC – record flooding hammers the Sahel",
+     "https://www.cnbc.com/2020/09/10/record-flooding-hammers-the-african-sahel-the-latest-in-a-series-of-shocks.html"
+    ],
+    [
+     "WFP – West Africa seasonal monitor 2020 (ITCZ surge)",
+     "https://fscluster.org/document/west-africa-seasonal-monitor-2020-wfp"
+    ],
+    [
+     "ReliefWeb – West Africa floods update, October 2020",
+     "https://m.reliefweb.int/report/3681511/mali/west-africa-seasonal-monitor-floods-situation-update-2020-season-01-10-october-2020"
+    ],
+    [
+     "NASA Earth Observatory – an inland delta flooded",
+     "https://earthobservatory.nasa.gov/images/147692/an-inland-delta-flooded?src=ve"
+    ]
+   ]
+  },
+  {
+   "slot": "3",
+   "heading": "2.1.1 Tropical Climates — Factors (monsoons)",
+   "case": "India's driest August on record (2023)",
+   "syllabus": "Influence of distribution of heat over land and sea on summer and winter monsoon circulations in humid tropical Asia, and the resulting rainfall patterns.",
+   "facts": [
+    [
+     "Place",
+     "India"
+    ],
+    [
+     "Period",
+     "June–September 2023 monsoon"
+    ],
+    [
+     "Scale",
+     "162.7 mm of rain in August against a normal 254.9 mm"
+    ],
+    [
+     "Key actors",
+     "India Meteorological Department (IMD), farmers, reservoir managers"
+    ]
+   ],
+   "image": "2_1_india_monsoon.png",
+   "caption": "Figure 3. All-India rainfall in August 2023 vs normal (IMD figures as reported).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "In summer the Indian landmass heats faster than the ocean, creating low pressure over land that draws in moist south-west winds: the summer monsoon. In 2023 a strengthening El Niño weakened it. August had 162.7 mm of rain, about 36% below normal and the driest August since records began in 1901."
+    },
+    {
+     "title": "How it shows the factors",
+     "bullets": [
+      "Land–sea heating sets the pattern: most of India's yearly rain falls in June–September.",
+      "Other circulations change the amount: the IMD linked the dry August to El Niño. Central and southern India had their lowest August rain in 122 years.",
+      "And can reverse it: September turned wet thanks to low-pressure systems and the Madden–Julian Oscillation, so the season ended near normal at 94.4%."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The monsoon is a seasonal reversal driven by heat contrasts, but its strength varies year to year with ENSO.",
+      "Evaluation: a 'normal' season total can hide a damaging dry month, as reservoirs and summer crops showed."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.1 ENSO (slot 5) · 2.1.2 input–output balance (slot 6) · 3.2.2 effects of climate change on rainfall.",
+   "sources": [
+    [
+     "Moneylife – India's driest August since 1901 (IMD)",
+     "https://moneylife.in/article/india-witnessed-driest-conditions-since-1901-in-august-this-year-imd/71848.html"
+    ],
+    [
+     "Business Today – after driest August, average rain in September",
+     "https://www.businesstoday.in/amp/latest/economy/story/after-driest-august-since-1901-india-could-receive-average-rains-in-september-imd-official-396440-2023-08-31"
+    ],
+    [
+     "Deccan Herald – driest August for southern peninsula",
+     "https://deccanherald.com/india/driest-august-for-southern-peninsula-since-1901-2668486"
+    ],
+    [
+     "Tribune India – season ends normal (94.4%)",
+     "https://www.tribuneindia.com/news/india/monsoon-season-ends-with-normal-rain-as-positive-factors-countered-el-nino-effect-says-imd-549191/amp"
+    ]
+   ]
+  },
+  {
+   "slot": "4",
+   "heading": "2.1.1 Tropical Climates — Factors (tropical cyclones)",
+   "case": "Cyclone Freddy (February–March 2023)",
+   "syllabus": "Atmospheric and surface conditions necessary for the development of tropical cyclones and resulting effects on rainfall patterns.",
+   "facts": [
+    [
+     "Place",
+     "Southern Indian Ocean; Madagascar, Mozambique, Malawi"
+    ],
+    [
+     "Period",
+     "February–March 2023"
+    ],
+    [
+     "Scale",
+     "More than 200 deaths in Malawi and Mozambique, most of them in Malawi"
+    ],
+    [
+     "Key actors",
+     "World Meteorological Organization (WMO), national weather and disaster agencies"
+    ]
+   ],
+   "image": "2_1_freddy.png",
+   "caption": "Figure 4. Cyclone Freddy in four numbers (WMO and news reports).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Freddy crossed the southern Indian Ocean, hit Madagascar and Mozambique, then looped back for a second landfall in Mozambique. Its torrential rain caused floods and mudslides in southern Malawi, killing 85 people in Blantyre alone. The WMO set up an expert panel to check whether it beat the 31-day lifespan record of Hurricane John (1994)."
+    },
+    {
+     "title": "How it shows the conditions",
+     "bullets": [
+      "Warm ocean surface (above about 26.5°C) supplied heat and moisture for weeks, keeping the storm alive over a very long track.",
+      "Low wind shear and enough Coriolis force (away from the Equator) let it organise and spin.",
+      "Effect on rainfall: slow movement and a second landfall dumped rain far inland, causing floods and landslides hundreds of kilometres from the coast."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A cyclone's rainfall impact depends on its track and speed as much as its strength.",
+      "Evaluation: estimated accumulated cyclone energy (86) just above the old record (85) shows how much energy warm oceans can supply."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.3 flood impacts and vulnerability (slot 10) · 2.2.1 mass movement · 3.2.2 effects of climate change.",
+   "sources": [
+    [
+     "Al Jazeera – more than 220 killed by record-breaking Freddy",
+     "https://www.aljazeera.com/news/2023/3/15/more-than-220-killed-by-record-breaking-cyclone-freddy"
+    ],
+    [
+     "The EastAfrican – death toll passes 200",
+     "https://www.theeastafrican.co.ke/tea/rest-of-africa/cyclone-freddy-death-toll-passes-200-4159094"
+    ],
+    [
+     "News4Jax (AP) – Freddy pounds Malawi, Mozambique (WMO panel)",
+     "https://www.news4jax.com/news/world/2023/03/13/at-least-44-dead-as-cyclone-freddy-pounds-malawi-mozambique/"
+    ],
+    [
+     "Africanews – Freddy returns",
+     "https://www.africanews.com/amp/2023/03/14/cyclone-freddy-returns-over-100-killed-in-malawi-mozambique/"
+    ]
+   ]
+  },
+  {
+   "slot": "5",
+   "heading": "2.1.1 Tropical Climates — Factors (ENSO)",
+   "case": "The 2015–16 El Niño and the 2020–23 La Niña",
+   "syllabus": "The three phases of ENSO (El Niño, neutral, La Niña) and the associated changes in rainfall over the tropical Pacific.",
+   "facts": [
+    [
+     "Place",
+     "Tropical Pacific: Indonesia (west) to South America (east); eastern Australia"
+    ],
+    [
+     "Period",
+     "2015–16 and 2020–23"
+    ],
+    [
+     "Scale",
+     "Lismore's river peaked at 14.4 m in February 2022, 2 m above its 1954 record"
+    ],
+    [
+     "Key actors",
+     "NOAA and WMO (ENSO monitoring), Australian Bureau of Meteorology"
+    ]
+   ],
+   "image": "2_1_lismore.png",
+   "caption": "Figure 5. The February 2022 La Niña flood at Lismore vs its levee and old record (Bureau of Meteorology).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The 2015–16 El Niño was the strongest on the Oceanic Niño Index (though similar to 1982–83 and 1997–98 once background warming is removed). Warm water shifted east, and Indonesia dried out: it was the year of the great fires (3a, slot 6). From mid-2020 to early 2023 a rare 'triple-dip' La Niña did the opposite, soaking eastern Australia."
+    },
+    {
+     "title": "How it shows the phases",
+     "bullets": [
+      "El Niño: trade winds weaken, warm water and rising air move east, so the western Pacific (Indonesia, Australia) gets less rain.",
+      "La Niña: stronger trade winds pile warm water in the west, so rising air and rain increase there. In February 2022, rain on catchments already saturated by two La Niña years gave Australia's wettest week since at least 1900 in many areas.",
+      "Impact: the Wilsons River at Lismore peaked at about 14.4 m, over its 10 m levee. Four people died and 2,000 of 19,000 homes were destroyed or made unlivable."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The same ocean–atmosphere system brings drought to one side of the Pacific and floods to the other.",
+      "Evaluation: NOAA now uses a 'relative' index to separate ENSO from overall ocean warming, which changes how strong past events look."
+     ]
+    }
+   ],
+   "links": "Links: 3a slot 6 (Indonesia's 2015 fires) · 2.1.1 monsoons (slot 3) · 2.1.3 flood factors (slot 9).",
+   "sources": [
+    [
+     "WMO – Understanding ENSO indices (2026)",
+     "https://wmo.int/sites/default/files/2026-05/Understanding%20ENSO%20Indices_April2026.pdf.pdf"
+    ],
+    [
+     "UCAR Climate Data Guide – Niño indices and ONI",
+     "https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni"
+    ],
+    [
+     "Bureau of Meteorology – Special Climate Statement 76",
+     "https://media.bom.gov.au/releases/1014/special-climate-statement-76-extreme-rainfall-and-flooding-in-south-east-queensland-and-eastern-new-south-wales-february-march-2022"
+    ],
+    [
+     "ALGA – Lismore flood (homes, deaths)",
+     "https://alga.com.au/?p=20968"
+    ],
+    [
+     "AIDR – New South Wales floods 2022",
+     "https://knowledge.aidr.org.au/resources/flood-flooding-new-south-wales-2022/"
+    ]
+   ]
+  },
+  {
+   "slot": "6",
+   "heading": "2.1.2 Drainage Basin Hydrology — Variations (input–output balance)",
+   "case": "Amazon: the 2021 flood and the 2023 drought",
+   "syllabus": "Variations in the balance between input (precipitation) and output (evapotranspiration, river discharge) over time and space due to natural factors.",
+   "facts": [
+    [
+     "Place",
+     "Rio Negro at Manaus, Brazil (Amazon basin)"
+    ],
+    [
+     "Period",
+     "June 2021 to October 2023"
+    ],
+    [
+     "Scale",
+     "River level fell from a record 30.02 m (June 2021) to a record low 12.70 m (October 2023)"
+    ],
+    [
+     "Key actors",
+     "Port of Manaus gauge (121 years of records), Amazonas civil defence, river communities"
+    ]
+   ],
+   "image": "2_1_rio_negro.png",
+   "caption": "Figure 6. Record high and record low at the Manaus port gauge (AP; Amazonas civil defence).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "In June 2021 the Rio Negro at Manaus reached its highest level in more than a century of records. Just over two years later, in October 2023, the same gauge fell to its lowest ever. Boats were stranded, and river dolphins died in the hot, shallow water."
+    },
+    {
+     "title": "How it shows the balance changing",
+     "bullets": [
+      "Input surplus (2021): months of heavy rain over the basin exceeded evapotranspiration and discharge could not carry it away fast enough, so channel storage rose.",
+      "Output surplus (2023): rainfall failed in a hot, dry year, while high temperatures kept evapotranspiration high, so discharge and storage fell.",
+      "Natural factors: these swings came from changes in rainfall and temperature across the basin, not from local human action."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The water balance (P = Q + E ± ΔS) can swing from surplus to deficit within two years in the humid tropics.",
+      "Evaluation: even the world's wettest basin has large natural variability; later readings fell lower still, below 12.70 m."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.1 ENSO (slot 5) · 3.2.2 effects of climate change on ecosystems · 3a slot 1 (Amazon deforestation).",
+   "sources": [
+    [
+     "Breaking News (AP) – Amazon tributary reaches record low",
+     "https://breakingnews.ie/world/major-amazon-tributary-reaches-record-low-as-drought-takes-hold-1540371.html"
+    ],
+    [
+     "Jamaica Observer (AP) – rivers fall to record low levels",
+     "https://jamaicaobserver.com/2023/10/22/in-brazils-amazon-rivers-fall-to-record-low-levels-during-drought"
+    ],
+    [
+     "CS Monitor – boats and dolphins stranded",
+     "https://csmonitor.com/Environment/2023/1018/Boats-houseboats-dolphins-stranded-in-Amazon-s-worst-drought"
+    ],
+    [
+     "Rede Onda Digital – Rio Negro record lows (Portuguese)",
+     "https://redeondadigital.com.br/amazonas/seca-historica-no-amazonas-rio-negro-bate-novo-recorde"
+    ]
+   ]
+  },
+  {
+   "slot": "7",
+   "heading": "2.1.2 Drainage Basin Hydrology — Variations (storage, human factors)",
+   "case": "Jakarta's groundwater and sinking city",
+   "syllabus": "Storage in the drainage basin system (channel, groundwater, interception, soil moisture) varying over time and space due to natural and human factors.",
+   "facts": [
+    [
+     "Place",
+     "Jakarta, Indonesia, especially North Jakarta"
+    ],
+    [
+     "Period",
+     "2014–2024"
+    ],
+    [
+     "Scale",
+     "Parts of North Jakarta sink up to 25 cm a year; about half the city is below sea level"
+    ],
+    [
+     "Key actors",
+     "Households and firms pumping wells, Jakarta provincial government, water utilities"
+    ]
+   ],
+   "image": "2_1_jakarta_storage.png",
+   "caption": "Figure 7. Jakarta's groundwater problem in four numbers (BBC; C40; University of Indonesia).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Piped water reaches only about 60% of Jakarta, so the rest of the city pumps groundwater. Taking water out faster than rain can recharge it has emptied aquifers, and the clay above has compacted. Researchers say the city's sinking, not sea-level rise, is the main cause of its flooding risk."
+    },
+    {
+     "title": "How it shows storage changing",
+     "bullets": [
+      "Groundwater storage falls when abstraction exceeds recharge; in Jakarta this is a human factor.",
+      "Recharge is also cut by paving: less infiltration means less water reaching the aquifers.",
+      "Rates vary in space: about 1–15 cm a year across the city, about 11 cm a year in North Jakarta (2014–2018 data) and up to 25 cm in places."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Storage is not just natural: human abstraction can drain a store faster than the climate refills it.",
+      "Evaluation: limits on groundwater pumping only work if piped water is offered instead; lax rules let almost anyone sink a well."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.3 failed flood management (Jakarta, slot 11) · 3.1.1 cities' demand on natural environments · 3a slot 8 (Bangladesh groundwater).",
+   "sources": [
+    [
+     "BBC – Jakarta, the fastest-sinking city in the world",
+     "https://bbc.in/2ZO386r"
+    ],
+    [
+     "C40 – Jakarta land subsidence",
+     "https://www.c40.org/?p=27154"
+    ],
+    [
+     "Inquirer – Jakarta sinking fast (UI geophysicist)",
+     "https://newsinfo.inquirer.net/1060256/jakarta-sinking-fast-experts/"
+    ],
+    [
+     "Down To Earth – 3 reasons Jakarta is sinking",
+     "https://www.downtoearth.org.in/news/climate-change/3-reasons-jakarta-is-the-fastest-sinking-city-in-the-world-61375"
+    ]
+   ]
+  },
+  {
+   "slot": "8",
+   "heading": "2.1.2 Drainage Basin Hydrology — Variations (pathways, human factors)",
+   "case": "Chennai floods (November–December 2015)",
+   "syllabus": "Pathways (infiltration, overland flow, throughflow, percolation, baseflow, channel flow) varying over time and space due to natural and human factors.",
+   "facts": [
+    [
+     "Place",
+     "Chennai and neighbouring Kancheepuram and Tiruvallur districts, India"
+    ],
+    [
+     "Period",
+     "November–December 2015"
+    ],
+    [
+     "Scale",
+     "289 deaths in the two worst-hit districts (CAG audit); other counts exceed 500"
+    ],
+    [
+     "Key actors",
+     "Tamil Nadu government, Chennai Metropolitan Development Authority (CMDA), developers, reservoir managers"
+    ]
+   ],
+   "image": "2_1_chennai.png",
+   "caption": "Figure 8. Chennai's 2015 floods in four numbers (CAG audit; CMDA via news reports).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Chennai gets 60% of its yearly 1,324 mm of rain in the October–December north-east monsoon. In late 2015 several heavy spells fell on a city that had built over lakes, marshes and floodplains. Riverside areas flooded further when the Chembarambakkam reservoir released water into the Adyar River."
+    },
+    {
+     "title": "How it shows pathways changing",
+     "bullets": [
+      "Less infiltration: more than 300 water bodies had been lost to development, and paving left little ground for rain to soak into.",
+      "More, faster overland flow: water ran straight into drains and rivers; blocked storm drains and filled lowlands made it worse.",
+      "Channels squeezed: about 140,000 illegal structures were counted along waterways, shrinking channel flow capacity."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Urbanisation converts infiltration and throughflow into overland flow, shortening lag time and raising peak discharge.",
+      "Evaluation: heavy rain was the trigger, but land use decided where water went; some figures (e.g. marsh loss) come from secondary sources."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.3 flood factors (slot 9) · 3.1.1 rapid urban growth · 3.1.2 demand on natural environments.",
+   "sources": [
+    [
+     "CAG – Performance audit of flood management in Chennai (2017)",
+     "https://cag.gov.in/uploads/download_audit_report/2016/Chapter_1_Introduction_of_Report_No_4_of_2017_-_Performance_Audit_of_Flood_Management_and_Response_in_Che.pdf"
+    ],
+    [
+     "Down To Earth – Chennai apart",
+     "https://www.downtoearth.org.in/news/urbanisation/chennai-apart-52265"
+    ],
+    [
+     "Homegrown – the real impact of the Chennai floods",
+     "https://homegrown.co.in/homegrown-voices/the-real-impact-of-chennai-floods-as-revealed-in-a-survey"
+    ],
+    [
+     "The News Minute – satellite images of Chennai's urban growth",
+     "https://www.thenewsminute.com/amp/story/tamil-nadu/making-disaster-satellite-images-show-how-chennais-new-urban-jungles-caused-flooding-36595"
+    ]
+   ]
+  },
+  {
+   "slot": "9",
+   "heading": "2.1.3 Floods — Factors (natural and human)",
+   "case": "Kerala floods (August 2018)",
+   "syllabus": "Fluvial floods occur when peak discharge exceeds bankfull discharge; natural and human factors contributing to floods in the humid tropics.",
+   "facts": [
+    [
+     "Place",
+     "Kerala, India (Periyar and other basins draining the Western Ghats)"
+    ],
+    [
+     "Period",
+     "June–August 2018, peak 8–19 August"
+    ],
+    [
+     "Scale",
+     "Kerala's largest flood in a century; all major dams released water"
+    ],
+    [
+     "Key actors",
+     "Kerala government, Kerala State Electricity Board (dam operators), IMD, residents"
+    ]
+   ],
+   "image": "2_1_kerala.png",
+   "caption": "Figure 9. Kerala rainfall, 1 June–19 August 2018 vs average (Mongabay; IIT Madras).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "A very wet monsoon filled Kerala's reservoirs by July. Then 8–19 August brought rain about 362% above normal. On 10 August the Idukki dam opened for the first time in its history, and dams across the state released water into already full rivers."
+    },
+    {
+     "title": "How it shows the factors",
+     "bullets": [
+      "Natural: rain about 42% above normal for the season, with Peerumedu and Idukki getting over 700–800 mm in three days, on steep, saturated slopes.",
+      "Human: dams were kept full and then released large volumes at the peak, adding to river discharge; critics called this mismanagement.",
+      "Debate: the government blamed unprecedented rain and weak forecasts; the opposition blamed dam operations."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Floods come from natural triggers plus human decisions that raise peak discharge above bankfull.",
+      "Evaluation: an IIT Madras study of the Periyar basin examined how much the dams added, showing the human share can be measured, not just argued."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.1 monsoons (slot 3) · 2.1.3 flood management (slot 11) · 2.2.1 mass movement (landslides).",
+   "sources": [
+    [
+     "IIT Madras – role of dams in the Periyar floods of August 2018",
+     "https://publications.iitm.ac.in/pdf/publisher-pdf-fulltext-role-of-dams-on-the-floods-of-august-2018-in-periyar-river-basin"
+    ],
+    [
+     "Mongabay India – Kerala floods: time for introspection",
+     "https://india.mongabay.com/2018/08/commentary-kerala-floods-time-for-introspection-and-amends-as-water-recedes/"
+    ],
+    [
+     "The News Minute – 8 charts on Kerala's largest flood in a century",
+     "https://www.thenewsminute.com/article/8-charts-scale-keralas-largest-flood-century-86948"
+    ],
+    [
+     "Onmanorama – damned by the dams or rains?",
+     "https://onmanorama.com/news/kerala/2018/08/30/special-assembly-session-flood-dam.html"
+    ]
+   ]
+  },
+  {
+   "slot": "10",
+   "heading": "2.1.3 Floods — Impacts (places and vulnerability)",
+   "case": "Pakistan floods (June–October 2022)",
+   "syllabus": "Positive and negative impacts of fluvial floods; variations in effects on places and on different groups of people due to vulnerability.",
+   "facts": [
+    [
+     "Place",
+     "Pakistan, worst in Sindh province"
+    ],
+    [
+     "Period",
+     "Mid-June to October 2022"
+    ],
+    [
+     "Scale",
+     "1,739 deaths; more than 33 million people affected; damage about US$40 billion"
+    ],
+    [
+     "Key actors",
+     "National Disaster Management Authority (NDMA), provincial governments, aid agencies, rural households"
+    ]
+   ],
+   "image": "2_1_pakistan.png",
+   "caption": "Figure 10. Deaths by group as of early September 2022 (NDMA, provisional).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Extreme monsoon rain flooded the Indus plains for months. By the end, 1,739 people had died and more than 33 million were affected. Sindh was hit hardest, with the most deaths and about 924,000 of the 1.1 million homes damaged nationwide by early September."
+    },
+    {
+     "title": "How it shows varying impacts",
+     "bullets": [
+      "Negative: homes, crops and roads were destroyed; damage is estimated at about US$40 billion.",
+      "Places differ: low-lying, flat Sindh stayed underwater longest, while upland areas drained faster.",
+      "People differ: children made up 481 of 1,355 deaths by early September. Mud-brick homes and farm livelihoods made the rural poor most exposed."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Vulnerability (housing, income, age) explains why the same flood harms some groups far more.",
+      "Evaluation: positive impacts (silt, recharging groundwater) exist in some floods but were small next to the losses here."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.1 monsoons (slot 3) · 3.2.2 vulnerability to climate change · 2.1.3 flood management (slot 11).",
+   "sources": [
+    [
+     "Wikipedia – 2022 Pakistan floods (deaths, damage)",
+     "https://en.wikipedia.org/wiki/2022_Pakistan_floods"
+    ],
+    [
+     "The Friday Times – highest deaths in Sindh; 33 million affected",
+     "https://thefridaytimes.com/02-Sep-2022/div-class-blink_text-div-highest-number-of-deaths-in-sindh"
+    ],
+    [
+     "Aaj News – death toll at 1,355 (by group)",
+     "https://english.aaj.tv/news/30297572"
+    ],
+    [
+     "Business Recorder – NDMA: Sindh houses damaged",
+     "https://www.brecorder.com/news/amp/40196496"
+    ]
+   ]
+  },
+  {
+   "slot": "11",
+   "outcome": "Succeeded",
+   "heading": "2.1.3 Floods — Strategies: SUCCEEDED",
+   "case": "Kuala Lumpur's SMART Tunnel (2007–2021)",
+   "syllabus": "Strengths and limitations of strategies to manage fluvial floods; varying success; extent to which humans can control floods.",
+   "facts": [
+    [
+     "Place",
+     "Kuala Lumpur, Malaysia (Klang River confluence)"
+    ],
+    [
+     "Period",
+     "Operating since 2007; key events 2020 and 2021"
+    ],
+    [
+     "Scale",
+     "Diverted about 5 million m³ in one 22-hour operation (December 2021)"
+    ],
+    [
+     "Key actors",
+     "Malaysian government, Gamuda and MMC (builders and operators), city residents"
+    ]
+   ],
+   "image": "2_1_smart_tunnel.png",
+   "caption": "Figure 11a. Floodwater diverted by the SMART Tunnel (The Star; Wikipedia).",
+   "sections": [
+    {
+     "title": "What it is",
+     "text": "The SMART (Stormwater Management and Road Tunnel) takes floodwater from the Klang River away from the city centre into storage ponds. In normal weather it carries traffic; in big storms the road section closes and the whole tunnel carries water (Mode 4)."
+    },
+    {
+     "title": "Why the strategy worked",
+     "bullets": [
+      "Strength: it removes peak discharge before it reaches the city centre. It diverted about 3 million m³ in a September 2020 flash flood.",
+      "Stretched but held: in December 2021 it took about 5 million m³ against a stated capacity of 3 million, and officials said it averted major floods in the city centre.",
+      "Dual use: as a toll road most of the time, it earns income between floods."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A hard-engineering strategy can protect a high-value core when sized and run well.",
+      "Evaluation: it protects only the centre; the same December 2021 storm flooded suburbs such as Taman Sri Muda, so control is partial."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.3 failed case (Jakarta, next page) · 2.1.2 pathways · 3.1.1 rapid urban growth.",
+   "sources": [
+    [
+     "The Star – SMART tunnel stretched beyond the max (Dec 2021)",
+     "https://thestar.com.my/news/nation/2021/12/22/smart-tunnel-stretched-beyond-the-max"
+    ],
+    [
+     "Wikipedia – SMART Tunnel (modes, 2020 diversion)",
+     "https://en.wikipedia.org/wiki/SMART_Tunnel"
+    ],
+    [
+     "Xylem – smart solution for storm water",
+     "https://www.xylem.com/en-ph/making-waves/construction-and-mining/smart-solution-for-storm-water/"
+    ]
+   ]
+  },
+  {
+   "slot": "11",
+   "outcome": "Failed",
+   "heading": "2.1.3 Floods — Strategies: FAILED",
+   "case": "Jakarta's New Year floods (January 2020)",
+   "syllabus": "Strengths and limitations of strategies to manage fluvial floods; varying success; extent to which humans can control floods.",
+   "facts": [
+    [
+     "Place",
+     "Greater Jakarta, Indonesia (Ciliwung and Cisadane rivers)"
+    ],
+    [
+     "Period",
+     "1–3 January 2020; river works 2013–2026"
+    ],
+    [
+     "Scale",
+     "43 dead and about 397,000 people in shelters"
+    ],
+    [
+     "Key actors",
+     "Jakarta provincial government, Ministry of Public Works, National Land Agency, riverside residents"
+    ]
+   ],
+   "image": "2_1_jakarta_flood.png",
+   "caption": "Figure 11b. Ciliwung river works planned vs done, and the rain that fell (BNPB; Berita Jakarta).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "About 377 mm of rain fell around Halim and East Jakarta on New Year's Eve, one of the heaviest days on record. The Ciliwung and Cisadane overflowed, Halim airport's runway went under water, and about 397,000 people fled to shelters."
+    },
+    {
+     "title": "Why the strategy failed",
+     "bullets": [
+      "Unfinished works: widening and walling the Ciliwung ('normalisation') stalled from 2017 over land acquisition; by 2026 only 17.14 km of 33.69 km was done.",
+      "Policy changes: a new governor preferred 'naturalisation' to concrete walls, so work paused between plans.",
+      "Underlying problems: a sinking city (slot 7) and paved catchments mean rivers rise faster and drain more slowly."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Strategies fail when they are not finished or not suited to the scale of the problem.",
+      "Evaluation: officials say the completed project could cut flood impact by about 40%, so even success would leave much risk: humans can reduce but not fully control floods."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.2 storage (Jakarta groundwater, slot 7) · 2.1.3 succeeded case (SMART, previous page) · 3.1.2 slum management (evictions).",
+   "sources": [
+    [
+     "PBS (AP) – Jakarta floods leave 43 dead, 397,000 displaced",
+     "https://www.pbs.org/newshour/world/indonesia-capital-floods-leave-43-dead-and-397000-displaced"
+    ],
+    [
+     "Arab News – Jakarta starts 2020 with worst floods in years (377 mm)",
+     "https://www.arabnews.com/node/1606931/amp"
+    ],
+    [
+     "Tempo – normalisation stopped (Jokowi inspects)",
+     "https://en.tempo.co/amp/1694142/jokowi-inspects-ciliwung-river-normalization-progress-under-heavy-rain"
+    ],
+    [
+     "Berita Jakarta – normalisation continues (17.14 of 33.69 km)",
+     "https://m.beritajakarta.id/en/read/61688/ciliwung-river-normalization-continues-with-a-more-human-centered-approach"
+    ],
+    [
+     "Kompas – target of 7 km normalisation (2024)",
+     "https://www.kompas.id/baca/english/2024/04/18/en-jakarta-kejar-target-normalisasi-kali-ciliwung-sepanjang-7-km"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "title": "Case Studies – Topic 2.1 Tropical Climates and Drainage Basins",
+ "file": "3c Case Studies – Topic 2.1 Tropical Climates and Drainage Basins",
+ "version": "v1",
+ "doc": "3c Case Studies – Topic 2.1 Tropical Climates and Drainage Basins v1.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "Third of 6 case-study docs (3a–3f). Same format as 3a/3b v1.",
+    "Topic 2.1 has 11 case-study slots from the syllabus content points; the flood-strategy slot has a succeeded and a failed case, so 12 cases. 13 pages.",
+    "Physical topic: most slots are Factors (climate processes) and Variations (water balance, storage, pathways); the flood slots add Impacts and Strategies.",
+    "Built straight to v1 as part of 'do the rest'. Built with tools/build_case_studies.py from tools/data/case_studies_3c.json; charts 2_1_*.png; checked with tools/check_docx.py."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "Slot 1 (climate zones) compares long-term averages for three stations rather than a single post-2015 event, because the syllabus point is about average patterns.",
+    "Process explanations (e.g. cyclones need warm sea above about 26.5°C, low wind shear) are standard syllabus knowledge, not taken from the listed sources.",
+    "Same limits as 3a/3b: no photos (blocked), and figures come from search results quoting each source."
+   ]
+  },
+  {
+   "title": "3. To review: figures to spot-check",
+   "table": {
+    "columns": [
+     "Case",
+     "Figure",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Climate zones",
+      "Singapore 2,166 mm is a 1981–2010 average (World Bank); Niamey and Riyadh come from travel and encyclopedia tables, so ranges are shown."
+     ],
+     [
+      "India 2023",
+      "'About 36% below normal' is worked out from the reported 162.7 mm vs 254.9 mm."
+     ],
+     [
+      "Freddy",
+      "Whether it beat the 31-day record (WMO panel) and the ACE 86 estimate were not final in the sources found."
+     ],
+     [
+      "Rio Negro",
+      "12.70 m (Oct 2023) was the record low then; later readings were lower (12.11 m)."
+     ],
+     [
+      "Chennai",
+      "'300+ water bodies lost' and '140,000 illegal structures' are from secondary reports; deaths 289 (CAG) vs 500+ (Down To Earth)."
+     ],
+     [
+      "Pakistan",
+      "Damage about US$40 bn (Wikipedia); other estimates are about US$30 bn. Deaths by group are NDMA figures from early September."
+     ],
+     [
+      "SMART Tunnel",
+      "Mode 4 count differs (8th vs 9th activation); the 'flooded suburbs' point (Taman Sri Muda) is from general reporting, not the listed sources."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "4. To review: choices",
+   "table": {
+    "columns": [
+     "Item",
+     "Current choice",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Slot 2 (Hadley/ITCZ)",
+      "2020 Sahel floods. Alternative: Hadley cell expansion and Cape Town's drought (3a slot 2)."
+     ],
+     [
+      "Slot 11 succeeded",
+      "KL's SMART Tunnel. Alternative: an early-warning system (soft strategy)."
+     ],
+     [
+      "Positive flood impacts",
+      "Only mentioned in slot 10's exam angle; a Mekong flood-pulse case (3a slot 11) could be linked instead."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "5. To consider",
+   "bullets": [
+    "Next: 3d (Topic 2.2 Landforms in the Tropics)."
+   ]
+  }
+ ]
+}
