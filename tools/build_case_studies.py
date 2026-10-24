@@ -4,6 +4,7 @@ Content: tools/data/case_studies_<id>.json. Charts: tools/case_charts.py -> tool
 usage: build_case_studies.py <content.json> <outdir> <version>
 """
 import json, os, sys
+from urllib.parse import quote
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_docs import base_doc, cell_text, shade, repeat_header, keep_row_together, GREY
 from docx.shared import Pt, Cm, RGBColor
@@ -17,6 +18,8 @@ LINK = RGBColor(0x1F, 0x4E, 0x99)
 
 
 def hyperlink(par, text, url, size=7.5):
+    # Word refuses the whole file if a link address has spaces or other non-URL characters.
+    url = quote(url, safe=":/?#[]@!$&'()*+,;=%~")
     rid = par.part.relate_to(url, 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink',
                              is_external=True)
     h = OxmlElement('w:hyperlink'); h.set(qn('r:id'), rid)

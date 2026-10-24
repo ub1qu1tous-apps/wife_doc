@@ -432,3 +432,9 @@
 - Output: `docs/3b Case Studies – Topic 1.2 Development and the Global Economy v1.docx` (19 pages) + `– Review Notes v1` (9 figures to spot-check, 4 choices).
 - Open: does the fixed 3a open in the user's Word? Feedback on 3b; then 3c (Topic 2.1).
 
+### 2026-10-24 — Session 4: 3a still 'corrupt' in Word 2007 — real cause found
+- User: 3a v1 still would not open after the rPr fix.
+- Cause: one source link (Kyoto University PDF, slot 8) had spaces in its URL; a link target must be a valid URI, and Word refuses the whole file. The v0.1 preview had no such link, which is why the problem started with v1.
+- Fix: `hyperlink()` in `tools/build_case_studies.py` now percent-encodes every URL. 3a v1 and 3b v1 rebuilt (content unchanged). Checks: no invalid URL characters, every r:id resolves, rPr order OK.
+- Check to run on every new docx: link targets valid, r:ids resolve, rPr order.
+
