@@ -846,11 +846,13 @@ def amazon_carbon(path):
 
 def mauna_loa(path):
     fig, ax = plt.subplots(figsize=SIZE)
-    bars(ax, ['May 2023', 'May 2024', 'May 2025'], [424.0, 426.9, 430.2], [MUTED, ORANGE, RED], lambda v: f"{v:.1f} ppm",
-         ylabel='CO2 at Mauna Loa (ppm)', ymax=440)
-    ax.set_ylim(400, 436)
+    labels, vals = ['May 2023', 'May 2024', 'May 2025'], [424.0, 426.9, 430.2]
+    ax.bar(labels, vals, color=[MUTED, ORANGE, RED], width=0.6)
+    for x, v in zip(labels, vals):
+        ax.text(x, v + 0.4, f"{v:.1f} ppm", ha='center', va='bottom', fontsize=8.5)
+    ax.set_ylim(400, 436); ax.set_ylabel('CO2 at Mauna Loa (ppm)')
     ax.set_title('2022–24: the largest two-year rise in the May peak on record (NOAA)', fontsize=8.5, color=MUTED, loc='left')
-    save(fig, path)
+    tidy(ax); save(fig, path)
 
 
 def imo2020(path):
@@ -914,7 +916,7 @@ def thwaites(path):
     ax.barh(3, 40, left=40, color=ORANGE, height=0.5)
     ax.text(82, 3, '40–80 cm', va='center', fontsize=8.5)
     ax.barh(2, 200, color=RED, height=0.5); ax.text(202, 2, 'up to ~2 m', va='center', fontsize=8.5)
-    ax.barh(1, 65, color=BLUE, height=0.5); ax.text(67, 1, '65 cm (over centuries)', va='center', fontsize=8.5)
+    ax.barh(1, 65, color=BLUE, height=0.5); ax.text(67, 1, '65 cm (if it fully collapsed)', va='center', fontsize=8.5)
     ax.barh(0, 300, color=MUTED, height=0.5); ax.text(250, 0, '3 m+', va='center', fontsize=8.5, color='white')
     ax.set_yticks(y); ax.set_yticklabels(labels); ax.set_xlim(0, 330); ax.set_xlabel('Global sea-level rise (cm)')
     for s_ in ('top', 'right'):
@@ -940,11 +942,11 @@ def sg_coast(path):
 
 def urgenda(path):
     even_timeline(path, [
-        ('2013', 'Urgenda and ~900\ncitizens sue the\nDutch state', BLUE, 1),
+        ('2013', 'Urgenda takes the\nDutch state to\ncourt', BLUE, 1),
         ('Jun 2015', 'District Court:\ncut emissions\n25% by 2020', GREEN, -1),
         ('Oct 2018', 'Court of Appeal\nupholds it', GREEN, 1),
         ('Dec 2019', 'Supreme Court:\nfinal ruling', GREEN, -1),
-        ('2020', 'Emissions about\n23–25% below\n1990 (estimates)', ORANGE, 1)])
+        ('2020', 'Forecast: about\n23% below 1990\n(before the ruling)', ORANGE, 1)])
 
 
 def orsted(path):
