@@ -21,7 +21,7 @@ def hyperlink(par, text, url, size=7.5):
                              is_external=True)
     h = OxmlElement('w:hyperlink'); h.set(qn('r:id'), rid)
     r = OxmlElement('w:r'); rpr = OxmlElement('w:rPr')
-    for tag, val in (('w:color', '1F4E99'), ('w:u', 'single'), ('w:sz', str(int(size * 2)))):
+    for tag, val in (('w:color', '1F4E99'), ('w:sz', str(int(size * 2))), ('w:u', 'single')):
         el = OxmlElement(tag); el.set(qn('w:val'), val); rpr.append(el)
     r.append(rpr); t = OxmlElement('w:t'); t.text = text; r.append(t); h.append(r)
     par._p.append(h)
