@@ -634,6 +634,172 @@ def sundarbans(path):
 
 
 
+# ---------- Topic 3.1 (doc 3e) ----------
+def rank_line(path, labels, ranks, ylabel, top, note=None):
+    fig, ax = plt.subplots(figsize=SIZE)
+    ax.plot(labels, ranks, color=BLUE, marker='o', lw=2)
+    for x, r in zip(labels, ranks):
+        ax.text(x, r - top * 0.04, str(r), ha='center', va='bottom', fontsize=8.5, color=INK)
+    ax.set_ylim(top, 0); ax.set_ylabel(ylabel)
+    if note:
+        ax.set_title(note, fontsize=8.5, color=MUTED, loc='left')
+    tidy(ax); save(fig, path)
+
+
+def arcadis(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Planet', 'People', 'Profit'], [1, 17, 39], [GREEN, ORANGE, RED], lambda v: f"{v}{'st' if v == 1 else 'th'}",
+         ylabel='Oslo\'s rank of 100 cities (lower = better)', ymax=46)
+    ax.set_title('Oslo was 1st overall in 2022, but its rank depends on which pillar you look at', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def lagos(path):
+    tiles(path, [('16.5–20 m+', 'people in the metro\narea: estimates\ndisagree widely', BLUE),
+                 ('~25%', 'growth every five\nyears on average\nsince 1965', ORANGE),
+                 ('3.4 m', 'homes short of\nwhat the city\nneeds', RED),
+                 ('80%', 'rent rises in\nsome areas', MUTED)])
+
+
+def detroit(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['1950 (peak)', '2022', '2023', '2024'], [1850000, 631218, 633218, 645705], [MUTED, RED, ORANGE, GREEN],
+         lambda v: f"{v/1000:,.0f}k", ylabel='Detroit population', ymax=2100000)
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v/1e6:g}m"))
+    ax.set_title('First growth since 1957 came in 2023 (US Census estimates, revised)', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def mexico_water(path):
+    hbars(path, ['Wells (aquifers under the city)', 'Cutzamala system (dams in other basins)', 'Lerma system'], [67, 25, 8],
+          [RED, ORANGE, MUTED], lambda v: f"about {v}%" if v != 67 else "the rest (~67%)", "Share of Mexico City's water supply (%)", 85,
+          note='June 2024: Cutzamala dams about 25% full')
+
+
+def koshe(path):
+    tiles(path, [('115', 'killed when the\nKoshe dump\ncollapsed, Mar 2017', RED),
+                 ('~500', 'waste pickers\nworked on the\ndump each day', ORANGE),
+                 ('~300', 'people moved off\nthe landfill\nafterwards', MUTED),
+                 ('US$120 m', 'waste-to-energy\nplant being built\non the site', BLUE)])
+
+
+def korea_food(path):
+    even_timeline(path, [
+        ('1995', 'Pay-as-you-throw:\nwaste bags\npriced by volume', BLUE, 1),
+        ('2005', 'Food waste banned\nfrom landfills', ORANGE, -1),
+        ('2013', 'National pay-by-\nweight for food\nwaste (RFID bins)', GREEN, 1),
+        ('2019', 'About 95% of food\nwaste recycled', GREEN, -1),
+        ('Uses', 'Animal feed,\ncompost, biogas', MUTED, 1)])
+
+
+def lebanon(path):
+    tiles(path, [('17 Jul 2015', 'Naameh landfill\nclosed with no\nreplacement', RED),
+                 ('15 m t', 'dumped at Naameh,\ndesigned for\n2 m tonnes', ORANGE),
+                 ('You Stink', 'protests grew into\nanger at the whole\npolitical class', BLUE),
+                 ('2016', 'new coastal landfills\n(Costa Brava, Bourj\nHammoud) as a fix', MUTED)])
+
+
+def dharavi(path):
+    tiles(path, [('1 : 1,440', 'toilet seats to\nresidents (2006);\nabout 1 : 800 by 2014', RED),
+                 ('2 hours', 'of piped water\na day at\nstandpipes', ORANGE),
+                 ('7,000+', 'businesses: homes\ndouble as\nworkshops', BLUE),
+                 ('700,000', 'residents not\neligible for free\nnew flats', MUTED)])
+
+
+def kotaku(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Before', 'After'], [130.05, 53.33], [MUTED, GREEN], lambda v: f"{v:g} ha", ylabel='Slum area, Rangkasbitung (ha)', ymax=155)
+    ax.set_title('One district under KOTAKU; national target: 38,431 ha of slums upgraded', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def otodo(path):
+    even_timeline(path, [
+        ('Nov 2016', 'First eviction;\n~4,700 remain', RED, 1),
+        ('Jan 2017', 'Court: forced\nevictions break\nthe constitution', GREEN, -1),
+        ('Mar 2017', 'Second eviction,\ngunshots and\ntear gas', RED, 1),
+        ('Apr 2017', 'Final demolition', RED, -1),
+        ('June 2017', "Court: demolition\n'unconstitutional';\nstate appeals", ORANGE, 1)])
+
+
+def expo_dubai(path):
+    tiles(path, [('24.1 m', 'visits, Oct 2021–\nMar 2022,\n192 countries', BLUE),
+                 ('AED 155 bn', 'projected value added\nto the UAE economy,\n2013–2042', GREEN),
+                 ('62%', 'of that expected\nfrom the legacy\nphase', ORANGE),
+                 ('80%+', 'of buildings reused\nin Expo City\nDubai', MUTED)])
+
+
+def paris(path):
+    tiles(path, [('95%', 'of venues existing\nor temporary', GREEN),
+                 ('€1.4 bn', 'to clean the Seine\nfor swimming', BLUE),
+                 ('2,800', 'homes from the\nathletes\' village', ORANGE),
+                 ('18', 'new or renovated\npools across\nFrance', MUTED)])
+
+
+def rio(path):
+    tiles(path, [('US$500 m', 'spent renovating the\nMaracanã (2014 World\nCup)', MUTED),
+                 ('R$3 m', 'unpaid power bill:\nthe stadium was\ncut off', RED),
+                 ('4', 'Olympic Park arenas\nwith no operator\nwilling to run them', ORANGE),
+                 ('US$40 m', 'still owed by\norganisers in\nearly 2017', BLUE)])
+
+
+def eiu_vienna(path):
+    rank_line(path, ['2019', '2021', '2022', '2023', '2024'], [1, 12, 1, 1, 1], "Vienna's EIU liveability rank", 14,
+              note='2020 not published; 2021 judged on COVID restrictions (Auckland 1st)')
+
+
+def crl(path):
+    tiles(path, [('~6 min', 'shorter trips than\nthe route around\nthe reserve', BLUE),
+                 ('~15%', 'lower average\nfares', GREEN),
+                 ('S$2 bn', 'saved in\nbuilding costs', ORANGE),
+                 ('70 m', 'deep under the\nreserve (usual\n20–30 m)', MUTED)])
+
+
+def japan_alone(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['70–74', '75–79', '85+'], [11600, 12567, 14658], [ORANGE, ORANGE, RED], lambda v: f"{v:,}",
+         ylabel='People found dead alone at home, 2024', ymax=17500)
+    ax.set_title('76,020 in total, 76% aged 65+; Tokyo had the most (7,699) (National Police Agency)', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def kampung_admiralty(path):
+    tiles(path, [('104', 'flats for seniors\n(studios and\n2-room flexi)', BLUE),
+                 ('2017', 'completed, by\nWOHA for HDB', MUTED),
+                 ('1 roof', 'homes, clinic, active\nageing hub, childcare,\nfood and shops', GREEN),
+                 ('2018', 'World Building\nof the Year', ORANGE)])
+
+
+def korea_elderly(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['South Korea', 'OECD average'], [40.4, 14.2], [RED, MUTED], lambda v: f"{v:g}%", ylabel='Older people in relative poverty (%)', ymax=48)
+    ax.set_title('Basic pension about 320,000 won (US$240) a month for the poorest 70% (2023)', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def delhi_women(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['Delhi', 'Mumbai'], [14158, 6176], [RED, MUTED], lambda v: f"{v:,}", title='Crimes against women, 2022 (NCRB)', ymax=16800)
+    bars(a2, ['Delhi', 'India'], [18.5, 41.7], [RED, MUTED], lambda v: f"{v:g}%", title='Women in the labour force (2023–24)', ymax=50)
+    save(fig, path)
+
+
+def pink_ticket(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['2020–21', '2022–23'], [25, 33], [MUTED, GREEN], lambda v: f"{v}%", ylabel="Women's share of Delhi bus riders (%)", ymax=40)
+    ax.set_title('Free bus travel for women since Oct 2019 ("pink tickets")', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def mexico_women(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Women who had faced\ngender violence on transit\n(govt figures, 2014)', 'Women reporting sexual\nharassment on transit\n(survey, 2016)'], [65, 64],
+         [RED, RED], lambda v: f"{v}%", ylabel='% of women', ymax=80)
+    ax.set_title('Women-only metro cars since 2000 (rush hours since 2008)', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+
 if __name__ == '__main__':
     out = sys.argv[1]
     os.makedirs(out, exist_ok=True)
@@ -662,4 +828,11 @@ if __name__ == '__main__':
                      ('son_doong', son_doong), ('perak_snails', perak_snails), ('majuli', majuli),
                      ('mekong_delta', mekong_delta), ('sundarbans', sundarbans)):
         fn(os.path.join(out, f'2_2_{name}.png'))
+    for name, fn in (('arcadis', arcadis), ('lagos', lagos), ('detroit', detroit), ('mexico_water', mexico_water),
+                     ('koshe', koshe), ('korea_food', korea_food), ('lebanon', lebanon), ('dharavi', dharavi),
+                     ('kotaku', kotaku), ('otodo', otodo), ('expo_dubai', expo_dubai), ('paris', paris), ('rio', rio),
+                     ('eiu_vienna', eiu_vienna), ('crl', crl), ('japan_alone', japan_alone),
+                     ('kampung_admiralty', kampung_admiralty), ('korea_elderly', korea_elderly),
+                     ('delhi_women', delhi_women), ('pink_ticket', pink_ticket), ('mexico_women', mexico_women)):
+        fn(os.path.join(out, f'3_1_{name}.png'))
     print('ok')
