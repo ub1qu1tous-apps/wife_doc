@@ -1,5 +1,7 @@
 # Session log
 
+> **Task in progress (session 4):** build `docs/3b Case Studies – Topic 1.2 Development and the Global Economy v1.docx` the same way as 3a v1 (user said 'yes please' to starting 3b, 2026-10-24; build straight to v1 using the approved 3a format). Steps: slot plan from syllabus → research → charts (`tools/case_charts.py`) → `tools/data/case_studies_3b.json` → build to docs/ → check pages → Review Notes v1 → log → push. Hourly check-in continues this note until it's cleared.
+
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 done** (`docs/3a Case Studies – Topic 1.1 Environment and Resources v1.docx`). Next: 3b (Topic 1.2) when the user asks.
 
 ## Current state
