@@ -1,0 +1,1354 @@
+{
+ "id": "3b",
+ "title": "Case Studies – Topic 1.2 Development and the Global Economy",
+ "file": "3b Case Studies – Topic 1.2 Development and the Global Economy",
+ "intro": [
+  "One real case (2015 or later) for each case-study slot in H2 Topic 1.2. A slot is a syllabus content point that asks for a variation, trend, factor, characteristic, impact or actor. Where the syllabus asks how far an actor can influence others, the slot has a pair: a strong and a limited case, or one that succeeded and one that failed.",
+  "Each case is about 1 page, with 1 chart drawn from its sources. The 'Links' line under each case shows other slots and topics where the same case can be used, including cases in doc 3a (Topic 1.1)."
+ ],
+ "plan_title": "Case-study slots for Topic 1.2",
+ "plan": [
+  [
+   "1",
+   "1.2.1 Development",
+   "Variations",
+   "Variations in development between macro-regions, countries in a region, places in a country",
+   "Southeast Asia's development gaps"
+  ],
+  [
+   "2",
+   "1.2.1 Development",
+   "Trends",
+   "Global flows of trade, capital and labour: unevenness and shifts; their influence on development",
+   "Vietnam: trade and FDI flows (2015–2024)"
+  ],
+  [
+   "3",
+   "1.2.1 Development",
+   "Factors",
+   "Influence of development levels on flows (and flows on development)",
+   "Philippine labour migration and remittances"
+  ],
+  [
+   "4",
+   "1.2.1 Development",
+   "Trends",
+   "Shift towards manufacturing and away from agriculture",
+   "Ethiopia's industrial parks (2016–2024)"
+  ],
+  [
+   "5",
+   "1.2.1 Development",
+   "Trends",
+   "Shift towards services as manufacturing competitiveness declines",
+   "China's shift to services (2015–2025)"
+  ],
+  [
+   "6",
+   "1.2.2 Global Economy & TNCs",
+   "Impacts",
+   "Interdependence between places through flows",
+   "2021 global chip shortage"
+  ],
+  [
+   "7",
+   "1.2.2 Global Economy & TNCs",
+   "Characteristics",
+   "How GPNs connect places: sourcing, transformation, distribution, consumption",
+   "Apple's iPhone network and the move to India"
+  ],
+  [
+   "8",
+   "1.2.2 Global Economy & TNCs",
+   "Impacts",
+   "Impacts of GPNs on host economies (economic, environmental, social)",
+   "Bangladesh garment industry"
+  ],
+  [
+   "9",
+   "1.2.2 Global Economy & TNCs",
+   "Impacts",
+   "Impacts of GPNs on home economies",
+   "Dyson and the UK"
+  ],
+  [
+   "10",
+   "1.2.3 Actors",
+   "Actors (states)",
+   "States as regulators; varying degree of influence over TNCs (strong + limited)",
+   "Strong: India bans TikTok (2020). Limited: Ireland and Apple's tax (2016–2024)"
+  ],
+  [
+   "11",
+   "1.2.3 Actors",
+   "Factors",
+   "Labour characteristics and TNCs' location decisions",
+   "TSMC in Arizona (2022–2025)"
+  ],
+  [
+   "12",
+   "1.2.3 Actors",
+   "Actors (unions)",
+   "Influence of labour unions on TNCs and states (succeeded + failed)",
+   "Succeeded: UAW strike (2023). Failed: Amazon Bessemer votes (2021–22)"
+  ],
+  [
+   "13",
+   "1.2.3 Actors",
+   "Actors (states, TNCs)",
+   "Regulation of labour by states; impact of TNCs' decisions on labour",
+   "Singapore's Platform Workers Act (2024–2025)"
+  ],
+  [
+   "14",
+   "1.2.3 Actors",
+   "Actors (ASEAN)",
+   "Influence of ASEAN on TNCs and states",
+   "RCEP, the ASEAN-led trade deal (2022–)"
+  ],
+  [
+   "15",
+   "1.2.3 Actors",
+   "Actors (WTO)",
+   "Influence of the WTO on TNCs and states",
+   "WTO and Indonesia's nickel ban (2019–2022)"
+  ],
+  [
+   "16",
+   "1.2.3 Actors",
+   "Actors (World Bank)",
+   "Influence of the World Bank on TNCs and states",
+   "World Bank's Doing Business rankings (2014–2024)"
+  ]
+ ],
+ "cases": [
+  {
+   "slot": "1",
+   "heading": "1.2.1 Development — Variations (across space)",
+   "case": "Southeast Asia's development gaps (2022–2024)",
+   "syllabus": "Variations across space in levels of development between macro-regions, countries within a macro-region, and different places within a country.",
+   "facts": [
+    [
+     "Place",
+     "ASEAN's 10 members; Indonesia's provinces"
+    ],
+    [
+     "Period",
+     "2022–2024 data"
+    ],
+    [
+     "Scale",
+     "Singapore's HDI (0.949) is far above Cambodia's (0.600), and 9th in the world"
+    ],
+    [
+     "Key actors",
+     "National governments, UNDP (HDI), BPS-Statistics Indonesia"
+    ]
+   ],
+   "image": "1_2_sea_hdi.png",
+   "caption": "Figure 1. Human Development Index of ASEAN members, 2022 data (UNDP report, via Katadata).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "Southeast Asia as a macro-region sits in the middle of the world's development range, but the gaps inside it are wide. Four members have very high HDI, three high and three medium. The gaps repeat inside countries: in Indonesia, Jakarta's HDI was 84.15 in 2024, the highest of 38 provinces, while Papua scored 61.39 in 2022."
+    },
+    {
+     "title": "How it shows variations at three scales",
+     "bullets": [
+      "Macro-region: Southeast Asia overall is a middle-income region, behind East Asia's richest economies.",
+      "Countries within the region: Singapore (0.949) ranks 9th in the world. Cambodia (0.600), Myanmar (0.608) and Laos (0.620) are in the medium group.",
+      "Places within a country: Jakarta, the capital and business hub, scores far above remote Papua, where services and jobs are thinner."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Use the same indicator (HDI) at all three scales to show that variation is found at every scale.",
+      "Evaluation: Indonesia's provincial figures use a national (BPS) method that changed in 2024, so compare them only within one method."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.1 flows and development (Vietnam, slot 2) · 1.1.1 measuring progress with indicators (3a slot 3) · 3.1.1 measuring SUD.",
+   "sources": [
+    [
+     "Katadata – ASEAN HDI 2022 (UNDP)",
+     "https://databoks.katadata.co.id/en/demographics/statistics/e54547f53383cd0/asean-human-development-index-2022-indonesia-unremarkable"
+    ],
+    [
+     "SeasiaStats – Singapore 9th globally",
+     "https://seasiastats.com/statistic/human-development-index-in-southeast-asia-2022-vNdij"
+    ],
+    [
+     "Katadata – HDI of 38 Indonesian provinces 2024",
+     "https://databoks.katadata.co.id/en/demographics/statistics/6736cf92b1ba5/human-development-index-in-38-indonesian-provinces-2024"
+    ],
+    [
+     "Antara – provincial HDI 2022 (Jakarta, Papua)",
+     "https://en.antaranews.com/news/260329/zero-indonesian-provinces-recorded-low-hdi-score-in-2022-bps"
+    ]
+   ]
+  },
+  {
+   "slot": "2",
+   "heading": "1.2.1 Development — Trends (flows of trade and capital)",
+   "case": "Vietnam: trade and FDI flows (2015–2024)",
+   "syllabus": "Global patterns of flows of trade, capital and labour: unevenness and shifts; their influence on variations in development.",
+   "facts": [
+    [
+     "Place",
+     "Vietnam (northern electronics clusters, southern industrial zones)"
+    ],
+    [
+     "Period",
+     "2015–2024"
+    ],
+    [
+     "Scale",
+     "Record US$36.6 billion of FDI in 2023; foreign-invested firms make about 72% of exports"
+    ],
+    [
+     "Key actors",
+     "Samsung and other Korean, Japanese, Taiwanese and Singaporean TNCs; Vietnamese government"
+    ]
+   ],
+   "image": "1_2_vietnam_flows.png",
+   "caption": "Figure 2. Falling poverty and the foreign share of Vietnam's exports (various sources; see list).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "As costs rose in China and trade tensions grew, investors added factories in Vietnam ('regionalisation' of supply chains). FDI reached a record US$36.6 billion in 2023. Samsung alone made about US$54 billion of exports in 2024, about 13% of the total, and Korean firms together about 30% in 2023."
+    },
+    {
+     "title": "How it shows the trend",
+     "bullets": [
+      "Shift: flows of capital moved towards Vietnam, so trade flows from it grew too. This is part of the shift of manufacturing within Asia.",
+      "Unevenness: flows are concentrated. Foreign firms make nearly three-quarters of exports, and a few TNCs dominate.",
+      "Influence on development: the national poverty rate fell from 14% (2010) to 5.7% (2023), and extreme poverty fell below 1% by 2020."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Flows and development feed each other: Vietnam's low costs attracted FDI, and FDI raised incomes.",
+      "Evaluation: dependence on a few foreign firms and on US markets is a risk; new US tariffs of up to 46% threatened the model in 2025."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.1 shift towards manufacturing (slot 4) · 1.2.2 impacts on host economies (slot 8) · 3a slot 9 (Vietnam's solar boom).",
+   "sources": [
+    [
+     "The Investor – strong FDI inflows (US$36.6 bn in 2023)",
+     "https://theinvestor.vn/vietnam-continues-to-see-strong-fdi-inflows-in-2024-hsbc-d8343.html"
+    ],
+    [
+     "KEIA – South Korea's role in Vietnam (Samsung share)",
+     "https://keia.org/the-peninsula/south-koreas-important-role-in-vietnams-rapid-development/"
+    ],
+    [
+     "GlobalDeal – Samsung 2024 exports US$54.4 bn",
+     "https://globaldeal.io/finder/articles/korea-to-vietnam-electronics-2026"
+    ],
+    [
+     "Hanoi Times – FDI firms 72% of exports",
+     "https://m.hanoitimes.vn/fdi-firms-contributes-72-to-vietnams-export-value-in-9-months-7504.html"
+    ],
+    [
+     "OECD Economic Survey of Viet Nam 2025 (poverty, tariffs)",
+     "https://www.oecd.org/en/publications/oecd-economic-surveys-viet-nam-2025_fb37254b-en/full-report/harnessing-trade-and-investment-flows-to-boost-productivity_98d56c90.html"
+    ],
+    [
+     "Wealth Briefing Asia – poverty 14% to 5.7%",
+     "https://wealthbriefingasia.com/article.php/Vietnam%3A-The-Rising-Dragon-"
+    ]
+   ]
+  },
+  {
+   "slot": "3",
+   "heading": "1.2.1 Development — Factors (development shapes flows)",
+   "case": "Philippine labour migration and remittances (2023–2024)",
+   "syllabus": "Influence of variations in levels of development on global flows of labour (and of these flows on development).",
+   "facts": [
+    [
+     "Place",
+     "Philippines and its workers in the US, Singapore, Saudi Arabia and elsewhere"
+    ],
+    [
+     "Period",
+     "2023–2024"
+    ],
+    [
+     "Scale",
+     "Record US$38.34 billion in remittances in 2024, 8.3% of GDP; 4th-largest receiver in the world"
+    ],
+    [
+     "Key actors",
+     "Overseas Filipino workers (land- and sea-based), their families, Bangko Sentral ng Pilipinas"
+    ]
+   ],
+   "image": "1_2_philippines.png",
+   "caption": "Figure 3. Where Philippine cash remittances came from in 2024 (Bangko Sentral ng Pilipinas).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Millions of Filipinos work abroad, on land and at sea. In 2024 they sent home a record US$38.34 billion, up 3% from US$37.21 billion in 2023. December 2024 alone brought a monthly record of US$3.73 billion."
+    },
+    {
+     "title": "How it shows the factors",
+     "bullets": [
+      "Development shapes the flow: higher wages and jobs in richer places (the US, Singapore, the Gulf) pull workers from a lower-income country.",
+      "The flow shapes development: remittances equal 8.3% of GDP and drive household spending on housing, education, cars and investment.",
+      "Conditions abroad matter: economists linked the 2024 rise to recovery and higher wages in host economies, plus a weaker peso."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Development gaps cause labour flows, and those flows narrow some gaps for households at home.",
+      "Evaluation: dependence on remittances ties the Philippines to other economies' cycles; the brain drain of nurses and seafarers is a cost."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.2 interdependence through labour flows (slot 6) · 1.2.3 labour as an actor · 3a slot 7 (West African fishers migrating).",
+   "sources": [
+    [
+     "Philstar – remittances reach record US$38.3 bn",
+     "https://www.philstar.com/business/2025/02/18/2422200/remittances-reach-record-high-383-billion"
+    ],
+    [
+     "Gulf News – OFW remittances US$38.34 bn in 2024",
+     "https://gulfnews.com/your-money/ofw-remittances-hit-record-high-3834-billion-in-2024-1.500038796"
+    ],
+    [
+     "Fintech News PH – sources and record December",
+     "https://fintechnews.ph/65862/remittance/philippines-ofw-remittances-hit-record-usd-38-34-billion/"
+    ],
+    [
+     "PIDS – drivers of the 2024 rise",
+     "https://pids.gov.ph/details/news/in-the-news/ofw-remittances-hit-all-time-high-of-38-3b"
+    ]
+   ]
+  },
+  {
+   "slot": "4",
+   "heading": "1.2.1 Development — Trends (towards manufacturing)",
+   "case": "Ethiopia's industrial parks (2016–2024)",
+   "syllabus": "Shifts in global production since the 1950s: likely shift towards manufacturing and a decrease in the share of agriculture for some countries.",
+   "facts": [
+    [
+     "Place",
+     "Ethiopia: Hawassa, Mekelle, Bole Lemi industrial parks"
+    ],
+    [
+     "Period",
+     "Hawassa opened July 2016; AGOA suspension January 2022"
+    ],
+    [
+     "Scale",
+     "Agriculture fell from 58.7% of GDP (1991) to 33.8% (2017); farming still employs about 60% of workers"
+    ],
+    [
+     "Key actors",
+     "Ethiopian government, foreign apparel firms, US government (AGOA trade preferences)"
+    ]
+   ],
+   "image": "1_2_ethiopia.png",
+   "caption": "Figure 4. Hawassa's jobs vs plan, and jobs lost after the US suspended AGOA (National Bank of Ethiopia).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Ethiopia built industrial parks to pull workers out of farming into export manufacturing. Hawassa, Africa's largest textile and apparel park, opened in 2016 with a target of 60,000 jobs and US$1 billion a year in exports. The US suspended Ethiopia from AGOA's duty-free access in January 2022 over the conflict in the north."
+    },
+    {
+     "title": "How it shows the trend",
+     "bullets": [
+      "Shift away from agriculture: farming's share of GDP has fallen for decades, though about 60% of workers are still in it (2025).",
+      "Shift towards manufacturing is fragile: Hawassa employed about 28,000 in 2023, under half the target, and earned US$114 million in exports in 2021.",
+      "Exposure to global decisions: after AGOA was suspended, about 11,500 park jobs were lost (4,321 at Hawassa) and park exports fell 24% in 2023."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The 'likely shift' to manufacturing depends on access to markets and TNC decisions, not just cheap labour.",
+      "Evaluation: manufacturing's share of GDP stayed near 5–6%, so Ethiopia shows the shift can stall."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.2 GPNs and host economies (slot 8) · 1.2.3 states and TNCs (slot 10) · 1.2.1 China's factories moving out (slot 5).",
+   "sources": [
+    [
+     "Addis Fortune – Hawassa park: expectations vs reality",
+     "https://addisfortune.news/epic-apparel-lays-off-hundreds-at-hawassa-industrial-park"
+    ],
+    [
+     "The Reporter – 11,500 jobs lost after AGOA suspension",
+     "https://www.thereporterethiopia.com/43838/"
+    ],
+    [
+     "The Reporter – parks leave workers to global shocks",
+     "https://www.thereporterethiopia.com/38487/"
+    ],
+    [
+     "Addis Fortune – AGOA suspension (2026)",
+     "https://addisfortune.news/agoa-suspension-cuts-hope-not-conflict"
+    ],
+    [
+     "AJOL – agriculture share 58.7% to 33.8% (1991–2017)",
+     "https://www.ajol.info/index.php/jbas/article/view/268864"
+    ],
+    [
+     "CGIAR/IFPRI – Ethiopia brief (manufacturing 5.5% of GDP)",
+     "https://cgspace.cgiar.org/server/api/core/bitstreams/93e31795-2369-4a65-9fe4-a3580b09879c/content"
+    ],
+    [
+     "TheGlobalEconomy – employment in agriculture",
+     "https://www.theglobaleconomy.com/Ethiopia/Employment_in_agriculture/"
+    ]
+   ]
+  },
+  {
+   "slot": "5",
+   "heading": "1.2.1 Development — Trends (towards services)",
+   "case": "China's shift to services (2015–2025)",
+   "syllabus": "Likely shift towards the service sector for countries at higher levels of development as the competitiveness of their manufacturing sector declines.",
+   "facts": [
+    [
+     "Place",
+     "China; low-end factories moving to Vietnam, Bangladesh, Cambodia, Myanmar"
+    ],
+    [
+     "Period",
+     "2010–2025"
+    ],
+    [
+     "Scale",
+     "Services rose from 44% to 53% of China's economic activity in a decade (World Bank)"
+    ],
+    [
+     "Key actors",
+     "Chinese government, TNCs and their contract manufacturers, garment and footwear buyers"
+    ]
+   ],
+   "image": "1_2_china_services.png",
+   "caption": "Figure 5. China's services share and the rise of its low-cost rivals (World Bank; Fitch via Business Standard).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "As China grew richer, wages, land costs and the yuan all rose. Fitch said China's wages had passed those of other emerging economies in the region, so labour-intensive industries began to move. Meanwhile services such as retail, finance and digital platforms grew faster than industry."
+    },
+    {
+     "title": "How it shows the trend",
+     "bullets": [
+      "Towards services: services grew from 44% to 53% of economic activity over a decade.",
+      "Manufacturing competitiveness fell at the low end: an estimated 25–35% of China's clothing export value shifted out.",
+      "Where it went: Bangladesh and Vietnam's share of world clothing, footwear and furniture exports rose from 3% (2010) to 8% (2015)."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "One shift drives another: China's move to services is the other side of the move to manufacturing in poorer countries (slots 2 and 4).",
+      "Evaluation: China kept high-tech manufacturing, so its competitiveness fell only in labour-intensive goods."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.1 Vietnam (slot 2) and Ethiopia (slot 4) · 1.2.2 GPNs (Apple, slot 7) · 1.2.3 labour characteristics (slot 11).",
+   "sources": [
+    [
+     "Jakarta Post – Services are the new road to development (World Bank)",
+     "https://www.thejakartapost.com/opinion/2025/01/02/services-are-the-new-road-to-development"
+    ],
+    [
+     "Business Standard – Asian frontiers pick up China's low-end manufacturing (Fitch)",
+     "https://www.business-standard.com/amp/article/news-cm/asian-frontiers-picking-up-china-s-low-end-manufacturing-117100300352_1.html"
+    ],
+    [
+     "Peking University – industrial relocation to Southeast Asia",
+     "https://www.nse.pku.edu.cn/docs/20210804152158674852.pdf"
+    ],
+    [
+     "CGTN – China's shift creates opportunities for others",
+     "https://news.cgtn.com/news/7767544f79597a6333566d54/index.html"
+    ]
+   ]
+  },
+  {
+   "slot": "6",
+   "heading": "1.2.2 Global Economy and TNCs — Impacts (interdependence)",
+   "case": "The 2021 global chip shortage",
+   "syllabus": "The connections and interdependence between places in the global economy as a result of trade, capital and labour flows.",
+   "facts": [
+    [
+     "Place",
+     "Chip plants in Taiwan and Malaysia; car plants worldwide"
+    ],
+    [
+     "Period",
+     "2020–2022"
+    ],
+    [
+     "Scale",
+     "7.7 million vehicles not built and US$210 billion of car-industry revenue lost in 2021 (forecast)"
+    ],
+    [
+     "Key actors",
+     "Carmakers, chipmakers (e.g. TSMC), chip packaging plants in Malaysia, governments"
+    ]
+   ],
+   "image": "1_2_chip_shortage.png",
+   "caption": "Figure 6. AlixPartners' forecasts of what the chip shortage cost carmakers in 2021.",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Carmakers cut chip orders early in the pandemic, then demand bounced back while chipmakers were serving booming electronics sales. In mid-2021 a COVID outbreak in Malaysia closed chip assembly, test and packaging plants. AlixPartners nearly doubled its forecast of lost car revenue, from US$110 billion (May) to US$210 billion (September 2021)."
+    },
+    {
+     "title": "How it shows interdependence",
+     "bullets": [
+      "Connections: a car built in Germany or the US relies on chips made in Taiwan and packaged in Malaysia.",
+      "Shock travels along the flows: a lockdown in one country stopped car lines in many others, with 7.7 million vehicles not built in 2021.",
+      "Not just chips: the same forecast listed resin and steel shortages, so many flows were strained at once."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Interdependence brings efficiency in normal times and fragility in a crisis.",
+      "Evaluation: it pushed states to subsidise local chip plants, e.g. TSMC in Arizona (slot 11)."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.3 labour characteristics (TSMC Arizona, slot 11) · 1.2.2 GPNs (slot 7) · 1.2.3 states and TNCs.",
+   "sources": [
+    [
+     "AlixPartners – shortages to cost auto industry US$210 bn",
+     "https://www.alixpartners.com/media-center/press-releases/press-release-shortages-related-to-semiconductors-to-cost-the-auto-industry-210-billion-in-revenues-this-year-says-new-alixpartners-forecast/?view=amp"
+    ],
+    [
+     "CNBC – chip shortage expected to cost US$210 bn",
+     "https://www.cnbc.com/2021/09/23/chip-shortage-expected-to-cost-auto-industry-210-billion-in-2021.html"
+    ],
+    [
+     "The Stack – global semiconductor shortage (Malaysia closures)",
+     "https://www.thestack.technology/global-semiconductor-shortage-automakers/"
+    ]
+   ]
+  },
+  {
+   "slot": "7",
+   "heading": "1.2.2 Global Economy and TNCs — Characteristics (how a GPN connects places)",
+   "case": "Apple's iPhone network and the move to India (2023–2025)",
+   "syllabus": "Ways by which GPNs of TNCs connect places through flows of materials and capital: sourcing of inputs, transformation into products, distribution and consumption in different places.",
+   "facts": [
+    [
+     "Place",
+     "Design in the US; assembly in China and India (Tamil Nadu, Karnataka); sales worldwide"
+    ],
+    [
+     "Period",
+     "2023–2025"
+    ],
+    [
+     "Scale",
+     "Apple makes about 220–230 million iPhones a year; about 55 million were assembled in India in 2025"
+    ],
+    [
+     "Key actors",
+     "Apple (lead firm), contract assemblers Foxconn, Tata Electronics and Pegatron, component suppliers, Indian government"
+    ]
+   ],
+   "image": "1_2_apple_india.png",
+   "caption": "Figure 7. iPhones assembled in India (Bloomberg, via Business Today and others).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Apple designs iPhones in the US but owns no assembly plants. Contract makers assemble them, mostly in China. Since 2023 Apple has moved more assembly to India: output there rose about 53% to roughly 55 million in 2025, about a quarter of the total. All iPhone 17 models, including the Pro, are now assembled in India too."
+    },
+    {
+     "title": "How the GPN connects places",
+     "bullets": [
+      "Sourcing: parts come from many suppliers; Apple is now adding Indian suppliers for battery cells, casings and accessories.",
+      "Transformation: assembly by Foxconn (over 70% of India's iPhone shipments), Tata Electronics (including a Tamil Nadu site) and Pegatron.",
+      "Distribution and consumption: India's factories serve the home market and exports (over US$10 billion of exports in FY2024), while China remains the largest producer."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A lead firm can reshape the network by moving one stage (assembly) without owning any factories.",
+      "Evaluation: estimates of India's share range from about 16% to 25% depending on source and period; quote the range."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.1 China's shift (slot 5) · 1.2.2 impacts on host economies (slot 8) · 1.2.3 states and TNCs (slot 10).",
+   "sources": [
+    [
+     "Business Today – Apple boosts India production to 25%",
+     "https://www.businesstoday.in/technology/news/story/apple-boosts-iphone-production-in-india-to-25-report-519885-2026-03-10"
+    ],
+    [
+     "IANS – India output up 53%, quarter of global iPhones",
+     "https://ianslive.in/apple-scales-india-output-53-pc-accounts-for-quarter-of-global-production--20260310102507"
+    ],
+    [
+     "AppleInsider – production shift to India (Canalys 16–17%)",
+     "https://appleinsider.com/articles/25/07/21/apples-iphone-production-shift-to-india"
+    ],
+    [
+     "Benzinga – iPhone exports from India, Foxconn >70%",
+     "https://in.benzinga.com/content/38782803/apples-iphone-exports-from-india-nearly-double-sights-set-at-1-lakh-cr-for-fy25"
+    ]
+   ]
+  },
+  {
+   "slot": "8",
+   "heading": "1.2.2 Global Economy and TNCs — Impacts (host economy)",
+   "case": "Bangladesh garment industry (2016–2025)",
+   "syllabus": "Positive and negative impacts of GPNs of TNCs on host economies: economic, environmental and social.",
+   "facts": [
+    [
+     "Place",
+     "Bangladesh, especially Dhaka, Gazipur and the Buriganga and Turag rivers"
+    ],
+    [
+     "Period",
+     "2016–2025"
+    ],
+    [
+     "Scale",
+     "About 3,500 factories, 4 million workers (mostly women), about 85% of exports; world's 2nd-largest apparel exporter (2024)"
+    ],
+    [
+     "Key actors",
+     "Global fashion brands, local factory owners, workers and unions, Accord on Fire and Building Safety, government"
+    ]
+   ],
+   "image": "1_2_bd_garments.png",
+   "caption": "Figure 8. The 2023 minimum wage dispute, and pollution outlets into Dhaka's rivers (Dhaka Tribune survey).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Global brands source clothes from Bangladeshi factories, linking the country into fashion GPNs. Garment exports reached US$38.48 billion in 2024. After the 2013 Rana Plaza collapse, brands and unions signed the Accord; by 2016 it had inspected 1,600 factories."
+    },
+    {
+     "title": "How it shows the impacts",
+     "bullets": [
+      "Economic (+): millions of jobs and about 85% of export earnings. (−): heavy dependence on one industry and on buyers' prices.",
+      "Social (+): paid work for 4 million mostly female workers and, through the Accord, safer buildings. (−): low pay; in 2023 the government set the minimum wage at Tk 12,500 against workers' demand of Tk 20,390, and at least two workers died in protests.",
+      "Environmental (−): dyeing and washing plants discharge into rivers; a survey counted 224 pollution outlets into the Buriganga and Turag, with industrial waste 55% of the pollution."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The same GPN brings both development and harm; who gains depends on bargaining power along the chain.",
+      "Evaluation: the Accord shows brands can raise standards when bound by a legal agreement; pay and pollution lag behind."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.3 labour unions and states (slots 12–13) · 1.2.1 China's factories moving (slot 5) · 3a slot 8 (Bangladesh, Malthus vs Boserup).",
+   "sources": [
+    [
+     "Asia News Network – Bangladesh 2nd-largest apparel exporter (2024)",
+     "https://asianews.network/bangladesh-retains-second-largest-apparel-exporter-spot-in-2024/"
+    ],
+    [
+     "Modaes – Bangladesh 2026: scale and social pressure",
+     "https://www.modaes.com/entorno/bangladesh-2026-escala-y-presion-social-en-el-gran-taller-global-del-textil"
+    ],
+    [
+     "Business Recorder – new minimum wage, protests",
+     "https://www.brecorder.com/news/40272106/bus-torched-as-bangladesh-set-to-declare-new-minimum-wage"
+    ],
+    [
+     "Dhaka Tribune – 224 pollution outlets in the rivers",
+     "https://www.dhakatribune.com/bangladesh/bangladesh-environment/417414/survey-finds-224-pollution-outlets-in-buriganga"
+    ],
+    [
+     "Eco-Business – garment industry struggles with pollution",
+     "https://www.eco-business.com/news/garment-industry-in-bangladesh-struggles-to-contain-pollution/"
+    ],
+    [
+     "FashionUnited – Accord progress report (2016)",
+     "https://fashionunited.uk/news/business/accord-publishes-latest-progress-report/2016042820209"
+    ]
+   ]
+  },
+  {
+   "slot": "9",
+   "heading": "1.2.2 Global Economy and TNCs — Impacts (home economy)",
+   "case": "Dyson and the UK (2019–2024)",
+   "syllabus": "Positive and negative impacts of GPNs of TNCs on home economies: economic, environmental and social.",
+   "facts": [
+    [
+     "Place",
+     "Home: Malmesbury, England. Hosts: Malaysia, Singapore"
+    ],
+    [
+     "Period",
+     "2002–2024 (key events 2019 and 2024)"
+    ],
+    [
+     "Scale",
+     "About 3,500 UK staff before 1,000 UK jobs were cut in 2024"
+    ],
+    [
+     "Key actors",
+     "Dyson (founded in the UK), UK workers, Malmesbury community, Asian host governments"
+    ]
+   ],
+   "image": "1_2_dyson.png",
+   "caption": "Figure 9. How Dyson's network moved away from its home base (dates in labels).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Dyson began moving manufacturing from Malmesbury to Malaysia in 2002 and opened a Singapore plant for digital motors in 2013. In 2019 it moved its head office to Singapore, to be near its factories and Asian customers. In 2024 it cut about 1,000 UK jobs, more than a quarter of its British staff."
+    },
+    {
+     "title": "How it shows the home impacts",
+     "bullets": [
+      "Negative (economic, social): factory jobs left long ago; the 2024 cuts hit the UK workforce, and the head office and its decisions are now abroad.",
+      "Positive (economic): the UK kept the high-value stage. Malmesbury remains the R&D base, with the Dyson Institute training engineers.",
+      "Mixed signal: Dyson said the 2024 cuts were not about moving jobs to cheaper countries, showing home impacts can come from wider restructuring."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Home economies often keep design and R&D while losing production: a 'hollowing out' with high-skill gains.",
+      "Evaluation: when a TNC moves its head office too, even the home country's control over the GPN weakens."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.2 host impacts (slot 8) · 1.2.3 states and TNCs (slot 10) · 3.1 cities (Singapore).",
+   "sources": [
+    [
+     "Yahoo News – Dyson to cut 1,000 UK jobs",
+     "https://sg.news.yahoo.com/dyson-cut-1-000-uk-124100546.html"
+    ],
+    [
+     "Business Today – Dyson to axe about 1,000 jobs",
+     "https://businesstoday.in/technology/news/story/dyson-to-axe-around-1000-jobs-as-part-of-global-cost-cutting-drive-436512-2024-07-10"
+    ],
+    [
+     "Eastern Eye – Dyson to axe 1,000 jobs in Britain",
+     "https://www.easterneye.biz/dyson-to-axe-1000-jobs-in-britain"
+    ]
+   ]
+  },
+  {
+   "slot": "10",
+   "outcome": "Strong influence",
+   "heading": "1.2.3 Actors — States as regulators: STRONG INFLUENCE",
+   "case": "India bans TikTok and other Chinese apps (2020)",
+   "syllabus": "Influence of states on TNCs' operations as regulators of economic activities; varying degree of states' influence.",
+   "facts": [
+    [
+     "Place",
+     "India"
+    ],
+    [
+     "Period",
+     "June 2020 onwards"
+    ],
+    [
+     "Scale",
+     "59 apps banned at once, then 47 clones; about 267 Chinese apps banned in total"
+    ],
+    [
+     "Key actors",
+     "Government of India (IT ministry), ByteDance (TikTok's owner), other Chinese TNCs, Indian users"
+    ]
+   ],
+   "image": "1_2_tiktok.png",
+   "caption": "Figure 10a. India's app bans in four numbers.",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "On 15 June 2020, 20 Indian soldiers died in a border clash with China in Ladakh. On 29 June India banned 59 Chinese apps, including TikTok, citing privacy and security: the IT ministry said the apps were 'stealing and surreptitiously transmitting users' data'. Clone apps were banned a month later."
+    },
+    {
+     "title": "How it shows strong influence",
+     "bullets": [
+      "Market access as a lever: a large market lets a state shut a TNC out completely; TikTok's Indian service was suspended.",
+      "Regulation tied to security: data-protection and national-security rules gave the legal basis.",
+      "Lasting effect: the government stayed firm on the ban, and about 267 Chinese apps were banned in total."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "States with big markets and security concerns can control even the largest TNCs.",
+      "Evaluation: analysts called it a geopolitical decision; influence was strong because India could afford to lose the service."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.3 limited state influence (Ireland, next page) · 1.2.2 TNCs and host economies · 3a slot 15 (Indonesia's nickel ban).",
+   "sources": [
+    [
+     "Ahram Online (AP) – India bans TikTok, other Chinese apps",
+     "https://english.ahram.org.eg/News/373286.aspx"
+    ],
+    [
+     "News4Jax (AP) – border standoff and ban",
+     "https://www.news4jax.com/business/2020/06/30/india-bans-tiktok-other-chinese-apps-amid-border-standoff/"
+    ],
+    [
+     "Business Insider – India bans 47 more Chinese apps",
+     "https://www.businessinsider.nl/india-bans-47-more-chinese-apps-2020-7"
+    ],
+    [
+     "Inc42 – government firm on Chinese app ban",
+     "https://inc42.com/?p=240724"
+    ]
+   ]
+  },
+  {
+   "slot": "10",
+   "outcome": "Limited influence",
+   "heading": "1.2.3 Actors — States as regulators: LIMITED INFLUENCE",
+   "case": "Ireland and Apple's tax (2016–2024)",
+   "syllabus": "Influence of states on TNCs' operations as regulators of economic activities; varying degree of states' influence.",
+   "facts": [
+    [
+     "Place",
+     "Ireland (Apple's European base in Cork)"
+    ],
+    [
+     "Period",
+     "EU decision 2016; final court ruling 10 September 2024"
+    ],
+    [
+     "Scale",
+     "€13.1 billion of back taxes plus about €1 billion interest"
+    ],
+    [
+     "Key actors",
+     "Apple, Irish government, European Commission, EU Court of Justice"
+    ]
+   ],
+   "image": "1_2_ireland.png",
+   "caption": "Figure 10b. How concentrated Ireland's corporation tax is (Irish Fiscal Advisory Council, 2024).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "In 2016 the European Commission ruled that Ireland gave Apple illegal state aid through low tax deals. Ireland and Apple both fought the ruling. In September 2024 the EU Court of Justice upheld it, and Ireland had to collect about €13 billion it had argued it was not owed."
+    },
+    {
+     "title": "How it shows limited influence",
+     "bullets": [
+      "Dependence: three groups paid 46% of Ireland's corporation tax in 2024 and the top 10 almost 60%, so Ireland competes to keep TNCs, not to control them.",
+      "Rules set elsewhere: the EU, not Ireland, decided Apple's tax, and the OECD's 15% global minimum tax for large firms will raise Ireland's corporation tax take from 2026.",
+      "A windfall Ireland did not seek: receipts were about €28 billion in 2024, plus about €11 billion from Apple."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Small, open states that rely on TNCs have limited influence; their power is shared with blocs such as the EU.",
+      "Evaluation: compare with India: market size and dependence explain the varying degree of state influence."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.3 strong state influence (India, previous page) · 1.2.3 multilateral institutions (slots 14–16) · 1.2.2 home and host impacts.",
+   "sources": [
+    [
+     "The Register – Apple owes billions in back taxes",
+     "https://www.theregister.com/2024/09/10/apple_owes_billions_in_back/"
+    ],
+    [
+     "Echo Live – Ireland must recover €13bn from Apple",
+     "https://www.echolive.ie/corknews/arid-41472880.html"
+    ],
+    [
+     "Harneys – CJEU confirms unlawful state aid",
+     "https://www.harneys.com/our-blogs/regulatory/the-court-of-justice-of-the-european-union-confirms-that-apple-received-unlawful-state-aid-from-ireland"
+    ],
+    [
+     "Waterford News – corporate tax €28bn in 2024",
+     "https://www.waterford-news.ie/ireland-boosts-corporate-tax-intake-by-18-to-28bn_arid-43465.html"
+    ],
+    [
+     "WLR FM – two companies pay almost 40% of corporation tax",
+     "https://wlrfm.com/news/two-companies-contribute-almost-40-of-corporation-tax-watchdog-says-2784905"
+    ],
+    [
+     "Irish Fiscal Advisory Council – corporation tax slides 2026",
+     "https://www.fiscalcouncil.ie/wp-content/uploads/2026/02/Corporation-tax-slides-conference_2026.pdf"
+    ]
+   ]
+  },
+  {
+   "slot": "11",
+   "heading": "1.2.3 Actors — Factors (labour characteristics)",
+   "case": "TSMC in Arizona (2022–2025)",
+   "syllabus": "Influence of labour characteristics on TNCs' locational decisions.",
+   "facts": [
+    [
+     "Place",
+     "Phoenix, Arizona, USA (Fab 21)"
+    ],
+    [
+     "Period",
+     "2022–2025"
+    ],
+    [
+     "Scale",
+     "US$40 billion for two fabs (2022), later expanded"
+    ],
+    [
+     "Key actors",
+     "TSMC (Taiwanese chipmaker), US government (subsidies), local construction and technical workers, Taiwanese staff"
+    ]
+   ],
+   "image": "1_2_tsmc_arizona.png",
+   "caption": "Figure 11. TSMC Arizona from delay to production (dates in labels).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "After the chip shortage, the US paid chipmakers to build at home, and TSMC chose Arizona. In July 2023 it delayed its first fab to 2025 because it could not find enough skilled workers to install the equipment. It sent around 500 experienced Taiwanese staff to install tools and train locals. Trial production began in April 2024, and by early 2025 4 nm chips were in volume production."
+    },
+    {
+     "title": "How it shows labour characteristics",
+     "bullets": [
+      "Skills: specialised installers and technicians were scarce in Arizona, which cost TSMC about a year.",
+      "Mobility: TSMC moved skilled labour from Taiwan and needed US visas for them.",
+      "Productivity once trained: by October 2024 the fab's usable-chip yield was reported to be about 4 points higher than comparable Taiwan fabs."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Labour quality, not just cost, shapes where high-tech TNCs locate; here other factors (US policy, customers) won out despite skill gaps.",
+      "Evaluation: skill gaps can be fixed over time by training, so labour is a factor that changes, not a fixed one."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.2 chip shortage (slot 6) · 1.2.3 states and TNCs (slot 10) · 1.2.1 China's labour costs (slot 5).",
+   "sources": [
+    [
+     "DatacenterDynamics – TSMC delays Arizona fab (skills)",
+     "https://www.datacenterdynamics.com/en/news/tsmc-delays-40bn-chip-fab-in-arizona-due-to-skilled-worker-shortage"
+    ],
+    [
+     "KTAR – start delayed to 2025",
+     "https://ktar.com/arizona-news/tsmc-delays-start-of-phoenix-chip-factory-production-until-2025-because-of-skilled-worker-shortage"
+    ],
+    [
+     "Techovedas – ~500 Taiwanese staff, visas",
+     "https://techovedas.com/tsmcs-arizona-fab-faces-delay-to-2025-due-to-skilled-worker-shortage/"
+    ],
+    [
+     "Fortune – Arizona yields surpass Taiwan (Oct 2024)",
+     "https://dc.fortune.com/asia/2024/10/24/tsmcs-arizona-chip-production-yields-surpass-taiwan-in-win-for-u-s-push"
+    ],
+    [
+     "Gigazine – Arizona producing 4 nm chips (Jan 2025)",
+     "https://wbgsv0a.gigazine.net/gsc_news/en/20250114-tsmcs-arizona-fab-21-4nm-chips"
+    ]
+   ]
+  },
+  {
+   "slot": "12",
+   "outcome": "Succeeded",
+   "heading": "1.2.3 Actors — Labour unions: SUCCEEDED",
+   "case": "United Auto Workers' 'stand-up' strike (2023)",
+   "syllabus": "Influence of labour unions on TNCs and states.",
+   "facts": [
+    [
+     "Place",
+     "USA: plants of Ford, GM and Stellantis (e.g. Belvidere, Illinois)"
+    ],
+    [
+     "Period",
+     "September–October 2023"
+    ],
+    [
+     "Scale",
+     "Stellantis deal alone covered 43,000 union members"
+    ],
+    [
+     "Key actors",
+     "United Auto Workers (UAW), Ford, General Motors, Stellantis"
+    ]
+   ],
+   "image": "1_2_uaw.png",
+   "caption": "Figure 12a. What the UAW won from Stellantis (AP).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The UAW struck all three big US carmakers at once but only at chosen plants, adding more as talks stalled (a 'stand-up' strike). Ford settled first, then Stellantis on the same model. The union kept up pressure by walking out at GM's Spring Hill plant."
+    },
+    {
+     "title": "Why the union succeeded",
+     "bullets": [
+      "Pay: 25% general wage rises over 4½ years for top assembly workers (11% at once), about 33% compounded with cost-of-living pay.",
+      "Jobs: Stellantis agreed to build a new truck at Belvidere, a plant due to close, rehiring about 1,200 workers plus about 1,000 at a new battery plant.",
+      "Tactics: striking all three firms at once, adding plants as talks stalled, kept pressure on each company."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A strong union in a high-value sector can change a TNC's investment decisions (Belvidere), not just pay.",
+      "Evaluation: compare with Amazon (next page): unions win where they are already recognised."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.3 union that failed (Amazon, next page) · 1.2.3 TNC decisions on labour (slot 13) · 1.2.2 home economies.",
+   "sources": [
+    [
+     "AP via KSAT – UAW and Stellantis tentative deal (Ford model)",
+     "https://www.ksat.com/business/2023/10/28/ap-sources-united-auto-workers-and-stellantis-reach-tentative-contract-that-follows-model-ford-set/"
+    ],
+    [
+     "Manufacturing.net – UAW and Stellantis deal",
+     "https://www.manufacturing.net/automotive/news/22877667/uaw-and-stellantis-reach-tentative-contract-deal"
+    ],
+    [
+     "Quartz – deal as union adds strike at GM Tennessee",
+     "https://qz.com/uaw-and-stellantis-reach-tentative-contract-deal-as-uni-1850969870"
+    ]
+   ]
+  },
+  {
+   "slot": "12",
+   "outcome": "Failed",
+   "heading": "1.2.3 Actors — Labour unions: FAILED",
+   "case": "Union votes at Amazon's Bessemer warehouse (2021–2022)",
+   "syllabus": "Influence of labour unions on TNCs and states.",
+   "facts": [
+    [
+     "Place",
+     "Bessemer, Alabama, USA"
+    ],
+    [
+     "Period",
+     "Votes in April 2021 and March 2022"
+    ],
+    [
+     "Scale",
+     "About 2,500 votes cast in 2021"
+    ],
+    [
+     "Key actors",
+     "Retail, Wholesale and Department Store Union (RWDSU), Amazon, National Labor Relations Board (NLRB)"
+    ]
+   ],
+   "image": "1_2_amazon_union.png",
+   "caption": "Figure 12b. Votes at Bessemer, 2021 and 2022 (union and NLRB figures as reported).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Workers voted against joining the RWDSU in April 2021 by 1,798 to 738. The NLRB then found that Amazon had improperly pressured workers, for example with a company mailbox in view of security cameras, and ordered a new vote. The 2022 re-run was 993 against and 875 for, with 416 ballots challenged."
+    },
+    {
+     "title": "Why the union failed",
+     "bullets": [
+      "TNC power: Amazon campaigned against the union and said 'we don't think unions are the best answer for our employees'.",
+      "Weak position: with no recognised union, organisers had to win over thousands of workers while the company campaigned inside the warehouse.",
+      "Slow regulation: the labour board's ruling came months later and did not deliver a union."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Unions struggle to influence TNCs where they lack recognition; the state's labour rules shape the contest.",
+      "Evaluation: a different Amazon warehouse (JFK8, Staten Island) voted to unionise in April 2022, 2,654 to 2,131, so failure was not total."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.3 union that succeeded (UAW, previous page) · 1.2.3 states regulating labour (slot 13).",
+   "sources": [
+    [
+     "NPR – Amazon workers get to redo their union vote",
+     "https://www.npr.org/2021/11/29/1022384731/amazon-warehouse-workers-get-to-re-do-their-union-vote-in-alabama"
+    ],
+    [
+     "RWDSU – 2022 vote hangs on 416 challenged ballots",
+     "https://rwdsu.org/news/bessemer-alabama-amazon-union-vote-hangs-on-416-challenged-ballots-workers-await-outcome-in-bid-to-become-americas-first-unionized-amazon-warehouse-workers"
+    ],
+    [
+     "Jacobin – workers about to rerun their election",
+     "https://jacobin.com/2022/01/unionization-organizing-nlrb-ruling-warehouse-rwdsu"
+    ],
+    [
+     "SHRM – Staten Island Amazon workers vote to unionise",
+     "https://shrm.org/topics-tools/employment-law-compliance/staten-island-n-y-amazon-workers-vote-to-unionize"
+    ]
+   ]
+  },
+  {
+   "slot": "13",
+   "heading": "1.2.3 Actors — States and TNCs shaping labour",
+   "case": "Singapore's Platform Workers Act (2024–2025)",
+   "syllabus": "Influence of TNCs and states on labour: regulation of labour by states; impact of TNCs' decisions on labour.",
+   "facts": [
+    [
+     "Place",
+     "Singapore"
+    ],
+    [
+     "Period",
+     "Passed 10 September 2024; in force 1 January 2025"
+    ],
+    [
+     "Scale",
+     "More than 70,000 delivery riders and ride-hail drivers"
+    ],
+    [
+     "Key actors",
+     "Government (Ministry of Manpower), platform firms Grab, Gojek and foodpanda, platform workers and their associations"
+    ]
+   ],
+   "image": "1_2_platform_workers.png",
+   "caption": "Figure 13. What Singapore's Platform Workers Act does.",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Platform firms treat riders and drivers as self-employed, so they lacked an employee's savings and injury protection. Singapore created a new legal class, 'platform worker', with set protections that platform operators must provide."
+    },
+    {
+     "title": "How it shows states and TNCs shaping labour",
+     "bullets": [
+      "State regulation: CPF contributions are compulsory for platform workers born in 1995 or later, with the operator paying a share; older workers may opt in.",
+      "Injury cover: operators must give work-injury compensation at the same level as employees, while workers are on a job.",
+      "TNC decisions still matter: platforms set pay and work allocation through their apps, and some riders disliked giving more of their earnings to CPF."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A state can reshape a TNC's labour model without banning it, a middle path between letting gig work run freely and treating gig workers as employees.",
+      "Evaluation: protection is partial; injury cover applies only while on a job, and the government gave transition support to offset the higher CPF share in 2025."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.3 labour unions (slot 12) · 1.2.3 states as regulators (slot 10) · 3.1.3 liveable cities (Singapore).",
+   "sources": [
+    [
+     "Singapore Law Watch – landmark Bill passed",
+     "https://singaporelawwatch.sg/Headlines/Singapore-passes-landmark-Bill-recognising-ride-hail-delivery-gig-workers-as-distinct-labour-class"
+    ],
+    [
+     "Allen & Gledhill – Act in force 1 January 2025",
+     "https://www.allenandgledhill.com/sg/publication/articles/29573/platform-workers-act-2024-to-fully-come-into-force-on-1-january-2025"
+    ],
+    [
+     "Rödl & Partner – CPF and injury compensation details",
+     "https://www.roedl.com/insights/newsflash-asean/2025_01/singapore-new-platform-workers-act-2024"
+    ],
+    [
+     "NUS LKYSPP – the Act strikes a balance",
+     "https://lkyspp.nus.edu.sg/gia/article/singapores-platform-workers-act-strikes-crucial-balance-for-future-of-gig-economy"
+    ],
+    [
+     "Singapore Law Watch – riders welcome injury cover, mixed on CPF",
+     "https://singaporelawwatch.sg/Headlines/Platform-workers-law-Drivers-riders-welcome-work-injury-insurance-but-mixed-on-CPF-contributions"
+    ]
+   ]
+  },
+  {
+   "slot": "14",
+   "heading": "1.2.3 Actors — Multilateral institutions: ASEAN",
+   "case": "RCEP, the ASEAN-led trade deal (2022–)",
+   "syllabus": "Influence of multilateral institutions on TNCs and states: ASEAN.",
+   "facts": [
+    [
+     "Place",
+     "10 ASEAN members plus China, Japan, South Korea, Australia and New Zealand"
+    ],
+    [
+     "Period",
+     "In force from 1 January 2022 (Philippines June 2023)"
+    ],
+    [
+     "Scale",
+     "2.2 billion people and US$38 trillion of GDP, about a third of the world economy"
+    ],
+    [
+     "Key actors",
+     "ASEAN (convenor), member governments, TNCs with regional supply chains"
+    ]
+   ],
+   "image": "1_2_rcep.png",
+   "caption": "Figure 14. RCEP in four numbers (Enterprise Singapore; ADB).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "ASEAN led negotiations for the Regional Comprehensive Economic Partnership, signed in 2020. It replaced a tangle of separate ASEAN+1 deals with one set of trade rules. It came into force for the first ten members on 1 January 2022."
+    },
+    {
+     "title": "How it shows ASEAN's influence",
+     "bullets": [
+      "On states: members agreed to remove tariffs on about 92% of goods traded between them, mostly within 20 years.",
+      "On TNCs: a single rule of origin with regional cumulation lets a firm count parts from any member, making it easier to spread production across the region.",
+      "ASEAN at the centre: the bloc convened much bigger economies (China, Japan) into an ASEAN-led framework."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "ASEAN's influence comes from convening and rule-setting, not from enforcement power.",
+      "Evaluation: RCEP is shallower than some deals, with many farm products excluded and only regional (not full) cumulation."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.1 Vietnam's flows (slot 2) · 1.2.2 GPNs (slot 7) · 1.2.3 WTO and World Bank (slots 15–16).",
+   "sources": [
+    [
+     "Enterprise Singapore – About RCEP",
+     "https://www.enterprisesg.gov.sg/grow-your-business/go-global/international-agreements/free-trade-agreements/find-an-fta/rcep"
+    ],
+    [
+     "ADB Brief 164 – RCEP",
+     "https://www.adb.org/sites/default/files/publication/664096/adb-brief-164-regional-comprehensive-economic-partnership.pdf"
+    ],
+    [
+     "White & Case – RCEP key outcomes",
+     "https://www.whitecase.com/insight-alert/15-asia-pacific-countries-sign-worlds-largest-fta-closer-look-rceps-key-outcomes-and"
+    ],
+    [
+     "Conventus Law – what RCEP means for Asia-Pacific",
+     "https://conventuslaw.com/report/rcep-what-does-it-mean-for-future-asia-pacific/"
+    ]
+   ]
+  },
+  {
+   "slot": "15",
+   "heading": "1.2.3 Actors — Multilateral institutions: WTO",
+   "case": "The WTO and Indonesia's nickel export ban (2019–2022)",
+   "syllabus": "Influence of multilateral institutions on TNCs and states: WTO.",
+   "facts": [
+    [
+     "Place",
+     "Indonesia; EU (complainant)"
+    ],
+    [
+     "Period",
+     "Ban from January 2020; panel ruling 30 November 2022"
+    ],
+    [
+     "Scale",
+     "Case DS592; Indonesia mines over half the world's nickel"
+    ],
+    [
+     "Key actors",
+     "World Trade Organization, European Union, Indonesian government, steel and battery TNCs"
+    ]
+   ],
+   "image": "1_2_wto_nickel.png",
+   "caption": "Figure 15. The nickel dispute and the WTO's broken appeal stage (dates in labels).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Indonesia banned raw nickel ore exports from January 2020 to force processing at home (see 3a, slot 15). The EU, whose steelmakers wanted the ore, took the case to the WTO. On 30 November 2022 the panel ruled that the ban and the processing rule broke trade rules, and upheld all the EU's claims."
+    },
+    {
+     "title": "How it shows the WTO's influence",
+     "bullets": [
+      "Rules exist: the panel found Indonesia had not justified the ban as a temporary measure for a critical shortage.",
+      "But enforcement failed: Indonesia appealed 'into the void' in December 2022. The Appellate Body has not worked since December 2019, so the ruling could not become final.",
+      "States keep control: Indonesia's energy minister said it need not change the rule while the appeal was pending; the EU began exploring countermeasures instead."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The WTO can judge but cannot always enforce; its influence depends on members accepting the result.",
+      "Evaluation: a state with market power (over half of world nickel) can resist a ruling, as India did with the Indus court (3a, slot 12)."
+     ]
+    }
+   ],
+   "links": "Links: 3a slot 15 (Indonesia's nickel ban) · 1.2.3 states as regulators (slot 10) · 1.2.3 ASEAN and World Bank (slots 14, 16).",
+   "sources": [
+    [
+     "Jakarta Post – Indonesia admits defeat in WTO nickel dispute",
+     "https://www.thejakartapost.com/business/2022/11/22/indonesia-admits-defeat-in-wto-nickel-export-dispute"
+    ],
+    [
+     "Jakarta Post – will the appeal fall into a void?",
+     "https://www.thejakartapost.com/opinion/2022/12/04/will-indonesias-appeal-of-wto-nickel-dispute-fall-into-a-void"
+    ],
+    [
+     "European Commission – nickel ore export ban consultation",
+     "https://policy.trade.ec.europa.eu/consultations/information-gathering-indonesian-export-ban-and-domestic-processing-requirement-nickel-ore_et"
+    ],
+    [
+     "Bahamas Trade Info – Indonesia appeals panel report",
+     "https://www.bahamastradeinfo.gov.bs/?p=257540"
+    ]
+   ]
+  },
+  {
+   "slot": "16",
+   "heading": "1.2.3 Actors — Multilateral institutions: World Bank",
+   "case": "The World Bank's Doing Business rankings (2014–2024)",
+   "syllabus": "Influence of multilateral institutions on TNCs and states: World Bank.",
+   "facts": [
+    [
+     "Place",
+     "190 economies ranked; example: India"
+    ],
+    [
+     "Period",
+     "2014–2021 (report stopped); B-READY from October 2024"
+    ],
+    [
+     "Scale",
+     "India rose from 142nd (2014) to 63rd (Doing Business 2020)"
+    ],
+    [
+     "Key actors",
+     "World Bank, national governments, investors and TNCs that used the rankings"
+    ]
+   ],
+   "image": "1_2_doing_business.png",
+   "caption": "Figure 16. India's Doing Business rank, 2014–2019 reports (lower is better).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The yearly Doing Business report ranked countries on how easy it was to start and run a firm. Governments reformed rules to climb it: India set a 2015 goal of reaching the top 50 and rose from 142nd to 63rd. In 2021 the World Bank stopped the report after an inquiry found data in the 2018 and 2020 editions had been changed, including to favour China."
+    },
+    {
+     "title": "How it shows the World Bank's influence",
+     "bullets": [
+      "On states: a ranking gave governments a target. India's rise came from changes such as a new insolvency code and faster permits, taxes and electricity connections.",
+      "On TNCs: investors used the rankings to compare places, so a better rank was a selling point for FDI.",
+      "Loss of trust: the data scandal ended the report, and its replacement B-READY (first edition October 2024) avoids a single league table."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The World Bank shapes states through information and loans, not just money; rankings were a soft but strong lever.",
+      "Evaluation: critics said it encouraged a 'race to the bottom' on regulation; influence also depends on the data being trusted."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.3 ASEAN and WTO (slots 14–15) · 3a slot 12 (World Bank as Indus and Kambarata broker) · 1.2.1 flows of capital (slot 2).",
+   "sources": [
+    [
+     "Outlook India – India moves up 14 spots to 63",
+     "https://www.outlookindia.com/national/india-news-india-moves-up-14-spots-to-63-on-world-banks-ease-of-doing-business-ranking-news-341007"
+    ],
+    [
+     "Quartz – India may achieve Modi's ease of doing business goal",
+     "https://qz.com/india/1734728/india-may-soon-achieve-modis-ease-of-doing-business-goal"
+    ],
+    [
+     "World Bank timeline – Doing Business discontinued",
+     "https://timeline.worldbank.org/en/timeline/eventdetail/f4c63080-3245-4a4c-b370-d560df1e6291"
+    ],
+    [
+     "Asia Times – World Bank's second try at ranking economies",
+     "https://asiatimes.com/2025/04/world-bank-2d-try-at-ranking-economies-for-investors-also-lacking/"
+    ],
+    [
+     "World Bank – B-READY FAQ",
+     "https://www.worldbank.org/en/businessready/about-us/faq"
+    ]
+   ]
+  }
+ ]
+}

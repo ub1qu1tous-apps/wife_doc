@@ -1,8 +1,6 @@
 # Session log
 
-> **Task in progress (session 4):** build `docs/3b Case Studies – Topic 1.2 Development and the Global Economy v1.docx` the same way as 3a v1 (user said 'yes please' to starting 3b, 2026-10-24; build straight to v1 using the approved 3a format). Steps: slot plan from syllabus → research → charts (`tools/case_charts.py`) → `tools/data/case_studies_3b.json` → build to docs/ → check pages → Review Notes v1 → log → push. Hourly check-in continues this note until it's cleared.
-
-**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 done** (`docs/3a Case Studies – Topic 1.1 Environment and Resources v1.docx`). Next: 3b (Topic 1.2) when the user asks.
+**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 and 3b v1 done** (`docs/3a …Topic 1.1… v1.docx`, `docs/3b …Topic 1.2… v1.docx`). Next: 3c (Topic 2.1) when the user asks.
 
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.15.docx` (key-question level, focus lines, topic shading, frequency summary), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
@@ -14,6 +12,8 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| 3b v1 | 2026-10-24 | **Doc 3b full build**: Topic 1.2, 16 slots / 18 cases (strong + limited state influence; succeeded + failed unions), a chart per case, Links lines; Review Notes v1 |
+| 3a v1 (fix) | 2026-10-24 | 3a v1 rebuilt: Word 2007 said the file was corrupt (link run properties out of schema order); v0.1 preview patched too |
 | 3a v1 | 2026-10-24 | **Doc 3a full build**: Topic 1.1, 15 slots / 17 cases (succeeded + failed for both strategy slots), a chart per case, 'Links' line per case; Review Notes v1 |
 | 3a v0.1 (preview) | 2026-10-24 | **New doc series 3a–3f** (case studies per H2 topic, own versioning: v0.1 preview → v1 confirmed). Preview of 3a Topic 1.1: slot plan + first 3 cases (Amazon, Cape Town, Nigeria) |
 | v0.15 | 2026-10-22 | **Doc 1 rebuilt** with the Review Notes section 7 ideas: H2 split into P1/P2 tables, cells shaded by topic, focus line for all 716 questions, key-question frequency summary by year |
@@ -418,4 +418,17 @@
 - Output: `docs/3a Case Studies – Topic 1.1 Environment and Resources v1.docx` (18 pages: slot plan + 17 one-page cases; checked page by page that no case overflows) + `– Review Notes v1` (10 figures to spot-check, 4 choices). The v0.1 preview stays in `previews/`.
 - Same limits as before: photo sites blocked, page fetches fail; figures come from search results quoting sources.
 - Open: user feedback on 3a v1 and the Review Notes; then 3b (Topic 1.2).
+
+### 2026-10-24 — Session 4: Word 2007 'corrupt file' fix
+- User sent a screenshot: Word 2007 refused to open 3a v1 ("problems with the contents").
+- Cause: in the source-link runs the builder wrote `w:u` before `w:sz`; the OOXML schema wants `color, sz, u`. LibreOffice ignores this, Word 2007 does not.
+- Fix in `tools/build_case_studies.py`; 3a v1 rebuilt (same version, content unchanged); 3a v0.1 preview patched in place. A schema-order check of rPr/pPr/tcPr/tblPr in document.xml found no other problems.
+- Rule for later builds: run the rPr order check on every new docx before sending (see the 3b entry).
+
+### 2026-10-24 — Session 4: doc 3b v1 (Topic 1.2 complete)
+- User: "yes please" to starting 3b. Built straight to v1 in 3a's approved format. Long-task note and hourly check-in (`trig_01EquomwFnrQU98zbh6YVQja`) used; both removed now.
+- 16 slots / 18 cases: SE Asia HDI gaps; Vietnam trade and FDI; Philippine remittances; Ethiopia's industrial parks; China's shift to services; 2021 chip shortage; Apple's iPhone GPN and India; Bangladesh garments (host); Dyson (home); India/TikTok (strong state) and Ireland/Apple (limited state); TSMC Arizona (labour characteristics); UAW 2023 (union succeeded) and Amazon Bessemer (union failed); Singapore Platform Workers Act; RCEP (ASEAN); WTO and Indonesia's nickel ban; World Bank Doing Business.
+- Charts `tools/data/case_charts/1_2_*.png` (new helper `hbars`). Pages checked by eye; rPr schema-order check passed.
+- Output: `docs/3b Case Studies – Topic 1.2 Development and the Global Economy v1.docx` (19 pages) + `– Review Notes v1` (9 figures to spot-check, 4 choices).
+- Open: does the fixed 3a open in the user's Word? Feedback on 3b; then 3c (Topic 2.1).
 

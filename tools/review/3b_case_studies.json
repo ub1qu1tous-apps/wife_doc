@@ -1,0 +1,112 @@
+{
+ "title": "Case Studies – Topic 1.2 Development and the Global Economy",
+ "file": "3b Case Studies – Topic 1.2 Development and the Global Economy",
+ "version": "v1",
+ "doc": "3b Case Studies – Topic 1.2 Development and the Global Economy v1.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "Second of 6 case-study docs (3a–3f, one per H2 9173 topic). Same format as 3a v1, which the user approved: facts table, 1 chart, what happened, how it fits, exam angle, 'Links' line, sources.",
+    "Topic 1.2 has 16 case-study slots taken from the syllabus content points. There are 18 cases, because two slots have pairs: states' influence over TNCs (strong vs limited) and labour unions (succeeded vs failed). 19 pages: slot plan, then one case per page.",
+    "This topic has the 'trend' and 'actors' types: three Trends slots (flows; towards manufacturing; towards services) and seven Actors slots (states, labour, ASEAN, WTO, World Bank).",
+    "Built straight to v1 (no preview), as the user said 'yes please' to starting 3b after approving 3a's format.",
+    "Built with tools/build_case_studies.py from tools/data/case_studies_3b.json; charts from tools/case_charts.py (1_2_*.png)."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "'Varying degree of states' influence' is treated like a strategy slot, with a strong and a limited case (India/TikTok, Ireland/Apple).",
+    "One case per multilateral institution named in the syllabus (ASEAN, WTO, World Bank).",
+    "Cases reuse doc 3a where they fit: the WTO case is the Indonesia nickel ban from 3a slot 15; Links lines point across both docs.",
+    "Same limits as 3a: photo sites are blocked, so each image is a chart, timeline or number tiles; web pages could not be opened, so figures come from search results quoting each source.",
+    "A few lines give general background that is not in the listed sources (e.g. why carmakers ran short of chips; that Apple owns no assembly plants). They are widely reported but worth a check."
+   ]
+  },
+  {
+   "title": "3. To review: figures to spot-check",
+   "note": "Figures where sources disagree or come from one source only.",
+   "table": {
+    "columns": [
+     "Case",
+     "Figure",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "SE Asia",
+      "ASEAN HDI values (2022 data) are from Katadata quoting UNDP; Indonesia's provincial HDI method changed in 2024."
+     ],
+     [
+      "Vietnam",
+      "Samsung's share of exports: about 13% (2024, secondary source) vs about 20% (2023, KEIA). Both are given."
+     ],
+     [
+      "Vietnam",
+      "Poverty 14% (2010) to 5.7% (2023) is from one report; another gives 2.93%, likely a different poverty line."
+     ],
+     [
+      "Ethiopia",
+      "Hawassa job losses: 4,321 (National Bank of Ethiopia) vs 'over 1,000' in another report. The NBE figure is used."
+     ],
+     [
+      "China",
+      "'Services 44% to 53% over a decade' is the World Bank's wording; exact years are not given."
+     ],
+     [
+      "Apple",
+      "India's share of iPhones: about 25% (Bloomberg, 2025) vs 16–17% (Canalys). The range is given in the case."
+     ],
+     [
+      "Bangladesh",
+      "Garments' share of exports: about 85% (one source); US$38.48 bn garment exports (WTO 2024)."
+     ],
+     [
+      "Amazon",
+      "The 2021 tally (1,798 vs 738) is from a secondary write-up; the 2022 re-run's final result (416 challenged ballots) was not found."
+     ],
+     [
+      "Ireland",
+      "Whether the top-3 share (46%) is of receipts with or without the Apple money is not clear in the sources."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "4. To review: choices",
+   "table": {
+    "columns": [
+     "Item",
+     "Current choice",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Slot 9 (home economy)",
+      "Dyson and the UK. An alternative is a US TNC (e.g. Apple's home-country gains)."
+     ],
+     [
+      "Slot 10 pair",
+      "India/TikTok (strong) and Ireland/Apple (limited). Could swap in a Southeast Asian state if preferred."
+     ],
+     [
+      "Slot 12 pair",
+      "US unions (UAW, Amazon). A Southeast Asian or Bangladeshi union case could replace one."
+     ],
+     [
+      "No preview",
+      "3b went straight to v1 using 3a's approved format."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "5. To consider",
+   "bullets": [
+    "Next: doc 3c (Topic 2.1 Tropical Climates and Drainage Basins), which is physical geography; slots there are mostly factors, impacts and strategies (flood management).",
+    "A combined index of all cases across 3a–3f (case × slot × 'also fits') once all six docs exist."
+   ]
+  }
+ ]
+}

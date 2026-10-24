@@ -393,7 +393,7 @@ def ireland(path):
         left += v
     ax.set_xlim(0, 100); ax.set_ylim(-0.6, 0.9); ax.set_yticks([])
     ax.set_xlabel("Share of Ireland's corporation tax, 2024 (%)")
-    ax.text(50, 0.55, 'Total about €28 bn, plus about €11 bn of Apple back tax the EU court made Ireland collect',
+    ax.text(50, 0.55, 'A few TNCs pay most of the tax: top 3 groups 46%, top 10 almost 60% (2024)',
             ha='center', fontsize=8.5, color=INK)
     for s_ in ('top', 'right', 'left'):
         ax.spines[s_].set_visible(False)
