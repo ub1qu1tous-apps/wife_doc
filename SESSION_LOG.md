@@ -1,5 +1,7 @@
 # Session log
 
+> **Task in progress (session 4):** user said 'do the rest' (2026-10-24): build docs 3c (Topic 2.1), 3d (2.2), 3e (3.1), 3f (3.2) to v1 in the approved 3a/3b format, one topic at a time. Per topic: slot plan → research → charts (`tools/case_charts.py`, prefix 2_1_ etc.) → `tools/data/case_studies_3X.json` → build to docs/ → check pages + docx checks (link URLs, r:ids, rPr order) → Review Notes v1 → log → commit + push. Done so far: none of 3c–3f. Hourly check-in continues this note until it's cleared.
+
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 and 3b v1 done** (`docs/3a …Topic 1.1… v1.docx`, `docs/3b …Topic 1.2… v1.docx`). Next: 3c (Topic 2.1) when the user asks.
 
 ## Current state
