@@ -1,6 +1,6 @@
 # Session log
 
-**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **All six done: 3a–3f v1** (`docs/3a`–`docs/3f … v1.docx`, 107 cases) with Review Notes. Waiting on user feedback.
+**Next session starts here:** read the "Session 2 HANDOFF" and "Session 4 HANDOFF" entries (and the entries between them). Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **All six done: 3a–3f v1** (`docs/3a`–`docs/3f … v1.docx`, 107 cases) with Review Notes. Waiting on user feedback.
 
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.15.docx` (key-question level, focus lines, topic shading, frequency summary), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
@@ -458,4 +458,22 @@
 - All six docs rebuilt at v1 at the end so every tile chart uses the final `tiles()` sizing; content of 3a–3e unchanged. check_docx OK on all. Page counts: 3a 18, 3b 19, 3c 13, 3d 10, 3e 22, 3f 22.
 - Hourly check-in (`trig_01VrvSRXo1AUMZYFfSM81ccA`) deleted; task note cleared.
 - Open: user feedback and Review Notes decisions for 3a–3f.
+
+### 2026-10-24 — Session 4 HANDOFF
+**Read this entry first in the next session (with the Session 2 HANDOFF for docs 1 and 2a–2f).**
+
+**Where things stand**
+- Branch `claude/amazing-dirac-mpbgn8` holds everything, pushed. Docs 1 (v0.15) and 2a–2f (v0.14) unchanged this session.
+- New case-study series, own versioning (v0.1 preview → v1 confirmed, then v1.1, v1.2… for changes): `docs/3a`–`docs/3f … v1.docx`, one per H2 topic (3e/3f also cover H1 1.1/1.2), each with `– Review Notes v1`. 107 cases. 3a v0.1 preview kept in `previews/`.
+- Waiting on the user: feedback and the Review Notes decisions (section 3 figures to spot-check, section 4 choices) for 3a–3f.
+
+**How to change a case doc**
+1. Edit the case text in `tools/data/case_studies_3X.json` (slot plan, cases, sources, 'links' line). Charts are functions in `tools/case_charts.py` (file names `<topic>_<name>.png`); run `python3 tools/case_charts.py tools/data/case_charts` (needs `pip install matplotlib`).
+2. Build: `python3 tools/build_case_studies.py tools/data/case_studies_3X.json docs <version>`.
+3. Check: `python3 tools/check_docx.py docs/<file>.docx` (Word 2007 refuses files with bad link URLs, unresolved r:ids or rPr out of order), and render to PDF to confirm one case per page.
+4. Update `tools/review/3X_case_studies.json`, run `tools/review_docs.py`, log here, commit, push.
+
+**Session limits to remember**
+- Photo sites (commons.wikimedia.org etc.) are blocked by the network policy, and page fetches fail; only web search works. Images are charts drawn from sourced figures.
+- User opens files in Word 2007 — always run check_docx before sending.
 
