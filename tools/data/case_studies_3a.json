@@ -3,26 +3,116 @@
  "title": "Case Studies – Topic 1.1 Environment and Resources",
  "file": "3a Case Studies – Topic 1.1 Environment and Resources",
  "intro": [
-  "One real case (2015 or later) for each case-study slot in H2 Topic 1.1. A slot is a syllabus content point that asks for a factor, impact, characteristic, strategy, trade-off or challenge. Strategy slots get two cases: one that succeeded and one that failed.",
-  "v0.1 previews the first 3 slots (all in 1.1.1). Each case runs to about 1 page, with 1 chart drawn from its sources."
+  "One real case (2015 or later) for each case-study slot in H2 Topic 1.1. A slot is a syllabus content point that asks for a factor, impact, characteristic, strategy, trade-off or challenge. Strategy slots have two cases: one that succeeded and one that failed.",
+  "Each case is about 1 page, with 1 chart drawn from its sources. The 'Links' line under each case shows other slots and topics where the same case can be used, so one case can do more than one job."
  ],
  "plan_title": "Case-study slots for Topic 1.1",
  "plan": [
-  ["1", "1.1.1 Understanding SD", "Trade-offs", "Trade-offs between economic, environmental and social dimensions", "Amazon deforestation, Brazil (2019–2025)"],
-  ["2", "1.1.1 Understanding SD", "Factors", "Limits imposed by technology and by the environment's ability to meet needs", "Cape Town 'Day Zero', South Africa (2015–2018)"],
-  ["3", "1.1.1 Understanding SD", "Challenges", "Difficulty of measuring progress: lack of capacity to collect data", "Nigeria's census and GDP gaps (2006–2026)"],
-  ["4", "1.1.1 Understanding SD", "Challenges", "Economic and political challenges limiting progress", "v1"],
-  ["5", "1.1.2 Environment & Resources", "Factors", "Variations in what counts as a provisioning service (demand, technology)", "v1"],
-  ["6", "1.1.2 Environment & Resources", "Impacts", "Human activities compromising ecosystem services (habitats, pollution, invasive species)", "v1"],
-  ["7", "1.1.2 Environment & Resources", "Impacts", "Impact on supply when regenerative capacity is exceeded", "v1"],
-  ["8", "1.1.2 Environment & Resources", "Evaluation", "Malthus vs Boserup: evidence for and against", "v1"],
-  ["9", "1.1.3 Managing Resources", "Trade-offs", "Solar power: potential, limitations, trade-offs", "v1"],
-  ["10", "1.1.3 Managing Resources", "Trade-offs", "Hydropower: potential, limitations, trade-offs", "v1"],
-  ["11", "1.1.3 Managing Resources", "Impacts", "Transboundary water conflict: one country's actions harm another", "v1"],
-  ["12", "1.1.3 Managing Resources", "Strategies", "Managing transboundary water conflict (succeeded + failed)", "v1"],
-  ["13", "1.1.3 Managing Resources", "Characteristics", "Characteristics of extractive industries", "v1"],
-  ["14", "1.1.3 Managing Resources", "Impacts", "Variations in impacts of extractive industries between places", "v1"],
-  ["15", "1.1.3 Managing Resources", "Strategies", "Managing impacts of extractive industries (succeeded + failed)", "v1"]
+  [
+   "1",
+   "1.1.1 Understanding SD",
+   "Trade-offs",
+   "Trade-offs between economic, environmental and social dimensions",
+   "Amazon deforestation, Brazil (2019–2025)"
+  ],
+  [
+   "2",
+   "1.1.1 Understanding SD",
+   "Factors",
+   "Limits imposed by technology and by the environment's ability to meet needs",
+   "Cape Town 'Day Zero', South Africa (2015–2018)"
+  ],
+  [
+   "3",
+   "1.1.1 Understanding SD",
+   "Challenges",
+   "Difficulty of measuring progress: lack of capacity to collect data",
+   "Nigeria's census and GDP gaps (2006–2026)"
+  ],
+  [
+   "4",
+   "1.1.1 Understanding SD",
+   "Challenges",
+   "Economic and political challenges limiting progress",
+   "Sri Lanka's 2022 economic and political crisis"
+  ],
+  [
+   "5",
+   "1.1.2 Environment & Resources",
+   "Factors",
+   "Variations in what counts as a provisioning service (demand, technology)",
+   "Lithium in the 'Lithium Triangle' (2015–2025)"
+  ],
+  [
+   "6",
+   "1.1.2 Environment & Resources",
+   "Impacts",
+   "Human activities compromising ecosystem services (habitats, pollution, invasive species)",
+   "Indonesia's 2015 forest and peat fires"
+  ],
+  [
+   "7",
+   "1.1.2 Environment & Resources",
+   "Impacts",
+   "Impact on supply when regenerative capacity is exceeded",
+   "West Africa's small-fish stocks (Senegal, Mauritania)"
+  ],
+  [
+   "8",
+   "1.1.2 Environment & Resources",
+   "Evaluation",
+   "Malthus vs Boserup: evidence for and against",
+   "Bangladesh: rice, groundwater and nutrition (2015–2025)"
+  ],
+  [
+   "9",
+   "1.1.3 Managing Resources",
+   "Trade-offs",
+   "Solar power: potential, limitations, trade-offs",
+   "Vietnam's solar boom (2019–2023)"
+  ],
+  [
+   "10",
+   "1.1.3 Managing Resources",
+   "Trade-offs",
+   "Hydropower: potential, limitations, trade-offs",
+   "Laos, 'battery of Southeast Asia' (2018–2025)"
+  ],
+  [
+   "11",
+   "1.1.3 Managing Resources",
+   "Impacts",
+   "Transboundary water conflict: one country's actions harm another",
+   "Mekong 2019 drought and China's upstream dams"
+  ],
+  [
+   "12",
+   "1.1.3 Managing Resources",
+   "Strategies",
+   "Managing transboundary water conflict (succeeded + failed)",
+   "Succeeded: Central Asia water deals (2018–2026). Failed: Indus Waters Treaty (2025–2026)"
+  ],
+  [
+   "13",
+   "1.1.3 Managing Resources",
+   "Characteristics",
+   "Characteristics of extractive industries",
+   "Oyu Tolgoi copper mine, Mongolia"
+  ],
+  [
+   "14",
+   "1.1.3 Managing Resources",
+   "Impacts",
+   "Variations in impacts of extractive industries between places",
+   "Oil: Guyana vs the Niger Delta, Nigeria"
+  ],
+  [
+   "15",
+   "1.1.3 Managing Resources",
+   "Strategies",
+   "Managing impacts of extractive industries (succeeded + failed)",
+   "Succeeded: Indonesia's nickel export ban (2020–). Failed: Brazil's tailings dam rules (Brumadinho, 2019)"
+  ]
  ],
  "cases": [
   {
@@ -30,95 +120,1305 @@
    "heading": "1.1.1 Understanding SD — Trade-offs",
    "case": "Amazon deforestation, Brazil (2019–2025)",
    "syllabus": "The possible trade-offs between economic, environmental and social dimensions.",
-   "facts": [["Place", "Brazilian Legal Amazon"], ["Period", "2019–2025"], ["Scale", "13,038 km² cleared in one year (2021), about 18 times Singapore's land area"], ["Key actors", "Federal government, IBAMA (environment agency), ranchers and soy farmers, illegal gold miners, Indigenous groups"]],
+   "facts": [
+    [
+     "Place",
+     "Brazilian Legal Amazon"
+    ],
+    [
+     "Period",
+     "2019–2025"
+    ],
+    [
+     "Scale",
+     "13,038 km² cleared in one year (2021), about 18 times Singapore's land area"
+    ],
+    [
+     "Key actors",
+     "Federal government, IBAMA (environment agency), ranchers and soy farmers, illegal gold miners, Indigenous groups"
+    ]
+   ],
    "image": "1_1_amazon.png",
    "caption": "Figure 1. Yearly forest loss in the Legal Amazon (INPE PRODES, August–July years; 2025 is preliminary).",
    "sections": [
-    {"title": "What happened", "text": "From 2019 to 2022 the Bolsonaro government cut the budgets of environmental agencies and weakened enforcement while backing farm expansion. Forest loss rose from 7,536 km² (2018) to 13,038 km² (2021), the highest since 2006. After Lula took office in 2023, enforcement returned and loss fell to 6,288 km² in 2024."},
-    {"title": "How it shows the trade-off", "bullets": [
-     "Economic gain: agribusiness was 23.2% of Brazil's GDP and about half of its exports in 2024. Farm exports hit a record US$93.6 billion in January–November 2020. Most cleared land becomes cattle pasture (62% of the area cleared up to 2008).",
-     "Environmental cost: each cleared hectare loses regulating services (carbon storage, rainfall recycling) and habitat. Loss stayed above 10,000 km² a year from 2019 to 2022.",
-     "Social cost: about 20,000 illegal gold miners entered Yanomami land after 2019. About 570 Yanomami children died of curable diseases during Bolsonaro's term, and Brazil declared a health emergency there in January 2023."
-    ]},
-    {"title": "Exam angle", "bullets": [
-     "The trade-off is a political choice, not fixed. From 2021 to 2024, forest loss fell 52% while beef exports hit a record 1.14 million tonnes in the first half of 2024 (up 29%). Stronger enforcement weakened the trade-off without stopping growth.",
-     "Use it to show that the three dimensions are interdependent: forest loss can hurt farming over time by reducing rainfall."
-    ]}
+    {
+     "title": "What happened",
+     "text": "From 2019 to 2022 the Bolsonaro government cut the budgets of environmental agencies and weakened enforcement while backing farm expansion. Forest loss rose from 7,536 km² (2018) to 13,038 km² (2021), the highest since 2006. After Lula took office in 2023, enforcement returned and loss fell to 6,288 km² in 2024."
+    },
+    {
+     "title": "How it shows the trade-off",
+     "bullets": [
+      "Economic gain: agribusiness was 23.2% of Brazil's GDP and about half of its exports in 2024. Farm exports hit a record US$93.6 billion in January–November 2020. Most cleared land becomes cattle pasture (62% of the area cleared up to 2008).",
+      "Environmental cost: each cleared hectare loses regulating services (carbon storage, rainfall recycling) and habitat. Loss stayed above 10,000 km² a year from 2019 to 2022.",
+      "Social cost: about 20,000 illegal gold miners entered Yanomami land after 2019. About 570 Yanomami children died of curable diseases during Bolsonaro's term, and Brazil declared a health emergency there in January 2023."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The trade-off is a political choice, not fixed. From 2021 to 2024, forest loss fell 52% while beef exports hit a record 1.14 million tonnes in the first half of 2024 (up 29%). Stronger enforcement weakened the trade-off without stopping growth.",
+      "Use it to show that the three dimensions are interdependent: forest loss can hurt farming over time by reducing rainfall."
+     ]
+    }
    ],
    "sources": [
-    ["FAPESP – The return of deforestation (2018, 2019 rates)", "https://revistapesquisa.fapesp.br/en/the-return-of-deforestation/"],
-    ["eCycle/IPAM – PRODES 2021 and 2022 rates", "https://www.ecycle.com.br/com-taxa-de-11-568-km-desmatamento-na-amazonia-continua-alto-em-2022/"],
-    ["INPE – PRODES 2021 technical note (2020 consolidated rate)", "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/nota-tecnica-prodes/NotaTecnica_consolidado_PRODES_2021_rev.pdf"],
-    ["WWF-Brasil – 2024 rate, 30.6% fall", "https://www.wwf.org.br/en/?90200%2FIn-one-year-deforestation-falls-306-in-the-Amazon-and-257-in-the-Cerrado="],
-    ["Mongabay – 2025 preliminary rate", "https://news.mongabay.com/2026/02/amazon-deforestation-on-pace-to-be-the-lowest-on-record-says-brazil/"],
-    ["ApexBrasil – agribusiness share of GDP", "https://apexbrasil.com.br/content/portalinternacional/us/en/invest/sectors/agribusiness.html"],
-    ["Agriland – record beef exports H1 2024", "https://www.agriland.ie/farming-news/brazil-reports-record-fresh-beef-exports-in-first-half-of-2024/"],
-    ["Solar Daily – 62% of cleared land used for cattle", "https://www.solardaily.com/reports/60_of_deforested_Amazon_used_for_cattle_study_999.html"],
-    ["CS Monitor – illegal miners on Yanomami land", "https://csmonitor.com/World/Americas/2023/0417/Is-kicking-out-illegal-miners-enough-to-save-Brazil-s-Amazon"],
-    ["Euronews – Yanomami child deaths, health emergency", "https://www.euronews.com/2023/01/23/brazil-president-lula-accuses-bolsonaro-of-genocide-after-gold-mining-causes-indigenous-de"]
-   ]
+    [
+     "FAPESP – The return of deforestation (2018, 2019 rates)",
+     "https://revistapesquisa.fapesp.br/en/the-return-of-deforestation/"
+    ],
+    [
+     "eCycle/IPAM – PRODES 2021 and 2022 rates",
+     "https://www.ecycle.com.br/com-taxa-de-11-568-km-desmatamento-na-amazonia-continua-alto-em-2022/"
+    ],
+    [
+     "INPE – PRODES 2021 technical note (2020 consolidated rate)",
+     "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/nota-tecnica-prodes/NotaTecnica_consolidado_PRODES_2021_rev.pdf"
+    ],
+    [
+     "WWF-Brasil – 2024 rate, 30.6% fall",
+     "https://www.wwf.org.br/en/?90200%2FIn-one-year-deforestation-falls-306-in-the-Amazon-and-257-in-the-Cerrado="
+    ],
+    [
+     "Mongabay – 2025 preliminary rate",
+     "https://news.mongabay.com/2026/02/amazon-deforestation-on-pace-to-be-the-lowest-on-record-says-brazil/"
+    ],
+    [
+     "ApexBrasil – agribusiness share of GDP",
+     "https://apexbrasil.com.br/content/portalinternacional/us/en/invest/sectors/agribusiness.html"
+    ],
+    [
+     "Agriland – record beef exports H1 2024",
+     "https://www.agriland.ie/farming-news/brazil-reports-record-fresh-beef-exports-in-first-half-of-2024/"
+    ],
+    [
+     "Solar Daily – 62% of cleared land used for cattle",
+     "https://www.solardaily.com/reports/60_of_deforested_Amazon_used_for_cattle_study_999.html"
+    ],
+    [
+     "CS Monitor – illegal miners on Yanomami land",
+     "https://csmonitor.com/World/Americas/2023/0417/Is-kicking-out-illegal-miners-enough-to-save-Brazil-s-Amazon"
+    ],
+    [
+     "Euronews – Yanomami child deaths, health emergency",
+     "https://www.euronews.com/2023/01/23/brazil-president-lula-accuses-bolsonaro-of-genocide-after-gold-mining-causes-indigenous-de"
+    ]
+   ],
+   "links": "Links: 1.1.2 human activities compromising ecosystem services (habitat destruction) · 3.2.3 mitigation and the state as key actor · 1.2.3 influence of the state."
   },
   {
    "slot": "2",
    "heading": "1.1.1 Understanding SD — Factors (limits on meeting needs)",
    "case": "Cape Town 'Day Zero' water crisis, South Africa (2015–2018)",
    "syllabus": "Limits on ability to meet present and future needs imposed by the current level of technology and the environment's ability to meet those needs.",
-   "facts": [["Place", "City of Cape Town, Western Cape"], ["Period", "Drought 2015–2017; crisis peak January–May 2018"], ["Scale", "Supply dams fell to about 21% in May 2018; taps were to be shut off at 13.5%"], ["Key actors", "City of Cape Town, national Department of Water and Sanitation, households, farmers"]],
+   "facts": [
+    [
+     "Place",
+     "City of Cape Town, Western Cape"
+    ],
+    [
+     "Period",
+     "Drought 2015–2017; crisis peak January–May 2018"
+    ],
+    [
+     "Scale",
+     "Supply dams fell to about 21% in May 2018; taps were to be shut off at 13.5%"
+    ],
+    [
+     "Key actors",
+     "City of Cape Town, national Department of Water and Sanitation, households, farmers"
+    ]
+   ],
    "image": "1_1_cape_town.png",
    "caption": "Figure 2. Cape Town's daily water use against the Day Zero target and the city's emergency desalination capacity.",
    "sections": [
-    {"title": "What happened", "text": "Three dry years drained the rain-fed dams that supply the city. On 23 January 2018 the city set 'Day Zero', when most taps would be shut off, for 12 April 2018. A 50-litre per person daily limit (Level 6B) started on 1 February 2018. Day Zero was pushed back several times, and rains from June 2018 refilled the dams to about 70% by September."},
-    {"title": "How it shows the limits", "bullets": [
-     "The environment's ability: the city relied almost wholly on surface dams fed by winter rain. A 2019 study linked the drought to the Hadley cell expanding towards the poles, so the limit may tighten with climate change.",
-     "Technology: three small temporary desalination plants gave at most 16 million litres a day, about 3.5% of the 450 million-litre target. Other supply schemes would come online only after Day Zero, so technology could not close the gap in time.",
-     "What worked was cutting demand: use fell from 1.2 billion litres a day (February 2015) to 511 million litres a day (12 March 2018), down 57%."
-    ]},
-    {"title": "Exam angle", "bullets": [
-     "The technology limit is about time and cost, not know-how. Desalination works, but it could not be built at scale within months.",
-     "Evaluation: limits are not fixed. Behaviour change bought time until the rains came, but the city stayed exposed to the next drought."
-    ]}
+    {
+     "title": "What happened",
+     "text": "Three dry years drained the rain-fed dams that supply the city. On 23 January 2018 the city set 'Day Zero', when most taps would be shut off, for 12 April 2018. A 50-litre per person daily limit (Level 6B) started on 1 February 2018. Day Zero was pushed back several times, and rains from June 2018 refilled the dams to about 70% by September."
+    },
+    {
+     "title": "How it shows the limits",
+     "bullets": [
+      "The environment's ability: the city relied almost wholly on surface dams fed by winter rain. A 2019 study linked the drought to the Hadley cell expanding towards the poles, so the limit may tighten with climate change.",
+      "Technology: three small temporary desalination plants gave at most 16 million litres a day, about 3.5% of the 450 million-litre target. Other supply schemes would come online only after Day Zero, so technology could not close the gap in time.",
+      "What worked was cutting demand: use fell from 1.2 billion litres a day (February 2015) to 511 million litres a day (12 March 2018), down 57%."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The technology limit is about time and cost, not know-how. Desalination works, but it could not be built at scale within months.",
+      "Evaluation: limits are not fixed. Behaviour change bought time until the rains came, but the city stayed exposed to the next drought."
+     ]
+    }
    ],
    "sources": [
-    ["Wikipedia – Cape Town water crisis (dam levels 14–29%)", "https://en.wikipedia.org/wiki/Cape_Town_water_crisis"],
-    ["News24 – Day Zero moved to 12 April; Level 6B 50 L from 1 Feb 2018", "https://www.news24.com/southafrica/news/day-zero-now-on-april-12-for-cape-town-20180123"],
-    ["Daily Maverick/GroundUp – use fell from 1.2 bn to 511 m L/day", "https://www.dailymaverick.co.za/article/2018-03-13-groundup-how-cape-town-more-than-halved-its-water-usage/"],
-    ["Pressreader (Cape Argus) – desalination plants on track", "https://www.pressreader.com/south-africa/cape-argus/20180208/281586651050926"],
-    ["SIWI – How Cape Town saved itself from Day Zero", "https://siwi.org/news/how-cape-town-saved-itself-from-day-zero"],
-    ["npj Climate & Atmos. Sci. – Day Zero drought and Hadley cell expansion", "https://www.nature.com/articles/s41612-019-0084-6"],
-    ["WWF – Cape Town: Avoiding Day Zero", "https://www.wwf.org.co/en/?343091%2FCape-Town-Avoiding-Day-Zero="],
-    ["Business Insider – Day Zero postponements", "https://businessinsider.nl/cape-town-again-pushes-back-day-zero-when-it-runs-out-of-water-2018-2"]
-   ]
+    [
+     "Wikipedia – Cape Town water crisis (dam levels 14–29%)",
+     "https://en.wikipedia.org/wiki/Cape_Town_water_crisis"
+    ],
+    [
+     "News24 – Day Zero moved to 12 April; Level 6B 50 L from 1 Feb 2018",
+     "https://www.news24.com/southafrica/news/day-zero-now-on-april-12-for-cape-town-20180123"
+    ],
+    [
+     "Daily Maverick/GroundUp – use fell from 1.2 bn to 511 m L/day",
+     "https://www.dailymaverick.co.za/article/2018-03-13-groundup-how-cape-town-more-than-halved-its-water-usage/"
+    ],
+    [
+     "Pressreader (Cape Argus) – desalination plants on track",
+     "https://www.pressreader.com/south-africa/cape-argus/20180208/281586651050926"
+    ],
+    [
+     "SIWI – How Cape Town saved itself from Day Zero",
+     "https://siwi.org/news/how-cape-town-saved-itself-from-day-zero"
+    ],
+    [
+     "npj Climate & Atmos. Sci. – Day Zero drought and Hadley cell expansion",
+     "https://www.nature.com/articles/s41612-019-0084-6"
+    ],
+    [
+     "WWF – Cape Town: Avoiding Day Zero",
+     "https://www.wwf.org.co/en/?343091%2FCape-Town-Avoiding-Day-Zero="
+    ],
+    [
+     "Business Insider – Day Zero postponements",
+     "https://businessinsider.nl/cape-town-again-pushes-back-day-zero-when-it-runs-out-of-water-2018-2"
+    ]
+   ],
+   "links": "Links: 3.2.2 effects of climate change (uneven impacts) · 2.1.2 drainage basin water balance · 3.1.1 cities' demand on natural environments."
   },
   {
    "slot": "3",
    "heading": "1.1.1 Understanding SD — Challenges (measuring progress)",
    "case": "Nigeria: 20 years without a census (2006–2026)",
    "syllabus": "The difficulty of measuring progress towards sustainable development using quantitative indicators due to the lack of capacity of some countries to collect data.",
-   "facts": [["Place", "Nigeria (36 states)"], ["Period", "Last census 2006; 2023 census postponed; GDP rebased July 2025"], ["Scale", "Population estimates for 2026 range from 238 to 243 million, a spread of up to 5 million people"], ["Key actors", "National Population Commission (NPC), National Bureau of Statistics (NBS), the President, UN agencies, World Bank"]],
+   "facts": [
+    [
+     "Place",
+     "Nigeria (36 states)"
+    ],
+    [
+     "Period",
+     "Last census 2006; 2023 census postponed; GDP rebased July 2025"
+    ],
+    [
+     "Scale",
+     "Population estimates for 2026 range from 238 to 243 million, a spread of up to 5 million people"
+    ],
+    [
+     "Key actors",
+     "National Population Commission (NPC), National Bureau of Statistics (NBS), the President, UN agencies, World Bank"
+    ]
+   ],
    "image": "1_1_nigeria.png",
    "caption": "Figure 3. Nigeria's data timeline: one census in 20 years, and a GDP rebasing that changed the size of the economy overnight.",
    "sections": [
-    {"title": "What happened", "text": "Nigeria last counted its people in 2006 (140.4 million). The UN-recommended 2016 census never happened. A 2023 census was set for 29 March, moved to 3 May, then postponed indefinitely; the NPC had put its cost at ₦546.72 billion. In July 2026 the NPC said the President must set the date, and it cannot fall in an election year (2027)."},
-    {"title": "How it shows the challenge", "bullets": [
-     "No reliable denominator: per-person SDG indicators (GDP per capita, poverty rate, school enrolment) all divide by population. For 2021 the UN gave 211 million and the World Bank 213 million.",
-     "Economic data shifts too: in July 2025 the NBS moved GDP's base year from 2010 to 2019. 2024 GDP became ₦372.8 trillion, a 41.7% upward revision, mainly from informal and digital activity not counted before. Ratios such as debt-to-GDP changed overnight with no change in real output.",
-     "Capacity is political as well as technical: census figures affect how oil revenue and political seats are shared among the 36 states, so the count is sensitive and keeps slipping."
-    ]},
-    {"title": "Exam angle", "bullets": [
-     "Lack of capacity covers money, skills and political will. Nigeria had most of a digital census ready but no date.",
-     "Evaluation: capacity is uneven, not absent. The NBS rebasing used a detailed table of 46 industries and 217 products, so some data are improving while the basic population count is not."
-    ]}
+    {
+     "title": "What happened",
+     "text": "Nigeria last counted its people in 2006 (140.4 million). The UN-recommended 2016 census never happened. A 2023 census was set for 29 March, moved to 3 May, then postponed indefinitely; the NPC had put its cost at ₦546.72 billion. In July 2026 the NPC said the President must set the date, and it cannot fall in an election year (2027)."
+    },
+    {
+     "title": "How it shows the challenge",
+     "bullets": [
+      "No reliable denominator: per-person SDG indicators (GDP per capita, poverty rate, school enrolment) all divide by population. For 2021 the UN gave 211 million and the World Bank 213 million.",
+      "Economic data shifts too: in July 2025 the NBS moved GDP's base year from 2010 to 2019. 2024 GDP became ₦372.8 trillion, a 41.7% upward revision, mainly from informal and digital activity not counted before. Ratios such as debt-to-GDP changed overnight with no change in real output.",
+      "Capacity is political as well as technical: census figures affect how oil revenue and political seats are shared among the 36 states, so the count is sensitive and keeps slipping."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Lack of capacity covers money, skills and political will. Nigeria had most of a digital census ready but no date.",
+      "Evaluation: capacity is uneven, not absent. The NBS rebasing used a detailed table of 46 industries and 217 products, so some data are improving while the basic population count is not."
+     ]
+    }
    ],
    "sources": [
-    ["allAfrica – Nigeria hits 20 years without census (Jun 2026)", "https://allafrica.com/stories/202606300083.html"],
-    ["Vanguard – NPC: date set by President, not in election year (Jul 2026)", "https://www.vanguardngr.com/2026/07/nigeria-cannot-plan-for-population-it-does-not-count-says-npc/"],
-    ["ICIR – census postponement and data accuracy", "https://www.icirnigeria.org/how-census-postponement-may-stall-accuracy-in-demographic-data/"],
-    ["Daily Maverick – census delayed to May, first in 17 years", "https://www.dailymaverick.co.za/article/2023-03-16-nigeria-delays-census-to-may-its-first-in-17-years/"],
-    ["Zikoko – UN vs World Bank population estimates", "https://www.zikoko.com/?p=310590"],
-    ["Africa Check – no confirmed census date", "https://africacheck.org/fact-checks/meta-programme-fact-checks/no-confirmation-nigerias-long-awaited-census-will-take-place"],
-    ["Bloomberg – GDP rises to ₦372.8 trillion after rebasing", "https://www.bloomberg.com/news/articles/2025-07-21/nigeria-gdp-rises-to-372-8-trillion-naira-in-2024-after-rebasing"],
-    ["Channels TV – GDP rebased, 41.7% revision", "https://channelstv.com/2025/07/21/just-in-nigerias-gross-domestic-product-rebased-to-%E2%82%A6205tn/"],
-    ["Techeconomy – what to know about NBS rebasing (46 industries, 217 products)", "https://techeconomy.ng/what-you-need-to-know-about-nigerian-bureau-of-statistics-gdp-rebasing/"]
+    [
+     "allAfrica – Nigeria hits 20 years without census (Jun 2026)",
+     "https://allafrica.com/stories/202606300083.html"
+    ],
+    [
+     "Vanguard – NPC: date set by President, not in election year (Jul 2026)",
+     "https://www.vanguardngr.com/2026/07/nigeria-cannot-plan-for-population-it-does-not-count-says-npc/"
+    ],
+    [
+     "ICIR – census postponement and data accuracy",
+     "https://www.icirnigeria.org/how-census-postponement-may-stall-accuracy-in-demographic-data/"
+    ],
+    [
+     "Daily Maverick – census delayed to May, first in 17 years",
+     "https://www.dailymaverick.co.za/article/2023-03-16-nigeria-delays-census-to-may-its-first-in-17-years/"
+    ],
+    [
+     "Zikoko – UN vs World Bank population estimates",
+     "https://www.zikoko.com/?p=310590"
+    ],
+    [
+     "Africa Check – no confirmed census date",
+     "https://africacheck.org/fact-checks/meta-programme-fact-checks/no-confirmation-nigerias-long-awaited-census-will-take-place"
+    ],
+    [
+     "Bloomberg – GDP rises to ₦372.8 trillion after rebasing",
+     "https://www.bloomberg.com/news/articles/2025-07-21/nigeria-gdp-rises-to-372-8-trillion-naira-in-2024-after-rebasing"
+    ],
+    [
+     "Channels TV – GDP rebased, 41.7% revision",
+     "https://channelstv.com/2025/07/21/just-in-nigerias-gross-domestic-product-rebased-to-%E2%82%A6205tn/"
+    ],
+    [
+     "Techeconomy – what to know about NBS rebasing (46 industries, 217 products)",
+     "https://techeconomy.ng/what-you-need-to-know-about-nigerian-bureau-of-statistics-gdp-rebasing/"
+    ]
+   ],
+   "links": "Links: 3.1.1 difficulties in measuring SUD with indicators · 1.2.1 variations in levels of development."
+  },
+  {
+   "slot": "4",
+   "heading": "1.1.1 Understanding SD — Challenges (economic and political)",
+   "case": "Sri Lanka's 2022 economic and political crisis",
+   "syllabus": "Challenges limiting the progress towards sustainable development: economic challenges and political challenges.",
+   "facts": [
+    [
+     "Place",
+     "Sri Lanka"
+    ],
+    [
+     "Period",
+     "Tax cuts late 2019; fertiliser ban 2021; debt default and mass protests 2022"
+    ],
+    [
+     "Scale",
+     "Poverty rose from 13.1% (2021) to 25.0% (2022), about 2.5 million more people in poverty"
+    ],
+    [
+     "Key actors",
+     "President and government, Central Bank, farmers, protest movement, IMF, credit-rating agencies"
+    ]
+   ],
+   "image": "1_1_sri_lanka.png",
+   "caption": "Figure 4. Share of Sri Lankans below the US$3.65 a day poverty line (World Bank).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Tax cuts in late 2019 cost about US$1.4 billion a year, and rating agencies downgraded Sri Lanka from 2020, locking it out of global markets. Foreign reserves fell from US$7.5 billion (2019) to US$3.1 billion (end-2021), under two months of imports. In 2022 the country defaulted on about US$51 billion of foreign debt. Protests from 31 March ended with crowds storming the president's residence on 9 July, and he resigned."
+    },
+    {
+     "title": "How it shows the challenges",
+     "bullets": [
+      "Economic: with no dollars to pay for fuel, food and medicine imports, prices soared. Inflation hit a record 14% in December 2021 and food inflation 21.5%. Debt payments left little to spend on schools, health or the environment.",
+      "Political: decisions were made top-down. The April 2021 ban on chemical fertiliser imports was lifted in November 2021, but 85% of farmers had already lost crops and rice output fell by about 20%.",
+      "Social progress went backwards: poverty roughly doubled in one year and was still 25.9% in 2023."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The two challenges feed each other: political choices caused the economic crisis, and the crisis then brought down the government.",
+      "Evaluation: an 'environmental' policy (organic-only farming) harmed the economic and social dimensions because it was rushed, which also links to trade-offs (slot 1)."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.1 variations in development · 1.2.3 multilateral institutions in a debt crisis · 1.1.2 Boserup (technology such as fertiliser and the food supply).",
+   "sources": [
+    [
+     "Al Jazeera – Sri Lanka crisis: how did we get here",
+     "https://www.aljazeera.com/news/2022/7/10/sri-lanka-protests-how-did-we-get-here-and-what-comes-next"
+    ],
+    [
+     "Euronews – Sri Lanka crisis factors (tax cuts, downgrades)",
+     "https://www.euronews.com/2022/07/11/us-sri-lanka-crisis-factors"
+    ],
+    [
+     "Dawn – How Sri Lanka spiralled into crisis",
+     "https://www.dawn.com/news/1699179/explainer-how-sri-lanka-spiralled-into-crisis"
+    ],
+    [
+     "Oman Observer – record 14% inflation, reserves US$3.1 bn",
+     "https://www.omanobserver.om/ampArticle/1113050"
+    ],
+    [
+     "Al Jazeera – food crisis, fertiliser ban and rice output",
+     "https://www.aljazeera.com/amp/news/2022/5/20/we-are-going-to-die-food-crisis-worsens-misery-of-sri-lankans"
+    ],
+    [
+     "Newsfirst – World Bank: poverty doubled to 25%",
+     "https://english.newsfirst.lk/2023/5/7/sri-lanka-s-poverty-rate-has-doubled-world-bank"
+    ],
+    [
+     "Ada Derana – World Bank: 25.9% poverty in 2023",
+     "https://adaderana.lk/news.php?nid=98373"
+    ]
+   ]
+  },
+  {
+   "slot": "5",
+   "heading": "1.1.2 Environment and Resources — Factors (demand and technology)",
+   "case": "Lithium in the 'Lithium Triangle' (2015–2025)",
+   "syllabus": "Variations over time and space of what is considered a provisioning service due to demand for the provisioning service and technology.",
+   "facts": [
+    [
+     "Place",
+     "Argentina, Bolivia and Chile (salt flats such as the Salar de Atacama)"
+    ],
+    [
+     "Period",
+     "EV battery boom 2015–2022; price crash 2023"
+    ],
+    [
+     "Scale",
+     "64 million tonnes of identified lithium, out of about 150 million tonnes worldwide (USGS 2026)"
+    ],
+    [
+     "Key actors",
+     "Carmakers and battery makers, mining firms (e.g. SQM, Albemarle), national governments, Likan Antay communities"
+    ]
+   ],
+   "image": "1_1_lithium.png",
+   "caption": "Figure 5. Lithium resources vs reserves in the Lithium Triangle (USGS 2026 estimates).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Lithium was a minor industrial metal until lithium-ion batteries for electric vehicles (EVs) took off after 2015. In China its price rose from 87,000 yuan a tonne in July 2021 to about 600,000 yuan in November 2022, around 14 times the June 2020 level. It then fell about 71.5% from the peak in 2023, after China cut EV subsidies and supply grew."
+    },
+    {
+     "title": "How it shows the factors",
+     "bullets": [
+      "Demand (over time): the same brine under the salt flats became 'white gold' only once EV demand rose. Its value swung up and down within three years as demand changed.",
+      "Technology (what can be used): batteries created the demand, and extraction methods decide what can be supplied. Brine is pumped into ponds and left to evaporate for about 18 months.",
+      "Space: Chile has 9.2 million tonnes of reserves and Argentina 4.4 million tonnes. Bolivia has 23 million tonnes of resources but no recorded reserves, because none of them can yet be extracted commercially."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A provisioning service is defined by human demand and technology, not by nature alone. Use this case with the reserves classification (proven, conditional, hypothetical).",
+      "Evaluation: mining the brine may reduce water for the Atacama lagoons and their flamingos. A new provisioning service can cost others (link to slot 14)."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.3 extractive industries (characteristics and impacts, slots 13–14) · 1.2.2 global production networks for batteries · 3.2.3 mitigation (EVs).",
+   "sources": [
+    [
+     "EnergyTrend – lithium carbonate prices 2015–2022",
+     "https://www.energytrend.com/print/37053"
+    ],
+    [
+     "CnEVPost – lithium price fall 2023",
+     "https://cnevpost.com/2023/03/20/lithium-prices-biggest-drop-this-year/"
+    ],
+    [
+     "Kalkine Media – 2022 peak to 2023 prices",
+     "https://kalkinemedia.com/au/stocks/lithium/what-is-the-projected-lithium-price-for-2024"
+    ],
+    [
+     "FastForward – Lithium Triangle resources (USGS 2026)",
+     "https://fastforward.com.cy/economy/global-competition-new-energy-treasure-lithium-triangle"
+    ],
+    [
+     "Undark – Chile's debate over lithium brine",
+     "https://undark.org/2020/12/21/chile-debate-over-lithium-brine/"
+    ],
+    [
+     "Wikipedia – Salar de Atacama (Likan Antay, lagoons)",
+     "https://en.wikipedia.org/wiki/Salar_de_Atacama"
+    ]
+   ]
+  },
+  {
+   "slot": "6",
+   "heading": "1.1.2 Environment and Resources — Impacts (human activities)",
+   "case": "Indonesia's 2015 forest and peat fires",
+   "syllabus": "Human activities which can compromise the ability of the environment to provide ecosystem services: destruction of habitats, pollution of natural environment.",
+   "facts": [
+    [
+     "Place",
+     "Sumatra and Kalimantan (Borneo), Indonesia; haze over Malaysia and Singapore"
+    ],
+    [
+     "Period",
+     "June–October 2015"
+    ],
+    [
+     "Scale",
+     "2.6 million hectares burned, about 35 times Singapore's land area"
+    ],
+    [
+     "Key actors",
+     "Palm oil and pulp firms, smallholders, Indonesian government, neighbouring states"
+    ]
+   ],
+   "image": "1_1_indonesia_fires.png",
+   "caption": "Figure 6. The 2015 fires in four numbers (World Bank; Harvard study; legal study of emissions).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Fires lit to clear land burned through forest and drained peat swamps in a very dry 2015 season. About a third were peatland fires clearing land for palm oil. The haze pushed Singapore's PSI into the 'very unhealthy' and 'hazardous' ranges on close to 50 days."
+    },
+    {
+     "title": "How it shows the impacts",
+     "bullets": [
+      "Regulating services: burning peat released close to 1 gigatonne of greenhouse gases. On 26 days, Indonesia's fire emissions were higher than the whole US economy's daily average.",
+      "Provisioning and cultural services: the World Bank put the cost at US$16.1 billion (1.9% of GDP), including about US$4.8 billion in farm losses. Schools closed and tourism and transport were disrupted.",
+      "Human health: a Harvard study linked the haze to more than 100,000 premature deaths in Indonesia, Malaysia and Singapore."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Habitat destruction and pollution compound each other: draining peat to plant crops makes it dry enough to burn.",
+      "Evaluation: those who gain from the cleared land are not those who lose clean air, so the costs are transboundary and uneven."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.1 trade-offs (palm oil growth vs the environment) · 3.2.1 human influence on the carbon cycle · 1.2.3 role of firms and the state.",
+   "sources": [
+    [
+     "BenarNews – fires cost US$16.1 bn (World Bank)",
+     "https://www.benarnews.org/english/news/indonesian/indonesia-fires-12152015170230.html"
+    ],
+    [
+     "World Bank – The Cost of Fire (knowledge note)",
+     "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
+    ],
+    [
+     "Eco-Business – can Indonesia avoid a repeat of 2015 (100,000 deaths)",
+     "https://www.eco-business.com/news/as-fires-burn-can-indonesia-avoid-repeat-of-2015-haze-crisis/"
+    ],
+    [
+     "World Bank blog – peat fires and emissions",
+     "https://blogs.worldbank.org/en/voices/seeing-impact-forest-fires-south-sumatra-view-field"
+    ],
+    [
+     "SMU – legal study: nearly 1 Gt of GHGs; PSI days",
+     "https://ink.library.smu.edu.sg/sol_research/2139"
+    ]
+   ]
+  },
+  {
+   "slot": "7",
+   "heading": "1.1.2 Environment and Resources — Impacts (regenerative capacity exceeded)",
+   "case": "West Africa's small-fish stocks (Senegal, Mauritania)",
+   "syllabus": "The impact on supply of renewable resources when their regenerative capacity is exceeded.",
+   "facts": [
+    [
+     "Place",
+     "Coast of Mauritania, Senegal and The Gambia"
+    ],
+    [
+     "Period",
+     "2017–2025"
+    ],
+    [
+     "Scale",
+     "Over 500,000 tonnes of small fish a year turned into fishmeal for markets outside Africa"
+    ],
+    [
+     "Key actors",
+     "Foreign trawler fleets (mainly Spanish and Chinese), fishmeal factories, local canoe fishers, governments"
+    ]
+   ],
+   "image": "1_1_senegal.png",
+   "caption": "Figure 7. Less fish for Senegalese diets, more people leaving by sea (EJF 2025 report).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Scientists have rated round and flat sardinella as overexploited since 2007. A 2017 survey found the lowest round sardinella stock in north-west Africa since surveys began in 1995. Fishmeal output grew tenfold in a decade. Mauritania pledged in 2017 to phase out fishmeal factories by 2020, but its 25 foreign-owned factories tripled output instead."
+    },
+    {
+     "title": "How it shows the impact on supply",
+     "bullets": [
+      "Catches exceed what stocks can replace: in 2025 the EJF judged 57% of Senegal's fish stocks to be collapsing. 43.7% of licensed vessels are foreign-controlled.",
+      "Less food: fish eaten per person fell from 29 kg to 17.8 kg a year, in a country where fish gives 70% of the animal protein people eat.",
+      "Lost jobs push people to move: arrivals in the Canary Islands rose from about 400 (2017) to over 46,000 (2024), and Senegalese are among the top three nationalities."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A renewable resource behaves like a non-renewable one once harvesting outpaces regeneration.",
+      "Evaluation: the shortfall is uneven. Foreign fleets and feed buyers still gain while local fishers and consumers lose, which links to the 'unevenness in access' critique of Malthus and Boserup (slot 8)."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.1 labour flows (migration) · 1.2.2 global production networks (fishmeal for overseas fish farms) · 1.1.1 social inclusion.",
+   "sources": [
+    [
+     "CFFA – round sardinella further declining (2017 survey)",
+     "https://www.cffacape.org/publications-blog/2018/10/15/2018-10-15-round-sardinella-key-for-food-security-in-west-africa-is-further-declining"
+    ],
+    [
+     "CFFA – Mauritania: sardinella overexploited since 2007",
+     "https://www.cffacape.org/s/220118-Series-Mauritania-3.pdf"
+    ],
+    [
+     "Africanews – Greenpeace on fishmeal (tenfold, 500,000 t)",
+     "https://www.africanews.com/amp/2021/06/01/greenpeace-accuses-europe-asia-of-over-straining-west-africa-s-fisheries/"
+    ],
+    [
+     "ADF – fishmeal industry depletes West African waters",
+     "https://adf-magazine.com/2021/06/report-fishmeal-industry-depletes-west-african-waters/"
+    ],
+    [
+     "Yale e360 – foreign trawlers drive migration (EJF)",
+     "https://e360.yale.edu/digest/overfishing-senegal-migration"
+    ],
+    [
+     "Africanews – Senegal's fishing crisis (2025)",
+     "https://www.africanews.com/2025/05/14/senegals-fishing-crisis-overfishing-migration-survival/"
+    ]
+   ]
+  },
+  {
+   "slot": "8",
+   "heading": "1.1.2 Environment and Resources — Evaluation (Malthus vs Boserup)",
+   "case": "Bangladesh: rice, groundwater and nutrition (2015–2025)",
+   "syllabus": "Malthus' and Boserup's views; their limitations, including degradation of the resource base and unevenness in access to resources.",
+   "facts": [
+    [
+     "Place",
+     "Bangladesh; Barind Tract (north-west)"
+    ],
+    [
+     "Period",
+     "2015–2025"
+    ],
+    [
+     "Scale",
+     "169.8 million people (2022 census), up 19.4% since 2011"
+    ],
+    [
+     "Key actors",
+     "Bangladesh Rice Research Institute (BRRI), farmers, Barind irrigation authority (BMDA), government"
+    ]
+   ],
+   "image": "1_1_bangladesh.png",
+   "caption": "Figure 8. Rice output grew, but the water under the rice fields fell (BRRI, Bangladesh Water Development Board).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Bangladesh's population keeps growing on a small, crowded delta. Rice output rose from about 35 million tonnes (2015–16) to about 39 million tonnes (2023), making it the world's third-largest producer. Dry-season (boro) rice is watered from wells, and in December 2025 the government named 25 sub-districts water-crisis-prone and asked farmers to grow less boro."
+    },
+    {
+     "title": "How it tests the two views",
+     "bullets": [
+      "For Boserup: technology expanded the food base. BRRI dhan67 averages 4.47 t/ha even in salty soil, and drought-tolerant BRRI dhan56 raised yields by about 18% at one test site. The country is close to self-sufficient in rice.",
+      "Against Boserup (resource base degraded): in Nachole the water table fell from 3.5 m (1980) to 25 m (2017). Pumping exceeds recharge in most districts, so the method that raised output now limits it.",
+      "Against both (uneven access): child stunting fell from 31% to 24% (2017–2022), but 1 in 4 children are still stunted despite enough rice nationally."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Boserup fits the past decade; Malthus' limit shows up in the falling groundwater.",
+      "Evaluation: the answer depends on the time-scale and on who gets the food. The government eased its own boro cut to protect food security, showing the trade-off."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.2 regenerative capacity exceeded (groundwater, slot 7) · 2.1.2 groundwater stores and flows · 3.2.2 effects of climate change (salinity).",
+   "sources": [
+    [
+     "Wikipedia – Rice production in Bangladesh (39.1 Mt, 2023)",
+     "https://en.wikipedia.org/wiki/Rice_production_in_Bangladesh"
+    ],
+    [
+     "Kyoto University – rice output 35 Mt (2015–16)",
+     "https://pas.cseas.kyoto-u.ac.jp/activity/HP_CSAT/CSAT/20180129_Agricultural Modernization and Sustainability of Rice Production in Banglades; Technological Issues.pdf"
+    ],
+    [
+     "Bangladesh Rice Journal – BRRI dhan67 salinity tolerance",
+     "https://www.banglajol.info/index.php/BRJ/article/view/90747"
+    ],
+    [
+     "Bangladesh Rice Journal – drought-tolerant varieties",
+     "https://www.banglajol.info/index.php/BRJ/article/view/53450"
+    ],
+    [
+     "Dialogue Earth – Nachole water table 3.5 m to 25 m",
+     "https://dialogue.earth/en/water/bangladesh-to-declare-water-emergency-in-northwest/"
+    ],
+    [
+     "Mongabay – food security vs groundwater (Dec 2025)",
+     "https://news.mongabay.com/2026/04/bangladesh-struggles-to-choose-between-food-security-stable-groundwater-table/"
+    ],
+    [
+     "TBS News – stunting fell to 24% (BDHS 2022)",
+     "https://www.tbsnews.net/node/615022"
+    ],
+    [
+     "Financial Express – population 169.8 million",
+     "https://thefinancialexpress.com.bd/national/bangladesh-population-16982-million"
+    ]
+   ]
+  },
+  {
+   "slot": "9",
+   "heading": "1.1.3 Managing Resources — Trade-offs (solar power)",
+   "case": "Vietnam's solar boom (2019–2023)",
+   "syllabus": "Potential of solar power to reduce dependence on fossil fuels; limitations in providing energy security; economic, environmental and social trade-offs.",
+   "facts": [
+    [
+     "Place",
+     "Vietnam, especially Ninh Thuan and other south-central provinces"
+    ],
+    [
+     "Period",
+     "2019–2023"
+    ],
+    [
+     "Scale",
+     "Installed solar rose from 134 MW (end-2018) to 16.5 GW (end-2020)"
+    ],
+    [
+     "Key actors",
+     "Government (Ministry of Industry and Trade), state utility EVN, private investors, households with rooftop panels"
+    ]
+   ],
+   "image": "1_1_vietnam_solar.png",
+   "caption": "Figure 9. Vietnam's installed solar capacity after the feed-in tariff (Wood Mackenzie; ISEAS).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "In 2017 Vietnam offered a feed-in tariff of 9.35 US cents per kWh for 20 years to solar farms running before 30 June 2019. Investors rushed in: over 4 GW was built in the first half of 2019, and 16.5 GW by end-2020. Rooftop solar also grew, from 378 MW to 926 MW in 2020."
+    },
+    {
+     "title": "How it shows the potential, limits and trade-offs",
+     "bullets": [
+      "Potential: within two years Vietnam became Southeast Asia's solar leader, showing how fast solar can replace fossil-fuel growth.",
+      "Limitations: the grid could not carry the power. Farms in Ninh Thuan were curtailed and some plants ran below capacity because transmission lines lagged, so solar did not yet give secure supply.",
+      "Economic trade-off: the generous tariff was costly for EVN. Projects that missed the deadline had to accept prices 20–30% lower, and in 2023 some offered to sell at 50% of the ceiling price just to connect."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Solar's potential depends on grids, storage and policy as much as on sunshine.",
+      "Evaluation: the policy succeeded on speed but caused waste through curtailment and left investors facing losses."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 mitigation and the state as a key actor · 1.2.3 influence of the state in the economy.",
+   "sources": [
+    [
+     "PV Tech – FiT rush, 5.5 GW forecast for 2019",
+     "https://www.pv-tech.org/news/fit-rush-powered-5.5gw-of-pv-installations-in-vietnam-in-2019"
+    ],
+    [
+     "ISEAS – 16,500 MW at end-2020",
+     "https://www.iseas.edu.sg/?p=28073"
+    ],
+    [
+     "Policy Forum – next steps for Vietnam's solar (curtailment)",
+     "https://www.policyforum.net/the-next-steps-for-vietnams-booming-solar-sector/"
+    ],
+    [
+     "Conventus Law – FiTs successful but challenges (2019)",
+     "https://conventuslaw.com/report/vietnam-fits-have-been-successful-but-challenges/"
+    ],
+    [
+     "Tuoi Tre – rooftop tariff cut to ease grid",
+     "https://news.tuoitre.vn/print/vietnam-to-cut-rooftop-solar-feed-in-tariff-in-bid-to-ease-grid-pressure-10359845.htm"
+    ],
+    [
+     "The Investor – transitional projects and EVN (2023)",
+     "https://theinvestor.vn/nearly-1000-mw-of-renewable-power-hooked-up-to-national-grid-d6197.html"
+    ]
+   ]
+  },
+  {
+   "slot": "10",
+   "heading": "1.1.3 Managing Resources — Trade-offs (hydropower)",
+   "case": "Laos, 'battery of Southeast Asia' (2018–2025)",
+   "syllabus": "Potential of hydropower to reduce dependence on fossil fuels; limitations in providing energy security; economic, environmental and social trade-offs.",
+   "facts": [
+    [
+     "Place",
+     "Laos (Mekong and its tributaries)"
+    ],
+    [
+     "Period",
+     "2018–2025"
+    ],
+    [
+     "Scale",
+     "Exports power to Thailand, Vietnam, Cambodia, Myanmar, Malaysia and Singapore"
+    ],
+    [
+     "Key actors",
+     "Lao government, state utility EDL, Chinese and Thai developers and lenders, dam-side villages"
+    ]
+   ],
+   "image": "1_1_laos.png",
+   "caption": "Figure 10. Laos's unused electricity and its debt (World Bank).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Laos built many dams to earn money by exporting power. The US$3.8 billion Xayaburi dam on the Mekong main stream opened in late 2019 and sells to Thailand. In July 2018 a dam at the Xe Pian–Xe Namnoy project collapsed, killing at least 35 (later estimates 71) and displacing about 6,000 people."
+    },
+    {
+     "title": "How it shows the trade-offs",
+     "bullets": [
+      "Potential: low-carbon power and export earnings. Neighbours such as Singapore import Lao hydropower.",
+      "Economic trade-off: public debt reached 88% of GDP in 2021, and energy made up over 30% of government debt. EDL owed about US$5.4 billion in 2023. The electricity surplus doubled to 16,900 GWh (2025), yet Lao households still pay high rates.",
+      "Environmental and social trade-offs: main-stream dams disturb fish migration and seasonal floods downstream. A year after the 2018 collapse, thousands of survivors were still living in camps."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Hydropower is renewable but not cost-free: the benefits are exported while the risks stay local.",
+      "Evaluation: energy security for buyers can mean debt insecurity for the seller."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.3 transboundary water conflict (Mekong, slot 11) · 2.2.3 deltas and sediment · 1.2.3 influence of states and lenders.",
+   "sources": [
+    [
+     "World Politics Review – Laos bet big on China-backed dams",
+     "https://www.worldpoliticsreview.com/laos-china-dams-debt/"
+    ],
+    [
+     "RFA – citizens say rates remain too high; debt",
+     "https://www.rfa.org/english/news/laos/electricity-rates-03152023094256.html"
+    ],
+    [
+     "Water Power Magazine – exports surge (surplus figures)",
+     "https://www.waterpowermagazine.com/analysis/hydropower-anchors-laos-power-expansion-as-exports-surge-and-diversification-gathers-pace/"
+    ],
+    [
+     "SEAsia – more electricity than it can sell (2026)",
+     "https://seasia.co/2026/08/27/laos-has-more-electricity-than-it-can-sell-and-more-debt-than-it-can-pay"
+    ],
+    [
+     "Vietnam News – hundreds missing after dam collapse",
+     "https://vietnamnews.vn/world/462428/hundreds-missing-in-laos-after-hydropower-dam-collapse.html"
+    ],
+    [
+     "The ASEAN Post – survivors homeless a year on",
+     "https://theaseanpost.com/node/4829"
+    ],
+    [
+     "VOA – groups urge Laos to rethink hydropower",
+     "https://learningenglish.voanews.com/a/groups-urge-laos-to-rethink-huge-hydropower-projects/4517798.html"
+    ]
+   ]
+  },
+  {
+   "slot": "11",
+   "heading": "1.1.3 Managing Resources — Impacts (transboundary water conflict)",
+   "case": "Mekong 2019 drought and China's upstream dams",
+   "syllabus": "Transboundary nature of rivers shared by multiple countries; conflicts due to negative impacts of the actions of one country on another.",
+   "facts": [
+    [
+     "Place",
+     "Mekong: China (Lancang) → Myanmar, Laos, Thailand → Cambodia → Vietnam"
+    ],
+    [
+     "Period",
+     "2019 drought; study published April 2020"
+    ],
+    [
+     "Scale",
+     "For 5 months in 2019 the usual monsoon rise in river level at Chiang Saen, Thailand did not happen"
+    ],
+    [
+     "Key actors",
+     "China, lower Mekong states, Mekong River Commission (MRC), researchers (Eyes on Earth, Stimson Center)"
+    ]
+   ],
+   "image": "1_1_mekong.png",
+   "caption": "Figure 11. Upstream and downstream on the Mekong in 2019 (schematic, not to scale).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "In 2019 the lower Mekong had a severe wet-season drought. A 2020 study by Eyes on Earth, published by the Stimson Center, found that China's dams held back nearly all of the upper Mekong's wet-season flow. For five months they stopped the monsoon rise in river level at Chiang Saen, Thailand."
+    },
+    {
+     "title": "How it shows the impact and conflict",
+     "bullets": [
+      "One country's action, another's loss: downstream farmers and fishers depend on the yearly flood pulse that fills Cambodia's Tonle Sap lake and waters Vietnam's delta.",
+      "Contested evidence: the MRC Secretariat said the study should have used daily, not monthly, data and called for peer review. China called it politically motivated. A corrected model still supported the core finding.",
+      "Mistrust: downstream states cannot check upstream releases themselves, so data sharing becomes part of the dispute."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Upstream states hold the power, and the river's transboundary nature turns local dam operations into international disputes.",
+      "Evaluation: drought and dams both played a part, so how much the dams caused is itself argued over."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.3 hydropower trade-offs (Laos, slot 10) · 2.1.2 human factors in drainage basin flows · 2.2.3 deltas.",
+   "sources": [
+    [
+     "Stimson – New evidence: how China turned off the Mekong's tap",
+     "https://www.stimson.org/2020/new-evidence-how-china-turned-off-the-mekong-tap/"
+    ],
+    [
+     "Al Jazeera – China's dams exacerbated extreme drought",
+     "https://www.aljazeera.com/news/2020/04/chinas-dams-exacerbated-extreme-drought-mekong-study-200424231003795.html"
+    ],
+    [
+     "Lowy Institute – Chinese dams and the Mekong drought",
+     "https://www.lowyinstitute.org/the-interpreter/chinese-dams-mekong-drought"
+    ],
+    [
+     "Khaosod English – US study insists China's dams to blame",
+     "https://www.khaosodenglish.com/politics/2020/05/22/us-study-insists-chinas-dams-to-blame-for-mekong-drought/"
+    ]
+   ]
+  },
+  {
+   "slot": "12",
+   "outcome": "Succeeded",
+   "heading": "1.1.3 Managing Resources — Strategies (transboundary water): SUCCEEDED",
+   "case": "Central Asia: from dam dispute to shared dams (2018–2026)",
+   "syllabus": "Varying success of strategies to manage conflicts over transboundary water resources.",
+   "facts": [
+    [
+     "Place",
+     "Syr Darya and Amu Darya basins: Tajikistan, Kyrgyzstan (upstream); Uzbekistan, Kazakhstan (downstream)"
+    ],
+    [
+     "Period",
+     "2018–2026"
+    ],
+    [
+     "Scale",
+     "Kambarata-1: 1,860 MW, dam about 256 m high, 5–6 billion kWh a year"
+    ],
+    [
+     "Key actors",
+     "Presidents and energy ministries of the four states, World Bank"
+    ]
+   ],
+   "image": "1_1_central_asia.png",
+   "caption": "Figure 12a. Steps from dispute to joint projects.",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Upstream states want to store water for winter hydropower; downstream states need it in summer for irrigated cotton. Under President Karimov, Uzbekistan fiercely opposed Tajikistan's Rogun dam. After he died in 2016, President Mirziyoyev visited Dushanbe in March 2018, dropped the objection and agreed to buy more Tajik power."
+    },
+    {
+     "title": "Why the strategy worked",
+     "bullets": [
+      "Diplomacy first: in July 2018 Uzbekistan's foreign minister said 'go ahead and build it' as long as guarantees under the signed conventions were kept.",
+      "Shared ownership: in June 2024 Kyrgyzstan, Kazakhstan and Uzbekistan agreed to build Kambarata-1 together, with a company owned 34/33/33. Downstream states now have a say over how water is released.",
+      "A neutral broker: in January 2025 the three states and the World Bank agreed the project's key principles and stages."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Joint ownership turns a zero-sum dispute into shared gains (power for upstream, assured flows for downstream).",
+      "Evaluation: success is partial. In April 2026 talks on the binding intergovernmental agreement were only in their first round."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.3 hydropower trade-offs (slot 10) · 1.2.3 multilateral institutions (World Bank).",
+   "sources": [
+    [
+     "Interfax – memorandum on Kambarata-1, stakes",
+     "https://interfax.com/newsroom/top-stories/95527/"
+    ],
+    [
+     "Interfax – Jan 2025 key principles agreed",
+     "https://www.interfax.com/newsroom/top-stories/109441/"
+    ],
+    [
+     "Times of Central Asia – US$4.2 bn Kambarata-1 project",
+     "https://timesca.com/kyrgyzstan-uzbekistan-kazakhstan-move-forward-with-4-2-billion-kambarata-1-hydropower-project/"
+    ],
+    [
+     "World Bank – Kambarata-1 FAQs",
+     "https://www.worldbank.org/en/programs/kambarata-1-hpp/faqs"
+    ],
+    [
+     "Defense Post – Uzbekistan: no more Rogun dam problems (2018)",
+     "https://thedefensepost.com/2018/07/30/uzbekistan-tajikistan-no-more-rogun-dam-problems/amp/"
+    ],
+    [
+     "Times of Central Asia – steps to end dam impasse",
+     "https://timesca.com/tajikistan-uzbekistan-taking-cautious-steps-to-end-dam-impasse/"
+    ]
+   ]
+  },
+  {
+   "slot": "12",
+   "outcome": "Failed",
+   "heading": "1.1.3 Managing Resources — Strategies (transboundary water): FAILED",
+   "case": "Indus Waters Treaty held 'in abeyance' (2025–2026)",
+   "syllabus": "Varying success of strategies to manage conflicts over transboundary water resources.",
+   "facts": [
+    [
+     "Place",
+     "Indus basin: India (upstream) and Pakistan (downstream)"
+    ],
+    [
+     "Period",
+     "1960 treaty; suspended April 2025; court ruling August 2026"
+    ],
+    [
+     "Scale",
+     "Treaty in force for 65 years; the suspension could seriously restrict Pakistan's water supply"
+    ],
+    [
+     "Key actors",
+     "Governments of India and Pakistan, World Bank (treaty broker), Court of Arbitration, Neutral Expert"
+    ]
+   ],
+   "image": "1_1_indus.png",
+   "caption": "Figure 12b. From a durable treaty to a stalled one (dates in labels).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The 1960 Indus Waters Treaty, brokered by the World Bank, shares the basin's rivers between India and Pakistan. It lasted through decades of hostility. After an attack at Pahalgam killed 26 people in April 2025, India placed the treaty 'in abeyance' until Pakistan 'credibly and irrevocably' stops supporting cross-border terrorism."
+    },
+    {
+     "title": "Why the strategy failed",
+     "bullets": [
+      "Water was tied to security: India linked treaty compliance to terrorism. Pakistan called any stopping of water an 'act of war', closed its airspace and halted trade.",
+      "Too rigid to update: India also cited Pakistan's refusal to renegotiate the treaty, for example to reflect new dams and needs.",
+      "Weak enforcement: in August 2026 the Court of Arbitration ruled the treaty is still fully in force, but India rejected the court and its award."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A strategy that worked for 65 years can fail when water becomes a bargaining tool in a wider dispute.",
+      "Evaluation: legal rulings matter only if both sides accept the institution, which shows the limits of multilateral strategies."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.1 political challenges (slot 4) · 1.2.3 multilateral institutions (World Bank).",
+   "sources": [
+    [
+     "Al Jazeera – does India's treaty freeze threaten Pakistan?",
+     "https://aljazeera.com/news/2025/4/24/kashmir-attack-does-indias-indus-waters-treaty-freeze-threaten-pakistan"
+    ],
+    [
+     "Scroll – Pakistan calls suspension 'act of war'",
+     "https://scroll.in/latest/1081665/pakistan-calls-suspension-of-indus-waters-treaty-act-of-war-halts-trade-with-india"
+    ],
+    [
+     "Business Today – India: can't be expected to cooperate",
+     "https://www.businesstoday.in/amp/india/story/cant-be-expected-to-continue-to-cooperate-indian-embassy-in-us-on-suspension-of-indus-waters-treaty-after-pahalgam-attack-473544-2025-04-25"
+    ],
+    [
+     "ASIL – Court of Arbitration: treaty remains in force",
+     "https://asil.org/ilib/court-of-arbitration-finds-that-the-indus-water-treaty-remains-in-force/"
+    ],
+    [
+     "The Week – India rejects ruling, treaty in abeyance (Aug 2026)",
+     "https://www.theweek.in/news/india/2026/08/31/no-jurisdiction-india-rejects-world-bank-backed-indus-waters-ruling-says-treaty-remains-in-abeyance.amp.html"
+    ]
+   ]
+  },
+  {
+   "slot": "13",
+   "heading": "1.1.3 Managing Resources — Characteristics (extractive industries)",
+   "case": "Oyu Tolgoi copper mine, Mongolia",
+   "syllabus": "Characteristics of extractive industries: extraction of non-renewable and locationally specific resources; capital and technology intensive; dominated by large private and state-owned firms.",
+   "facts": [
+    [
+     "Place",
+     "South Gobi desert, near Khanbogd, Mongolia"
+    ],
+    [
+     "Period",
+     "Underground expansion from 2015; full output planned 2028–2036"
+    ],
+    [
+     "Scale",
+     "About 500,000 tonnes of copper a year planned, one of the world's largest copper mines"
+    ],
+    [
+     "Key actors",
+     "Rio Tinto (66%), Government of Mongolia via Erdenes (34%), herders of Khanbogd"
+    ]
+   ],
+   "image": "1_1_oyu_tolgoi.png",
+   "caption": "Figure 13. Output planned and money needed at Oyu Tolgoi (Rio Tinto, via mining press).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Rio Tinto spent over US$7 billion to take Oyu Tolgoi underground. The open pit produced 146,300 tonnes of copper in 2019, and the full mine is planned to average about 500,000 tonnes a year from 2028 to 2036. Rio Tinto and Mongolia held hard talks over the deal as costs rose."
+    },
+    {
+     "title": "How it shows the characteristics",
+     "bullets": [
+      "Non-renewable and fixed in place: the ore body is in the desert, so the mine had to bring its own water from the deep Gunii Hooloi aquifer through 28 boreholes 150–400 m deep, and it recycled 86.7% of process water in 2025.",
+      "Capital and technology intensive: the 2022 reforecast put the underground cost at US$7.06 billion, about US$1.8 billion above the 2015 estimate. Underground block caving needs specialist technology.",
+      "Large private and state firms: Rio Tinto holds 66% (after buying out Turquoise Hill) and the Mongolian state 34%."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "These features explain who has power: few firms can raise US$7 billion, so the host state depends on a TNC's capital.",
+      "Evaluation: state ownership gives Mongolia a voice, but cost overruns delayed its returns. Herders dispute the company's view that the aquifer water does not affect them."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.3 impacts and strategies of extractive industries (slots 14–15) · 1.2.2 TNCs and host economies · 1.2.3 influence of the state.",
+   "sources": [
+    [
+     "NS Energy – underground project US$7.06 bn capex",
+     "https://www.nsenergybusiness.com/news/rio-tinto-oyu-tolgoi-underground-project-7-06bn-capex/"
+    ],
+    [
+     "Mining.com – stakes high for Rio Tinto and Mongolia (66/34)",
+     "https://www.mining.com/rio-tinto-looming-talks-with-mongolia-to-decide-oyu-tolgois-fate/"
+    ],
+    [
+     "Mining Technology – underground production starts",
+     "https://www.mining-technology.com/news/rio-tinto-starts-underground-production-at-oyu-tolgoi/"
+    ],
+    [
+     "Mining Technology – Oyu Tolgoi costs",
+     "https://www.mining-technology.com/news/rio-tinto-costs-oyu-tolgoi/"
+    ],
+    [
+     "IMWA 2026 – Oyu Tolgoi water use and recycling",
+     "https://www.imwa.info/docs/imwa_2026/IMWA2026_Bazardorj_41.pdf"
+    ],
+    [
+     "IFC – Oyu Tolgoi environmental and social review",
+     "https://disclosures.ifc.org/project-detail/ESRS/29007/oyu-tolgoi-llc"
+    ],
+    [
+     "Truthout – mine endangers nomads' water",
+     "https://truthout.org/articles/massive-mongolian-mine-endangers-nomads-water-way-of-life/"
+    ]
+   ]
+  },
+  {
+   "slot": "14",
+   "heading": "1.1.3 Managing Resources — Impacts (variation between places)",
+   "case": "Oil: Guyana vs the Niger Delta, Nigeria",
+   "syllabus": "Variations in impacts of extractive industries between places: economic, environmental and social impacts.",
+   "facts": [
+    [
+     "Places",
+     "Guyana (offshore Stabroek block) and Niger Delta, Nigeria (onshore pipelines and creeks)"
+    ],
+    [
+     "Period",
+     "2015–2025"
+    ],
+    [
+     "Scale",
+     "Guyana: about 645,000 barrels a day by early 2024. Niger Delta: 4,919 recorded spills from 2015 to March 2021"
+    ],
+    [
+     "Key actors",
+     "ExxonMobil-led consortium, Shell and Renaissance (buyer of Shell's onshore arm, 2025), governments, oil thieves, delta communities"
+    ]
+   ],
+   "image": "1_1_guyana_nigeria.png",
+   "caption": "Figure 14. Same industry, different outcomes: Guyana's new output vs causes of Niger Delta spills (NOSDRA via minister).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Guyana began pumping offshore oil at the end of 2019; in 2022 its real GDP grew 62.3%, the world's fastest, and it became a high-income country in 2023. In the Niger Delta, oil has flowed for decades through ageing onshore pipelines. Shell sold its onshore subsidiary to Renaissance in March 2025."
+    },
+    {
+     "title": "How the impacts vary",
+     "bullets": [
+      "Economic: Guyana's economy tripled after oil began. In the Niger Delta, oil theft and sabotage drain income and cause most spills (3,628 of 4,919), with more than 589 spills recorded in 2024.",
+      "Environmental: Guyana's risk is a future offshore spill (the main cover is US$600 million plus a parent-company guarantee). In Bodo, two 2008 spills of about 600,000 barrels are still not cleaned up: only 7% of the oil has been removed, and a clean-up could take 50 years.",
+      "Social: in both places gains are uneven. Guyana's poverty data are thin (48.4% in 2019), and hinterland Amerindian communities are left out."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Impacts depend on the place: offshore vs onshore, new vs ageing infrastructure, and strong vs weak governance.",
+      "Evaluation: without strong institutions, Guyana could face Niger Delta-style problems later, so time is also a factor in the variation."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.1 variations in development · 1.1.1 trade-offs · 1.1.3 strategies to manage impacts (slot 15).",
+   "sources": [
+    [
+     "CNBC – Guyana could grow 100% in five years",
+     "https://www.cnbc.com/2023/09/27/worlds-fastest-growing-economy-guyana-could-grow-100percent-in-5-years.html"
+    ],
+    [
+     "EIA – Guyana country brief 2024 (output)",
+     "https://www.eia.gov/international/content/analysis/countries_long/Guyana/pdf/Guyana%202024%20CAB.pdf"
+    ],
+    [
+     "IMF – 2023 Article IV (economy tripled)",
+     "https://www.imf.org/en/News/Articles/2023/12/01/pr23417-guyana-imf-exec-board-concludes-2023-art-iv-consult"
+    ],
+    [
+     "OilNOW – court reverses unlimited guarantee order",
+     "https://oilnow.gy/featured/exxonmobil-secures-victory-as-guyana-court-reverses-unlimited-guarantee-order/"
+    ],
+    [
+     "Global Americans – poverty 48.4% (2019)",
+     "https://globalamericans.org/suriname-and-guyana-share-the-oil-wealth-please"
+    ],
+    [
+     "VON – 4,919 spills in 6 years",
+     "https://von.gov.ng/nigeria-records-4919-oil-spills-in-6-years-minister/"
+    ],
+    [
+     "Guardian Nigeria – 589 spills in 2024",
+     "https://guardian.ng/news/oil-spill-niger-delta-clean-up-may-cost-fg-150-billion-yearly/"
+    ],
+    [
+     "Amnesty – Bodo community's case (2025)",
+     "https://www.amnesty.org/en/latest/news/2025/05/nigeria-uk-historic-moment-as-community-devastated-by-shell-oil-spills-have-final-chance-for-justice/"
+    ]
+   ]
+  },
+  {
+   "slot": "15",
+   "outcome": "Succeeded",
+   "heading": "1.1.3 Managing Resources — Strategies (extractive impacts): SUCCEEDED",
+   "case": "Indonesia's nickel ore export ban (2020–)",
+   "syllabus": "Varying success of strategies to manage impacts of extractive industries on places.",
+   "facts": [
+    [
+     "Place",
+     "Indonesia (Sulawesi and Maluku nickel areas, e.g. Morowali)"
+    ],
+    [
+     "Period",
+     "Ban from 1 January 2020"
+    ],
+    [
+     "Scale",
+     "Indonesia now mines more than half of the world's nickel"
+    ],
+    [
+     "Key actors",
+     "Indonesian government, mostly Chinese-owned smelters, EV battery makers, local workers"
+    ]
+   ],
+   "image": "1_1_nickel.png",
+   "caption": "Figure 15a. Value added by nickel before and after the export ban (Indonesian government estimate).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Indonesia banned exports of raw nickel ore from 1 January 2020, two years earlier than planned, so that ore had to be processed at home ('downstreaming'). Tax holidays and cheap energy drew in smelters, mostly Chinese-owned. Nickel feeds stainless steel and EV batteries."
+    },
+    {
+     "title": "Why the strategy worked (economically)",
+     "bullets": [
+      "More value kept at home: the value added by nickel rose from US$1.4 billion (2020) to an estimated US$34.8 billion (2023).",
+      "Exports: nickel-related exports rose from about US$6 billion (2013) to nearly US$30 billion (2022), moving from ore to processed products.",
+      "Bargaining power: by controlling over half of world supply, Indonesia could set terms for foreign investors."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Success depends on the yardstick: economically yes, but the smelters are effectively subsidised and some local smelters were struggling by 2025.",
+      "Evaluation: the strategy manages economic impacts well but not environmental or social ones, so compare it with the failed case on the next page."
+     ]
+    }
+   ],
+   "links": "Links: 1.2.2 global production networks (EV batteries) · 1.2.3 influence of the state · 1.1.2 provisioning services and demand (slot 5).",
+   "sources": [
+    [
+     "AgMetalMiner – ban moved up to start of 2020",
+     "https://agmetalminer.com/2019/09/03/indonesia-moves-up-nickel-ore-export-ban-to-start-of-2020/"
+    ],
+    [
+     "Phenomenal World – exports US$6 bn to ~US$30 bn",
+     "https://phenomenalworld.org/?p=13501"
+    ],
+    [
+     "East Asia Forum – Indonesia doubles down on export bans",
+     "https://www.eastasiaforum.org/2023/12/07/indonesia-doubles-down-on-nickel-export-bans-and-downstreaming/"
+    ],
+    [
+     "GIS Reports – value added US$1.4 bn to US$34.8 bn",
+     "https://gisreportsonline.com/r/indonesia-nickel"
+    ],
+    [
+     "The Conversation – is downstreaming questionable?",
+     "https://theconversation.com/indonesias-claim-that-banning-nickel-exports-spurs-downstreaming-is-questionable-180229"
+    ],
+    [
+     "Fortune – local smelters struggle (2025)",
+     "https://dc.fortune.com/asia/2025/03/04/indonesia-nickel-exports-downstreaming-ev-battery"
+    ]
+   ]
+  },
+  {
+   "slot": "15",
+   "outcome": "Failed",
+   "heading": "1.1.3 Managing Resources — Strategies (extractive impacts): FAILED",
+   "case": "Brazil's tailings dam rules and the Brumadinho collapse (2019)",
+   "syllabus": "Varying success of strategies to manage impacts of extractive industries on places.",
+   "facts": [
+    [
+     "Place",
+     "Minas Gerais, Brazil (Mariana 2015; Brumadinho 2019)"
+    ],
+    [
+     "Period",
+     "2015–2035"
+    ],
+    [
+     "Scale",
+     "About 270 dead and nearly 12 million m³ of mine waste released at Brumadinho"
+    ],
+    [
+     "Key actors",
+     "Vale (mining firm), dam auditor TÜV SÜD, mining regulator ANM, Minas Gerais state, victims' families"
+    ]
+   ],
+   "image": "1_1_brumadinho.png",
+   "caption": "Figure 15b. Two disasters, then slow rules (dates in labels).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "In November 2015 the Mariana tailings dam failed, killing 19. In January 2019 Vale's Córrego do Feijão dam at Brumadinho, built the same 'upstream' way, collapsed: about 270 people died and nearly 12 million m³ of mine waste flowed downstream."
+    },
+    {
+     "title": "Why the strategy failed",
+     "bullets": [
+      "Reactive rules: only after Brumadinho did Brazil ban new upstream dams and order old ones closed by August 2021. The deadlines were later extended by up to four years.",
+      "Slow follow-through: Vale asked for more time to close 23 upstream dams in Minas Gerais and said full decommissioning would not come before 2035.",
+      "Compensation without voice: Vale agreed to pay 37.7 billion reais (about US$7 billion) in 2021, but civil society groups said victims were left out of the talks."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The lesson of 2015 was not acted on in time: rules that rely on firms and their auditors to check themselves failed.",
+      "Evaluation: compare with Indonesia (previous page). Strategies that manage economic impacts are easier to put in place than ones that manage environmental risk."
+     ]
+    }
+   ],
+   "links": "Links: 1.1.3 characteristics (large private firms, slot 13) · 1.2.2 TNCs and host places · 1.2.3 role of the state.",
+   "sources": [
+    [
+     "Al Jazeera – Vale reaches US$7 bn settlement",
+     "https://www.aljazeera.com/economy/2021/2/4/vale-reaches-7bn-settlement-over-deadly-dam-collapse-in-brazil"
+    ],
+    [
+     "Manufacturing.net (AP) – settlement; Mariana 2015",
+     "https://www.manufacturing.net/safety/news/21259963/brazils-vale-signs-7-billion-settlement-in-mining-disaster"
+    ],
+    [
+     "The Chemical Engineer – US$7.02 bn settlement, 270 dead",
+     "https://www.thechemicalengineer.com/news/parties-reach-us-702bn-settlement-for-fatal-brazil-dam-collapse/"
+    ],
+    [
+     "Mining Journal – Brazil bans upstream tailings dams",
+     "https://www.mining-journal.com/esg/news/1356734/brazil-bans-upstream-tailings-dams"
+    ],
+    [
+     "Mining Technology – Brazil extends dam closure deadlines (Vale: 23 dams, not before 2035)",
+     "https://www.mining-technology.com/news/brazil-extends-tailings-dams-closure/"
+    ]
    ]
   }
  ]

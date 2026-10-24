@@ -55,12 +55,14 @@ def plan_table(doc, rows):
     for c, h in zip(t.rows[0].cells, cols):
         cell_text(c, [(h, True, False)], size=8); shade(c, 'D9E2F3')
     repeat_header(t.rows[0])
+    pending = any(r[4] == 'v1' for r in rows)
     for row in rows:
         r = t.add_row(); keep_row_together(r)
         done = row[4] != 'v1'
+        shade_done = done and pending
         for c, v in zip(r.cells, row[:4] + [row[4] if done else 'To come in v1']):
             cell_text(c, [(v, False, not done and v == 'To come in v1')], size=8)
-            if done:
+            if shade_done:
                 shade(c, 'E2EFDA')
     set_widths(t, (0.8, 3.4, 2.4, 6.4, 5.0))
 
@@ -92,6 +94,8 @@ def add_case(doc, c):
             p = doc.add_paragraph(); tight(p, 0, 2); small(p, s['text'], 9.5)
         for b in s.get('bullets', []):
             p = doc.add_paragraph(style='List Bullet'); tight(p, 0, 1); small(p, b, 9.5)
+    if c.get('links'):
+        p = doc.add_paragraph(); tight(p, 4, 0); small(p, c['links'], 8.5, italic=True, colour=LINK)
     p = doc.add_paragraph(); tight(p, 4, 0); small(p, 'Sources', 8, bold=True, colour=GREY)
     for i, (label, url) in enumerate(c['sources'], 1):
         p = doc.add_paragraph(); tight(p, 0, 0)
@@ -105,7 +109,10 @@ def build(spec, outdir, version):
     doc.add_heading(spec['plan_title'], level=2)
     plan_table(doc, spec['plan'])
     p = doc.add_paragraph(); tight(p, 3, 0)
-    small(p, 'Green rows are in this version. Each case starts on a new page.', 8, italic=True, colour=GREY)
+    note = 'Each case starts on a new page. Strategy slots have a succeeded and a failed case.'
+    if any(r[4] == 'v1' for r in spec['plan']):
+        note = 'Green rows are in this version. ' + note
+    small(p, note, 8, italic=True, colour=GREY)
     for c in spec['cases']:
         add_case(doc, c)
     path = os.path.join(outdir, f"{spec['file']} {version}.docx")

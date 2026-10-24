@@ -1,8 +1,6 @@
 # Session log
 
-> **Task in progress (session 4):** build `docs/3a Case Studies – Topic 1.1 Environment and Resources v1.docx`. User approved v0.1 (2026-10-24): case choice anywhere that fits best; add a 'Links to other topics' line per case; reuse a case across slots where it fits well. Done: slots 1–3. Next: research + write slots 4–15 into `tools/data/case_studies_3a.json` (charts in `tools/case_charts.py`), build, check pages, Review Notes v1, log, push. Hourly check-in continues this note until it's cleared.
-
-**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): 3a v0.1 preview done; waiting on the user's feedback before building v1.
+**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 done** (`docs/3a Case Studies – Topic 1.1 Environment and Resources v1.docx`). Next: 3b (Topic 1.2) when the user asks.
 
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.15.docx` (key-question level, focus lines, topic shading, frequency summary), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
@@ -14,6 +12,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| 3a v1 | 2026-10-24 | **Doc 3a full build**: Topic 1.1, 15 slots / 17 cases (succeeded + failed for both strategy slots), a chart per case, 'Links' line per case; Review Notes v1 |
 | 3a v0.1 (preview) | 2026-10-24 | **New doc series 3a–3f** (case studies per H2 topic, own versioning: v0.1 preview → v1 confirmed). Preview of 3a Topic 1.1: slot plan + first 3 cases (Amazon, Cape Town, Nigeria) |
 | v0.15 | 2026-10-22 | **Doc 1 rebuilt** with the Review Notes section 7 ideas: H2 split into P1/P2 tables, cells shaded by topic, focus line for all 716 questions, key-question frequency summary by year |
 | v0.15 (preview) | 2026-10-22 | Doc 1 preview of Review Notes section 7 ideas: frequency summary by year, topic shading, focus lines, H2 split into P1/P2 tables (ACJC rows) |
@@ -407,4 +406,14 @@
 - Output: `previews/3a Case Studies – Topic 1.1 Environment and Resources v0.1.docx` (4 pages: slot plan + 3 one-page cases) + `– Review Notes v0.1`. Rendered pages checked by eye.
 - matplotlib is not preinstalled: `pip install matplotlib`.
 - Open: user feedback on the slot plan, the format, charts vs photos, and the cases. Then build 3a v1 (slots 4–15), then 3b–3f.
+
+### 2026-10-24 — Session 4: doc 3a v1 (Topic 1.1 complete)
+- User approved the v0.1 preview: "everything ok. case choice anywhere that best fits. to consider, is good, do as you said. start with generating topic 1.1." Long-task note and hourly check-in (`trig_01PnbGu2rXrBtMpuofkoLvBz`) used; both removed now.
+- Slots 4–15 added: Sri Lanka 2022 (economic and political challenges), Lithium Triangle (demand and technology), Indonesia 2015 fires (human activities), West Africa small fish (regenerative capacity), Bangladesh (Malthus vs Boserup), Vietnam solar, Laos hydropower, Mekong 2019 (transboundary impact), Central Asia (succeeded) and Indus treaty (failed), Oyu Tolgoi (characteristics), Guyana vs Niger Delta (variation), Indonesia nickel ban (succeeded) and Brumadinho (failed).
+- 'Links' line under every case (other slots and topics where it fits), per Review Notes v0.1 section 5. Cases 1–3 unchanged apart from the new line.
+- Charts for all 14 new cases in `tools/case_charts.py` (bars, timelines, a schematic for the Mekong, number tiles for the Indonesian fires). New helpers: `bars`, `timeline`, `even_timeline`, `tiles`.
+- Builder: 'Links' line; plan table shading only while slots are pending.
+- Output: `docs/3a Case Studies – Topic 1.1 Environment and Resources v1.docx` (18 pages: slot plan + 17 one-page cases; checked page by page that no case overflows) + `– Review Notes v1` (10 figures to spot-check, 4 choices). The v0.1 preview stays in `previews/`.
+- Same limits as before: photo sites blocked, page fetches fail; figures come from search results quoting sources.
+- Open: user feedback on 3a v1 and the Review Notes; then 3b (Topic 1.2).
 
