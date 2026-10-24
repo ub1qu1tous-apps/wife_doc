@@ -800,6 +800,186 @@ def mexico_women(path):
 
 
 
+# ---------- Topic 3.2 (doc 3f) ----------
+def epica(path):
+    tiles(path, [('2.8 km', 'drilled to bedrock\nat Little Dome C,\nJan 2025', BLUE),
+                 ('1.2 m yrs', 'age of the oldest\nice (isotope\nanalysis)', ORANGE),
+                 ('800,000', 'years: the earlier\nEPICA record', MUTED),
+                 ('-35°C', 'average working\ntemperature, four\nsummers', GREEN)])
+
+
+def solar(path):
+    tiles(path, [('Dec 2019', 'solar minimum: Sun\nat its weakest in\nabout a century', ORANGE),
+                 ('Same', 'irradiance dip as\nthe 2008–09\nminimum', MUTED),
+                 ('+1.1°C', 'warming, 2011–2020\nvs 1850–1900\n(IPCC)', RED),
+                 ('+1.55°C', 'in 2024, the\nwarmest year on\nrecord (WMO)', RED)])
+
+
+def amoc(path):
+    tiles(path, [('~15%', 'weaker than about\n1,600 years ago\n(Nature study)', BLUE),
+                 ('1870', 'sea-surface records\nused to spot early\nwarning signs', ORANGE),
+                 ('34', 'climate models: AMOC\n"very likely" to\nweaken', MUTED),
+                 ('Unlikely', 'to fully collapse this\ncentury (IPCC,\nmedium confidence)', GREEN)])
+
+
+def greenland(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Yearly average\nsince 2003', 'Old record\n(2012)', '2019'], [235, 464, 532], [MUTED, ORANGE, RED],
+         lambda v: f"{v} Gt", ylabel='Greenland ice lost (billion tonnes)', ymax=620)
+    ax.set_title('2019: melting over 95% of the ice sheet; +1.5 mm to global sea level', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def ipcc(path):
+    tiles(path, [('Unequivocal', 'human influence has\nwarmed air, ocean\nand land', RED),
+                 ('234', 'authors from\n65–66 countries', BLUE),
+                 ('14,000', 'scientific papers\nassessed', ORANGE),
+                 ('+1.1°C', '2011–2020 vs\n1850–1900', MUTED)])
+
+
+def amazon_carbon(path):
+    tiles(path, [('590', 'aircraft profiles of\nCO2 and CO,\n2010–2018', BLUE),
+                 ('Source', 'south-east Amazon\nnow releases more\ncarbon than it stores', RED),
+                 ('3×', 'fire emissions vs\nthe forest\'s net\nexchange (south-east)', ORANGE),
+                 ('0.3 bn t', 'of carbon a year\nreleased (Gatti)', MUTED)])
+
+
+def mauna_loa(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['May 2023', 'May 2024', 'May 2025'], [424.0, 426.9, 430.2], [MUTED, ORANGE, RED], lambda v: f"{v:.1f} ppm",
+         ylabel='CO2 at Mauna Loa (ppm)', ymax=440)
+    ax.set_ylim(400, 436)
+    ax.set_title('2022–24: the largest two-year rise in the May peak on record (NOAA)', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def imo2020(path):
+    tiles(path, [('~80%', 'cut in sulphur from\nship fuel, 2020', BLUE),
+                 ('+0.046°C', 'extra global warming,\n2020–29 (one model\nstudy)', RED),
+                 ('0.1–0.3', 'W/m² more sunlight\nabsorbed (another\nstudy)', ORANGE),
+                 ('Clouds', 'fewer ship tracks:\ndimmer clouds over\nN. Atlantic', MUTED)])
+
+
+def warm_2024(path):
+    tiles(path, [('1.55°C', 'above 1850–1900,\nglobal average\nin 2024', RED),
+                 ('±0.13', '°C margin of\nuncertainty', MUTED),
+                 ('1st', 'calendar year likely\nabove 1.5°C', ORANGE),
+                 ('10/10', 'of the last ten\nyears are in the\ntop ten', BLUE)])
+
+
+def gbr(path):
+    import numpy as np
+    regions = ['Northern', 'Central', 'Southern']
+    a, b = [39.8, 33.2, 38.9], [30.0, 28.6, 26.9]
+    x = np.arange(3)
+    fig, ax = plt.subplots(figsize=SIZE)
+    ax.bar(x - 0.18, a, 0.34, color=BLUE, label='2024')
+    ax.bar(x + 0.18, b, 0.34, color=RED, label='2025')
+    for xi, u, v in zip(x, a, b):
+        ax.text(xi - 0.18, u + 0.6, f"{u:g}%", ha='center', fontsize=8.5)
+        ax.text(xi + 0.18, v + 0.6, f"{v:g}%", ha='center', fontsize=8.5)
+    ax.set_xticks(x); ax.set_xticklabels(regions); ax.set_ylim(0, 47)
+    ax.set_ylabel('Hard coral cover (%)'); ax.legend(frameon=False, fontsize=8)
+    ax.set_title("Sharpest yearly drop in ~40 years of monitoring (AIMS)", fontsize=8.5, color=MUTED, loc='left')
+    tidy(ax); save(fig, path)
+
+
+def bushfires(path):
+    tiles(path, [('24 m ha', 'burned, 2019–20', RED),
+                 ('33 + 417', 'direct deaths, plus\ndeaths from\nsmoke', ORANGE),
+                 ('1–3 bn', 'animals killed or\ndisplaced\n(estimates vary)', GREEN),
+                 ('A$100 bn', 'estimated cost:\nAustralia\'s costliest\ndisaster', MUTED)])
+
+
+def nsr_tuvalu(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['2024'], [37.9], [GREEN], lambda v: f"{v} m t", title='Northern Sea Route cargo (record)', ymax=45)
+    a1.set_xlim(-1, 1)
+    bars(a2, ['Visas a year', 'Applied, 2025'], [280, 8750], [MUTED, RED], lambda v: f"{v:,}", title='Tuvalu: climate mobility visas', ymax=10200)
+    save(fig, path)
+
+
+def heat_2022(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Women', 'Men', 'Aged 80+'], [35406, 21667, 36848], [RED, MUTED, ORANGE], lambda v: f"{v:,}",
+         ylabel='Heat-related deaths, Europe, summer 2022', ymax=42000)
+    ax.set_title('61,672 deaths in total across 35 countries (Nature Medicine)', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def thwaites(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    labels = ['Likely rise by 2100', 'High-end scenario', 'Thwaites collapse', 'West Antarctica collapse']
+    y = [3, 2, 1, 0]
+    ax.barh(3, 40, left=40, color=ORANGE, height=0.5)
+    ax.text(82, 3, '40–80 cm', va='center', fontsize=8.5)
+    ax.barh(2, 200, color=RED, height=0.5); ax.text(202, 2, 'up to ~2 m', va='center', fontsize=8.5)
+    ax.barh(1, 65, color=BLUE, height=0.5); ax.text(67, 1, '65 cm (over centuries)', va='center', fontsize=8.5)
+    ax.barh(0, 300, color=MUTED, height=0.5); ax.text(250, 0, '3 m+', va='center', fontsize=8.5, color='white')
+    ax.set_yticks(y); ax.set_yticklabels(labels); ax.set_xlim(0, 330); ax.set_xlabel('Global sea-level rise (cm)')
+    for s_ in ('top', 'right'):
+        ax.spines[s_].set_visible(False)
+    ax.xaxis.grid(True, color=GRID, lw=0.8); ax.set_axisbelow(True)
+    save(fig, path)
+
+
+def uk_coal(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['1990', '2012', '2023', 'Oct 2024'], [80, 39, 1, 0], [RED, ORANGE, MUTED, GREEN], lambda v: f"{v}%",
+         ylabel="Coal's share of UK electricity (%)", ymax=92)
+    ax.set_title('Last coal plant (Ratcliffe-on-Soar) closed 30 Sep 2024', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def sg_coast(path):
+    tiles(path, [('S$100 bn', 'or more for coastal\ndefences over\n100 years', BLUE),
+                 ('S$5 bn', 'first injection into\nthe Coastal & Flood\nProtection Fund', GREEN),
+                 ('800 ha', "possible 'Long\nIsland' off the\nEast Coast", ORANGE),
+                 ('2024–29', 'engineering and\nenvironmental\nstudies', MUTED)])
+
+
+def urgenda(path):
+    even_timeline(path, [
+        ('2013', 'Urgenda and ~900\ncitizens sue the\nDutch state', BLUE, 1),
+        ('Jun 2015', 'District Court:\ncut emissions\n25% by 2020', GREEN, -1),
+        ('Oct 2018', 'Court of Appeal\nupholds it', GREEN, 1),
+        ('Dec 2019', 'Supreme Court:\nfinal ruling', GREEN, -1),
+        ('2020', 'Emissions about\n23–25% below\n1990 (estimates)', ORANGE, 1)])
+
+
+def orsted(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['2008', '2018'], [15, 75], [MUTED, GREEN], lambda v: f"{v}%", title='Renewable share of output', ymax=90)
+    bars(a2, ['2009', '2018'], [100, 28], [MUTED, GREEN], lambda v: f"{v}", title='CO2 per kWh (2009 = 100)', ymax=118)
+    save(fig, path)
+
+
+def jetp(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Pledged\n(2022)', 'Loans/equity\napproved', 'Grants\napproved', 'US share\nwithdrawn (2025)'], [20, 2.85, 0.187, 2],
+         [MUTED, ORANGE, ORANGE, RED], lambda v: f"US${v:g} bn", ylabel='US$ billion', ymax=23)
+    ax.set_title('No money yet approved to retire coal plants (draft progress report)', fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def costa_rica(path):
+    tiles(path, [('~99%', 'of electricity from\nrenewable sources', GREEN),
+                 ('52%', 'forest cover;\ntarget 60%\nby 2050', GREEN),
+                 ('2019', 'National Decarboni-\nsation Plan in\nthree phases', BLUE),
+                 ('2050', 'target: zero-emission\ntransport and\nrenewable energy', MUTED)])
+
+
+def us_paris(path):
+    even_timeline(path, [
+        ('Dec 2015', 'Paris Agreement\nadopted', GREEN, 1),
+        ('Jun 2017', 'US announces\nwithdrawal', RED, -1),
+        ('Nov 2020', 'Withdrawal takes\neffect', RED, 1),
+        ('Feb 2021', 'US rejoins', GREEN, -1),
+        ('Jan 2025', 'Withdrawal ordered\nagain', RED, 1),
+        ('Jan 2026', 'Takes effect; exit\nfrom UNFCCC\nannounced', RED, -1)])
+
+
+
 if __name__ == '__main__':
     out = sys.argv[1]
     os.makedirs(out, exist_ok=True)
@@ -835,4 +1015,10 @@ if __name__ == '__main__':
                      ('kampung_admiralty', kampung_admiralty), ('korea_elderly', korea_elderly),
                      ('delhi_women', delhi_women), ('pink_ticket', pink_ticket), ('mexico_women', mexico_women)):
         fn(os.path.join(out, f'3_1_{name}.png'))
+    for name, fn in (('epica', epica), ('solar', solar), ('amoc', amoc), ('greenland', greenland), ('ipcc', ipcc),
+                     ('amazon_carbon', amazon_carbon), ('mauna_loa', mauna_loa), ('imo2020', imo2020), ('warm_2024', warm_2024),
+                     ('gbr', gbr), ('bushfires', bushfires), ('nsr_tuvalu', nsr_tuvalu), ('heat_2022', heat_2022),
+                     ('thwaites', thwaites), ('uk_coal', uk_coal), ('sg_coast', sg_coast), ('urgenda', urgenda),
+                     ('orsted', orsted), ('jetp', jetp), ('costa_rica', costa_rica), ('us_paris', us_paris)):
+        fn(os.path.join(out, f'3_2_{name}.png'))
     print('ok')
