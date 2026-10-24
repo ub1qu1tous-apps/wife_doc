@@ -1,8 +1,6 @@
 # Session log
 
-> **Task in progress (session 4):** user said 'do the rest' (2026-10-24): build docs 3c (Topic 2.1), 3d (2.2), 3e (3.1), 3f (3.2) to v1 in the approved 3a/3b format, one topic at a time. Per topic: slot plan → research → charts (`tools/case_charts.py`, prefix 2_1_ etc.) → `tools/data/case_studies_3X.json` → build to docs/ → check pages + docx checks (link URLs, r:ids, rPr order) → Review Notes v1 → log → commit + push. Done so far: 3c v1, 3d v1, 3e v1. Hourly check-in continues this note until it's cleared.
-
-**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 and 3b v1 done** (`docs/3a …Topic 1.1… v1.docx`, `docs/3b …Topic 1.2… v1.docx`). Next: 3c (Topic 2.1) when the user asks.
+**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **All six done: 3a–3f v1** (`docs/3a`–`docs/3f … v1.docx`, 107 cases) with Review Notes. Waiting on user feedback.
 
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.15.docx` (key-question level, focus lines, topic shading, frequency summary), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
@@ -14,6 +12,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| 3c–3f v1 | 2026-10-24 | **Docs 3c–3f full builds** ('do the rest'): Topic 2.1 (12 cases), 2.2 (9), 3.1 (21), 3.2 (21); Review Notes v1 each. 3a/3b rebuilt at v1 so tile charts match (no content change) |
 | 3b v1 | 2026-10-24 | **Doc 3b full build**: Topic 1.2, 16 slots / 18 cases (strong + limited state influence; succeeded + failed unions), a chart per case, Links lines; Review Notes v1 |
 | 3a v1 (fix) | 2026-10-24 | 3a v1 rebuilt: Word 2007 said the file was corrupt (link run properties out of schema order); v0.1 preview patched too |
 | 3a v1 | 2026-10-24 | **Doc 3a full build**: Topic 1.1, 15 slots / 17 cases (succeeded + failed for both strategy slots), a chart per case, 'Links' line per case; Review Notes v1 |
@@ -453,4 +452,10 @@
 ### 2026-10-24 — Session 4: doc 3e v1 (Topic 3.1 / H1 1.1 complete)
 - 16 slots / 21 cases: Arcadis index (measuring SUD); Lagos (rapid growth); Detroit (population loss); Mexico City water (demand on environment); Koshe landfill (waste problems); South Korea food waste (succeeded) / Lebanon 2015 (failed); Dharavi (slums); KOTAKU (succeeded) / Otodo-Gbame (failed); Expo 2020 Dubai (reimaging reasons); Paris 2024 (succeeded) / Rio 2016 (failed); EIU index (subjective liveability); Cross Island Line (SUD vs liveability); Japan dying alone (elderly issues); Kampung Admiralty (succeeded) / South Korea old-age poverty (failed); Delhi women (issues); Delhi pink tickets (succeeded) / Mexico City women-only cars (failed).
 - Output: `docs/3e Case Studies – Topic 3.1 Cities in a Sustainable Future v1.docx` (22 pages) + `– Review Notes v1`. check_docx OK.
+
+### 2026-10-24 — Session 4: doc 3f v1 (Topic 3.2 / H1 1.2 complete) — series 3a–3f finished
+- 20 slots / 21 cases: Beyond EPICA ice core; 2019 solar minimum; weakening AMOC; Greenland 2019 melt; IPCC AR6; Amazon carbon source; Mauna Loa CO2; IMO 2020 aerosols; 2024 warmest year; Great Barrier Reef; Black Summer fires; Northern Sea Route vs Tuvalu; Europe 2022 heat deaths; Thwaites uncertainty; UK coal exit (mitigation); Singapore coastal protection (adaptation); Urgenda (NGO); Ørsted (firm); Indonesia JETP (partnership); Costa Rica (succeeded) / US Paris exits (failed).
+- All six docs rebuilt at v1 at the end so every tile chart uses the final `tiles()` sizing; content of 3a–3e unchanged. check_docx OK on all. Page counts: 3a 18, 3b 19, 3c 13, 3d 10, 3e 22, 3f 22.
+- Hourly check-in (`trig_01VrvSRXo1AUMZYFfSM81ccA`) deleted; task note cleared.
+- Open: user feedback and Review Notes decisions for 3a–3f.
 

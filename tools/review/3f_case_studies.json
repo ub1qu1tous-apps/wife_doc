@@ -1,0 +1,99 @@
+{
+ "title": "Case Studies – Topic 3.2 The Future with Climate Change",
+ "file": "3f Case Studies – Topic 3.2 The Future with Climate Change",
+ "version": "v1",
+ "doc": "3f Case Studies – Topic 3.2 The Future with Climate Change v1.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "Last of 6 case-study docs (3a–3f). Same format as before. Covers H2 Topic 3.2 and H1 Topic 1.2 (same content).",
+    "20 case-study slots: 8 for the science (past variability, natural factors, IPCC consensus, carbon cycle, greenhouse effect, feedbacks), 6 for effects, 6 for responses. 'Key actors' has one case each for an NGO, a firm and a partnership; 'varying success' has a succeeded and a failed case. 21 cases, 22 pages.",
+    "Built with tools/build_case_studies.py from tools/data/case_studies_3f.json; charts 3_2_*.png; checked with tools/check_docx.py."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "Science slots use recent events or reports as the 'case' (e.g. the 2025 ice core, the 2019 solar minimum, the 2021 IPCC report), since the syllabus points are about processes.",
+    "Process explanations (ice–albedo feedback, how the AMOC works, aerosol cooling) are standard syllabus knowledge rather than taken from the listed sources.",
+    "Same limits as before: no photos, and figures come from search results quoting each source."
+   ]
+  },
+  {
+   "title": "3. To review: figures to spot-check",
+   "table": {
+    "columns": [
+     "Case",
+     "Figure",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "AMOC",
+      "'About 15% weaker than ~1,600 years ago' — press coverage also says '1,000-year low'; the source study year is unclear in coverage."
+     ],
+     [
+      "Greenland",
+      "532 billion metric tonnes (some outlets say 586 billion short tons — same amount, different units)."
+     ],
+     [
+      "Mauna Loa",
+      "May 2023 value (424.0 ppm) is worked out from 'May 2024 was 2.9 ppm higher'."
+     ],
+     [
+      "IMO 2020",
+      "Warming effect is uncertain: +0.046°C in one model, no clear global effect in another."
+     ],
+     [
+      "Black Summer",
+      "Animals 1–3 billion and area 18.6–33.8 million ha depending on source."
+     ],
+     [
+      "Tuvalu",
+      "Applicants about 8,750 (one analysis) vs 1,466 registrations (another, counting family groups)."
+     ],
+     [
+      "Ørsted",
+      "'CO2 per kWh 2018 = 28' is from 'cut 72% since 2009'; renewables 75% of output in 2018 (not the 86% sometimes quoted for 2019)."
+     ],
+     [
+      "Costa Rica",
+      "'~99% renewable electricity' is the environment minister's figure; the plan says over 95%."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "4. To review: choices",
+   "table": {
+    "columns": [
+     "Item",
+     "Current choice",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Slot 16 (adaptation)",
+      "Singapore's coastal protection. Alternative: Bangladesh cyclone shelters (a lower-income case)."
+     ],
+     [
+      "Slot 20 pair",
+      "Costa Rica (succeeded) vs US Paris exits (failed). Alternative failed case: Indonesia's JETP (already slot 19)."
+     ],
+     [
+      "H1 coverage",
+      "3e and 3f cover H1 Topics 1.1 and 1.2. H1 1.1.1 'What is SD' is in 3a slot 1."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "5. To consider",
+   "bullets": [
+    "All six docs are now built (3a–3f, 107 cases). A one-page index of all cases (case × slot × 'also fits') would help revision.",
+    "Same check before any future change: tools/check_docx.py on every new docx."
+   ]
+  }
+ ]
+}

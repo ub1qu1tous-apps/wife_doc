@@ -1,0 +1,1534 @@
+{
+ "id": "3f",
+ "title": "Case Studies – Topic 3.2 The Future with Climate Change",
+ "file": "3f Case Studies – Topic 3.2 The Future with Climate Change",
+ "intro": [
+  "One real case (2015 or later) for each case-study slot in H2 Topic 3.2. This topic is also H1 Topic 1.2 (H1 codes 1.2.1–1.2.3 match H2 3.2.1–3.2.3). The 'varying success' slot has a succeeded and a failed case; the 'key actors' point has one case each for an NGO, a firm and a partnership.",
+  "Each case is about 1 page, with 1 chart drawn from its sources. The 'Links' line under each case shows other slots and topics where the same case can be used."
+ ],
+ "plan_title": "Case-study slots for Topic 3.2 (H1 Topic 1.2)",
+ "plan": [
+  [
+   "1",
+   "3.2.1 Science of CC",
+   "Characteristics",
+   "Past climate variability from ice and ocean cores; Quaternary warming and cooling",
+   "Beyond EPICA ice core (2025)"
+  ],
+  [
+   "2",
+   "3.2.1 Science of CC",
+   "Factors",
+   "Natural factors: changes in solar output",
+   "The 2019 solar minimum"
+  ],
+  [
+   "3",
+   "3.2.1 Science of CC",
+   "Factors",
+   "Natural factors: changes in thermohaline circulation",
+   "A weakening AMOC"
+  ],
+  [
+   "4",
+   "3.2.1 Science of CC",
+   "Factors",
+   "Natural factors: ice sheets and feedbacks",
+   "Greenland's record melt (2019)"
+  ],
+  [
+   "5",
+   "3.2.1 Science of CC",
+   "Actors",
+   "IPCC consensus: change is unequivocal and very likely human-caused",
+   "IPCC Sixth Assessment Report (2021)"
+  ],
+  [
+   "6",
+   "3.2.1 Science of CC",
+   "Impacts",
+   "Human activities and the carbon cycle: emissions and reduced sinks",
+   "The Amazon as a carbon source (2021)"
+  ],
+  [
+   "7",
+   "3.2.1 Science of CC",
+   "Factors",
+   "Enhanced greenhouse effect from rising GHG concentrations",
+   "CO2 at Mauna Loa (2023–2025)"
+  ],
+  [
+   "8",
+   "3.2.1 Science of CC",
+   "Factors",
+   "Human role in positive and negative feedbacks (e.g. aerosols)",
+   "Cleaner ship fuel, IMO 2020"
+  ],
+  [
+   "9",
+   "3.2.2 Effects of CC",
+   "Trends",
+   "Changes in temperature and precipitation",
+   "2024, the warmest year on record"
+  ],
+  [
+   "10",
+   "3.2.2 Effects of CC",
+   "Impacts",
+   "Impacts on aquatic ecosystems and on humans",
+   "Great Barrier Reef bleaching (2016–2025)"
+  ],
+  [
+   "11",
+   "3.2.2 Effects of CC",
+   "Impacts",
+   "Impacts on terrestrial ecosystems and on humans",
+   "Australia's Black Summer fires (2019–20)"
+  ],
+  [
+   "12",
+   "3.2.2 Effects of CC",
+   "Impacts",
+   "Positive and negative impacts on places",
+   "Northern Sea Route vs Tuvalu"
+  ],
+  [
+   "13",
+   "3.2.2 Effects of CC",
+   "Impacts",
+   "Varying vulnerability of different groups of people",
+   "Europe's 2022 heat deaths"
+  ],
+  [
+   "14",
+   "3.2.2 Effects of CC",
+   "Challenges",
+   "Uncertainty over present and future impacts",
+   "Thwaites Glacier and sea-level projections"
+  ],
+  [
+   "15",
+   "3.2.3 Responses to CC",
+   "Strategies",
+   "Mitigation: reducing emissions",
+   "UK ends coal power (2024)"
+  ],
+  [
+   "16",
+   "3.2.3 Responses to CC",
+   "Strategies",
+   "Adaptation: adjusting to expected change",
+   "Singapore's coastal protection"
+  ],
+  [
+   "17",
+   "3.2.3 Responses to CC",
+   "Actors (NGOs)",
+   "Role of NGOs in climate response",
+   "Urgenda v the Netherlands (2019)"
+  ],
+  [
+   "18",
+   "3.2.3 Responses to CC",
+   "Actors (firms)",
+   "Role of firms in climate response",
+   "Ørsted's switch to wind (2009–2018)"
+  ],
+  [
+   "19",
+   "3.2.3 Responses to CC",
+   "Actors (partnerships)",
+   "Partnerships between firms, NGOs and states",
+   "Indonesia's JETP (2022–2025)"
+  ],
+  [
+   "20",
+   "3.2.3 Responses to CC",
+   "Strategies",
+   "Varying success; economic, political and uncertainty challenges (succeeded + failed)",
+   "Succeeded: Costa Rica. Failed: US exits from the Paris Agreement"
+  ]
+ ],
+ "cases": [
+  {
+   "slot": "1",
+   "heading": "3.2.1 Science of Climate Change — Characteristics (past variability)",
+   "case": "The Beyond EPICA ice core, Antarctica (2025)",
+   "syllabus": "Evidence of past climate variability from proxy indicators (ice and ocean cores); episodes of warming and cooling during the Quaternary.",
+   "facts": [
+    [
+     "Place",
+     "Little Dome C, near Concordia Station, Antarctica"
+    ],
+    [
+     "Period",
+     "Drilled over four summers; bedrock reached January 2025"
+    ],
+    [
+     "Scale",
+     "Ice at least 1.2 million years old, from 2.8 km down"
+    ],
+    [
+     "Key actors",
+     "European Beyond EPICA team (16 people on site), funding agencies, climate scientists"
+    ]
+   ],
+   "image": "3_2_epica.png",
+   "caption": "Figure 1. The Beyond EPICA core in four numbers (AP; NBC).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "A European team drilled 2.8 km through the Antarctic ice to bedrock and recovered ice at least 1.2 million years old. Their earlier core reached back about 800,000 years. Air bubbles trapped in the ice record past carbon dioxide levels, and the ice's chemistry records past temperatures."
+    },
+    {
+     "title": "How it shows past variability",
+     "bullets": [
+      "Proxy evidence: isotopes and trapped air in each layer show how temperature and greenhouse gases changed together.",
+      "Quaternary cycles: the record covers many glacial (cold) and interglacial (warm) periods.",
+      "A puzzle to solve: scientists hope it explains how and why the length of ice-age cycles changed, and the role of carbon."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Climate has always varied naturally; ice cores show the range and speed of past change, giving a baseline for today's.",
+      "Evaluation: the deepest ice is heavily deformed and of uncertain origin, so the oldest part of the record must be treated with care."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.1 natural factors (slots 2–4) · 3.2.1 human influence (slots 5–8) · 3.2.2 uncertainty (slot 14).",
+   "sources": [
+    [
+     "NBC News (AP) – 1.2 million-year-old ice core",
+     "https://www.nbcnews.com/science/environment/scientists-drill-nearly-2-miles-pull-12-million-year-old-ice-core-anta-rcna186963"
+    ],
+    [
+     "ABC News (AP) – scientists drill nearly 2 miles",
+     "https://abcnews.go.com/Technology/wireStory/scientists-drill-2-miles-pull-12-million-year-117496776"
+    ],
+    [
+     "Popular Science – oldest ice pulled up from Antarctica",
+     "https://www.popsci.com/environment/antarctica-oldest-ice/"
+    ],
+    [
+     "KRDO (CNN) – ice core is a time machine",
+     "https://krdo.com/news/2025/01/10/massive-ice-core-is-a-time-machine-that-could-help-solve-an-ancient-climate-mystery-scientists-say/"
+    ]
+   ]
+  },
+  {
+   "slot": "2",
+   "heading": "3.2.1 Science of Climate Change — Factors (solar output)",
+   "case": "The 2019 solar minimum and record warmth",
+   "syllabus": "Natural factors influencing temperature: changes in solar output; whether natural factors can fully account for contemporary climate change.",
+   "facts": [
+    [
+     "Place",
+     "Global"
+    ],
+    [
+     "Period",
+     "Solar minimum December 2019; warming to 2024"
+    ],
+    [
+     "Scale",
+     "Sun at its weakest in about a century, while Earth reached 1.55°C above pre-industrial in 2024"
+    ],
+    [
+     "Key actors",
+     "NASA/NOAA Solar Cycle 25 panel, solar physicists, WMO"
+    ]
+   ],
+   "image": "3_2_solar.png",
+   "caption": "Figure 2. A quiet Sun and a warming Earth (NASA/NOAA panel; Woods; IPCC; WMO).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "A NASA–NOAA panel declared that the solar minimum came in December 2019, starting Solar Cycle 25; some scientists called 2019 the Sun's weakest point in about a century. Measurements showed its brightness dipped by about the same amount as in the 2008–09 minimum. Yet global temperature kept rising, reaching about 1.55°C above pre-industrial in 2024."
+    },
+    {
+     "title": "How it tests the solar factor",
+     "bullets": [
+      "If the Sun drove recent warming, a weak Sun should have cooled the planet; instead the 2010s and 2020s were the warmest on record.",
+      "Solar output varies in an 11-year cycle by a small amount, too little to explain the long-term rise.",
+      "A 2020 paper predicting a 'grand solar minimum' and cooling is far from the scientific consensus."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Natural factors such as solar output cannot fully explain recent warming; use this as evidence for human influence.",
+      "Evaluation: solar changes did drive some past variability (e.g. within the Quaternary), so they matter over longer time-scales."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.1 IPCC consensus (slot 5) · 3.2.2 rising temperatures (slot 9).",
+   "sources": [
+    [
+     "Daily Maverick – Sun less active in 2020, no sign of Earth cooling",
+     "https://www.dailymaverick.co.za/article/2020-01-21-the-sun-will-be-less-active-in-2020-but-no-indication-of-earth-cooling-down.md"
+    ],
+    [
+     "Down To Earth – the Sun is cooling; doesn't mean no global warming",
+     "https://www.downtoearth.org.in/news/science-technology/cold-comfort-the-sun-is-cooling-doesn-t-mean-there-ll-be-no-global-warming-73488"
+    ],
+    [
+     "UWC repository – Woods: irradiance at the 2008–09 and 2019–20 minima",
+     "https://repository.uwc.ac.za/handle/10566/7676?show=full"
+    ],
+    [
+     "WMO – 2024 warmest year at about 1.55°C",
+     "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level"
+    ]
+   ]
+  },
+  {
+   "slot": "3",
+   "heading": "3.2.1 Science of Climate Change — Factors (thermohaline circulation)",
+   "case": "A weakening Atlantic overturning circulation (AMOC)",
+   "syllabus": "Natural factors influencing temperature variability: changes in thermohaline circulation, and feedbacks.",
+   "facts": [
+    [
+     "Place",
+     "North Atlantic Ocean"
+    ],
+    [
+     "Period",
+     "Studies 2018–2024"
+    ],
+    [
+     "Scale",
+     "About 15% weaker than about 1,600 years ago (one Nature study)"
+    ],
+    [
+     "Key actors",
+     "Ocean and climate scientists, IPCC, UK Met Office (model study)"
+    ]
+   ],
+   "image": "3_2_amoc.png",
+   "caption": "Figure 3. What studies say about the AMOC (press coverage of Nature studies; IPCC).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "The AMOC carries warm surface water north and sinks cold, salty water in the North Atlantic, warming north-west Europe. Studies suggest it is about 15% weaker than about 1,600 years ago. A 2023 study used sea-surface records back to 1870 to look for early-warning signs of collapse."
+    },
+    {
+     "title": "How it shows the factor",
+     "bullets": [
+      "Natural driver of past change: shifts in this circulation caused abrupt cold spells in the Quaternary.",
+      "Now affected by warming: melting ice and warmer water make the surface fresher and lighter, so it sinks less.",
+      "Uncertain future: 34 models say it is 'very likely' to weaken, but the IPCC judges a full collapse this century unlikely (medium confidence)."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Thermohaline circulation is a natural factor that can itself be changed by human-caused warming: a feedback.",
+      "Evaluation: researchers say the timing of any tipping point is too uncertain to predict reliably (link to slot 14)."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.1 ice sheets and feedbacks (slot 4) · 3.2.2 uncertainty (slot 14).",
+   "sources": [
+    [
+     "Boston Globe – sign that the Atlantic current is near collapse (2023)",
+     "https://www.bostonglobe.com/2023/07/25/science/scientists-detect-sign-that-crucial-atlantic-ocean-current-is-near-collapse"
+    ],
+    [
+     "Daily Star – Atlantic currents weaken, big weather changes",
+     "https://www.thedailystar.net/environment/climate-crisis/news/atlantic-ocean-currents-weaken-signalling-big-weather-changes-study-2145686"
+    ],
+    [
+     "Harvard course reading (Guardian) – total collapse unlikely this century",
+     "https://courses.seas.harvard.edu/climate/eli/Courses/EPS101/Sources/Critical-reading/option-4-tipping-points/05-Total-collapse-of-vital-Atlantic-currents-unlikely-this-century-The-Guardian.pdf"
+    ],
+    [
+     "NBC News – currents pushed towards an irreversible shift",
+     "https://www.nbcnews.com/science/environment/climate-change-set-push-crucial-atlantic-currents-irreversible-shift-rcna1609"
+    ]
+   ]
+  },
+  {
+   "slot": "4",
+   "heading": "3.2.1 Science of Climate Change — Factors (ice sheets and feedbacks)",
+   "case": "Greenland's record melt (2019)",
+   "syllabus": "Natural factors: changes in ice sheets; influence of natural factors on temperatures through feedback mechanisms.",
+   "facts": [
+    [
+     "Place",
+     "Greenland ice sheet"
+    ],
+    [
+     "Period",
+     "Summer 2019"
+    ],
+    [
+     "Scale",
+     "532 billion tonnes of ice lost, raising global sea level by 1.5 mm"
+    ],
+    [
+     "Key actors",
+     "Satellite teams (GRACE-FO), glaciologists"
+    ]
+   ],
+   "image": "3_2_greenland.png",
+   "caption": "Figure 4. Greenland's ice loss in 2019 vs the average and the old record (2020 study via CBC/AP).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "In 2019 Greenland lost 532 billion tonnes of ice, a record, against an average of about 235 billion tonnes a year since 2003 and the previous record of 464 billion in 2012. Over 95% of the ice sheet's surface melted at some point, compared with an average of 64% in 1981–2010."
+    },
+    {
+     "title": "How it shows ice sheets and feedbacks",
+     "bullets": [
+      "Ice-albedo feedback: melting exposes darker ice and land that absorb more sunlight, causing more melting (a positive feedback).",
+      "Height feedback: as the surface lowers it sits in warmer air, melting faster.",
+      "Weather trigger: a blocking high pushed warm air from North America over Greenland, showing natural weather and warming acting together."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Ice sheets amplify climate change through positive feedbacks; this is why polar regions warm fastest.",
+      "Evaluation: one year's record depends on weather; the trend over decades shows the human-driven change."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.1 feedbacks (slot 8) · 3.2.2 sea-level uncertainty (slot 14) · 3.2.2 Tuvalu (slot 12).",
+   "sources": [
+    [
+     "CBC – Greenland lost 532 billion tonnes of ice in 2019",
+     "https://www.cbc.ca/1.5693549"
+    ],
+    [
+     "Phys.org (AP) – record melt: Greenland lost 586 billion tons",
+     "https://phys.org/news/2020-08-greenland-lost-billion-tons-ice.html"
+    ],
+    [
+     "NBC News – record melt in 2019",
+     "https://www.nbcnews.com/science/environment/record-melt-greenland-lost-586-billion-tons-ice-2019-rcna91"
+    ]
+   ]
+  },
+  {
+   "slot": "5",
+   "heading": "3.2.1 Science of Climate Change — Actors (scientific consensus)",
+   "case": "IPCC Sixth Assessment Report, Working Group I (2021)",
+   "syllabus": "Consensus within the scientific community, represented by the IPCC, that recent climate change is unequivocal and very likely caused by human activities.",
+   "facts": [
+    [
+     "Place",
+     "Global (IPCC report, August 2021)"
+    ],
+    [
+     "Period",
+     "Report 2021; observations 1850–2020"
+    ],
+    [
+     "Scale",
+     "234 authors from 65–66 countries assessed over 14,000 papers"
+    ],
+    [
+     "Key actors",
+     "IPCC, government reviewers, climate scientists"
+    ]
+   ],
+   "image": "3_2_ipcc.png",
+   "caption": "Figure 5. The IPCC's 2021 report in four facts (UNFCCC slides; WCRP).",
+   "sections": [
+    {
+     "title": "What it found",
+     "text": "The IPCC's 2021 report said it is 'unequivocal' that human influence has warmed the atmosphere, ocean and land. Global surface temperature in 2011–2020 was about 1.1°C above 1850–1900, more over land than over the ocean. Warming from greenhouse gases was partly masked by cooling from aerosol pollution."
+    },
+    {
+     "title": "How it shows the consensus",
+     "bullets": [
+      "Scale: hundreds of authors and over 14,000 studies, checked by governments line by line.",
+      "Strength of wording: earlier reports said 'likely' or 'very likely'; 2021 said 'unequivocal'.",
+      "Attribution: natural factors (Sun, volcanoes) cannot explain the observed warming; human emissions can."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Quote the IPCC's wording and numbers to show how strong the consensus is.",
+      "Evaluation: consensus on the cause does not remove uncertainty about regional impacts and future emissions (slot 14)."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.1 solar output (slot 2) · 3.2.1 aerosols (slot 8) · 3.2.2 temperature change (slot 9).",
+   "sources": [
+    [
+     "UNFCCC – IPCC AR6 presentation slides",
+     "https://unfccc.int/sites/default/files/resource/Prsn_P1_IPCC.pdf"
+    ],
+    [
+     "WCRP – IPCC AR6 2021",
+     "https://www.wcrp-climate.org/news/wcrp-news/1729-ipcc-ar6-2021"
+    ],
+    [
+     "NIEHS – 2021 international climate reports",
+     "https://www.niehs.nih.gov/research/programs/geh/geh_newsletter/2021/10/articles/2021_international_climate_change_reports_assess_the_earths_climate"
+    ],
+    [
+     "Ideas for Us – key points of AR6",
+     "https://ideasforus.org/key-points-from-the-ipccs-sixth-assessment-report-climate-change-2021-the-physical-science-basis/"
+    ]
+   ]
+  },
+  {
+   "slot": "6",
+   "heading": "3.2.1 Science of Climate Change — Impacts (carbon cycle)",
+   "case": "The Amazon as a carbon source (Gatti et al., 2021)",
+   "syllabus": "Influence of human activities on the global carbon cycle: activities that increase carbon emissions and that reduce carbon sinks.",
+   "facts": [
+    [
+     "Place",
+     "Amazonia, especially the south-east (Brazil)"
+    ],
+    [
+     "Period",
+     "Measurements 2010–2018; published in Nature 2021"
+    ],
+    [
+     "Scale",
+     "About 0.3 billion tonnes of carbon a year released"
+    ],
+    [
+     "Key actors",
+     "Researchers (Gatti, Nobre and others), Brazilian government, farmers and ranchers"
+    ]
+   ],
+   "image": "3_2_amazon_carbon.png",
+   "caption": "Figure 6. Findings of the 2021 Amazon carbon study (Nature; Mongabay).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Scientists flew 590 aircraft profiles over four Amazon sites from 2010 to 2018, sampling carbon dioxide and carbon monoxide from treetop height up to 4,500 m. They found the south-east Amazon had switched from absorbing carbon to releasing it. Forest is cut in the wet season and burned in the dry season, mostly for cattle pasture."
+    },
+    {
+     "title": "How it shows the carbon cycle changing",
+     "bullets": [
+      "More emissions: fire emissions in the south-east were three times larger than the forest's net carbon exchange.",
+      "Weaker sink: deforestation and a hotter, drier climate reduce how much carbon the remaining forest absorbs.",
+      "Without fire, the Amazon would still be a sink, so human activity is what tipped the balance."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A natural sink can become a source when land use and warming combine.",
+      "Evaluation: different regions behave differently, so one value for the whole Amazon is misleading."
+     ]
+    }
+   ],
+   "links": "Links: 3a slot 1 (Amazon deforestation) · 3.2.3 mitigation (forests) · 3.2.1 feedbacks.",
+   "sources": [
+    [
+     "IDEAS/RePEc – Gatti et al. (2021), Nature 595",
+     "https://ideas.repec.org/a/nat/nature/v595y2021i7867d10.1038_s41586-021-03629-6.html"
+    ],
+    [
+     "Mongabay – Brazil's Amazon is now a carbon source",
+     "https://news.mongabay.com/2021/07/brazils-amazon-is-now-a-carbon-source-unprecedented-study-reveals/"
+    ],
+    [
+     "White Rose eprints – Amazonia as a carbon source",
+     "https://eprints.whiterose.ac.uk/172427/"
+    ]
+   ]
+  },
+  {
+   "slot": "7",
+   "heading": "3.2.1 Science of Climate Change — Factors (enhanced greenhouse effect)",
+   "case": "Carbon dioxide at Mauna Loa (2023–2025)",
+   "syllabus": "Enhanced greenhouse effect due to the increased concentration of greenhouse gases by human activities.",
+   "facts": [
+    [
+     "Place",
+     "Mauna Loa Observatory, Hawaii (measures the global background)"
+    ],
+    [
+     "Period",
+     "May peaks, 2023–2025"
+    ],
+    [
+     "Scale",
+     "426.9 ppm in May 2024; 430.2 ppm in May 2025"
+    ],
+    [
+     "Key actors",
+     "NOAA, Scripps Institution of Oceanography"
+    ]
+   ],
+   "image": "3_2_mauna_loa.png",
+   "caption": "Figure 7. May peaks in CO2 at Mauna Loa (NOAA; Scripps).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Carbon dioxide peaks each May before plants in the northern summer draw it down. In May 2024 it reached 426.9 ppm at Mauna Loa, 2.9 ppm above May 2023, and 2022–2024 saw the biggest two-year jump in the May peak on NOAA's record. By May 2025 it was 430.2 ppm."
+    },
+    {
+     "title": "How it shows the enhanced greenhouse effect",
+     "bullets": [
+      "More CO2 traps more outgoing infrared radiation, adding to the natural greenhouse effect.",
+      "The rise comes from burning fossil fuels and clearing forests (slot 6), faster than oceans and plants can absorb it.",
+      "Each year sets a new record, so the warming effect keeps building."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Use the concentration trend as direct evidence that human emissions are building up in the atmosphere.",
+      "Evaluation: NOAA and Scripps measure slightly differently (426.9 vs 426.7 ppm), but agree on the trend."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.1 carbon cycle (slot 6) · 3.2.3 mitigation (slot 15).",
+   "sources": [
+    [
+     "NOAA – CO2 surges faster than ever (2024)",
+     "https://www.noaa.gov/news-release/during-year-of-extremes-carbon-dioxide-levels-surge-faster-than-ever"
+    ],
+    [
+     "Climate.gov – during a year of extremes",
+     "https://www.climate.gov/news-features/feed/during-year-extremes-carbon-dioxide-levels-surge-faster-ever"
+    ],
+    [
+     "Times of San Diego – Scripps/NOAA record two-year rise",
+     "https://timesofsandiego.com/tech/2024/06/06/scripps-noaa-report-record-two-year-increase-in-earths-carbon-dioxide-level/"
+    ],
+    [
+     "Newswise – annual CO2 peak (later years)",
+     "https://www.newswise.com/articles/annual-carbon-dioxide-peak-reaches-432-parts-per-million"
+    ]
+   ]
+  },
+  {
+   "slot": "8",
+   "heading": "3.2.1 Science of Climate Change — Factors (human role in feedbacks)",
+   "case": "Cleaner ship fuel: IMO 2020",
+   "syllabus": "Role of human activities in accelerating warming through positive feedbacks and suppressing warming through negative feedbacks.",
+   "facts": [
+    [
+     "Place",
+     "Global shipping lanes, especially the North Atlantic and North Pacific"
+    ],
+    [
+     "Period",
+     "Rule in force January 2020; studies 2024"
+    ],
+    [
+     "Scale",
+     "About 80% cut in sulphur emissions from ships"
+    ],
+    [
+     "Key actors",
+     "International Maritime Organization (IMO), shipping firms, climate modellers"
+    ]
+   ],
+   "image": "3_2_imo2020.png",
+   "caption": "Figure 8. Effects of IMO 2020 (Earth's Future 2024; PML; termination-shock study).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "To cut air pollution, the IMO forced ships to use low-sulphur fuel from 2020, cutting sulphur emissions by about 80%. Sulphur aerosols make clouds brighter (the 'ship tracks' seen from space), reflecting sunlight. With fewer aerosols, clouds over busy shipping lanes dimmed."
+    },
+    {
+     "title": "How it shows the human role in feedbacks",
+     "bullets": [
+      "Suppressing warming: aerosol pollution had been cooling the planet, a human-made negative effect.",
+      "Removing it adds warming: one model study estimated about +0.046°C on average over 2020–2029, roughly two to three years of warming.",
+      "Uncertain size: another study estimated 0.1–0.3 W/m² more sunlight absorbed; other models found no clear global effect."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Human activities both warm (greenhouse gases) and cool (aerosols); cleaning the air can unmask warming.",
+      "Evaluation: cleaner air saves lives, so this is a trade-off, not a reason to keep polluting."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.1 IPCC (aerosol masking, slot 5) · 3.2.2 uncertainty (slot 14) · 3a slot 1 (trade-offs).",
+   "sources": [
+    [
+     "PML – has reducing ship pollution accelerated warming? (2024)",
+     "https://pml.ac.uk/news/has-reducing-ship-exhaust-pollution-accelerated-global-warming/"
+    ],
+    [
+     "Earth's Future (DOAJ) – IMO2020 and surface temperature",
+     "https://doaj.org/article/69479e59acac43adbb2681c718d4bd7a"
+    ],
+    [
+     "Splash247 – sulphur cap contributed to climate crisis",
+     "https://splash247.com/?p=207436"
+    ],
+    [
+     "Riviera – did the sulphur cap bolster global heating?",
+     "https://www.rivieramm.com/news-content-hub/butterflies-and-avalanches-did-the-sulphur-cap-bolster-global-heating-81101"
+    ]
+   ]
+  },
+  {
+   "slot": "9",
+   "heading": "3.2.2 Effects of Climate Change — Trends (temperature and precipitation)",
+   "case": "2024, the warmest year on record",
+   "syllabus": "Changes in temperature and precipitation associated with contemporary climate change.",
+   "facts": [
+    [
+     "Place",
+     "Global"
+    ],
+    [
+     "Period",
+     "2015–2024"
+    ],
+    [
+     "Scale",
+     "1.55°C (±0.13°C) above 1850–1900 in 2024"
+    ],
+    [
+     "Key actors",
+     "WMO and six global temperature datasets"
+    ]
+   ],
+   "image": "3_2_warm_2024.png",
+   "caption": "Figure 9. The 2024 temperature record (WMO).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The WMO confirmed 2024 as the warmest year on record, about 1.55°C above the 1850–1900 average, likely the first calendar year above 1.5°C. All six datasets it uses ranked 2024 warmest, and each of the last ten years is in the top ten. Ocean warming played a key role."
+    },
+    {
+     "title": "How it shows the changes",
+     "bullets": [
+      "Temperature: the trend is up decade by decade, with each recent year near or above previous records.",
+      "Precipitation: a warmer atmosphere holds more moisture, so heavy downpours intensify while some regions dry (see 3c slots 3, 6, 10).",
+      "Ocean heat: record ocean warmth drove much of the 2024 record."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "One year above 1.5°C is not the same as breaching the Paris 1.5°C limit, which refers to a long-term average.",
+      "Evaluation: not every dataset puts 2024 above 1.5°C, because methods differ: quote the range."
+     ]
+    }
+   ],
+   "links": "Links: 3c slots 3, 6, 10 (monsoon, Amazon drought, Pakistan floods) · 3.2.2 vulnerability (slot 13).",
+   "sources": [
+    [
+     "WMO – 2024 warmest year at about 1.55°C",
+     "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level"
+    ],
+    [
+     "UN – press release on 2024 record",
+     "https://www.un.org/sustainabledevelopment/blog/2025/01/press-release-wmo-confirms-2024-as-warmest-year-on-record-at-about-1-55c-above-pre-industrial-level/"
+    ],
+    [
+     "Anadolu – 2024 confirmed as warmest year",
+     "https://aa.com.tr/en/world/2024-confirmed-as-warmest-year-on-record-as-wmo-warns-about-escalating-climate-crisis/3447300"
+    ]
+   ]
+  },
+  {
+   "slot": "10",
+   "heading": "3.2.2 Effects of Climate Change — Impacts (aquatic ecosystems and people)",
+   "case": "Great Barrier Reef bleaching (2016–2025)",
+   "syllabus": "Impacts of climate change on aquatic ecosystems, and of these changes on humans.",
+   "facts": [
+    [
+     "Place",
+     "Great Barrier Reef, Queensland, Australia"
+    ],
+    [
+     "Period",
+     "Mass bleaching 2016, 2017, 2020, 2022, 2024 (and 2025)"
+    ],
+    [
+     "Scale",
+     "91% of 719 surveyed reefs affected in 2022"
+    ],
+    [
+     "Key actors",
+     "Great Barrier Reef Marine Park Authority, AIMS, tourism operators, Deloitte (valuation)"
+    ]
+   ],
+   "image": "3_2_gbr.png",
+   "caption": "Figure 10. Hard coral cover by region, 2024 vs 2025 (AIMS).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Marine heatwaves cause corals to expel their algae and turn white; if the heat lasts, they die. Bleaching in 2016, 2017 and 2020 damaged about two-thirds of the reef's coral. In 2022, 91% of surveyed reefs were affected, the first mass bleaching in a La Niña year. Coral cover then fell by the most in about 40 years of monitoring between 2024 and 2025."
+    },
+    {
+     "title": "How it shows the impacts",
+     "bullets": [
+      "On the ecosystem: in the south, coral cover fell from 38.9% to 26.9% in one year; dead coral loses the fish and habitat it supports.",
+      "On people: Deloitte (2017) estimated the reef added A$6.4 billion a year to Australia's economy and supported 64,000 jobs, mostly in tourism.",
+      "On coastal protection: healthy reefs break waves; dead reefs erode."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Ocean warming hits ecosystems first and people through the services those ecosystems provide.",
+      "Evaluation: reefs can recover between events, but more frequent heatwaves leave less time to recover."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.2 terrestrial ecosystems (slot 11) · 1.1.2 ecosystem services (3a slots 6–7).",
+   "sources": [
+    [
+     "AIMS – coral bleaching surveys",
+     "https://aims.gov.au/node/2825"
+    ],
+    [
+     "PBS (AP) – majority of reef coral bleached in 2022",
+     "https://www.pbs.org/newshour/science/majority-of-great-barrier-reef-coral-studied-in-2022-was-bleached-australian-scientists-say"
+    ],
+    [
+     "Australian Geographic – 91% of reefs affected (2022)",
+     "https://www.australiangeographic.com.au/?p=286449"
+    ],
+    [
+     "Geographical – coral cover sharply declined",
+     "https://geographical.co.uk/news/great-barrier-reefs-coral-cover-has-sharply-declined-new-study-finds"
+    ],
+    [
+     "Canberra Times – reef worth 12 times the Opera House (Deloitte)",
+     "https://www.canberratimes.com.au/story/4754488/the-australian-icon-worth-12-times-the-sydney-opera-house/"
+    ]
+   ]
+  },
+  {
+   "slot": "11",
+   "heading": "3.2.2 Effects of Climate Change — Impacts (terrestrial ecosystems and people)",
+   "case": "Australia's Black Summer bushfires (2019–20)",
+   "syllabus": "Impacts of climate change on terrestrial ecosystems, and of these changes on humans.",
+   "facts": [
+    [
+     "Place",
+     "South-eastern Australia (New South Wales, Victoria and others)"
+    ],
+    [
+     "Period",
+     "June 2019 – March 2020"
+    ],
+    [
+     "Scale",
+     "About 24 million hectares burned"
+    ],
+    [
+     "Key actors",
+     "Fire services, governments, communities, wildlife groups"
+    ]
+   ],
+   "image": "3_2_bushfires.png",
+   "caption": "Figure 11. Black Summer in four numbers (Wikipedia summary of official data; NLA; ELCA).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "After Australia's hottest and driest year on record, fires burned about 24 million hectares. They killed 33 people directly, and smoke was linked to 417 more deaths. Estimates of animals killed or displaced range from about 1 billion to nearly 3 billion. The cost was estimated at about A$100 billion."
+    },
+    {
+     "title": "How it shows the impacts",
+     "bullets": [
+      "On ecosystems: forests that rarely burn, including rainforest, burned; some species lost much of their range.",
+      "On people: homes and towns destroyed, over 63,000 people evacuated, and smoke across Sydney for weeks.",
+      "On the economy: smoke alone was estimated to cost Sydney A$12–50 million a day."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Climate change raises fire risk by making seasons hotter, drier and longer; ecosystems and people suffer together.",
+      "Evaluation: figures vary widely by source (animals 1–3 billion; area 18.6–33.8 million ha), so quote ranges."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.2 aquatic ecosystems (slot 10) · 3a slot 6 (Indonesia's fires) · 3.2.2 vulnerability.",
+   "sources": [
+    [
+     "Wikipedia – 2019–20 Australian bushfire season",
+     "https://en.wikipedia.org/wiki/2019%E2%80%9320_Australian_bushfire_season"
+    ],
+    [
+     "Climate Council – Summer of Crisis report (smoke costs)",
+     "https://www.climatecouncil.org.au/wp-content/uploads/2020/03/Crisis-Summer-Report-200311.pdf"
+    ],
+    [
+     "AIDR – Black Summer bushfires, NSW",
+     "https://knowledge.aidr.org.au/resources/black-summer-bushfires-nsw-2019-20/"
+    ],
+    [
+     "Emergency Leaders for Climate Action – factsheet (animals)",
+     "https://emergencyleadersforclimateaction.org.au/wp-content/uploads/2020/06/factsheet-national-bushfire-climate-summit.pdf"
+    ]
+   ]
+  },
+  {
+   "slot": "12",
+   "heading": "3.2.2 Effects of Climate Change — Impacts (positive and negative on places)",
+   "case": "The Northern Sea Route vs Tuvalu",
+   "syllabus": "Impacts of contemporary climate change on places: positive and negative impacts.",
+   "facts": [
+    [
+     "Places",
+     "Russia's Arctic coast (Northern Sea Route); Tuvalu (Pacific atolls)"
+    ],
+    [
+     "Period",
+     "2023–2025"
+    ],
+    [
+     "Scale",
+     "Record 37.9 million tonnes of cargo on the NSR (2024); over half of Tuvalu's citizens applied for an Australian climate visa (2025)"
+    ],
+    [
+     "Key actors",
+     "Rosatom and shippers; governments of Tuvalu and Australia"
+    ]
+   ],
+   "image": "3_2_nsr_tuvalu.png",
+   "caption": "Figure 12. One place gains, another loses (Moscow Times; Devpolicy).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "As Arctic sea ice shrinks, Russia's Northern Sea Route carried a record 37.9 million tonnes of cargo in 2024 and a record 92 voyages. Meanwhile Tuvalu, a nation of low atolls, signed the Falepili Union with Australia in 2023. It lets up to 280 Tuvaluans a year move to Australia; in 2025 about 8,750 people, more than half the population, applied."
+    },
+    {
+     "title": "How it shows positive and negative impacts",
+     "bullets": [
+      "Positive: a shorter sea route between Asia and Europe for part of the year (Russia says it halves the distance from Murmansk to Japan compared with Suez).",
+      "Negative: rising seas threaten Tuvalu's land, fresh water and future, so people plan to leave.",
+      "Uneven: those gaining are often the larger emitters; those losing have contributed least."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Climate change creates winners and losers; balance any 'positive' with its wider costs.",
+      "Evaluation: NSR cargo still fell far short of Russia's 80 million tonne target, and the route is closed for much of the year."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.2 vulnerability (slot 13) · 3.2.3 adaptation (slot 16) · 1.2.1 labour flows (migration).",
+   "sources": [
+    [
+     "Moscow Times – NSR shipping falls short of 2024 target",
+     "https://www.themoscowtimes.com/2025/01/10/northern-sea-route-shipping-falls-short-of-russias-2024-target-a87558"
+    ],
+    [
+     "World Nuclear News – NSR cargo record in 2024",
+     "https://world-nuclear-news.org/articles/northern-sea-route-cargo-set-new-record-in-2024"
+    ],
+    [
+     "DFAT – Australia–Tuvalu Falepili Union treaty",
+     "https://www.dfat.gov.au/geo/tuvalu/australia-tuvalu-falepili-union-treaty"
+    ],
+    [
+     "Devpolicy – first Falepili Union visa ballot",
+     "https://devpolicy.org/the-first-falepili-union-visa-ballot-a-preliminary-assessment-20250826/"
+    ],
+    [
+     "Australian Foreign Minister – ballot opens (280 a year)",
+     "https://www.foreignminister.gov.au/minister/penny-wong/media-release/supporting-stronger-relationships-pacific-through-opening-falepili-mobility-pathway-ballot"
+    ]
+   ]
+  },
+  {
+   "slot": "13",
+   "heading": "3.2.2 Effects of Climate Change — Impacts (varying vulnerability)",
+   "case": "Europe's summer heat deaths (2022)",
+   "syllabus": "Variations in negative impacts due to uneven changes across places and differences in vulnerability of different groups of people.",
+   "facts": [
+    [
+     "Place",
+     "35 European countries (most deaths in Italy, Spain, Germany)"
+    ],
+    [
+     "Period",
+     "30 May – 4 September 2022"
+    ],
+    [
+     "Scale",
+     "61,672 heat-related deaths"
+    ],
+    [
+     "Key actors",
+     "ISGlobal and Inserm researchers (Nature Medicine), health services"
+    ]
+   ],
+   "image": "3_2_heat_2022.png",
+   "caption": "Figure 13. Heat-related deaths in Europe, summer 2022, by sex and age (Nature Medicine via ISGlobal).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Europe's record-hot summer of 2022 killed an estimated 61,672 people from heat. Italy (18,010), Spain (11,324) and Germany (8,173) had the most deaths. Women died at a much higher number than men: 35,406 vs 21,667."
+    },
+    {
+     "title": "How it shows varying vulnerability",
+     "bullets": [
+      "Age: 36,848 deaths were among people over 79, whose bodies cope less well with heat.",
+      "Sex: heat mortality was 56% higher per person among women; among over-80s, women's rate was 27% higher than men's.",
+      "Place: southern Europe had the most deaths, where heat was most intense."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The same heatwave hurts groups differently because of age, health, living alone and income.",
+      "Evaluation: richer countries are not immune; ageing populations raise vulnerability even where wealth is high."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.3 the elderly in cities (3e slots 13–14) · 3c slot 10 (Pakistan floods vulnerability).",
+   "sources": [
+    [
+     "ISGlobal – record heat caused more than 61,000 deaths",
+     "https://isglobal.org/en/-/el-calor-record-del-verano-de-2022-causo-mas-de-61-000-muertes-en-europa"
+    ],
+    [
+     "Inserm – heat deaths in Europe, nearly 5,000 in France",
+     "https://presse.inserm.fr/en/la-chaleur-record-de-lete-2022-a-fait-plus-de-61-000-morts-en-europe-dont-pres-de-5000-en-france/67292/"
+    ],
+    [
+     "Scimex – 2022's hot summer contributed to 61,000 deaths",
+     "https://www.scimex.org/newsfeed/2022s-hot-european-summer-contributed-to-over-61-000-heat-related-deaths"
+    ],
+    [
+     "ITV – heatwave killed 61,000 people in Europe",
+     "https://itv.com/news/2023-07-11/record-breaking-heatwave-killed-61000-people-in-europe"
+    ]
+   ]
+  },
+  {
+   "slot": "14",
+   "heading": "3.2.2 Effects of Climate Change — Challenges (uncertainty)",
+   "case": "Thwaites Glacier and sea-level projections",
+   "syllabus": "Reasons for uncertainty: incomplete understanding of physical processes; incomplete data from oceans, deserts and polar regions; measurement errors; uncertain future emissions.",
+   "facts": [
+    [
+     "Place",
+     "Thwaites Glacier, West Antarctica"
+    ],
+    [
+     "Period",
+     "International Thwaites Glacier Collaboration, findings 2025"
+    ],
+    [
+     "Scale",
+     "Full collapse would raise sea level by about 65 cm; all of West Antarctica over 3 m"
+    ],
+    [
+     "Key actors",
+     "International Thwaites Glacier Collaboration (UK–US), IPCC, coastal planners"
+    ]
+   ],
+   "image": "3_2_thwaites.png",
+   "caption": "Figure 14. Sea-level numbers and their uncertainty (ITGC 2025 summary).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "Thwaites, nicknamed the 'Doomsday Glacier', is being melted from below by warm ocean water. If it collapsed entirely, sea level would rise about 65 cm. Global sea level is likely to rise about 40–80 cm this century, but by up to almost 2 m if runaway ice-sheet processes take hold."
+    },
+    {
+     "title": "How it shows the uncertainty",
+     "bullets": [
+      "Physical processes not fully understood: how fast ice shelves break up and how ice behaves at the bed are still being studied.",
+      "Data gaps: the glacier is remote and under ice and ocean, so measurements are few and recent.",
+      "Future emissions: how much warming happens depends on choices not yet made."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The range (40 cm to 2 m) is the uncertainty; planners must prepare for the high end even if it is less likely.",
+      "Evaluation: one 2024 talk warned an ice shelf could collapse within five years, while ITGC concluded full collapse this century is unlikely: experts differ."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 adaptation (Singapore, slot 16) · 3.2.2 Tuvalu (slot 12) · 3.2.1 AMOC (slot 3).",
+   "sources": [
+    [
+     "ITGC – Thwaites findings",
+     "https://thwaitesglacier.org/findings"
+    ],
+    [
+     "NERC repository – Antarctica's Thwaites Glacier and sea-level rise",
+     "https://nora.nerc.ac.uk/id/eprint/538943"
+    ],
+    [
+     "KTVZ (CNN) – beneath the Doomsday Glacier (2024)",
+     "https://ktvz.com/cnn-other/2024/09/20/scientists-looked-deep-beneath-the-doomsday-glacier-what-they-found-spells-potential-disaster-for-the-planet/"
+    ],
+    [
+     "CounterPunch – Doomsday Glacier's 2025 checkup (commentary)",
+     "https://www.counterpunch.org/2025/12/19/the-doomsday-glacier-flunks-2025-checkup/"
+    ]
+   ]
+  },
+  {
+   "slot": "15",
+   "heading": "3.2.3 Responses to Climate Change — Strategies (mitigation)",
+   "case": "The UK ends coal power (2024)",
+   "syllabus": "Mitigation strategies to reduce greenhouse gas emissions and enhance carbon sinks.",
+   "facts": [
+    [
+     "Place",
+     "United Kingdom; last plant at Ratcliffe-on-Soar, Nottinghamshire"
+    ],
+    [
+     "Period",
+     "1990–2024"
+    ],
+    [
+     "Scale",
+     "Coal fell from about 80% of UK electricity (1990) to zero (October 2024)"
+    ],
+    [
+     "Key actors",
+     "UK government, plant owner Uniper, National Grid, renewable energy firms"
+    ]
+   ],
+   "image": "3_2_uk_coal.png",
+   "caption": "Figure 15. Coal's share of UK electricity (National Grid data via press).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "On 30 September 2024 the UK closed Ratcliffe-on-Soar, its last coal-fired power station, ending 142 years of coal power. The UK became the first G7 country to stop using coal for electricity. Coal had supplied about 80% of power in 1990, 39% in 2012 and about 1% in 2023."
+    },
+    {
+     "title": "How it shows mitigation",
+     "bullets": [
+      "Switching fuels: coal was replaced by gas, then increasingly by wind and solar, cutting emissions per unit of power.",
+      "Policy and price: government policy and financial incentives made coal uneconomic and renewables attractive.",
+      "Steady pace: the phase-out took about 30 years, with the steepest fall after 2012."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Mitigation works best as a long-term, policy-led shift in the energy mix.",
+      "Evaluation: some countries (Sweden, Belgium) got there sooner; and gas is still a fossil fuel, so the job is not finished."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 firms (Ørsted, slot 18) · 3a slot 9 (Vietnam's solar) · 3.2.1 enhanced greenhouse effect (slot 7).",
+   "sources": [
+    [
+     "ABC News (AP) – Britain's last coal plant closing",
+     "https://abcnews.go.com/Business/wireStory/britains-coal-fired-electricity-plant-closing-ends-142-114342587"
+    ],
+    [
+     "ITV – Britain's last coal power station set to close",
+     "https://www.itv.com/news/2024-09-25/britains-last-coal-fired-power-station-set-to-close-in-landmark-moment"
+    ],
+    [
+     "RenewEconomy – last coal power station shuts down",
+     "https://reneweconomy.com.au/last-coal-power-station-in-uk-shuts-down-bring-coal-era-to-end-after-143-years/"
+    ],
+    [
+     "Open Access Government – last UK coal plant shuts",
+     "https://www.openaccessgovernment.org/?p=183057"
+    ]
+   ]
+  },
+  {
+   "slot": "16",
+   "heading": "3.2.3 Responses to Climate Change — Strategies (adaptation)",
+   "case": "Singapore's coastal protection (2019–2029)",
+   "syllabus": "Adaptation strategies to help human populations adjust and cope with actual or expected climate change.",
+   "facts": [
+    [
+     "Place",
+     "Singapore's coastline, especially the East Coast"
+    ],
+    [
+     "Period",
+     "Announced 2019; Long Island studies 2024–2029"
+    ],
+    [
+     "Scale",
+     "At least S$100 billion over 100 years"
+    ],
+    [
+     "Key actors",
+     "Singapore government (PUB, URA), engineers, residents and park users"
+    ]
+   ],
+   "image": "3_2_sg_coast.png",
+   "caption": "Figure 16. Singapore's coastal adaptation plans (PM's 2019 speech; URA; press).",
+   "sections": [
+    {
+     "title": "What it is",
+     "text": "Singapore is low-lying and expects sea levels to rise this century. In 2019 the Prime Minister said coastal defences could cost at least S$100 billion over 100 years, starting with S$5 billion for a Coastal and Flood Protection Fund. One idea is 'Long Island': about 800 ha of reclaimed land off the East Coast, with tidal gates and pumps creating a reservoir."
+    },
+    {
+     "title": "How it shows adaptation",
+     "bullets": [
+      "Planning ahead: defences are planned decades before they are needed, with studies running 2024–2029.",
+      "Choosing options: a 3 m sea wall along the coast was studied but rejected because it would disrupt the park for years.",
+      "Multiple gains: Long Island could add land, a reservoir and parks as well as protection."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Adaptation lowers the risk from climate change that mitigation can no longer prevent.",
+      "Evaluation: few places can afford S$100 billion; adaptation capacity depends on wealth (compare Tuvalu, slot 12)."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.2 uncertainty (Thwaites, slot 14) · 3.2.2 Tuvalu (slot 12) · 3.1.3 liveability.",
+   "sources": [
+    [
+     "Malay Mail – Singapore to bolster coastal defences (2019)",
+     "https://www.malaymail.com/amp/news/world/2019/08/19/singapore-to-bolster-coastal-defences-against-rising-sea-levels-says-pm/1781949"
+    ],
+    [
+     "ABC17 (CNN) – Singapore's Long Island (2025)",
+     "https://abc17news.com/news/2025/07/23/a-low-lying-asian-countrys-defense-against-rising-seas-its-very-own-long-island/"
+    ],
+    [
+     "Solar Daily – Singapore mulls artificial islands",
+     "https://www.solardaily.com/reports/Singapore_mulls_artificial_islands_for_coastal_defence_999.html"
+    ],
+    [
+     "Archify (Aurecon) – protecting Singapore's East Coast",
+     "https://www.archify.com/au/aurecon-hong-kong-ltd/updates/detail/rethinking-climate-adaptation-protecting-singapore-s-east-coast"
+    ]
+   ]
+  },
+  {
+   "slot": "17",
+   "heading": "3.2.3 Responses to Climate Change — Actors (NGOs)",
+   "case": "Urgenda v the State of the Netherlands (2015–2019)",
+   "syllabus": "Role of key actors in climate change response: non-governmental organisations (NGOs).",
+   "facts": [
+    [
+     "Place",
+     "The Netherlands"
+    ],
+    [
+     "Period",
+     "Rulings 2015, 2018, 2019"
+    ],
+    [
+     "Scale",
+     "Court ordered emissions cut of at least 25% below 1990 by end-2020"
+    ],
+    [
+     "Key actors",
+     "Urgenda Foundation (NGO), Dutch government, Dutch courts"
+    ]
+   ],
+   "image": "3_2_urgenda.png",
+   "caption": "Figure 17. Urgenda's case through the courts (dates in labels).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The NGO Urgenda sued the Dutch government for doing too little on climate change. Courts agreed in 2015 and 2018, and on 20 December 2019 the Supreme Court made it final: the state must cut emissions by at least 25% below 1990 by the end of 2020. It was described as the first court order forcing a national government to cut emissions."
+    },
+    {
+     "title": "How it shows the NGO's role",
+     "bullets": [
+      "Holding the state to account: the NGO used the courts to turn a political promise into a legal duty.",
+      "Setting a precedent: similar cases followed in other countries.",
+      "Shaping policy: before the ruling, analysts said meeting the target would mean closing three relatively new coal plants early."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "NGOs influence climate response through campaigns, research and, increasingly, the courts.",
+      "Evaluation: the government's own agency had forecast only about a 23% cut for 2020 and called 25% out of reach, so legal wins still need delivery."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 firms (slot 18) and partnerships (slot 19) · 3.2.3 political challenges (slot 20).",
+   "sources": [
+    [
+     "Wikipedia – Urgenda Foundation v State of the Netherlands",
+     "https://en.wikipedia.org/wiki/Urgenda_Foundation_v_State_of_the_Netherlands"
+    ],
+    [
+     "CleanTechnica – Supreme Court orders 25% cut",
+     "https://cleantechnica.com/2019/12/20/netherlands-supreme-court-orders-government-to-cut-carbon-emissions-25/"
+    ],
+    [
+     "NBC News – landmark Dutch climate case",
+     "https://www.nbcnews.com/science/environment/landmark-climate-case-dutch-court-orders-government-action-emissions-n1105881"
+    ],
+    [
+     "CMS – Dutch government comprehensively defeated",
+     "https://cms.law/en/gbr/legal-updates/landmark-climate-change-judgment-dutch-government-again-comprehensively-defeated"
+    ]
+   ]
+  },
+  {
+   "slot": "18",
+   "heading": "3.2.3 Responses to Climate Change — Actors (firms)",
+   "case": "Ørsted: from coal to offshore wind (2009–2018)",
+   "syllabus": "Role of key actors in climate change response: firms.",
+   "facts": [
+    [
+     "Place",
+     "Denmark (headquarters); wind farms in the North Sea and beyond"
+    ],
+    [
+     "Period",
+     "2009–2018"
+    ],
+    [
+     "Scale",
+     "Renewables rose from 15% to 75% of its output; about 30% of the world offshore wind market"
+    ],
+    [
+     "Key actors",
+     "Ørsted (formerly DONG Energy), Danish state (major shareholder), investors"
+    ]
+   ],
+   "image": "3_2_orsted.png",
+   "caption": "Figure 18. Ørsted's transformation (company history; Corporate Knights).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "When DONG Energy formed in 2006 it was one of Europe's most coal-heavy utilities, responsible for a third of Denmark's carbon emissions. In 2008, 85% of its heat and power came from fossil fuels. In 2009 it cancelled coal plans and bet on offshore wind, aiming to flip the ratio within a generation. It did it in about a decade, renaming itself Ørsted."
+    },
+    {
+     "title": "How it shows a firm's role",
+     "bullets": [
+      "Changing what it sells: by 2018, 75% of its output was green, and carbon per kWh was down 72% from 2009.",
+      "Driving down costs: building offshore wind at scale helped make it cheaper for everyone.",
+      "Leading a market: it now holds about 30% of the global offshore wind market."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Firms can cut emissions faster than governments require when it pays commercially.",
+      "Evaluation: state ownership and Danish policy support helped; not every firm has that backing."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 mitigation (UK coal, slot 15) · 3.2.3 partnerships (slot 19) · 1.2.2 TNCs.",
+   "sources": [
+    [
+     "Ørsted – history and transformation",
+     "https://orsted.com/en/about-us/history-and-transformation"
+    ],
+    [
+     "Ørsted – our green energy transformation",
+     "https://orsted.com/en/about-us/about-orsted/our-green-energy-transformation"
+    ],
+    [
+     "Corporate Knights – from black to green energy",
+     "https://www.corporateknights.com/clean-technology/black-green-energy/"
+    ]
+   ]
+  },
+  {
+   "slot": "19",
+   "heading": "3.2.3 Responses to Climate Change — Actors (partnerships)",
+   "case": "Indonesia's Just Energy Transition Partnership (2022–2025)",
+   "syllabus": "Importance of partnerships between firms, NGOs and states in responding to climate change.",
+   "facts": [
+    [
+     "Place",
+     "Indonesia"
+    ],
+    [
+     "Period",
+     "Launched November 2022; US withdrew March 2025"
+    ],
+    [
+     "Scale",
+     "US$20 billion pledged; 6.7 GW of coal phase-out targeted by 2030"
+    ],
+    [
+     "Key actors",
+     "Indonesian government, donor states (US, Japan, European partners), banks and lenders, JETP secretariat"
+    ]
+   ],
+   "image": "3_2_jetp.png",
+   "caption": "Figure 19. JETP money pledged vs approved (Eco-Business; Times Live; CSIS).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "At the 2022 G20, Indonesia agreed a Just Energy Transition Partnership: rich countries and lenders pledged US$20 billion to help it shift from coal to renewables. By 2025 about US$2.85 billion in loans and equity and US$187 million in grants had been approved for grids, renewables and electric transport. In March 2025 the US pulled out of its US$2 billion share."
+    },
+    {
+     "title": "How it shows partnerships",
+     "bullets": [
+      "Why partner: no single actor has the money, technology and authority needed; states, banks and firms each bring part.",
+      "What worked: money flowed to grids and renewables.",
+      "What stalled: no funds were approved to retire coal plants, and the head of the JETP secretariat warned the 2030 coal target could fail."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Partnerships can mobilise money but depend on every partner staying committed.",
+      "Evaluation: a presidential envoy called the JETP a 'failed program'; political change in one partner can stall the whole partnership."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 political and economic challenges (slot 20) · 1.2.3 multilateral institutions · 3b slot 15 (Indonesia).",
+   "sources": [
+    [
+     "Eco-Business – Indonesia's US$20 bn pact hit by US pull-out",
+     "https://eco-business.com/news/indonesias-us20-billion-coal-phase-out-pact-hit-by-us-pull-out"
+    ],
+    [
+     "CSIS – US withdrawal from JETP",
+     "https://www.csis.org/blogs/latest-southeast-asia/latest-southeast-asia-us-withdrawal-jetp"
+    ],
+    [
+     "Times Live – Indonesia's transition plan at risk (Nov 2025)",
+     "https://www.timeslive.co.za/news/world/2025-11-17-indonesias-just-energy-transition-plan-at-risk-due-to-stalled-international-funding/"
+    ],
+    [
+     "Indonesia Business Post – JETP: failed or unfulfilled?",
+     "https://indonesiabusinesspost.com/3689/business-and-investment/just-energy-transition-partnership-jetp-a-failed-initiative-or-unfulfilled-promise"
+    ]
+   ]
+  },
+  {
+   "slot": "20",
+   "outcome": "Succeeded",
+   "heading": "3.2.3 Responses to Climate Change — Varying success: SUCCEEDED",
+   "case": "Costa Rica's decarbonisation (2015–2025)",
+   "syllabus": "Varying success of strategies to respond to climate change; economic, political and uncertainty challenges.",
+   "facts": [
+    [
+     "Place",
+     "Costa Rica"
+    ],
+    [
+     "Period",
+     "National Decarbonisation Plan launched February 2019"
+    ],
+    [
+     "Scale",
+     "About 99% of electricity from renewable sources; 52% forest cover"
+    ],
+    [
+     "Key actors",
+     "Costa Rican government, state utility, landowners, international partners"
+    ]
+   ],
+   "image": "3_2_costa_rica.png",
+   "caption": "Figure 20a. Costa Rica's climate position (decarbonisation plan; press).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Costa Rica already generates almost all its electricity from renewables (mainly hydropower). In 2019 it launched a National Decarbonisation Plan in three phases to 2050, covering transport, energy and farming. It aims for a fully renewable grid by 2030 and to raise forest cover from 52% to 60% by 2050."
+    },
+    {
+     "title": "Why the strategy succeeded",
+     "bullets": [
+      "Natural advantages: abundant rain, rivers and volcanic heat make renewable power cheap.",
+      "Consistent goals: the 2019 plan built on an earlier target of carbon neutrality by 2021.",
+      "Sinks as well as cuts: protecting and regrowing forest increases carbon storage."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Success is easier where geography and politics line up; Costa Rica is small and has no big fossil-fuel industry.",
+      "Evaluation: transport is still mostly fossil-fuelled, and droughts that cut hydropower show uncertainty challenges remain."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 failed case (US Paris exits, next page) · 3.2.3 mitigation (slot 15) · 3a slot 10 (hydropower trade-offs).",
+   "sources": [
+    [
+     "Climate Action – Costa Rica's plan for zero emissions by 2050",
+     "https://climateaction.org/news/costa-rica-launches-plan-for-zero-emissions-by-2050"
+    ],
+    [
+     "RenewEconomy – Costa Rica's decarbonisation plan",
+     "https://reneweconomy.com.au/costa-rica-lays-out-ground-breaking-decarbonisation-plan-57792/amp/"
+    ],
+    [
+     "Down To Earth – will Costa Rica's plan work?",
+     "https://www.downtoearth.org.in/climate-change/will-costa-rica-s-ambitious-plan-to-negate-climate-change-work--62686"
+    ],
+    [
+     "National Decarbonization Plan (PDF)",
+     "https://deik.org.tr/uploads/costa-rica-national-decarbonization-plan.pdf"
+    ]
+   ]
+  },
+  {
+   "slot": "20",
+   "outcome": "Failed",
+   "heading": "3.2.3 Responses to Climate Change — Varying success: FAILED",
+   "case": "The United States leaving the Paris Agreement (2017–2026)",
+   "syllabus": "Varying success of strategies to respond to climate change; economic, political and uncertainty challenges.",
+   "facts": [
+    [
+     "Place",
+     "United States"
+    ],
+    [
+     "Period",
+     "2017–2026"
+    ],
+    [
+     "Scale",
+     "World's second-largest emitter and largest historical emitter"
+    ],
+    [
+     "Key actors",
+     "US presidents and Congress, UN climate bodies, US states and firms"
+    ]
+   ],
+   "image": "3_2_us_paris.png",
+   "caption": "Figure 20b. The US in and out of the Paris Agreement (dates in labels; Harvard EELP; UN).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The US signed up to the 2015 Paris Agreement, announced it would leave in 2017 and left in November 2020. It rejoined in February 2021, then ordered another exit in January 2025, which took effect in January 2026. In January 2026 it also announced it would leave the UN Framework Convention on Climate Change."
+    },
+    {
+     "title": "Why the strategy failed",
+     "bullets": [
+      "Political challenge: national climate policy swung with each change of president, so commitments did not last.",
+      "Economic challenge: leaders argued climate rules cost jobs and money in fossil-fuel regions.",
+      "Knock-on effect: a US exit weakens trust and funding for others (e.g. its pull-out from Indonesia's JETP, slot 19)."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Strategies fail without stable political support, even in rich countries with the means to act.",
+      "Evaluation: some US states and firms kept cutting emissions, so national exit did not stop all action."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 succeeded case (Costa Rica, previous page) · 3.2.3 partnerships (JETP, slot 19) · 3a slot 4 (political challenges).",
+   "sources": [
+    [
+     "Harvard EELP – Paris Agreement tracker",
+     "https://eelp.law.harvard.edu/tracker/paris-climate-agreement"
+    ],
+    [
+     "Times of Oman – US withdrawal comes into effect",
+     "https://timesofoman.com/article/167618-us-withdrawal-from-paris-agreement-comes-into-effect"
+    ],
+    [
+     "Northeastern – US officially exits the Paris deal",
+     "https://cssh.northeastern.edu/trumps-us-officially-exits-paris-climate-deal-what-does-it-mean-for-rest-of-the-world/"
+    ],
+    [
+     "Sentinel Assam – UN confirms US withdrawal notice",
+     "https://www.sentinelassam.com/more-news/international/united-nations-confirms-united-states-notification-of-withdrawal-from-paris-agreement"
+    ]
+   ]
+  }
+ ]
+}
