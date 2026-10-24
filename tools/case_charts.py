@@ -469,6 +469,106 @@ def doing_business(path):
 
 
 
+# ---------- Topic 2.1 (doc 3c) ----------
+def climate_zones(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    names = ['Singapore (Af)\nhumid tropics', 'Niamey, Niger (BSh)\nsemi-arid', 'Riyadh (BWh)\ndesert']
+    mid, lo, hi = [2166, 575, 112], [2166, 550, 100], [2166, 600, 125]
+    ax.bar(names, mid, color=[GREEN, ORANGE, RED], width=0.55)
+    ax.errorbar([1, 2], mid[1:], yerr=[[mid[1]-lo[1], mid[2]-lo[2]], [hi[1]-mid[1], hi[2]-mid[2]]], fmt='none', ecolor=INK, capsize=4)
+    for i, (v, t) in enumerate(zip(mid, ['~2,166 mm', '~550–600 mm', '~100–125 mm'])):
+        ax.text(i, v + 95, t, ha='center', fontsize=8.5)
+    ax.set_ylabel('Average annual rainfall (mm)'); ax.set_ylim(0, 2550)
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    tidy(ax); save(fig, path)
+
+
+def sahel_2020(path):
+    tiles(path, [('2.7 m', 'people hit by floods\nin 18 countries,\nWest & Central Africa', RED),
+                 ('Record', 'Niger River level\nat Niamey,\nall-time high', BLUE),
+                 ('226,000', 'displaced in Niger;\nat least 45 dead', ORANGE),
+                 ('ITCZ', 'surged north of its\nusual August\nposition', MUTED)])
+
+
+def india_monsoon(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Normal August', 'August 2023'], [254.9, 162.7], [MUTED, RED], lambda v: f"{v:g} mm",
+         ylabel='All-India rainfall (mm)', ymax=300)
+    ax.text(0.5, 280, 'About 36% below normal: driest August since 1901 (IMD)', ha='center', fontsize=8.5, color=RED)
+    save(fig, path)
+
+
+def freddy(path):
+    tiles(path, [('31+ days', 'beat (or matched)\nthe old 31-day\nlifespan record', BLUE),
+                 ('ACE 86', 'estimated cyclone\nenergy: just above\nthe old record (85)', ORANGE),
+                 ('200+', 'deaths in Malawi\nand Mozambique\n(mostly Malawi)', RED),
+                 ('85', 'deaths in Blantyre\nalone, from floods\nand mudslides', MUTED)])
+
+
+def lismore(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Town levee', 'Old record\n(Feb 1954)', 'Feb 2022 peak'], [10, 12.27, 14.4], [MUTED, ORANGE, RED],
+         lambda v: f"{v:g} m", ylabel='Wilsons River at Lismore (m)', ymax=17)
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:g}"))
+    save(fig, path)
+
+
+def rio_negro(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['June 2021\n(record high)', 'October 2023\n(record low)'], [30.02, 12.70], [BLUE, ORANGE],
+         lambda v: f"{v:.2f} m", ylabel='Rio Negro at Manaus port (m)', ymax=35)
+    ax.text(0.5, 33, 'A 17 m swing in just over two years', ha='center', fontsize=8.5, color=INK)
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:g}"))
+    save(fig, path)
+
+
+def jakarta_storage(path):
+    tiles(path, [('40%', 'of Jakarta not on\npiped water: relies\non groundwater', BLUE),
+                 ('1–15 cm', 'sinking per year\non average', ORANGE),
+                 ('25 cm', 'per year in parts\nof North Jakarta', RED),
+                 ('~50%', 'of the city now\nbelow sea level', MUTED)])
+
+
+def chennai(path):
+    tiles(path, [('1,324 mm', 'average yearly rain;\n60% falls in the\nOct–Dec monsoon', BLUE),
+                 ('289', 'deaths in two worst-\nhit districts\n(CAG audit)', RED),
+                 ('300+', 'water bodies lost\nto building', ORANGE),
+                 ('1.4 lakh', '(140,000) illegal\nstructures counted\nby the CMDA', MUTED)])
+
+
+def kerala(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Average,\n1 Jun–19 Aug', '2018,\n1 Jun–19 Aug'], [1676.3, 2378.71], [MUTED, RED], lambda v: f"{v:,.0f} mm",
+         ylabel='Kerala rainfall (mm)', ymax=2950)
+    ax.text(0.5, 2790, 'About 42% above normal; 8–19 August alone was 362% above normal', ha='center', fontsize=8.5, color=RED)
+    save(fig, path)
+
+
+def pakistan(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Men', 'Women', 'Children'], [601, 273, 481], [MUTED, ORANGE, RED], lambda v: f"{v}",
+         ylabel='Deaths (NDMA, early Sep 2022)', ymax=720)
+    ax.text(1, 680, 'Final toll: 1,739 deaths; 33 million people affected', ha='center', fontsize=8.5, color=INK)
+    save(fig, path)
+
+
+def smart_tunnel(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Design capacity\n(one diversion)', 'Sep 2020\nflash flood', 'Dec 2021\nstorm'], [3, 3, 5], [MUTED, BLUE, ORANGE],
+         lambda v: f"{v:g} million m³", ylabel='Floodwater diverted (million m³)', ymax=6.2)
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:g}"))
+    save(fig, path)
+
+
+def jakarta_flood(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['Planned', 'Done by 2026'], [33.69, 17.14], [MUTED, ORANGE], lambda v: f"{v:g} km", title='Ciliwung river works', ymax=40)
+    bars(a2, ['Rain, 1 Jan 2020\n(Halim)'], [377], [RED], lambda v: f"{v} mm", title='One day of rain', ymax=440)
+    a2.set_xlim(-1, 1)
+    save(fig, path)
+
+
+
 if __name__ == '__main__':
     out = sys.argv[1]
     os.makedirs(out, exist_ok=True)
@@ -488,4 +588,9 @@ if __name__ == '__main__':
                      ('platform_workers', platform_workers), ('rcep', rcep), ('wto_nickel', wto_nickel),
                      ('doing_business', doing_business)):
         fn(os.path.join(out, f'1_2_{name}.png'))
+    for name, fn in (('climate_zones', climate_zones), ('sahel_2020', sahel_2020), ('india_monsoon', india_monsoon),
+                     ('freddy', freddy), ('lismore', lismore), ('rio_negro', rio_negro), ('jakarta_storage', jakarta_storage),
+                     ('chennai', chennai), ('kerala', kerala), ('pakistan', pakistan), ('smart_tunnel', smart_tunnel),
+                     ('jakarta_flood', jakarta_flood)):
+        fn(os.path.join(out, f'2_1_{name}.png'))
     print('ok')
