@@ -288,6 +288,187 @@ def brumadinho(path):
           ('2035', 'Vale: full closure of its\nupstream dams not before', RED, -1)])
 
 
+# ---------- Topic 1.2 (doc 3b) ----------
+def hbars(path, labels, vals, colours, fmt, xlabel, xmax, note=None):
+    fig, ax = plt.subplots(figsize=SIZE)
+    y = list(range(len(vals)))[::-1]
+    ax.barh(y, vals, color=colours, height=0.62)
+    for yi, v in zip(y, vals):
+        ax.text(v + xmax * 0.01, yi, fmt(v), va='center', fontsize=8, color=INK)
+    ax.set_yticks(y); ax.set_yticklabels(labels, fontsize=8.5)
+    ax.set_xlim(0, xmax); ax.set_xlabel(xlabel)
+    for s_ in ('top', 'right'):
+        ax.spines[s_].set_visible(False)
+    ax.xaxis.grid(True, color=GRID, lw=0.8); ax.set_axisbelow(True)
+    if note:
+        ax.set_title(note, fontsize=8.5, color=MUTED, loc='left')
+    save(fig, path)
+
+
+def sea_hdi(path):
+    names = ['Singapore', 'Brunei', 'Malaysia', 'Thailand', 'Vietnam', 'Indonesia', 'Philippines', 'Laos', 'Myanmar', 'Cambodia']
+    v = [0.949, 0.823, 0.807, 0.803, 0.726, 0.713, 0.710, 0.620, 0.608, 0.600]
+    cols = [GREEN if x >= 0.8 else (BLUE if x >= 0.7 else ORANGE) for x in v]
+    hbars(path, names, v, cols, lambda x: f"{x:.3f}", 'Human Development Index, 2022 (UNDP)', 1.08,
+          note='green = very high, blue = high, orange = medium')
+
+
+def vietnam_flows(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['2010', '2023'], [14, 5.7], [MUTED, GREEN], lambda v: f"{v:g}%", title='Poverty rate (national line)', ymax=17)
+    a2.bar(['Exports'], [72], color=BLUE, width=0.9); a2.bar(['Exports'], [28], bottom=[72], color=MUTED, width=0.9)
+    a2.text(0, 36, 'Foreign-invested\nfirms ~72%', ha='center', va='center', color='white', fontsize=8.5)
+    a2.text(0, 86, 'Vietnamese\nfirms ~28%', ha='center', va='center', color='white', fontsize=8.5)
+    a2.set_ylim(0, 100); a2.set_xlim(-0.6, 0.6); a2.set_title("Who makes Vietnam's exports", fontsize=9, loc='left')
+    tidy(a2)
+    save(fig, path)
+
+
+def philippines(path):
+    hbars(path, ['United States', 'Singapore', 'Saudi Arabia', 'All other countries'], [40.6, 7.2, 6.4, 45.8],
+          [BLUE, ORANGE, ORANGE, MUTED], lambda v: f"{v:g}%", 'Share of cash remittances, 2024 (%)', 55,
+          note='Total 2024: US$38.34 bn = 8.3% of GDP')
+
+
+def ethiopia(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['Planned', 'Nov 2023'], [60000, 28000], [MUTED, ORANGE], lambda v: f"{v:,}", title='Hawassa park jobs', ymax=72000)
+    bars(a2, ['Hawassa', 'Mekelle', 'Bole Lemi', 'Other'], [4321, 2885, 1097, 3197], [RED, RED, RED, MUTED],
+         lambda v: f"{v:,}", title='Jobs lost after AGOA suspension', ymax=5200)
+    save(fig, path)
+
+
+def china_services(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['A decade ago', 'Now'], [44, 53], [MUTED, BLUE], lambda v: f"{v:g}%", title='China: services share of activity', ymax=62)
+    bars(a2, ['2010', '2015'], [3, 8], [MUTED, ORANGE], lambda v: f"{v:g}%", title='Bangladesh + Vietnam: share of world\nclothing, footwear, furniture exports', ymax=10)
+    save(fig, path)
+
+
+def chip_shortage(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['May 2021\nforecast', 'Sep 2021\nforecast'], [110, 210], [MUTED, RED], lambda v: f"US${v}bn", title='Car industry revenue lost, 2021', ymax=250)
+    bars(a2, ['May 2021\nforecast', 'Sep 2021\nforecast'], [3.9, 7.7], [MUTED, RED], lambda v: f"{v}m", title='Vehicles not built, 2021', ymax=9.2)
+    a2.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:g}"))
+    save(fig, path)
+
+
+def apple_india(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['2024', '2025'], [36, 55], [MUTED, ORANGE], lambda v: f"{v}m iPhones", ylabel='iPhones assembled in India (m)', ymax=66)
+    ax.text(0.5, 61, 'About 1 in 4 iPhones made in India in 2025 (Bloomberg); China still the largest', ha='center', fontsize=8.5, color=ORANGE)
+    save(fig, path)
+
+
+def bd_garments(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['Workers\nasked', 'Govt\nset'], [20390, 12500], [MUTED, RED], lambda v: f"Tk {v:,}", title='Monthly minimum wage, 2023', ymax=24000)
+    bars(a2, ['Buriganga', 'Turag'], [166, 58], [RED, ORANGE], lambda v: f"{v}", title='Pollution outlets into Dhaka rivers', ymax=195)
+    save(fig, path)
+
+
+def dyson(path):
+    even_timeline(path, [
+        ('2002', 'Manufacturing moves\nfrom Malmesbury\nto Malaysia', ORANGE, 1),
+        ('2013', 'Singapore plant\nfor digital motors', ORANGE, -1),
+        ('2019', 'Head office moves\nto Singapore', ORANGE, 1),
+        ('2024', '1,000 UK jobs cut\n(over a quarter of\n3,500 UK staff)', RED, -1),
+        ('Today', 'Malmesbury stays the\nR&D base and Dyson\nInstitute', GREEN, 1)])
+
+
+def tiktok(path):
+    tiles(path, [('20', 'Indian soldiers killed\nin border clash with\nChina, 15 Jun 2020', RED),
+                 ('59', 'Chinese apps banned\n29 Jun 2020,\nincl. TikTok', ORANGE),
+                 ('47', 'clone apps banned\na month later', ORANGE),
+                 ('~267', 'Chinese apps\nbanned in total', MUTED)])
+
+
+def ireland(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    parts = [('Top 3 groups', 46, RED), ('Next 7 groups', 14, ORANGE), ('All other firms', 40, MUTED)]
+    left = 0
+    for name, v, c in parts:
+        ax.barh([0], [v], left=left, color=c, height=0.5)
+        ax.text(left + v / 2, 0, f"{name}\n{v}%", ha='center', va='center', color='white', fontsize=9)
+        left += v
+    ax.set_xlim(0, 100); ax.set_ylim(-0.6, 0.9); ax.set_yticks([])
+    ax.set_xlabel("Share of Ireland's corporation tax, 2024 (%)")
+    ax.text(50, 0.55, 'Total about €28 bn, plus about €11 bn of Apple back tax the EU court made Ireland collect',
+            ha='center', fontsize=8.5, color=INK)
+    for s_ in ('top', 'right', 'left'):
+        ax.spines[s_].set_visible(False)
+    save(fig, path)
+
+
+def tsmc_arizona(path):
+    even_timeline(path, [
+        ('2022', 'Investment raised\nto US$40 bn\nfor two fabs', BLUE, 1),
+        ('Jul 2023', 'Start delayed to 2025:\ntoo few skilled\ninstallers', RED, -1),
+        ('2023', '~500 experienced\nTaiwanese staff\nsent to help', ORANGE, 1),
+        ('Apr 2024', 'Trial production\n(4 nm chips)', GREEN, -1),
+        ('Jan 2025', 'Volume production;\nyields match Taiwan', GREEN, 1)])
+
+
+def uaw(path):
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=SIZE)
+    bars(a1, ['Base raise', 'With cost-of-\nliving pay'], [25, 33], [BLUE, GREEN], lambda v: f"{v}%", title='Pay rise won (top workers, to 2028)', ymax=40)
+    bars(a2, ['Rehired', 'New battery\nplant'], [1200, 1000], [GREEN, GREEN], lambda v: f"{v:,}", title='Belvidere jobs (plant was to close)', ymax=1450)
+    save(fig, path)
+
+
+def amazon_union(path):
+    import numpy as np
+    fig, ax = plt.subplots(figsize=SIZE)
+    x = np.arange(2)
+    no, yes = [1798, 993], [738, 875]
+    ax.bar(x - 0.18, no, 0.34, color=MUTED, label='Against union')
+    ax.bar(x + 0.18, yes, 0.34, color=BLUE, label='For union')
+    for xi, a, b in zip(x, no, yes):
+        ax.text(xi - 0.18, a + 30, f"{a:,}", ha='center', fontsize=8.5)
+        ax.text(xi + 0.18, b + 30, f"{b:,}", ha='center', fontsize=8.5)
+    ax.set_xticks(x); ax.set_xticklabels(['Apr 2021 vote', '2022 re-run\n(416 ballots challenged)'])
+    ax.set_ylim(0, 2100); ax.set_ylabel('Votes, Bessemer warehouse'); ax.legend(frameon=False, fontsize=8)
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    tidy(ax); save(fig, path)
+
+
+def platform_workers(path):
+    tiles(path, [('70,000+', 'delivery riders and\nride-hail drivers\ncovered', BLUE),
+                 ('1 Jan 2025', 'Platform Workers\nAct in force', GREEN),
+                 ('CPF', 'compulsory for\nworkers born 1995\nor later', ORANGE),
+                 ('Injury', 'cover at the same\nlevel as employees,\nwhile on a job', MUTED)])
+
+
+def rcep(path):
+    tiles(path, [('15', 'countries: 10 ASEAN\n+ China, Japan, Korea,\nAustralia, NZ', BLUE),
+                 ('2.2 bn', 'people, 30% of\nthe world', ORANGE),
+                 ('US$38 tn', 'combined GDP,\nabout 1/3 of\nthe world', GREEN),
+                 ('~92%', 'of goods traded\nbetween members\nto be tariff-free', MUTED)])
+
+
+def wto_nickel(path):
+    even_timeline(path, [
+        ('Dec 2019', 'WTO Appellate Body\nstops working\n(too few members)', MUTED, 1),
+        ('Jan 2020', 'Indonesia bans\nnickel ore exports', ORANGE, -1),
+        ('30 Nov 2022', 'WTO panel: ban breaks\ntrade rules; EU wins\nall claims', BLUE, 1),
+        ('Dec 2022', "Indonesia appeals\n'into the void'", RED, -1),
+        ('After', 'Ban stays; EU\nexplores counter-\nmeasures', RED, 1)])
+
+
+def doing_business(path):
+    years = ['2014', '2015', '2016', '2017', '2018', '2019']
+    rank = [142, 131, 130, 100, 77, 63]
+    fig, ax = plt.subplots(figsize=SIZE)
+    ax.plot(years, rank, color=BLUE, marker='o', lw=2)
+    for x, r in zip(years, rank):
+        ax.text(x, r - 6, str(r), ha='center', va='bottom', fontsize=8.5, color=INK)
+    ax.invert_yaxis(); ax.set_ylim(155, 40)
+    ax.axhline(50, color=GREEN, ls='--', lw=1); ax.text(0, 47, "Government target: top 50", color=GREEN, fontsize=8)
+    ax.set_ylabel("India's Doing Business rank\n(1 = best, of 190)")
+    tidy(ax); save(fig, path)
+
+
+
 if __name__ == '__main__':
     out = sys.argv[1]
     os.makedirs(out, exist_ok=True)
@@ -300,4 +481,11 @@ if __name__ == '__main__':
                      ('oyu_tolgoi', oyu_tolgoi), ('guyana_nigeria', guyana_nigeria), ('nickel', nickel),
                      ('brumadinho', brumadinho)):
         fn(os.path.join(out, f'1_1_{name}.png'))
+    for name, fn in (('sea_hdi', sea_hdi), ('vietnam_flows', vietnam_flows), ('philippines', philippines),
+                     ('ethiopia', ethiopia), ('china_services', china_services), ('chip_shortage', chip_shortage),
+                     ('apple_india', apple_india), ('bd_garments', bd_garments), ('dyson', dyson), ('tiktok', tiktok),
+                     ('ireland', ireland), ('tsmc_arizona', tsmc_arizona), ('uaw', uaw), ('amazon_union', amazon_union),
+                     ('platform_workers', platform_workers), ('rcep', rcep), ('wto_nickel', wto_nickel),
+                     ('doing_business', doing_business)):
+        fn(os.path.join(out, f'1_2_{name}.png'))
     print('ok')
