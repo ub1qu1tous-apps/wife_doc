@@ -1,0 +1,98 @@
+{
+ "title": "Case Studies – Topic 3.1 Cities in a Sustainable Future",
+ "file": "3e Case Studies – Topic 3.1 Cities in a Sustainable Future",
+ "version": "v1",
+ "doc": "3e Case Studies – Topic 3.1 Cities in a Sustainable Future v1.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "Fifth of 6 case-study docs (3a–3f). Same format as before. Covers H2 Topic 3.1 and H1 Topic 1.1 (same content; H1 1.1.1 also asks 'what is SD', covered by 3a slot 1).",
+    "16 case-study slots; five 'varying success' slots (waste, slums, reimaging, elderly, women) each have a succeeded and a failed case, so 21 cases. 22 pages.",
+    "Built with tools/build_case_studies.py from tools/data/case_studies_3e.json; charts 3_1_*.png; checked with tools/check_docx.py."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "Liveability and elderly/women slots use the most recent data found (2022–2024).",
+    "A few background points are general knowledge rather than from the listed sources (e.g. Korea's pension system starting in the late 1980s; the EIU index's use for expatriate pay).",
+    "Same limits as before: no photos, and figures come from search results quoting each source."
+   ]
+  },
+  {
+   "title": "3. To review: figures to spot-check",
+   "table": {
+    "columns": [
+     "Case",
+     "Figure",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Lagos",
+      "Population 16.5 million (Macrotrends) vs 20+ million (other sources); the doc gives the range."
+     ],
+     [
+      "Mexico City",
+      "'Wells ~67%' is the remainder after Cutzamala (~25%) and Lerma (~8%); one source says Cutzamala is 28%."
+     ],
+     [
+      "Koshe",
+      "115 deaths (AFP); cause disputed (waste-to-energy works blamed by residents)."
+     ],
+     [
+      "South Korea food",
+      "95% recycled (Bernama, 2019); another source says over 94%."
+     ],
+     [
+      "Dharavi",
+      "Toilet ratio 1:1,440 (2006) is from a UN report cited in a study; other sources give 1:1,400–1,450. Population 700,000–1 million."
+     ],
+     [
+      "KOTAKU",
+      "National hectares achieved were not found; the chart uses one district (Rangkasbitung)."
+     ],
+     [
+      "Otodo-Gbame",
+      "'30,000 evicted' covers several waterfront communities, not Otodo-Gbame alone (doc says so)."
+     ],
+     [
+      "Mexico City women",
+      "2.9% fall in harassment comes from a blog citing a study; survey figures are from 2014 and 2016."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "4. To review: choices",
+   "table": {
+    "columns": [
+     "Item",
+     "Current choice",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Slot 9 (reimaging reasons)",
+      "Expo 2020 Dubai. Alternative: Singapore's Marina Bay or Jurong Lake District."
+     ],
+     [
+      "Slot 10 succeeded",
+      "Paris 2024 (legacy still early). Alternative: an older but proven case (e.g. Bilbao), though pre-2015."
+     ],
+     [
+      "Slot 15 and 16 succeeded",
+      "Both use Delhi (issues, then strategy). Could swap one for another city."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "5. To consider",
+   "bullets": [
+    "Next: 3f (Topic 3.2 The Future with Climate Change), which also covers H1 Topic 1.2."
+   ]
+  }
+ ]
+}

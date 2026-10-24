@@ -1,0 +1,1530 @@
+{
+ "id": "3e",
+ "title": "Case Studies – Topic 3.1 Cities in a Sustainable Future",
+ "file": "3e Case Studies – Topic 3.1 Cities in a Sustainable Future",
+ "intro": [
+  "One real case (2015 or later) for each case-study slot in H2 Topic 3.1. This topic is also H1 Topic 1.1 (H1 codes 1.1.1–1.1.3 match H2 3.1.1–3.1.3). Every 'varying success of strategies' point has a succeeded and a failed case.",
+  "Each case is about 1 page, with 1 chart drawn from its sources. The 'Links' line under each case shows other slots and topics where the same case can be used."
+ ],
+ "plan_title": "Case-study slots for Topic 3.1 (H1 Topic 1.1)",
+ "plan": [
+  [
+   "1",
+   "3.1.1 Sustainable Urban Dev.",
+   "Challenges",
+   "Measuring SUD: dimensions, indicators, difficulties",
+   "Arcadis Sustainable Cities Index (2022)"
+  ],
+  [
+   "2",
+   "3.1.1 Sustainable Urban Dev.",
+   "Challenges",
+   "High urbanisation and rapid urban growth",
+   "Lagos, Nigeria"
+  ],
+  [
+   "3",
+   "3.1.1 Sustainable Urban Dev.",
+   "Challenges",
+   "Urban population loss",
+   "Detroit, USA"
+  ],
+  [
+   "4",
+   "3.1.1 Sustainable Urban Dev.",
+   "Impacts",
+   "Demand on natural environments: resources drawn from surrounding areas",
+   "Mexico City's water (2024)"
+  ],
+  [
+   "5",
+   "3.1.2 Sustainable Cities",
+   "Impacts",
+   "Problems of non-hazardous solid waste",
+   "Koshe landfill collapse, Addis Ababa (2017)"
+  ],
+  [
+   "6",
+   "3.1.2 Sustainable Cities",
+   "Strategies",
+   "Managing solid waste (succeeded + failed)",
+   "Succeeded: South Korea's food waste. Failed: Lebanon's 2015 rubbish crisis"
+  ],
+  [
+   "7",
+   "3.1.2 Sustainable Cities",
+   "Factors",
+   "Reasons for slums and the multiple deprivations of slum dwellers",
+   "Dharavi, Mumbai"
+  ],
+  [
+   "8",
+   "3.1.2 Sustainable Cities",
+   "Strategies",
+   "Improving the lives of slum dwellers (succeeded + failed)",
+   "Succeeded: Indonesia's KOTAKU. Failed: Otodo-Gbame evictions, Lagos"
+  ],
+  [
+   "9",
+   "3.1.2 Sustainable Cities",
+   "Factors",
+   "Economic reasons for urban reimaging and its impact",
+   "Expo 2020 Dubai"
+  ],
+  [
+   "10",
+   "3.1.2 Sustainable Cities",
+   "Strategies",
+   "Urban reimaging strategies (succeeded + failed)",
+   "Succeeded: Paris 2024. Failed: Rio 2016"
+  ],
+  [
+   "11",
+   "3.1.3 Liveable Cities",
+   "Characteristics",
+   "Subjective nature of liveability; economic, environmental and social factors",
+   "EIU Liveability Index (Vienna)"
+  ],
+  [
+   "12",
+   "3.1.3 Liveable Cities",
+   "Trade-offs",
+   "Complementarity and tension between SUD and liveability",
+   "Singapore's Cross Island Line (2019)"
+  ],
+  [
+   "13",
+   "3.1.3 Liveable Cities",
+   "Challenges",
+   "Issues faced by the elderly in cities",
+   "Japan: dying alone (2024)"
+  ],
+  [
+   "14",
+   "3.1.3 Liveable Cities",
+   "Strategies",
+   "Addressing issues of the elderly (succeeded + failed)",
+   "Succeeded: Kampung Admiralty. Failed: South Korea's old-age poverty"
+  ],
+  [
+   "15",
+   "3.1.3 Liveable Cities",
+   "Challenges",
+   "Issues faced by women in cities",
+   "Women in Delhi"
+  ],
+  [
+   "16",
+   "3.1.3 Liveable Cities",
+   "Strategies",
+   "Addressing issues faced by women (succeeded + failed)",
+   "Succeeded: Delhi's free buses. Failed: Mexico City's women-only cars"
+  ]
+ ],
+ "cases": [
+  {
+   "slot": "1",
+   "heading": "3.1.1 Sustainable Urban Development — Challenges (measuring SUD)",
+   "case": "Arcadis Sustainable Cities Index (2022)",
+   "syllabus": "Dimensions of SUD (economic vitality, environmental integrity, social well-being); use of indicators; difficulties deciding what to measure and selecting indicators.",
+   "facts": [
+    [
+     "Place",
+     "100 cities worldwide (Oslo 1st)"
+    ],
+    [
+     "Period",
+     "2022 edition"
+    ],
+    [
+     "Scale",
+     "26 indicators (51 metrics) under three pillars: Planet, People, Profit"
+    ],
+    [
+     "Key actors",
+     "Arcadis (consultancy), city governments, investors"
+    ]
+   ],
+   "image": "3_1_arcadis.png",
+   "caption": "Figure 1. Oslo's rank on each pillar of the 2022 index (Guinness World Records, citing Arcadis).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "Arcadis ranks 100 cities on Planet (environment), People (social) and Profit (economy). In 2022 Oslo came first overall, followed by Stockholm, Tokyo, Copenhagen and Berlin. Yet no city was in the top ten for all three pillars."
+    },
+    {
+     "title": "How it shows the difficulties",
+     "bullets": [
+      "Dimensions pull apart: Oslo was 1st on Planet but 17th on People and 39th on Profit. North American cities led on Profit but lagged on People and Planet.",
+      "What to measure is a choice: the overall rank depends on which indicators are chosen and how the pillars are weighted.",
+      "Counting is inconsistent: sources describe the index as 26 indicators, 51 metrics or 31 indicators."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "One composite score hides trade-offs between the three dimensions; quote pillar ranks, not just the overall rank.",
+      "Evaluation: indices compare rich cities with good data; cities that most need SUD often lack data (link to 3a slot 3)."
+     ]
+    }
+   ],
+   "links": "Links: 3a slot 3 (Nigeria's data gaps) · 3.1.3 liveability rankings (slot 11) · 3a slot 1 (trade-offs).",
+   "sources": [
+    [
+     "Arcadis – Oslo and European capitals most sustainable (2022)",
+     "https://www.arcadis.com/en/news/global/2022/6/prosperity-beyond-profit-identified-as-key-trend-among-sustainable-cities"
+    ],
+    [
+     "WBCSD – Arcadis Sustainable Cities Index 2022",
+     "https://www.wbcsd.org/news/arcadis-sustainable-cities-index-2022"
+    ],
+    [
+     "Guinness World Records – most sustainable city (pillar ranks)",
+     "https://www.guinnessworldrecords.com/world-records/635549-most-sustainable-city-current"
+    ],
+    [
+     "Construction Briefing – world's most sustainable cities",
+     "https://www.constructionbriefing.com/news/world-s-most-sustainable-cities-revealed/8021389.article"
+    ]
+   ]
+  },
+  {
+   "slot": "2",
+   "heading": "3.1.1 Sustainable Urban Development — Challenges (rapid urban growth)",
+   "case": "Lagos, Nigeria (2015–2025)",
+   "syllabus": "Possible challenges in progressing towards SUD: high urbanisation rates and rapid urban growth.",
+   "facts": [
+    [
+     "Place",
+     "Lagos metropolitan area, Nigeria"
+    ],
+    [
+     "Period",
+     "2015–2025"
+    ],
+    [
+     "Scale",
+     "Estimates range from about 16.5 million to over 20 million people"
+    ],
+    [
+     "Key actors",
+     "Lagos State government, federal government, migrants, private developers"
+    ]
+   ],
+   "image": "3_1_lagos.png",
+   "caption": "Figure 2. Lagos's growth pressures in four numbers (Macrotrends; Intelpoint; BusinessDay).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Lagos has grown by about 25% every five years since 1965, adding hundreds of thousands of people a year through births and migration. No one knows its exact size: estimates run from 16.5 million to over 20 million, partly because Nigeria has not held a census since 2006 (3a, slot 3)."
+    },
+    {
+     "title": "How it shows the challenge",
+     "bullets": [
+      "Housing: a shortage of about 3.4 million homes has pushed rents up by as much as 80% in some areas, so many people live in informal settlements.",
+      "Services lag: growth outstrips spending on housing, transport and basic services such as water and drainage.",
+      "Planning blind: without a count, the city cannot plan schools, clinics or transport to fit its real population."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Rapid growth strains all three SUD dimensions at once: jobs, environment and social well-being.",
+      "Evaluation: growth also brings a large workforce and market, so the challenge is managing growth, not stopping it."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 slums and evictions (Otodo-Gbame, slot 8) · 3a slot 3 (Nigeria's census gap) · 1.2.1 labour flows.",
+   "sources": [
+    [
+     "Intelpoint – Lagos population grew ~25% every 5 years since 1965",
+     "https://intelpoint.co/insights/lagos-population-has-grown-by-about-25-on-average-every-5-years-since-1965/"
+    ],
+    [
+     "Macrotrends – Lagos metro area population",
+     "https://www.macrotrends.net/datasets/global-metrics/cities/22007/lagos/population"
+    ],
+    [
+     "BusinessDay – housing shortage and rents",
+     "https://businessday.ng/?p=1056935"
+    ],
+    [
+     "EBSCO Research Starter – Lagos, Nigeria",
+     "https://www.ebsco.com/research-starters/history/lagos-nigeria/"
+    ]
+   ]
+  },
+  {
+   "slot": "3",
+   "heading": "3.1.1 Sustainable Urban Development — Challenges (urban population loss)",
+   "case": "Detroit, USA (1950–2024)",
+   "syllabus": "Possible challenges in progressing towards SUD: urban population loss.",
+   "facts": [
+    [
+     "Place",
+     "City of Detroit, Michigan, USA"
+    ],
+    [
+     "Period",
+     "1950–2024; first growth since 1957 in 2023"
+    ],
+    [
+     "Scale",
+     "From about 1.85 million (1950) to about 631,000 (2022)"
+    ],
+    [
+     "Key actors",
+     "City government (Mayor Duggan from 2014), US Census Bureau, carmakers, residents"
+    ]
+   ],
+   "image": "3_1_detroit.png",
+   "caption": "Figure 3. Detroit's population, 1950 and 2022–2024 (US Census estimates via city and press).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Detroit lost about two-thirds of its people after 1950 as car jobs moved away and residents left for the suburbs. From 2014 the city tackled blight by clearing empty buildings. In 2023 it gained 1,852 residents, the first rise since 1957, and a 2025 estimate put it at about 646,000."
+    },
+    {
+     "title": "How it shows the challenge",
+     "bullets": [
+      "Economic: a shrinking tax base leaves fewer people to pay for roads, water and services built for a much bigger city.",
+      "Social and environmental: empty homes and blighted streets lower quality of life and safety.",
+      "Data matters: the 2022 estimate was revised from 620,376 to 631,218 after the city challenged it, so measuring loss is itself contested."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Population loss is the reverse problem to Lagos: too much infrastructure for too few people.",
+      "Evaluation: Detroit's small recovery shows decline can be slowed, but it is still about a third of its peak."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.1 rapid growth (Lagos, slot 2) · 3.1.2 urban reimaging (slots 9–10) · 1.2.1 shifts in manufacturing.",
+   "sources": [
+    [
+     "City of Detroit – Detroit grows for the first time in decades",
+     "https://detroitmi.gov/news/detroit-grows-population-first-time-decades"
+    ],
+    [
+     "CBS News Detroit – growth for first time since 1957",
+     "https://www.cbsnews.com/amp/detroit/news/detroit-population-increases-first-time-since-1957"
+    ],
+    [
+     "Business Insider – Detroit's population grows after 66 years",
+     "https://businessinsider.nl/detroits-population-has-grown-for-the-first-time-in-66-years/"
+    ],
+    [
+     "WXYZ – population up for the second straight year",
+     "https://www.wxyz.com/news/voices/detroits-population-increased-for-the-2nd-straight-year-data-shows"
+    ]
+   ]
+  },
+  {
+   "slot": "4",
+   "heading": "3.1.1 Sustainable Urban Development — Impacts (demand on natural environments)",
+   "case": "Mexico City's water crisis (2024)",
+   "syllabus": "Demand placed on natural environments: vast resources absorbed from surrounding areas; environmental problems in the surrounding areas.",
+   "facts": [
+    [
+     "Place",
+     "Mexico City and the Valley of Mexico; Cutzamala dams in neighbouring states"
+    ],
+    [
+     "Period",
+     "2023–2024 drought"
+    ],
+    [
+     "Scale",
+     "Cutzamala system down to about 25% of capacity in June 2024"
+    ],
+    [
+     "Key actors",
+     "Conagua (national water agency), city government, residents, farmers in source regions"
+    ]
+   ],
+   "image": "3_1_mexico_water.png",
+   "caption": "Figure 4. Where Mexico City's water comes from (NASA; Mexico News Daily).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Mexico City gets about a quarter of its water from the Cutzamala system, which pumps water uphill from dams in other river basins, and about 8% from the Lerma system. The rest comes from wells. In the 2023–24 drought the Cutzamala dams fell to about 25% full, and supply to the city was cut."
+    },
+    {
+     "title": "How it shows the demand",
+     "bullets": [
+      "Resources from surrounding areas: the city draws water from distant basins, so its footprint reaches far beyond its boundary.",
+      "Pressure on its own environment: heavy pumping during drought and heat in May 2024 has left aquifers depleted.",
+      "Problems for others: when supply is short, the city and surrounding areas compete for the same water."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A city's ecological footprint is much larger than its area; water is the clearest example.",
+      "Evaluation: dams refilled to about 97% in a later wet season, so the crisis was drought-driven, but the dependence remains."
+     ]
+    }
+   ],
+   "links": "Links: 3a slot 2 (Cape Town Day Zero) · 3c slot 7 (Jakarta groundwater) · 3.2.2 effects of climate change.",
+   "sources": [
+    [
+     "NASA Earth Observatory – drought parches Mexico",
+     "https://earthobservatory.nasa.gov/images/152908/drought-parches-mexico"
+    ],
+    [
+     "Mexico News Daily – water restrictions imposed",
+     "https://mexiconewsdaily.com/news/water-restrictions-imposed-in-mexico-city-metro-area/"
+    ],
+    [
+     "Mexico Business News – Valley of Mexico water supply cuts",
+     "https://mexicobusiness.news/infrastructure/news/valley-mexico-face-indefinite-water-supply-cuts"
+    ],
+    [
+     "Mexico Business News – Cutzamala dams reach 97.4%",
+     "https://mexicobusiness.news/trade-and-investment/news/cutzamala-dams-reach-974-capacity-conagua"
+    ]
+   ]
+  },
+  {
+   "slot": "5",
+   "heading": "3.1.2 Sustainable Cities — Impacts (problems of solid waste)",
+   "case": "Koshe landfill collapse, Addis Ababa (March 2017)",
+   "syllabus": "Problems associated with non-hazardous solid waste in cities of countries at different levels of development; impact on SUD.",
+   "facts": [
+    [
+     "Place",
+     "Koshe ('Reppi') dump, Addis Ababa, Ethiopia"
+    ],
+    [
+     "Period",
+     "11 March 2017"
+    ],
+    [
+     "Scale",
+     "115 people killed, mostly women and children"
+    ],
+    [
+     "Key actors",
+     "City government, waste pickers, residents, builders of a waste-to-energy plant"
+    ]
+   ],
+   "image": "3_1_koshe.png",
+   "caption": "Figure 5. The Koshe disaster in four numbers (AFP; AP).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Koshe had been the city's main dump for decades, and people lived and worked on and around it. In March 2017 part of the rubbish mountain collapsed onto homes, killing 115 people. About 500 waste pickers worked there daily. Residents blamed work on a new waste-to-energy plant on top of the dump; the cause was not confirmed."
+    },
+    {
+     "title": "How it shows the problems",
+     "bullets": [
+      "Social: the poorest people, who live off sorting rubbish, face the greatest danger.",
+      "Environmental: open dumping concentrates waste, gas and polluted water next to homes.",
+      "Economic: the city had to relocate about 300 people and pay compensation of about US$430–650 per family."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "In lower-income cities the waste problem is unsafe disposal; in richer cities it is volume (compare slot 6).",
+      "Evaluation: a US$120 million waste-to-energy plant could turn waste into a resource, if built safely."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 waste strategies (slot 6) · 3.1.1 demand on natural environments · 3.1.2 slum deprivations (slot 7).",
+   "sources": [
+    [
+     "The EastAfrican – death toll soars to 115",
+     "https://www.theeastafrican.co.ke/tea/news/east-africa/ethiopia-rubbish-dump-landslide-death-toll-soars-to-115-1363216"
+    ],
+    [
+     "Inquirer (AP) – landslide at Ethiopia garbage dump",
+     "https://newsinfo.inquirer.net/880132/landslide-at-ethiopia-garbage-dump-kills-at-least-46"
+    ],
+    [
+     "Fox News (AP) – death toll reaches 65",
+     "https://www.foxnews.com/world/death-toll-reaches-65-in-ethiopia-landfill-collapse"
+    ],
+    [
+     "CBC – Ethiopia landfill collapse",
+     "https://www.cbc.ca/1.4021791"
+    ]
+   ]
+  },
+  {
+   "slot": "6",
+   "outcome": "Succeeded",
+   "heading": "3.1.2 Sustainable Cities — Waste strategies: SUCCEEDED",
+   "case": "South Korea's food waste system (2013–2019)",
+   "syllabus": "Varying success of strategies to manage non-hazardous solid waste across places.",
+   "facts": [
+    [
+     "Place",
+     "South Korea, especially Seoul"
+    ],
+    [
+     "Period",
+     "Fees from 1995; pay-by-weight from 2013"
+    ],
+    [
+     "Scale",
+     "About 95% of food waste recycled by 2019"
+    ],
+    [
+     "Key actors",
+     "National government, city and district governments, households, recycling firms"
+    ]
+   ],
+   "image": "3_1_korea_food.png",
+   "caption": "Figure 6a. How South Korea built its food waste system (dates in labels).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Korea priced waste by volume from 1995 and banned food waste from landfills in 2005. In 2013 it made households pay for food waste by weight. In Seoul, residents scan a card at an RFID bin, the lid opens, the waste is weighed and they are charged."
+    },
+    {
+     "title": "Why the strategy worked",
+     "bullets": [
+      "Price signal: paying by weight rewards people for wasting less; Seoul even pays points to households that cut waste.",
+      "Waste as a resource: collected food waste becomes animal feed, compost and biogas.",
+      "Steady build-up: rules added over 20+ years, so habits and recycling plants grew together."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Combining a ban, a price and good collection made recycling the easy choice.",
+      "Evaluation: it works in a rich, dense, well-governed country; the same system may not fit cities with weak collection."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 failed waste strategy (Lebanon, next page) · 3.1.1 waste as a potential resource.",
+   "sources": [
+    [
+     "Bernama – food waste recycling rate 95% in 2019",
+     "https://bernama.com/en/thoughts/news.php?id=2280475"
+    ],
+    [
+     "KEIA – South Korea's food waste system is a model",
+     "https://keia.org/the-peninsula/south-koreas-food-waste-system-is-a-model-for-developed-nations"
+    ],
+    [
+     "Inquirer – South Korea cuts food waste with 'pay as you trash'",
+     "https://technology.inquirer.net/?p=47773"
+    ],
+    [
+     "Asia News Network – Seoul pays residents to waste less food",
+     "https://asianews.network/?p=246999"
+    ]
+   ]
+  },
+  {
+   "slot": "6",
+   "outcome": "Failed",
+   "heading": "3.1.2 Sustainable Cities — Waste strategies: FAILED",
+   "case": "Lebanon's rubbish crisis (2015–2016)",
+   "syllabus": "Varying success of strategies to manage non-hazardous solid waste across places.",
+   "facts": [
+    [
+     "Place",
+     "Beirut and Mount Lebanon"
+    ],
+    [
+     "Period",
+     "July 2015 to March 2016"
+    ],
+    [
+     "Scale",
+     "Naameh landfill had taken over 15 million tonnes against a design of 2 million"
+    ],
+    [
+     "Key actors",
+     "Lebanese government, contractor Sukleen, 'You Stink' protest movement, residents"
+    ]
+   ],
+   "image": "3_1_lebanon.png",
+   "caption": "Figure 6b. Lebanon's 2015 rubbish crisis in four facts (L'Orient Today; Al Jazeera).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Lebanon relied on one overfull landfill at Naameh. When it closed on 17 July 2015 with no replacement, the contractor stopped collecting. Rubbish piled up along roads in Beirut for weeks, streets were sprayed with pesticide against rats, and people dumped waste on empty land."
+    },
+    {
+     "title": "Why the strategy failed",
+     "bullets": [
+      "One-site dependence: everything went to a landfill already seven times over capacity.",
+      "Politics blocked a fix: parties could not agree on new sites or contracts, which sparked the 'You Stink' protests against the whole political class.",
+      "Stop-gap answers: in 2016 the cabinet opened new coastal landfills at Costa Brava and Bourj Hammoud and briefly reopened Naameh, despite objections."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A waste strategy fails when it treats waste only as something to bury and has no backup plan.",
+      "Evaluation: compare with South Korea: political stability and long-term planning separate success from failure."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 succeeded waste strategy (South Korea, previous page) · 3a slot 4 (political challenges).",
+   "sources": [
+    [
+     "L'Orient Today – 2015 trash crisis",
+     "https://today.lorientlejour.com/article/1474950/2015-trash-crisis-when-mismanagement-turns-into-catastrophe.html"
+    ],
+    [
+     "Al Jazeera – Lebanese protest against waste crisis",
+     "https://www.aljazeera.com/amp/news/2015/7/26/lebanese-protest-against-waste-disposal-crisis"
+    ],
+    [
+     "Wikipedia – 2015–2016 Lebanese protests",
+     "https://en.wikipedia.org/wiki/2015%E2%80%932016_Lebanese_protests"
+    ],
+    [
+     "Al-Monitor – government plan for landfills (2016)",
+     "https://app.al-monitor.com/originals/2016/03/lebanon-trash-crisis-government-plan-landfills.html"
+    ]
+   ]
+  },
+  {
+   "slot": "7",
+   "heading": "3.1.2 Sustainable Cities — Factors (slums and deprivations)",
+   "case": "Dharavi, Mumbai, India",
+   "syllabus": "Reasons for the development of slums; impact of multiple deprivations experienced by slum dwellers on SUD.",
+   "facts": [
+    [
+     "Place",
+     "Dharavi, central Mumbai, India"
+    ],
+    [
+     "Period",
+     "2006–2024 data; redevelopment awarded 2022"
+    ],
+    [
+     "Scale",
+     "About 700,000 to 1 million people on 2–2.6 km²"
+    ],
+    [
+     "Key actors",
+     "Residents and workshop owners, Maharashtra government, Adani group (redevelopment)"
+    ]
+   ],
+   "image": "3_1_dharavi.png",
+   "caption": "Figure 7. Deprivations and economy in Dharavi (UN report via academic study; Foster + Partners; Reuters).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "Dharavi grew because people needed somewhere cheap to live close to work in a city where formal housing is far too expensive. Two suburban railways meet here, making it a commuting hub. It is also a workplace: more than 7,000 businesses and 15,000 single-room factories make leather goods, clothes and recycled materials."
+    },
+    {
+     "title": "How it shows multiple deprivations",
+     "bullets": [
+      "Sanitation: about one toilet seat for every 1,440 people in 2006, improving to about one per 800 by 2014.",
+      "Water: standpipes run for about 2 hours a day, and old pipes and open drains contaminate supply.",
+      "Insecure tenure: under the Adani redevelopment, only residents from before 2000 qualify for free flats, leaving about 700,000 people ineligible."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Slums form where jobs are near but affordable housing is not; deprivations are the result of overcrowding and no legal status.",
+      "Evaluation: Dharavi is poor in services but rich in enterprise, so clearing it could destroy livelihoods."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 slum strategies (slot 8) · 3.1.1 rapid urban growth · 3.1.3 women and the elderly in slums.",
+   "sources": [
+    [
+     "Elsevier Pure – sanitation in informal settlements (toilet ratios)",
+     "https://adk.elsevierpure.com/da/publications/sanitation-in-informal-settlements-from-technocratic-failure-to-s/"
+    ],
+    [
+     "Foster + Partners – Dharavi masterplan",
+     "https://www.fosterandpartners.com/projects/dharavi-masterplan"
+    ],
+    [
+     "Internet Geography – urban growth challenges in Mumbai",
+     "https://www.internetgeography.net/topics/what-challenges-have-been-caused-by-urban-growth-in-mumbai/"
+    ],
+    [
+     "AOL (Reuters) – Adani's slum revamp struggles to secure land",
+     "https://www.aol.com/news/billionaire-adanis-mumbai-slum-revamp-041017482.html"
+    ],
+    [
+     "The Quint – Dharavi redevelopment, 19 years on",
+     "https://www.thequint.com/explainers/dharavi-redevelopment-19-years-on-can-adani-group-meet-the-challenge"
+    ]
+   ]
+  },
+  {
+   "slot": "8",
+   "outcome": "Succeeded",
+   "heading": "3.1.2 Sustainable Cities — Slum strategies: SUCCEEDED",
+   "case": "Indonesia's KOTAKU slum upgrading (2016–2023)",
+   "syllabus": "Varying success of strategies to improve the lives of slum dwellers across places.",
+   "facts": [
+    [
+     "Place",
+     "Indonesia: 393 cities, 3,600 urban wards"
+    ],
+    [
+     "Period",
+     "2016–2023"
+    ],
+    [
+     "Scale",
+     "Target: 38,431 ha of slums; World Bank and AIIB each lent US$216.5 million"
+    ],
+    [
+     "Key actors",
+     "Ministry of Public Works and Housing, local governments, community groups, World Bank, AIIB"
+    ]
+   ],
+   "image": "3_1_kotaku.png",
+   "caption": "Figure 8a. Slum area before and after KOTAKU in one district (Rangkasbitung study).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Indonesia's 'City without Slums' programme (KOTAKU) upgraded slums in place rather than clearing them: paths, drainage, clean water, sanitation and fire safety, planned with residents. The World Bank project said it would benefit more than 9.7 million urban poor. Its final report rated the outcome 'highly satisfactory'."
+    },
+    {
+     "title": "Why the strategy worked",
+     "bullets": [
+      "In-situ upgrading: people kept their homes, jobs and neighbours while services improved.",
+      "Community planning: residents helped choose and look after the works, which builds ownership.",
+      "Measurable results: in Rangkasbitung, slum area fell from 130.05 ha to 53.33 ha."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Upgrading in place tackles deprivations without destroying livelihoods, unlike eviction (next page).",
+      "Evaluation: the 2020 target of zero slums was not met everywhere, and a study found not all improvements were sustained."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 failed slum strategy (Otodo-Gbame, next page) · 3.1.2 slum deprivations (Dharavi, slot 7) · 1.2.3 World Bank.",
+   "sources": [
+    [
+     "World Bank – improving infrastructure for millions of urban poor (2016)",
+     "https://www.worldbank.org/en/news/press-release/2016/07/12/indonesia-improving-infrastructure-for-millions-of-urban-poor"
+    ],
+    [
+     "AIIB – National Slum Upgrading project document",
+     "https://www.aiib.org/en/projects/approved/2016/_download/indonesia/document/approved_project_document_national_slum_upgrading.pdf"
+    ],
+    [
+     "World Bank – Implementation Completion and Results Report",
+     "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099012624092020832"
+    ],
+    [
+     "IJPD – KOTAKU results and sustainability",
+     "https://ejournal2.undip.ac.id/index.php/ijpd/article/view/8577/0"
+    ]
+   ]
+  },
+  {
+   "slot": "8",
+   "outcome": "Failed",
+   "heading": "3.1.2 Sustainable Cities — Slum strategies: FAILED",
+   "case": "Otodo-Gbame evictions, Lagos (2016–2017)",
+   "syllabus": "Varying success of strategies to improve the lives of slum dwellers across places.",
+   "facts": [
+    [
+     "Place",
+     "Otodo-Gbame waterfront community, Lekki, Lagos, Nigeria"
+    ],
+    [
+     "Period",
+     "November 2016 to April 2017"
+    ],
+    [
+     "Scale",
+     "Over 30,000 people evicted from Otodo-Gbame and nearby waterfront communities"
+    ],
+    [
+     "Key actors",
+     "Lagos State government, police, residents, courts, Amnesty International"
+    ]
+   ],
+   "image": "3_1_otodo.png",
+   "caption": "Figure 8b. Evictions and court rulings at Otodo-Gbame (dates in labels; Amnesty International; African Arguments).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The Lagos government cleared Otodo-Gbame, a fishing community on prime waterfront land, in three evictions between November 2016 and April 2017. A court had already ruled forced evictions unconstitutional. Residents fled amid gunshots and tear gas; after the final demolition the judge again called it 'unconstitutional', and the state appealed."
+    },
+    {
+     "title": "Why the strategy failed",
+     "bullets": [
+      "Clearance, not improvement: homes were destroyed with no adequate resettlement, so deprivations grew.",
+      "Livelihoods lost: fishing families were moved away from the water they worked on.",
+      "Rule of law ignored: the state acted against court orders, drawing condemnation from the UN housing rapporteur and Amnesty."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Eviction removes a slum from a map but not the reasons slums form (rapid growth, housing shortage, slot 2).",
+      "Evaluation: contrast with KOTAKU: who the strategy is for (residents vs land value) decides success."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 succeeded slum strategy (KOTAKU, previous page) · 3.1.1 rapid urban growth (Lagos, slot 2).",
+   "sources": [
+    [
+     "Amnesty – thousands forced to flee amid gunshots and tear gas",
+     "https://www.amnesty.org/en/latest/news/2017/03/nigeria-thousands-forced-to-flee-their-homes-amid-gunshots-and-tear-gas/"
+    ],
+    [
+     "African Arguments – the scramble for Lagos",
+     "https://africanarguments.org/2022/01/the-scramble-for-lagos-and-the-urban-poors-fight-for-their-homes/"
+    ],
+    [
+     "Amnesty – urgent action document (2017)",
+     "https://www.amnesty.org/ar/wp-content/uploads/2021/05/AFR4459662017ENGLISH.pdf"
+    ],
+    [
+     "SDI – joint press statement, March 2017",
+     "https://sdinet.org/wp-content/uploads/2017/03/Joint-Press-Statement-20-March-2017-JEI-NSISF-FINAL.pdf"
+    ]
+   ]
+  },
+  {
+   "slot": "9",
+   "heading": "3.1.2 Sustainable Cities — Factors (economic reasons for reimaging)",
+   "case": "Expo 2020 Dubai (held 2021–2022)",
+   "syllabus": "Economic reasons for urban reimaging efforts; impact of urban reimaging on SUD.",
+   "facts": [
+    [
+     "Place",
+     "Dubai, UAE (Expo site now Expo City Dubai)"
+    ],
+    [
+     "Period",
+     "1 October 2021 – 31 March 2022; legacy to 2042"
+    ],
+    [
+     "Scale",
+     "24.1 million visits from 192 countries"
+    ],
+    [
+     "Key actors",
+     "Dubai government, Expo organisers, EY (impact study), investors and tourists"
+    ]
+   ],
+   "image": "3_1_expo_dubai.png",
+   "caption": "Figure 9. Expo 2020 Dubai's numbers (EY study via Dubai Media Office; BIE).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Dubai hosted the World Expo to raise its global profile beyond oil, trade and tourism. An EY study projected that Expo and its legacy would add AED 154.9 billion (about US$42 billion) to the UAE economy between 2013 and 2042, and over 35,000 jobs a year."
+    },
+    {
+     "title": "How it shows the reasons and impact",
+     "bullets": [
+      "Economic reasons: attract investment, tourists and events to diversify the economy; events, business services, construction and hotels gain most.",
+      "Impact on SUD: more than 80% of the buildings were kept and reused as Expo City Dubai, so less was wasted.",
+      "Long tail: 62% of the projected value is expected from the legacy phase, not the six months of the Expo."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Reimaging sells a city to investors and visitors; mega-events are a fast but costly way to do it.",
+      "Evaluation: the AED 154.9 billion is a projection, not a measured result."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 reimaging strategies (slot 10) · 1.2.1 flows of capital and tourists.",
+   "sources": [
+    [
+     "Dubai Media Office – Expo projected to add AED 154.9 bn",
+     "https://mediaoffice.ae/en/news/2023/march/31-03/expo-2020-dubai-projected-to-add-aed-154-billion-to-uae-economy"
+    ],
+    [
+     "BIE – Expo 2020 Dubai impact drives decades-long growth",
+     "https://bie-paris.org/site/en/news-announcements/world-expo/expo-2020-dubai-impact-drives-decades-long-growth-in-uae"
+    ],
+    [
+     "Khaleej Times – Expo to add Dh154.9 bn, 2013–2042",
+     "https://www.khaleejtimes.com/business/expo-2020-dubai-projected-to-add-dh154-9-billion-to-uae-economy-from-2013-2042?amp=1"
+    ],
+    [
+     "Arab News – how Expo will pay off for Dubai",
+     "https://www.arabnews.com/node/1938241/amp"
+    ]
+   ]
+  },
+  {
+   "slot": "10",
+   "outcome": "Succeeded",
+   "heading": "3.1.2 Sustainable Cities — Reimaging strategies: SUCCEEDED",
+   "case": "Paris 2024 Olympics and Seine-Saint-Denis",
+   "syllabus": "Varying success of urban reimaging strategies across places.",
+   "facts": [
+    [
+     "Place",
+     "Paris and Seine-Saint-Denis (a poorer suburb), France"
+    ],
+    [
+     "Period",
+     "Games July–August 2024; legacy from 2025"
+    ],
+    [
+     "Scale",
+     "95% of venues existing or temporary; €1.4 billion Seine clean-up"
+    ],
+    [
+     "Key actors",
+     "French state, City of Paris, Seine-Saint-Denis, Paris 2024 organisers, residents"
+    ]
+   ],
+   "image": "3_1_paris.png",
+   "caption": "Figure 10a. Paris 2024's legacy plans in four numbers (French government).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Paris planned 'low-build' Games: 95% of venues were existing (Stade de France, Roland-Garros) or temporary. The new building went to Seine-Saint-Denis, one of France's poorest areas, and the city spent €1.4 billion cleaning the Seine so the public could swim in it."
+    },
+    {
+     "title": "Why the strategy worked",
+     "bullets": [
+      "Little waste: few new venues means few 'white elephants' to maintain after the Games.",
+      "Lasting housing: the athletes' village becomes 2,800 homes, and across both villages almost 40% is social housing.",
+      "Lasting amenities: a new aquatics centre and 18 pools, plus a cleaner river, aimed at residents not just visitors."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Reimaging succeeds when the event serves a longer plan for the city, rather than the plan serving the event.",
+      "Evaluation: it is early; some residents feared noise, pollution and that new homes would be too expensive for them."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 failed reimaging (Rio 2016, next page) · 3.1.3 liveability · 3.1.2 economic reasons (Expo Dubai, slot 9).",
+   "sources": [
+    [
+     "French Government – Paris 2024: a lasting legacy",
+     "https://www.info.gouv.fr/grand-dossier/paris-2024-olympic-and-paralympic-games/a-lasting-legacy-for-the-country"
+    ],
+    [
+     "France Today – what next for Paris after the Games",
+     "https://francetoday.com/learn/what-next-for-paris-after-the-olympic-games/"
+    ],
+    [
+     "CS Monitor – poor Paris suburbs count on Olympic promise",
+     "https://proof.csmonitor.com/World/Europe/2024/0125/Poor-Paris-suburbs-count-on-Olympic-promise"
+    ],
+    [
+     "Yahoo (Guardian) – why Paris chose the banlieue for its village",
+     "https://uk.news.yahoo.com/era-gigantism-over-why-paris-050051950.html"
+    ]
+   ]
+  },
+  {
+   "slot": "10",
+   "outcome": "Failed",
+   "heading": "3.1.2 Sustainable Cities — Reimaging strategies: FAILED",
+   "case": "Rio de Janeiro after the 2016 Olympics",
+   "syllabus": "Varying success of urban reimaging strategies across places.",
+   "facts": [
+    [
+     "Place",
+     "Rio de Janeiro, Brazil (Barra Olympic Park, Maracanã)"
+    ],
+    [
+     "Period",
+     "August 2016 to 2017"
+    ],
+    [
+     "Scale",
+     "Maracanã renovated for about US$500 million; four Olympic Park arenas left without an operator"
+    ],
+    [
+     "Key actors",
+     "City, state and federal governments, Rio 2016 organisers, contractors, residents"
+    ]
+   ],
+   "image": "3_1_rio.png",
+   "caption": "Figure 10b. Rio's Olympic legacy six months on (AP; Daily Maverick).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Within months of the Games, the Maracanã stadium was vandalised and its power cut over about R$3 million of unpaid bills. Four new arenas in the Olympic Park found no private operator, the athletes' village stood empty, and the aquatics stadium went unused. Organisers still owed creditors about US$40 million in early 2017."
+    },
+    {
+     "title": "Why the strategy failed",
+     "bullets": [
+      "Venues without a plan: arenas were built for the event, with no confirmed users afterwards.",
+      "Bad timing: Brazil's recession and a change of mayor left no money or will to run them.",
+      "Boom and bust: an NGO leader said the Olympics made Rio's boom more intense, and the fall afterwards more intense too."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A mega-event can leave debts and empty venues instead of a new image when legacy planning is weak.",
+      "Evaluation: compare with Paris (previous page), which avoided new venues where it could."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.2 succeeded reimaging (Paris 2024, previous page) · 3.1.1 SUD dimensions.",
+   "sources": [
+    [
+     "Boston.com (AP) – Rio stuck with big bills and vacant venues",
+     "https://www.boston.com/sports/olympics/2017/02/10/rio-is-stuck-with-big-bills-and-vacant-venues-after-2016-olympics"
+    ],
+    [
+     "Daily Maverick – Rio 2016: an Olympics legacy of despair",
+     "https://www.dailymaverick.co.za/article/2017-02-19-rio-2016-an-olympics-legacy-of-despair-and-wreckage.md"
+    ],
+    [
+     "Irish Times – Rio's venues lie abandoned (pictures)",
+     "https://irishtimes.com/sport/in-pictures-rio-s-olympic-venues-lie-abandoned-and-in-disrepair-1.2973935"
+    ],
+    [
+     "ENR – disappointment on an Olympian scale",
+     "https://www.enr.com/articles/41508-disappointment-on-an-olympian-scale-after-rio-2016-summer-games"
+    ]
+   ]
+  },
+  {
+   "slot": "11",
+   "heading": "3.1.3 Liveable Cities — Characteristics (subjective liveability, factors)",
+   "case": "EIU Global Liveability Index and Vienna (2019–2024)",
+   "syllabus": "Subjective nature of liveability due to place, time and purpose of the assessment; economic, environmental and social factors.",
+   "facts": [
+    [
+     "Place",
+     "173 cities ranked; Vienna, Auckland, Melbourne compared"
+    ],
+    [
+     "Period",
+     "2019–2024 (no 2020 edition)"
+    ],
+    [
+     "Scale",
+     "30 factors in 5 groups: stability, healthcare, culture and environment, education, infrastructure"
+    ],
+    [
+     "Key actors",
+     "Economist Intelligence Unit (EIU), firms using it to set expatriate pay, city governments"
+    ]
+   ],
+   "image": "3_1_eiu_vienna.png",
+   "caption": "Figure 11. Vienna's rank in the EIU index, 2019–2024 (EIU via press).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Vienna topped the EIU index in 2019 and from 2022 to 2024. In 2021 it fell to 12th because the index judged cities on COVID restrictions, and Auckland came first for reopening early. Vienna's only weak score is culture and environment, partly for a merely 'tolerable' climate."
+    },
+    {
+     "title": "How it shows subjective liveability",
+     "bullets": [
+      "Time: the same city fell 11 places in one year because the criteria shifted to pandemic rules.",
+      "Purpose: the index is built for employers setting expatriate pay, so it weights stability (25%) and healthcare (20%), not affordability for locals.",
+      "Factors: it mixes social (healthcare, education), environmental (climate, culture) and economic (infrastructure, stability) measures."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Liveability depends on who is asking and why: a top city for expatriates may be unaffordable for low-paid locals.",
+      "Evaluation: compare different indices before claiming a city is 'most liveable'."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.1 measuring SUD (Arcadis, slot 1) · 3.1.3 SUD vs liveability (slot 12).",
+   "sources": [
+    [
+     "The Local – Vienna tops ranking again (2023)",
+     "https://www.thelocal.com/20230622/vienna-tops-ranking-of-worlds-most-liveable-cities-again/"
+    ],
+    [
+     "Time Out – most liveable city in 2024",
+     "https://www.timeout.com/news/this-european-capital-is-officially-the-worlds-most-liveable-city-in-2024-070124"
+    ],
+    [
+     "Daily FT – pandemic propels Auckland to the top (2021)",
+     "https://www.ft.lk/Front-Page/Pandemic-propels-Auckland-to-top-of-EIU-s-most-liveable-cities-ranking/44-719143"
+    ],
+    [
+     "Drishti IAS – Global Liveability Index (weights)",
+     "https://www.drishtiias.com/daily-updates/daily-news-analysis/global-liveability-index-eiu/print_manually"
+    ]
+   ]
+  },
+  {
+   "slot": "12",
+   "heading": "3.1.3 Liveable Cities — Trade-offs (SUD vs liveability)",
+   "case": "Singapore's Cross Island Line under the Central Catchment (2019)",
+   "syllabus": "Complementarity and tension between sustainable urban development and liveability.",
+   "facts": [
+    [
+     "Place",
+     "Central Catchment Nature Reserve, Singapore"
+    ],
+    [
+     "Period",
+     "Decision December 2019"
+    ],
+    [
+     "Scale",
+     "About 2 km of tunnel 70 m below the reserve"
+    ],
+    [
+     "Key actors",
+     "Ministry of Transport, Land Transport Authority (LTA), NParks, nature groups, commuters"
+    ]
+   ],
+   "image": "3_1_crl.png",
+   "caption": "Figure 12. Why the direct route was chosen (Ministry of Transport).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Singapore had to choose between running its new Cross Island Line straight under its largest nature reserve or around it. In 2019 it chose the direct route: about 6 minutes faster per trip, fares about 15% lower and about S$2 billion cheaper to build. After feedback from nature groups, the tunnel will run about 70 m deep instead of the usual 20–30 m."
+    },
+    {
+     "title": "How it shows complementarity and tension",
+     "bullets": [
+      "Complementarity: more rail means fewer car trips and lower emissions, which helps both SUD and daily life.",
+      "Tension: building under a reserve risks disturbing wildlife and water, while commuters gain faster, cheaper trips.",
+      "Managing it: deeper tunnelling and monitoring with NParks and nature groups aimed to reduce harm."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "The same project can make a city both more sustainable and more liveable, but rarely without a trade-off.",
+      "Evaluation: critics said construction under a reserve contradicts its purpose; the government argued lower energy use made it greener in the long run."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.3 liveability factors (slot 11) · 3a slot 1 (trade-offs) · 3.2.3 mitigation (public transport).",
+   "sources": [
+    [
+     "Ministry of Transport – CRL to run 70 m under the reserve",
+     "https://www.mot.gov.sg/news-resources/newsroom/cross-island-line-to-run-70-metres-under-central-catchment-nature-reserve/"
+    ],
+    [
+     "LTA – EIA Phase 2 report (2019)",
+     "https://lta.gov.sg/content/ltagov/en/newsroom/2019/9/2/environmental-impact-assessment-phase-2-report.html"
+    ],
+    [
+     "LTA – Cross Island Line",
+     "https://lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/cross_island_line.html"
+    ],
+    [
+     "Land Transport Guru – alignment controversy",
+     "https://landtransportguru.net/cross-island-line-alignment/"
+    ]
+   ]
+  },
+  {
+   "slot": "13",
+   "heading": "3.1.3 Liveable Cities — Challenges (issues faced by the elderly)",
+   "case": "Japan: dying alone at home (2024)",
+   "syllabus": "Increase in the proportion of the elderly in cities; issues related to economic, social and psychological well-being.",
+   "facts": [
+    [
+     "Place",
+     "Japan, especially Tokyo, Osaka, Kanagawa and Aichi"
+    ],
+    [
+     "Period",
+     "2024 (first full-year count)"
+    ],
+    [
+     "Scale",
+     "76,020 people died alone at home; 76% were 65 or older"
+    ],
+    [
+     "Key actors",
+     "National Police Agency, local governments, families and neighbours"
+    ]
+   ],
+   "image": "3_1_japan_alone.png",
+   "caption": "Figure 13. Deaths alone at home by age group, 2024 (National Police Agency).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "In 2024 Japan's police counted, for the first time, everyone found dead alone at home: 76,020 people. About three-quarters were 65 or older, and the largest group was 85 and over (14,658). Tokyo had the most cases (7,699). For 4,538 older people, the body lay undiscovered for over a month."
+    },
+    {
+     "title": "How it shows the issues",
+     "bullets": [
+      "Social: shrinking households and weaker ties mean many older people live and die without daily contact ('kodokushi').",
+      "Psychological: isolation and loneliness grow as partners and friends die.",
+      "Economic: living alone on a pension makes paid care and help harder to afford."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Ageing cities face a social problem as much as a health one: who checks on people living alone?",
+      "Evaluation: 39% were found within a day, so many do have contact; the risk is concentrated among the most isolated."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.3 elderly strategies (slot 14) · H1/H2 fieldwork (needs of the elderly).",
+   "sources": [
+    [
+     "Morung Express – over 76,000 died alone in Japan in 2024",
+     "https://morungexpress.com/over-76000-people-died-alone-in-japan-in-2024"
+    ],
+    [
+     "The Peninsula – over 76,000 die alone (age breakdown)",
+     "https://thepeninsulaqatar.com/article/11/04/2025/over-76000-people-die-alone-in-japan-in-2024"
+    ],
+    [
+     "Greater Kashmir – 76,020 died alone at home",
+     "https://m.greaterkashmir.com/article/76020-people-died-alone-at-home-in-japan-last-year/387469"
+    ],
+    [
+     "Financial Express – nearly 40,000 in the first half of 2024",
+     "https://thefinancialexpress.com.bd/world/asia/nearly-40000-people-died-home-alone-in-japan-this-year"
+    ]
+   ]
+  },
+  {
+   "slot": "14",
+   "outcome": "Succeeded",
+   "heading": "3.1.3 Liveable Cities — Elderly strategies: SUCCEEDED",
+   "case": "Kampung Admiralty, Singapore (2017)",
+   "syllabus": "Varying success of strategies to address the issues faced by the elderly living in the city.",
+   "facts": [
+    [
+     "Place",
+     "Woodlands (Admiralty), Singapore"
+    ],
+    [
+     "Period",
+     "Completed 2017"
+    ],
+    [
+     "Scale",
+     "104 flats for seniors in two 11-storey blocks"
+    ],
+    [
+     "Key actors",
+     "HDB, architects WOHA, Admiralty Medical Centre, NTUC Health, residents"
+    ]
+   ],
+   "image": "3_1_kampung_admiralty.png",
+   "caption": "Figure 14a. Kampung Admiralty in four facts (WOHA; ULI; Fortune).",
+   "sections": [
+    {
+     "title": "What it is",
+     "text": "Kampung Admiralty puts senior housing, a medical centre, an active ageing hub with daycare, childcare, a food centre and shops in one building. The 104 studio and two-room flats are designed for older singles and couples. It was named World Building of the Year in 2018."
+    },
+    {
+     "title": "Why the strategy worked",
+     "bullets": [
+      "Economic and practical: clinic, food and shops are a lift ride away, so residents can live independently longer.",
+      "Social: shared spaces and 'buddy benches' at flat entrances encourage neighbours to talk; children and elderly share spaces.",
+      "Psychological: a community garden and active ageing programmes give purpose and company."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Integrating services and housing tackles all three kinds of well-being at once.",
+      "Evaluation: it is one small development for 104 households; scaling it across an ageing city is the challenge."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.3 failed elderly strategy (South Korea, next page) · 3.1.3 elderly issues (Japan, slot 13) · fieldwork (needs of the elderly).",
+   "sources": [
+    [
+     "ULI – Kampung Admiralty",
+     "https://asia.uli.org/kampung-admiralty"
+    ],
+    [
+     "Fortune – Kampung Admiralty and retirement in Singapore",
+     "https://www.fortune.com/2019/03/18/kampung-admiralty-singapore-retirement/"
+    ],
+    [
+     "World Architects – Kampung Admiralty (WOHA)",
+     "https://world-architects.com/it/projects/view/kampung-admiralty"
+    ],
+    [
+     "NTUC – Heartware in the heartlands (Active Ageing Hub)",
+     "https://ntuc.org.sg/uportal/news/Heartware-in-the-Heartlands"
+    ]
+   ]
+  },
+  {
+   "slot": "14",
+   "outcome": "Failed",
+   "heading": "3.1.3 Liveable Cities — Elderly strategies: FAILED",
+   "case": "South Korea's old-age poverty (2014–2025)",
+   "syllabus": "Varying success of strategies to address the issues faced by the elderly living in the city.",
+   "facts": [
+    [
+     "Place",
+     "South Korea (Seoul and other cities)"
+    ],
+    [
+     "Period",
+     "Basic pension from 2014; data to 2025"
+    ],
+    [
+     "Scale",
+     "About 40% of older people in relative poverty, the highest in the OECD"
+    ],
+    [
+     "Key actors",
+     "National government, National Pension Service, older workers, families"
+    ]
+   ],
+   "image": "3_1_korea_elderly.png",
+   "caption": "Figure 14b. Old-age poverty in South Korea vs the OECD average (OECD via Korea Times, Korea Herald).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "South Korea's main answer to old-age poverty is a basic pension for the poorest 70% of over-65s: about 320,000 won (US$240) a month in 2023. Yet 40.4% of older people were in relative poverty in 2023, nearly three times the OECD average. It fell just below 40% (39.7%) only in the latest OECD data."
+    },
+    {
+     "title": "Why the strategy fell short",
+     "bullets": [
+      "Too small: the pension is far below living costs, so many keep working in low-paid jobs; Korea's share of working elderly is the highest in the OECD.",
+      "Late start: the national pension system began only in the late 1980s, so many retirees have few years of contributions.",
+      "Human cost: Korea's older adults have the OECD's highest suicide rate (46.4 per 100,000), closely linked to poverty."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A strategy can exist and still fail if it is too small for the problem.",
+      "Evaluation: poverty is slowly falling, so the policy is working but too slowly; compare with Singapore's integrated approach."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.3 succeeded elderly strategy (Kampung Admiralty, previous page) · 3.1.3 elderly issues (Japan, slot 13).",
+   "sources": [
+    [
+     "Korea Times – elderly poverty below 40% for first time (2026)",
+     "https://www.koreatimes.co.kr/amp/southkorea/20260711/elderly-poverty-rate-falls-below-40-percent-for-first-time-but-still-highest-in-the-oecd"
+    ],
+    [
+     "Asia News Network – pensions cut poverty, so why still poorest?",
+     "https://asianews.network/south-koreas-pensions-cut-elderly-poverty-so-why-are-its-seniors-still-the-poorest-in-the-oecd/"
+    ],
+    [
+     "Korea Times – tight jobs, meagre pensions push seniors to the edge",
+     "https://www.koreatimes.co.kr/southkorea/society/20240625/unprepared-republic-of-the-old-tight-jobs-meager-pensions-push-seniors-to-edge"
+    ],
+    [
+     "Korea Herald – human rights commission on pensions",
+     "https://www.koreaherald.com/article/3249619"
+    ]
+   ]
+  },
+  {
+   "slot": "15",
+   "heading": "3.1.3 Liveable Cities — Challenges (issues faced by women)",
+   "case": "Women in Delhi, India (2022–2024)",
+   "syllabus": "Importance of gender equality for liveable cities; issues faced by women related to economic, social and psychological well-being.",
+   "facts": [
+    [
+     "Place",
+     "Delhi, India"
+    ],
+    [
+     "Period",
+     "2022–2024 data"
+    ],
+    [
+     "Scale",
+     "14,158 crimes against women recorded in 2022, the most of 19 big cities for the third year running"
+    ],
+    [
+     "Key actors",
+     "Delhi Police, Delhi government, National Crime Records Bureau (NCRB), employers"
+    ]
+   ],
+   "image": "3_1_delhi_women.png",
+   "caption": "Figure 15. Safety and work for women in Delhi (NCRB 2022; UNFPA/PLFS 2023–24).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "Delhi recorded 14,158 crimes against women in 2022, more than twice Mumbai's 6,176, including 1,204 rape cases. Only 18.5% of Delhi's women are in the labour force, among the lowest rates in India, against 41.7% nationally. In urban India only about 48% of women are allowed to go out alone."
+    },
+    {
+     "title": "How it shows the issues",
+     "bullets": [
+      "Economic: few women in paid work means lower incomes and dependence on others.",
+      "Social: fear of harassment limits where and when women travel, study or work.",
+      "Psychological: constant safety worries and restricted movement reduce confidence and freedom."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Safety, mobility and work are linked: unsafe streets keep women out of jobs.",
+      "Evaluation: recorded crime also reflects willingness to report, so high figures may partly show better reporting."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.3 strategies for women (slot 16) · 3.1.3 liveability factors (slot 11).",
+   "sources": [
+    [
+     "Deccan Herald – Delhi tops crimes against women in 2022 (NCRB)",
+     "https://deccanherald.com/india/delhi/delhi-tops-in-crimes-against-women-in-2022-ncrb-data-2796727"
+    ],
+    [
+     "Daily Pioneer – Delhi most unsafe metro for women",
+     "https://www.dailypioneer.com/2023/state-editions/---delhi-most-unsafe-metropolitan-city-for-women-in-india---.html"
+    ],
+    [
+     "UNFPA – Labour force participation in India (analytical paper)",
+     "https://india.unfpa.org/sites/default/files/pub-pdf/2date26-date3/Analytical%20Paper%20%2310%20-%20Labour%20Force%20Participation%20in%20India%20-%20Final_0.pdf"
+    ],
+    [
+     "Ideas for India – assessing Delhi's pink ticket scheme (mobility)",
+     "https://www.ideasforindia.in/topics/social-identity/fighting-gender-inequality-through-mobility-assessing-delhi-s-pink-ticket-scheme"
+    ]
+   ]
+  },
+  {
+   "slot": "16",
+   "outcome": "Succeeded",
+   "heading": "3.1.3 Liveable Cities — Strategies for women: SUCCEEDED",
+   "case": "Delhi's free bus travel for women (2019–2024)",
+   "syllabus": "Varying success of strategies to address the issues faced by women living in the city.",
+   "facts": [
+    [
+     "Place",
+     "Delhi, India (DTC and cluster buses)"
+    ],
+    [
+     "Period",
+     "From October 2019"
+    ],
+    [
+     "Scale",
+     "Over 100 crore (1 billion) free 'pink tickets' issued by 2024"
+    ],
+    [
+     "Key actors",
+     "Delhi government, Delhi Transport Corporation, women passengers, Greenpeace India (survey)"
+    ]
+   ],
+   "image": "3_1_pink_ticket.png",
+   "caption": "Figure 16a. Women's share of Delhi bus riders (official data via Ideas for India).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Since October 2019 women ride Delhi's public buses free with a 'pink ticket'. Women's share of bus riders rose from 25% in 2020–21 to 33% in 2022–23. In surveys, 23% of women said they travel by bus more often, and 15% who rarely or never used buses now use them regularly."
+    },
+    {
+     "title": "Why the strategy worked",
+     "bullets": [
+      "Economic: 75% of women surveyed said they save on transport costs.",
+      "Social: easier travel to work, study, clinics and family; more women in public space can make it safer for others.",
+      "Psychological: about two-thirds said they feel more confident travelling alone."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Removing a cost barrier can change behaviour quickly and visibly.",
+      "Evaluation: Greenpeace found safety and accessibility gaps remain, so free travel alone is not enough."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.3 failed strategy for women (Mexico City, next page) · 3.1.3 women's issues (Delhi, slot 15).",
+   "sources": [
+    [
+     "Ideas for India – fighting gender inequality through mobility",
+     "https://www.ideasforindia.in/topics/social-identity/fighting-gender-inequality-through-mobility-assessing-delhi-s-pink-ticket-scheme"
+    ],
+    [
+     "The Wire – what the pink ticket tells us about women's mobility",
+     "https://thewire.in/women/what-delhis-pink-ticket-scheme-tells-us-about-womens-mobility"
+    ],
+    [
+     "Greenpeace India – women reclaim public spaces; gaps remain",
+     "https://www.greenpeace.org/india/en/press/16992/women-reclaim-public-spaces-with-zero-fare-pink-tickets-yet-safety-and-accessibility-gaps-remain-says-greenpeace-report/"
+    ],
+    [
+     "The India Forum – a free ticket can be a ticket to freedom",
+     "https://www.theindiaforum.in/forum/free-ticket-can-be-ticket-freedom"
+    ]
+   ]
+  },
+  {
+   "slot": "16",
+   "outcome": "Failed",
+   "heading": "3.1.3 Liveable Cities — Strategies for women: FAILED",
+   "case": "Mexico City's women-only metro cars",
+   "syllabus": "Varying success of strategies to address the issues faced by women living in the city.",
+   "facts": [
+    [
+     "Place",
+     "Mexico City Metro and buses"
+    ],
+    [
+     "Period",
+     "From 2000 (rush hours from 2008); surveys 2014–2016"
+    ],
+    [
+     "Scale",
+     "About two in three women report gender violence or harassment on transit"
+    ],
+    [
+     "Key actors",
+     "City government, Metro operator, women passengers, researchers"
+    ]
+   ],
+   "image": "3_1_mexico_women.png",
+   "caption": "Figure 16b. Harassment on Mexico City transport despite women-only cars (World Bank 2014; Thomson Reuters Foundation 2016).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Mexico City reserved the front carriages of many Metro lines for women and children from 2000, and at rush hours from 2008. Yet government figures in 2014 showed 65% of women had faced gender violence on public transport, and a 2016 survey ranked the city's transport the worst of those it studied for harassment (64%)."
+    },
+    {
+     "title": "Why the strategy fell short",
+     "bullets": [
+      "Separates rather than changes: women are safer in some cars but not on platforms, stations or other routes.",
+      "Small effect: a study cited in one report found harassment fell by only about 2.9%.",
+      "Unsustainable: experts told the World Bank that segregation cannot replace changing men's behaviour."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A strategy that only avoids the problem leaves its cause untouched.",
+      "Evaluation: compare with Delhi: making travel easier works better when combined with safety measures and behaviour change."
+     ]
+    }
+   ],
+   "links": "Links: 3.1.3 succeeded strategy for women (Delhi, previous page) · 3.1.3 women's issues (slot 15).",
+   "sources": [
+    [
+     "World Bank – gender violence on public transport (2014)",
+     "https://www.worldbank.org/en/news/feature/2014/09/08/gender-violence-public-transportation"
+    ],
+    [
+     "Global News – Mexico City transit and sexual harassment",
+     "https://globalnews.ca/news/4664606/mexico-city-women-public-transit-sexual-harassment"
+    ],
+    [
+     "Prothom Alo (Thomson Reuters Foundation) – most dangerous transport for women",
+     "https://en.prothomalo.com/lifestyle/‘Mexico-City-transport-most-dangerous-for-women’"
+    ],
+    [
+     "We Are Mitú – women and children-only subway cars",
+     "https://wearemitu.com/wearemitu/news/mexico-city-women-only-subway-cars/"
+    ],
+    [
+     "APPAM – unintended consequences of gender segregation",
+     "https://appam.confex.com/appam/int18/webprogram/Paper24886.html"
+    ]
+   ]
+  }
+ ]
+}

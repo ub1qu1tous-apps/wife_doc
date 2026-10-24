@@ -1,6 +1,6 @@
 # Session log
 
-> **Task in progress (session 4):** user said 'do the rest' (2026-10-24): build docs 3c (Topic 2.1), 3d (2.2), 3e (3.1), 3f (3.2) to v1 in the approved 3a/3b format, one topic at a time. Per topic: slot plan → research → charts (`tools/case_charts.py`, prefix 2_1_ etc.) → `tools/data/case_studies_3X.json` → build to docs/ → check pages + docx checks (link URLs, r:ids, rPr order) → Review Notes v1 → log → commit + push. Done so far: 3c v1, 3d v1. Hourly check-in continues this note until it's cleared.
+> **Task in progress (session 4):** user said 'do the rest' (2026-10-24): build docs 3c (Topic 2.1), 3d (2.2), 3e (3.1), 3f (3.2) to v1 in the approved 3a/3b format, one topic at a time. Per topic: slot plan → research → charts (`tools/case_charts.py`, prefix 2_1_ etc.) → `tools/data/case_studies_3X.json` → build to docs/ → check pages + docx checks (link URLs, r:ids, rPr order) → Review Notes v1 → log → commit + push. Done so far: 3c v1, 3d v1, 3e v1. Hourly check-in continues this note until it's cleared.
 
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 and 3b v1 done** (`docs/3a …Topic 1.1… v1.docx`, `docs/3b …Topic 1.2… v1.docx`). Next: 3c (Topic 2.1) when the user asks.
 
@@ -449,4 +449,8 @@
 - 9 slots / 9 cases: Angkor sandstone (weathering); Petrópolis 2022 (mass movement); Mekong sand mining (fluvial processes); Ha Long Bay–Cat Ba (karst features); Son Doong (cave formation); Perak limestone quarrying (karst services); Brahmaputra/Majuli (braided channels); Mekong Delta shrinking (delta formation); Sundarbans (delta services).
 - `tiles()` now shrinks long headline numbers so they fit (affects tile charts in 3a–3c too; their docs will be rebuilt at the end so the images match).
 - Output: `docs/3d Case Studies – Topic 2.2 Landforms in the Tropics v1.docx` (10 pages) + `– Review Notes v1`. check_docx OK.
+
+### 2026-10-24 — Session 4: doc 3e v1 (Topic 3.1 / H1 1.1 complete)
+- 16 slots / 21 cases: Arcadis index (measuring SUD); Lagos (rapid growth); Detroit (population loss); Mexico City water (demand on environment); Koshe landfill (waste problems); South Korea food waste (succeeded) / Lebanon 2015 (failed); Dharavi (slums); KOTAKU (succeeded) / Otodo-Gbame (failed); Expo 2020 Dubai (reimaging reasons); Paris 2024 (succeeded) / Rio 2016 (failed); EIU index (subjective liveability); Cross Island Line (SUD vs liveability); Japan dying alone (elderly issues); Kampung Admiralty (succeeded) / South Korea old-age poverty (failed); Delhi women (issues); Delhi pink tickets (succeeded) / Mexico City women-only cars (failed).
+- Output: `docs/3e Case Studies – Topic 3.1 Cities in a Sustainable Future v1.docx` (22 pages) + `– Review Notes v1`. check_docx OK.
 
