@@ -1,0 +1,675 @@
+{
+ "id": "3d",
+ "title": "Case Studies – Topic 2.2 Landforms in the Tropics",
+ "file": "3d Case Studies – Topic 2.2 Landforms in the Tropics",
+ "intro": [
+  "One real case (2015 or later where it is an event) for each case-study slot in H2 Topic 2.2. Slots ask for the factors behind processes and landforms, the characteristics (features) of landforms, and the impacts of human activity on the ecosystem services of karst and deltas.",
+  "Each case is about 1 page, with 1 chart drawn from its sources. The 'Links' line under each case shows other slots and topics where the same case can be used."
+ ],
+ "plan_title": "Case-study slots for Topic 2.2",
+ "plan": [
+  [
+   "1",
+   "2.2.1 Geomorphic Processes",
+   "Factors",
+   "Natural and human factors in weathering",
+   "Angkor's sandstone temples, Cambodia"
+  ],
+  [
+   "2",
+   "2.2.1 Geomorphic Processes",
+   "Factors",
+   "Natural and human factors in mass movement on slopes",
+   "Petrópolis landslides, Brazil (2022)"
+  ],
+  [
+   "3",
+   "2.2.1 Geomorphic Processes",
+   "Factors",
+   "Natural and human factors in fluvial processes (erosion, transport, deposition)",
+   "Sand mining on the Mekong, Vietnam"
+  ],
+  [
+   "4",
+   "2.2.2 Karst Landforms",
+   "Characteristics",
+   "Karst landforms and their features (tower and cockpit karst)",
+   "Ha Long Bay–Cat Ba, Vietnam (2023)"
+  ],
+  [
+   "5",
+   "2.2.2 Karst Landforms",
+   "Factors",
+   "Geomorphic processes and factors forming karst landforms (caves)",
+   "Son Doong cave, Vietnam"
+  ],
+  [
+   "6",
+   "2.2.2 Karst Landforms",
+   "Impacts",
+   "Ecosystem services of karst and the impact of human activities",
+   "Limestone quarrying in Perak, Malaysia"
+  ],
+  [
+   "7",
+   "2.2.3 Fluvial Landforms",
+   "Characteristics",
+   "Fluvial landforms: braided channels (and meanders)",
+   "Brahmaputra and Majuli island, India"
+  ],
+  [
+   "8",
+   "2.2.3 Fluvial Landforms",
+   "Factors",
+   "Delta formation: sediment supply vs removal by waves and tides",
+   "The shrinking Mekong Delta"
+  ],
+  [
+   "9",
+   "2.2.3 Fluvial Landforms",
+   "Impacts",
+   "Ecosystem services of deltas and the impact of human activities",
+   "The Sundarbans, Bangladesh–India"
+  ]
+ ],
+ "cases": [
+  {
+   "slot": "1",
+   "heading": "2.2.1 Geomorphic Processes — Factors (weathering)",
+   "case": "Angkor's sandstone temples, Cambodia",
+   "syllabus": "Chemical and physical weathering processes; natural and human factors influencing weathering of rocks.",
+   "facts": [
+    [
+     "Place",
+     "Angkor Wat and nearby temples, Siem Reap, Cambodia"
+    ],
+    [
+     "Period",
+     "Studies 2014–2025"
+    ],
+    [
+     "Scale",
+     "Hollows worn into the bases of sandstone pillars across the temple galleries"
+    ],
+    [
+     "Key actors",
+     "APSARA (Angkor authority), Japanese and German research teams, visitors"
+    ]
+   ],
+   "image": "2_2_angkor.png",
+   "caption": "Figure 1. Processes weathering Angkor's sandstone (studies listed in the sources).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Angkor's 12th-century temples are built of sandstone blocks containing clay minerals. A five-year study tracked temperature and humidity in the galleries and linked hollows at pillar bases to wet–dry and salt weathering. A 2025 review listed seven causes of decay, from salt weathering and solar heating to uneven ground subsidence."
+    },
+    {
+     "title": "How it shows the factors",
+     "bullets": [
+      "Natural (climate): a hot, wet–dry monsoon climate makes clay in the stone swell and shrink, and drives salt crystals (gypsum, calcite, phosphate) to grow in pores.",
+      "Natural (biology): cyanobacteria on walls reduce surface hardness, speeding weathering rather than protecting the stone.",
+      "Human: the temple's own weight concentrates stress at pillar bases, and clearing that exposes blocks to direct sun adds heating and drying."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Physical, chemical and biological weathering work together, and their speed depends on rock type and climate.",
+      "Evaluation: separating natural from human causes is hard; researchers needed years of monitoring to do it."
+     ]
+    }
+   ],
+   "links": "Links: 2.2.2 karst (solution weathering, slots 4–5) · 2.1.1 humid tropical climates.",
+   "sources": [
+    [
+     "Progress in Earth and Planetary Science – weathering of Angkor Wat pillars (2019)",
+     "https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-019-0254-5"
+    ],
+    [
+     "KAKEN – hollows on sandstone columns (stress, insolation)",
+     "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26300008"
+    ],
+    [
+     "JpGU 2016 – cyanobacteria and surface hardness",
+     "https://www2.jpgu.org/meeting/2016/session/PDF/H-GM14/HGM14-03_e.pdf"
+    ],
+    [
+     "Hornemann Institute – salt weathering at Angkor",
+     "https://www.hornemann-institut.de/doi/2008siedel2.pdf"
+    ],
+    [
+     "ITC Cambodia – EraGET 2025 (causes of deterioration)",
+     "https://techno-srj.itc.edu.kh/public/journal/document/EraGET Special Issue 2025 Volume 13.pdf"
+    ]
+   ]
+  },
+  {
+   "slot": "2",
+   "heading": "2.2.1 Geomorphic Processes — Factors (mass movement)",
+   "case": "Petrópolis landslides, Brazil (February 2022)",
+   "syllabus": "Mass movement (fall, flow, creep, slide) and water erosion on slopes; natural and human factors.",
+   "facts": [
+    [
+     "Place",
+     "Petrópolis, Rio de Janeiro state, Brazil (Serra do Mar mountains)"
+    ],
+    [
+     "Period",
+     "15 February 2022"
+    ],
+    [
+     "Scale",
+     "231 deaths, the deadliest landslide disaster in the city's history"
+    ],
+    [
+     "Key actors",
+     "Cemaden (warning centre), Brazil's Civil Defence, city government, hillside residents"
+    ]
+   ],
+   "image": "2_2_petropolis.png",
+   "caption": "Figure 2. The Petrópolis disaster in four numbers (NHESS study; Civil Defence; J-STAGE report).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "About 258 mm of rain fell in three hours on 15 February 2022, more than the previous 30 days combined and the worst storm since 1932. Hundreds of landslides and debris flows tore down the hillsides: Civil Defence counted 269, another report more than 370."
+    },
+    {
+     "title": "How it shows the factors",
+     "bullets": [
+      "Natural: extreme, short, intense rain saturated thin soils on steep granite and gneiss slopes; 23% of slopes of 45–60° had landslides.",
+      "Human: 1,021 of 1,700 buildings in the study area sit on 20–45° slopes. New settlements spread onto steep, deforested hillsides.",
+      "Together: cutting slopes for houses and removing trees reduces resistance, so the same rain triggers more failures."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Mass movement happens when shear stress (water, weight, slope) exceeds shear strength (cohesion, roots).",
+      "Evaluation: rain was the trigger, but who died depended on where people were allowed to build."
+     ]
+    }
+   ],
+   "links": "Links: 2.1.3 vulnerability to floods (slot 10 of 3c) · 3.1.2 slums and informal settlements · 2.1.1 heavy rainfall.",
+   "sources": [
+    [
+     "NHESS – the 2022 Petrópolis landslide disaster (2023)",
+     "https://nhess.copernicus.org/articles/23/1157/2023/nhess-23-1157-2023.html"
+    ],
+    [
+     "NHESS preprint – rainfall and fatalities",
+     "https://nhess.copernicus.org/preprints/nhess-2022-163/nhess-2022-163.pdf"
+    ],
+    [
+     "J-STAGE – International Journal of Erosion Control Engineering report",
+     "https://www.jstage.jst.go.jp/browse/ijece/15/0/_contents/-char/en"
+    ],
+    [
+     "Univap repository – urban expansion onto steep slopes",
+     "https://repositorio.univap.br/handle/123456789/619"
+    ]
+   ]
+  },
+  {
+   "slot": "3",
+   "heading": "2.2.1 Geomorphic Processes — Factors (fluvial processes)",
+   "case": "Sand mining on the Mekong, Vietnam (2012–2022)",
+   "syllabus": "Fluvial erosion, transportation and deposition; natural and human factors influencing fluvial processes.",
+   "facts": [
+    [
+     "Place",
+     "Mekong Delta provinces, Vietnam (and upstream in Cambodia)"
+    ],
+    [
+     "Period",
+     "About 2012–2022"
+    ],
+    [
+     "Scale",
+     "More than 600 ha of riverbank and coast lost each year; 1,808 houses fell into rivers or the sea in 2018–2020"
+    ],
+    [
+     "Key actors",
+     "Provincial governments (permits), sand miners and builders, upstream dam operators, riverside families"
+    ]
+   ],
+   "image": "2_2_mekong_sand.png",
+   "caption": "Figure 3. Sand mining and erosion in the Mekong Delta (Dialogue Earth/Mekong Eye report).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Sand for concrete and land reclamation is dredged from the Mekong's bed. Five delta provinces licensed 114 million tonnes of sand in a decade, and illegal mining is common. Meanwhile upstream dams trap sediment. Banks are collapsing, taking homes with them."
+    },
+    {
+     "title": "How it shows the factors",
+     "bullets": [
+      "Less load, more erosion: with sediment trapped upstream and sand removed, the river carries less than it can, so it erodes its bed and banks to make up the load.",
+      "Deeper beds undercut banks: dredged pits steepen banks until they slump into the river.",
+      "Deposition fails: bars and banks that would normally be rebuilt each flood season are not replenished."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Human removal of load shifts a river from deposition to erosion; use it to explain the balance between energy and load.",
+      "Evaluation: dams and mining act together, so the share of each is debated; the 600 ha figure is one expert's estimate."
+     ]
+    }
+   ],
+   "links": "Links: 2.2.3 delta formation (Mekong Delta, slot 8) · 3a slot 10 (Laos dams) · 3a slot 11 (Mekong conflict).",
+   "sources": [
+    [
+     "Dialogue Earth – in the Mekong Delta, sand mining means lost homes",
+     "https://dialogue.earth/en/livelihoods/in-vietnam-mekong-delta-sand-mining-means-lost-homes-and-fortunes/"
+    ],
+    [
+     "Mekong Eye – sand mining means lost homes and fortunes (2022)",
+     "https://mekongeye.com/2022/06/23/sand-mining-means-lost-homes-and-fortunes"
+    ],
+    [
+     "Eco-Business – same report (republished)",
+     "https://www.eco-business.com/id/news/in-vietnams-mekong-delta-sand-mining-means-lost-homes-and-fortunes/"
+    ]
+   ]
+  },
+  {
+   "slot": "4",
+   "heading": "2.2.2 Karst Landforms — Characteristics (tower karst)",
+   "case": "Ha Long Bay–Cat Ba, Vietnam (World Heritage, 2023)",
+   "syllabus": "Karst landforms in the humid tropics: cockpit karsts (cone-shaped hills, star-shaped depressions), tower karsts (towers, plains), caves.",
+   "facts": [
+    [
+     "Place",
+     "Gulf of Tonkin: Quang Ninh and Hai Phong, Vietnam"
+    ],
+    [
+     "Period",
+     "Site extended to include Cat Ba in September 2023"
+    ],
+    [
+     "Scale",
+     "1,133 islands and islets in Ha Long Bay plus more than 360 in the Cat Ba archipelago; 65,650 ha"
+    ],
+    [
+     "Key actors",
+     "UNESCO World Heritage Committee, IUCN, Quang Ninh and Hai Phong authorities, tour operators"
+    ]
+   ],
+   "image": "2_2_halong.png",
+   "caption": "Figure 4. Ha Long Bay–Cat Ba's karst in four facts (UNESCO; Vietnamese government).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "UNESCO calls Ha Long Bay the most extensive and best-known example of marine-invaded tower karst in the world. Steep limestone towers rise straight out of the sea, which flooded the old karst plain as sea level rose. In 2023 the site was extended to include Cat Ba, Vietnam's largest limestone archipelago."
+    },
+    {
+     "title": "How it shows the features",
+     "bullets": [
+      "Tower karst ('fenglin'): isolated, steep-sided towers standing above a flat plain, here a drowned plain now covered by sea.",
+      "Cockpit-style clusters ('fengcong'): groups of cone-shaped hills joined at their bases, with enclosed depressions between them.",
+      "Drowned dolines: depressions now hold lakes inside islands, some of them tidal; caves and notches mark old sea levels."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Use the features list (towers, plains, cones, depressions, caves) and give a named example of each.",
+      "Evaluation: tourism and coastal building threaten the site; UNESCO asked Vietnam to report on new projects and water pollution."
+     ]
+    }
+   ],
+   "links": "Links: 2.2.2 karst formation (slot 5) and ecosystem services (slot 6) · 3.1.2 urban reimaging (tourism).",
+   "sources": [
+    [
+     "UNESCO – Ha Long Bay–Cat Ba Archipelago (listing)",
+     "https://whc.unesco.org/en/list/672"
+    ],
+    [
+     "IUCN World Heritage Outlook – Ha Long Bay–Cat Ba",
+     "https://worldheritageoutlook.iucn.org/node/1128"
+    ],
+    [
+     "Vietnam Government – Cat Ba: largest limestone archipelago",
+     "https://en.baochinhphu.vn/ha-long-bay-cat-ba-archipelago-recognized-as-world-geological-heritage-111240826094218047.htm"
+    ],
+    [
+     "Vietnam News – Committee asks for reports on new developments",
+     "https://vietnamnews.vn/environment/1666934/world-heritage-committee-requests-reports-on-new-tourism-residential-developments-in-ha-long-bay-area.html"
+    ],
+    [
+     "UNESCO – state of conservation (tourism, pollution)",
+     "https://whc.unesco.org/en/soc/4646"
+    ]
+   ]
+  },
+  {
+   "slot": "5",
+   "heading": "2.2.2 Karst Landforms — Factors (formation of caves)",
+   "case": "Son Doong cave, Phong Nha-Ke Bang, Vietnam",
+   "syllabus": "Role of geomorphic processes in forming karst landforms (caves: solutional opening, speleothems); factors influencing their formation.",
+   "facts": [
+    [
+     "Place",
+     "Phong Nha-Ke Bang National Park, Quang Binh, Vietnam"
+    ],
+    [
+     "Period",
+     "Explored 2009; tours since 2013; permits 2015–2024"
+    ],
+    [
+     "Scale",
+     "Largest known cave passage by volume, about 38.4 million m³"
+    ],
+    [
+     "Key actors",
+     "National park, tour operator (licensed expeditions), cave scientists, provincial government"
+    ]
+   ],
+   "image": "2_2_son_doong.png",
+   "caption": "Figure 5. Son Doong in four numbers (Showcaves; Hanoi Times; tour reports).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "Son Doong is a solution cave cut by an underground river through thick Carboniferous–Permian limestone. The cave itself is thought to be only 2–5 million years old. Two places where the roof collapsed (dolines) let in light, and a jungle grows on the cave floor."
+    },
+    {
+     "title": "How it shows the formation factors",
+     "bullets": [
+      "Rock: thick, pure, well-jointed limestone lets water find paths and dissolve them wider.",
+      "Climate and biology: heavy tropical rain plus carbon dioxide from dense forest soils makes water acidic, speeding solution (carbonation).",
+      "Processes over time: the river widened the passage; roof collapse made dolines; dripping water built speleothems such as stalagmites."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Explain karst with rock + water + acidity + time, and show each in one named feature of the cave.",
+      "Evaluation: strict permits (about 500–800 a year at about US$3,000) protect the cave, but plans like a cable car have been rumoured and denied."
+     ]
+    }
+   ],
+   "links": "Links: 2.2.2 karst features (slot 4) and ecosystem services (slot 6) · 2.2.1 chemical weathering (slot 1).",
+   "sources": [
+    [
+     "Showcaves – Hang Son Doong",
+     "https://www.showcaves.com/english/vn/caves/SonDoong.html"
+    ],
+    [
+     "The Structural Engineer – Son Doong, the world's largest cave",
+     "https://www.thestructuralengineer.info/news/hang-son-doong-even-a-skyscraper-could-fit-into-the-world-s-largest-cave"
+    ],
+    [
+     "Hanoi Times – Son Doong recognised as world's largest cave",
+     "https://m.hanoitimes.vn/son-doong-recognized-as-the-worlds-largest-natural-cave-8779.html"
+    ],
+    [
+     "Tuoi Tre – province denies cable car surveys",
+     "https://news.tuoitre.vn/vietnam-province-denies-rumors-of-ongoing-surveys-for-cable-car-through-son-doong-cave-10343834.htm"
+    ],
+    [
+     "Euronews – inside the world's largest cave (2022)",
+     "https://www.euronews.com/2022/05/09/dive-into-the-world-s-largest-cave-in-the-heart-of-the-vietnamese-rainforest"
+    ]
+   ]
+  },
+  {
+   "slot": "6",
+   "heading": "2.2.2 Karst Landforms — Impacts (ecosystem services and human activity)",
+   "case": "Limestone quarrying in Perak, Malaysia (2014–2016)",
+   "syllabus": "Ecosystem services provided by karst landforms; impact of human activities on these services.",
+   "facts": [
+    [
+     "Place",
+     "Limestone hills of Perak and Pahang, Peninsular Malaysia (e.g. Gunung Kanthan)"
+    ],
+    [
+     "Period",
+     "Studies 2014–2016"
+    ],
+    [
+     "Scale",
+     "122 land snail species on 12 hills, 34 found on only one hill"
+    ],
+    [
+     "Key actors",
+     "Cement firms (Lafarge, YTL Cement), state governments, scientists, conservation groups"
+    ]
+   ],
+   "image": "2_2_perak_snails.png",
+   "caption": "Figure 6. Land snails of 12 Perak limestone hills (Lafarge-funded survey, 2016).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "Malaysia's limestone hills are quarried for cement. Each hill is an island of habitat, so many species live on only one hill. The snail Plectostoma sciaphilum went extinct when its only hill was quarried in the 2000s, and quarrying may have wiped out three more snails on other hills."
+    },
+    {
+     "title": "How it shows the services and impacts",
+     "bullets": [
+      "Supporting and regulating: hills are 'arks of biodiversity', store groundwater and house cave bats that pollinate durian and eat rice pests.",
+      "Provisioning: the limestone itself is a resource for cement, so using one service destroys others.",
+      "Impact: removing a hill removes every species found only there, permanently."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Karst services are local and irreplaceable; one hill can hold species found nowhere else.",
+      "Evaluation: Lafarge funded a survey and scientists say species can survive if half a hill is kept, so quarrying and conservation can be balanced."
+     ]
+    }
+   ],
+   "links": "Links: 3a slot 6 (human activities and ecosystem services) · 3a slot 13 (extractive industries).",
+   "sources": [
+    [
+     "Oryx – narrowly endemic snails at risk from quarrying",
+     "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4C1A78FC914837B1FFBC2960BC4B0BB6/S003060531500023Xa.pdf/going-goingnarrowly-endemic-snails-in-malaysia-at-imminent-risk-of-extinction-as-a-result-of-quarrying.pdf"
+    ],
+    [
+     "Mongabay – cement company may have caused extinction of 3 snails",
+     "https://news.mongabay.com/2016/06/cement-company-may-have-caused-global-extinction-of-3-snail-species-in-malaysia/"
+    ],
+    [
+     "ScienceDaily – Malaysian microsnails (Charopa lafargei)",
+     "https://sciencedaily.com/releases/2014/03/140325113224.htm"
+    ],
+    [
+     "The Petri Dish – slowing down snail extinction (survey, bats)",
+     "https://thepetridish.my/2017/09/25/slowing-down-snails-extinction/"
+    ]
+   ]
+  },
+  {
+   "slot": "7",
+   "heading": "2.2.3 Fluvial Landforms — Characteristics (braided channels)",
+   "case": "The Brahmaputra and Majuli island, Assam, India",
+   "syllabus": "Fluvial landforms in the humid tropics: meanders (river cliff, point bar), braided channels (mid-channel bars), deltas.",
+   "facts": [
+    [
+     "Place",
+     "Brahmaputra River, Assam, India (Majuli, a river island)"
+    ],
+    [
+     "Period",
+     "1971–2024"
+    ],
+    [
+     "Scale",
+     "Majuli shrank from 1,256 km² (1971) to 524 km² (2016)"
+    ],
+    [
+     "Key actors",
+     "Water Resources Department of Assam, Brahmaputra Board, island villagers"
+    ]
+   ],
+   "image": "2_2_majuli.png",
+   "caption": "Figure 7. Majuli island's area, 1971 and 2016 (satellite data, Dialogue Earth).",
+   "sections": [
+    {
+     "title": "What it shows",
+     "text": "The Brahmaputra is one of the world's great braided rivers: a wide, shallow bed split into many channels around shifting sand bars. Majuli, a large inhabited island in the river, is itself built from deposited sand and silt. Erosion has eaten away more than half of it, and 67 villages have disappeared."
+    },
+    {
+     "title": "How it shows the features",
+     "bullets": [
+      "Braided channels: multiple threads of water divide and rejoin around mid-channel bars that move each flood season.",
+      "Why braided: a heavy sediment load from the Himalaya, steep seasonal swings in discharge and easily eroded banks.",
+      "Change over time: when erosion exceeds new deposition, bars and islands shrink; an embankment breach in 2017 caused heavy erosion."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Braiding depends on load, discharge variation and bank material; a meander river is the contrast (one sinuous channel).",
+      "Evaluation: area figures differ by study and baseline (e.g. 629 km² in 1975 to 487 km² in 2024); quote the source."
+     ]
+    }
+   ],
+   "links": "Links: 2.2.1 fluvial processes (slot 3) · 2.1.3 floods · 3.2.2 people affected unevenly.",
+   "sources": [
+    [
+     "Dialogue Earth – Saving Majuli, is it possible?",
+     "https://dialogue.earth/en/nature/saving-majauli-is-it-possible/"
+    ],
+    [
+     "EGU25 – Majuli erosion study (Roy, 2025)",
+     "https://meetingorganizer.copernicus.org/EGU25/EGU25-815.html"
+    ],
+    [
+     "Assam Tribune – CWPRS study: 75 km² loss, 58 km² deposition",
+     "https://dainikasam.assamtribune.com/assam/majuli-erosion-study-reveals-75-sq-km-land-loss-58-sq-km-deposition-along-brahmaputra-since-1986-1573590"
+    ]
+   ]
+  },
+  {
+   "slot": "8",
+   "heading": "2.2.3 Fluvial Landforms — Factors (delta formation)",
+   "case": "The shrinking Mekong Delta, Vietnam",
+   "syllabus": "Role of geomorphic processes in forming deltas, including removal and dispersal of sediment by waves and tides; factors influencing delta formation.",
+   "facts": [
+    [
+     "Place",
+     "Mekong Delta coast, southern Vietnam"
+    ],
+    [
+     "Period",
+     "1988–2022"
+    ],
+    [
+     "Scale",
+     "Over 50% of the more than 600 km delta shoreline is now eroding"
+    ],
+    [
+     "Key actors",
+     "Upstream dam operators, sand miners, Vietnamese government, coastal farmers"
+    ]
+   ],
+   "image": "2_2_mekong_delta.png",
+   "caption": "Figure 8. The Mekong Delta losing ground (Scientific Reports; Journal of Hydrology; satellite studies).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "For thousands of years the Mekong built its delta outwards. Since the 1990s its sediment supply has fallen sharply because of dams upstream and sand mining. Sediment reaching the coast fell 37–54% between 1988–1999 and 2000–2022, and more than half of the shoreline now retreats."
+    },
+    {
+     "title": "How it shows the formation factors",
+     "bullets": [
+      "A delta grows only when the river delivers sediment faster than waves and tides can remove it.",
+      "Supply fell (dams, sand mining) while waves and tides kept working, so the balance tipped to erosion; studies found no change in discharge, waves or wind to explain it.",
+      "Subsidence from pumping groundwater makes it worse by lowering the land."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "Delta form reflects river vs marine processes; the Mekong shows that tipping the balance reverses growth.",
+      "Evaluation: a 2020 study found erosion began before the 1990s and would need sediment above pre-1990 levels to stop."
+     ]
+    }
+   ],
+   "links": "Links: 2.2.1 sand mining (slot 3) · 2.2.3 delta ecosystem services (slot 9) · 3a slots 10–11 (Laos dams, Mekong conflict).",
+   "sources": [
+    [
+     "Scientific Reports – long-term sediment decline shrinks the Mekong megadelta (2020)",
+     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7228934/"
+    ],
+    [
+     "Scientific Reports – rapid erosion of the Mekong delta linked to human activities",
+     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4597184/"
+    ],
+    [
+     "Earth Observatory of Singapore – decline of the Mekong plume after 2000",
+     "https://earthobservatory.sg/research/publications/severe-decline-in-extent-and-seasonality-of-the-mekong-plume-after-2000"
+    ],
+    [
+     "Eco-Business – as the Mekong delta washes away",
+     "https://www.eco-business.com/id/news/as-the-mekong-delta-washes-away-homes-and-highways-are-being-lost/"
+    ]
+   ]
+  },
+  {
+   "slot": "9",
+   "heading": "2.2.3 Fluvial Landforms — Impacts (delta ecosystem services)",
+   "case": "The Sundarbans, Bangladesh and India",
+   "syllabus": "Ecosystem services provided by deltas; impact of human activities on these services.",
+   "facts": [
+    [
+     "Place",
+     "Ganges–Brahmaputra–Meghna delta coast (Sundarbans mangrove forest)"
+    ],
+    [
+     "Period",
+     "2016–2020"
+    ],
+    [
+     "Scale",
+     "World's largest mangrove forest; about 2.5 million people depend on it"
+    ],
+    [
+     "Key actors",
+     "Governments of Bangladesh and India, Rampal power plant (Bangladesh–India joint venture), UNESCO, IUCN, local fishers"
+    ]
+   ],
+   "image": "2_2_sundarbans.png",
+   "caption": "Figure 9. The Sundarbans' services and threats (HRW; UNESCO/IUCN).",
+   "sections": [
+    {
+     "title": "What happened",
+     "text": "The Sundarbans protect the delta coast. During Cyclone Amphan in 2020 the forest acted as a 'natural storm shield' for coastal communities, alongside early warnings. Yet Bangladesh built the coal-fired Rampal power plant just north of the forest, despite a UNESCO/IUCN call to move it."
+    },
+    {
+     "title": "How it shows services and impacts",
+     "bullets": [
+      "Regulating: mangroves cut storm surge and wind and their roots hold land together as tides rise.",
+      "Provisioning: fish, honey and timber support about 2.5 million people.",
+      "Human impact: the plant risks pollution and acid rain, and coal barges and dredging in narrow channels could erode the forest."
+     ]
+    },
+    {
+     "title": "Exam angle",
+     "bullets": [
+      "A delta's services are worth most to the poorest people, who are also most exposed when they are lost.",
+      "Evaluation: the World Heritage Committee rejected listing the site as 'in danger', showing politics can override scientific advice."
+     ]
+    }
+   ],
+   "links": "Links: 3.2.3 adaptation (natural defences) · 2.1.1 tropical cyclones · 3a slot 6 (human activities and ecosystem services).",
+   "sources": [
+    [
+     "Human Rights Watch – coal plants threaten the world's largest mangrove forest",
+     "https://www.hrw.org/news/2020/06/18/bangladesh-coal-plants-threaten-worlds-largest-mangrove-forest"
+    ],
+    [
+     "Financial Express – coastal barrier at risk from pollution",
+     "https://thefinancialexpress.com.bd/national/important-coastal-barrier-at-risk-from-increased-pollution-1592657246"
+    ],
+    [
+     "Manufacturing.net (AP) – UNESCO urges halt to the coal plant",
+     "https://www.manufacturing.net/home/news/13160248/unesco-urges-halt-to-plan-for-bangladesh-coal-plant-in-delta"
+    ],
+    [
+     "Dhaka Tribune – HRW: coal plant threatens the Sundarbans",
+     "https://www.dhakatribune.com/bangladesh/213557/hrw-bangladesh-coal-plant-threatens-to-destroy"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "title": "Case Studies – Topic 2.2 Landforms in the Tropics",
+ "file": "3d Case Studies – Topic 2.2 Landforms in the Tropics",
+ "version": "v1",
+ "doc": "3d Case Studies – Topic 2.2 Landforms in the Tropics v1.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "Fourth of 6 case-study docs (3a–3f). Same format as 3a–3c v1.",
+    "Topic 2.2 has 9 case-study slots from the syllabus: factors in weathering, mass movement and fluvial processes; karst features, formation and ecosystem services; fluvial features, delta formation and delta ecosystem services. The syllabus has no strategy points here, so there are no succeeded/failed pairs. 10 pages.",
+    "Built with tools/build_case_studies.py from tools/data/case_studies_3d.json; charts 2_2_*.png; checked with tools/check_docx.py."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "Landform cases (Ha Long Bay, Son Doong, Majuli) are places rather than single events; each uses post-2015 data or decisions (e.g. 2023 World Heritage extension, 2016 satellite area).",
+    "Process explanations (carbonation, shear stress vs strength, braiding conditions) are standard syllabus knowledge, not taken from the listed sources.",
+    "Same limits as before: no photos, and figures come from search results quoting each source."
+   ]
+  },
+  {
+   "title": "3. To review: figures to spot-check",
+   "table": {
+    "columns": [
+     "Case",
+     "Figure",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Petrópolis",
+      "Deaths 231 (NHESS) vs 238 in another report; landslides 269 vs 370+."
+     ],
+     [
+      "Mekong sand",
+      "'600+ ha lost a year' is one expert's estimate; 114 Mt is licensed sand only."
+     ],
+     [
+      "Ha Long Bay",
+      "1,133 islands (UNESCO) — some sources say about 1,600 or 1,969."
+     ],
+     [
+      "Son Doong",
+      "Permits vary by year (500 in 2015, about 800 in 2017); price about US$3,000."
+     ],
+     [
+      "Majuli",
+      "1,256 → 524 km² (1971–2016, Dialogue Earth) vs 629 → 487 km² (1975–2024, EGU25) — different baselines."
+     ],
+     [
+      "Sundarbans",
+      "Most figures come from advocacy sources (HRW, 350.org); '2.5 million people' is HRW's estimate."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "4. To review: choices",
+   "table": {
+    "columns": [
+     "Item",
+     "Current choice",
+     "Your decision"
+    ],
+    "rows": [
+     [
+      "Slot 1 (weathering)",
+      "Angkor's temples (cultural site). Alternative: deep weathering profiles in Singapore's granite."
+     ],
+     [
+      "Slot 7 (fluvial landforms)",
+      "Braided Brahmaputra only; meanders are mentioned as a contrast. A meander case (e.g. a Mekong or Amazon loop) could be added."
+     ],
+     [
+      "Slot 9 (delta services)",
+      "Sundarbans. Alternative: Mekong Delta rice and aquaculture (overlaps slot 8)."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "5. To consider",
+   "bullets": [
+    "Next: 3e (Topic 3.1 Cities in a Sustainable Future), which also covers H1 Topic 1.1."
+   ]
+  }
+ ]
+}

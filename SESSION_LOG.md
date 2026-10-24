@@ -1,6 +1,6 @@
 # Session log
 
-> **Task in progress (session 4):** user said 'do the rest' (2026-10-24): build docs 3c (Topic 2.1), 3d (2.2), 3e (3.1), 3f (3.2) to v1 in the approved 3a/3b format, one topic at a time. Per topic: slot plan → research → charts (`tools/case_charts.py`, prefix 2_1_ etc.) → `tools/data/case_studies_3X.json` → build to docs/ → check pages + docx checks (link URLs, r:ids, rPr order) → Review Notes v1 → log → commit + push. Done so far: 3c v1. Hourly check-in continues this note until it's cleared.
+> **Task in progress (session 4):** user said 'do the rest' (2026-10-24): build docs 3c (Topic 2.1), 3d (2.2), 3e (3.1), 3f (3.2) to v1 in the approved 3a/3b format, one topic at a time. Per topic: slot plan → research → charts (`tools/case_charts.py`, prefix 2_1_ etc.) → `tools/data/case_studies_3X.json` → build to docs/ → check pages + docx checks (link URLs, r:ids, rPr order) → Review Notes v1 → log → commit + push. Done so far: 3c v1, 3d v1. Hourly check-in continues this note until it's cleared.
 
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): **3a v1 and 3b v1 done** (`docs/3a …Topic 1.1… v1.docx`, `docs/3b …Topic 1.2… v1.docx`). Next: 3c (Topic 2.1) when the user asks.
 
@@ -444,4 +444,9 @@
 - Part of 'do the rest'. 11 slots / 12 cases: climate zones (Singapore, Niamey, Riyadh); 2020 Sahel floods (Hadley/ITCZ); India's driest August 2023 (monsoon); Cyclone Freddy 2023; 2015–16 El Niño and 2020–23 La Niña (Lismore); Amazon 2021 flood vs 2023 drought (water balance); Jakarta groundwater (storage); Chennai 2015 (pathways); Kerala 2018 (flood factors); Pakistan 2022 (impacts, vulnerability); KL SMART Tunnel (succeeded) and Jakarta 2020 floods (failed).
 - New `tools/check_docx.py` (link URLs, r:ids, rPr order) — all 3a–3c files pass.
 - Output: `docs/3c Case Studies – Topic 2.1 Tropical Climates and Drainage Basins v1.docx` (13 pages) + `– Review Notes v1`.
+
+### 2026-10-24 — Session 4: doc 3d v1 (Topic 2.2 complete)
+- 9 slots / 9 cases: Angkor sandstone (weathering); Petrópolis 2022 (mass movement); Mekong sand mining (fluvial processes); Ha Long Bay–Cat Ba (karst features); Son Doong (cave formation); Perak limestone quarrying (karst services); Brahmaputra/Majuli (braided channels); Mekong Delta shrinking (delta formation); Sundarbans (delta services).
+- `tiles()` now shrinks long headline numbers so they fit (affects tile charts in 3a–3c too; their docs will be rebuilt at the end so the images match).
+- Output: `docs/3d Case Studies – Topic 2.2 Landforms in the Tropics v1.docx` (10 pages) + `– Review Notes v1`. check_docx OK.
 

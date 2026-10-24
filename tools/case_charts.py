@@ -157,8 +157,8 @@ def tiles(path, items):
     fig, axs = plt.subplots(1, len(items), figsize=SIZE)
     for ax, (big, small_, c) in zip(axs, items):
         ax.add_patch(plt.Rectangle((0.03, 0.05), 0.94, 0.9, color=c, alpha=0.12, transform=ax.transAxes))
-        ax.text(0.5, 0.62, big, ha='center', va='center', fontsize=17, color=c, weight='bold', transform=ax.transAxes)
-        ax.text(0.5, 0.3, small_, ha='center', va='center', fontsize=8.3, color=INK, transform=ax.transAxes)
+        ax.text(0.5, 0.62, big, ha='center', va='center', fontsize=17 if len(big) <= 7 else 13.5, color=c, weight='bold', transform=ax.transAxes)
+        ax.text(0.5, 0.3, small_, ha='center', va='center', fontsize=7.9, color=INK, transform=ax.transAxes)
         ax.axis('off')
     save(fig, path)
 
@@ -569,6 +569,71 @@ def jakarta_flood(path):
 
 
 
+# ---------- Topic 2.2 (doc 3d) ----------
+def angkor(path):
+    tiles(path, [('Wet–dry', 'cycles swell and\nshrink clay in the\nsandstone', BLUE),
+                 ('Salt', 'crystals (gypsum,\ncalcite) grow in\npores and flake stone', ORANGE),
+                 ('Sun', 'direct heating and\ndrying of exposed\nblocks', RED),
+                 ('Microbes', 'cyanobacteria soften\nthe surface, speeding\nweathering', GREEN)])
+
+
+def petropolis(path):
+    tiles(path, [('258 mm', 'of rain in 3 hours,\n15 Feb 2022: more than\nthe previous 30 days', BLUE),
+                 ('269+', 'landslides counted\n(Civil Defence;\nother counts 370+)', ORANGE),
+                 ('231', 'deaths: the city\'s\ndeadliest landslide\ndisaster', RED),
+                 ('1,021', 'of 1,700 buildings in\nthe study area sit on\n20–45° slopes', MUTED)])
+
+
+def mekong_sand(path):
+    tiles(path, [('114 Mt', 'of sand licensed\nfor mining in five\nprovinces in a decade', ORANGE),
+                 ('600+ ha', 'of river bank and\ncoast lost to erosion\neach year', RED),
+                 ('1,808', 'houses fell into\nrivers or the sea,\n2018–2020', MUTED),
+                 ('Dams', 'upstream trap the\nsediment that would\nrebuild banks', BLUE)])
+
+
+def halong(path):
+    tiles(path, [('1,133', 'limestone islands\nand islets in\nHa Long Bay', BLUE),
+                 ('360+', 'more islands in the\nCat Ba archipelago\n(added 2023)', GREEN),
+                 ('Tower', "karst invaded by the\nsea: 'fengcong' and\n'fenglin' forms", ORANGE),
+                 ('Dolines', 'drowned as lakes,\nsome of them\ntidal', MUTED)])
+
+
+def son_doong(path):
+    tiles(path, [('38.4 m m³', 'volume of the largest\nknown cave passage', BLUE),
+                 ('2–5 m yrs', 'age of the cave;\nthe limestone is far\nolder (Carboniferous)', ORANGE),
+                 ('2', 'collapsed dolines\nlet in light and\ngrow jungle', GREEN),
+                 ('500–800', 'visitor permits a\nyear, about\nUS$3,000 each', MUTED)])
+
+
+def perak_snails(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['Land snail species\nfound', 'Found on only\none hill', 'Possibly new\nto science'], [122, 34, 30],
+         [BLUE, ORANGE, RED], lambda v: f"{v}", ylabel='Species (Perak survey, 2016)', ymax=145)
+    save(fig, path)
+
+
+def majuli(path):
+    fig, ax = plt.subplots(figsize=SIZE)
+    bars(ax, ['1971', '2016'], [1256, 524.29], [MUTED, RED], lambda v: f"{v:,.0f} km²", ylabel='Area of Majuli island (km²)', ymax=1600)
+    ax.text(0.5, 1500, 'Lost more than half its area; 67 villages eroded away (Dialogue Earth)', ha='center', fontsize=8.5, color=RED)
+    save(fig, path)
+
+
+def mekong_delta(path):
+    tiles(path, [('50%+', 'of the 600+ km delta\nshoreline now\neroding', RED),
+                 ('37–54%', 'less sediment reaching\nthe coast (2000–22 vs\n1988–99)', ORANGE),
+                 ('15%', 'maximum yearly\nmangrove loss to\nerosion', GREEN),
+                 ('1990s', 'when sediment supply\nfell sharply (dams,\nsand mining)', MUTED)])
+
+
+def sundarbans(path):
+    tiles(path, [('2.5 m', 'people depend on\nthe forest for\ntheir livelihoods', GREEN),
+                 ('Shield', 'cut storm surge and\nwind in Cyclone\nAmphan (2020)', BLUE),
+                 ('Rampal', 'coal plant built just\nnorth of the forest', RED),
+                 ('UNESCO', 'and IUCN urged the\nplant be moved', MUTED)])
+
+
+
 if __name__ == '__main__':
     out = sys.argv[1]
     os.makedirs(out, exist_ok=True)
@@ -593,4 +658,8 @@ if __name__ == '__main__':
                      ('chennai', chennai), ('kerala', kerala), ('pakistan', pakistan), ('smart_tunnel', smart_tunnel),
                      ('jakarta_flood', jakarta_flood)):
         fn(os.path.join(out, f'2_1_{name}.png'))
+    for name, fn in (('angkor', angkor), ('petropolis', petropolis), ('mekong_sand', mekong_sand), ('halong', halong),
+                     ('son_doong', son_doong), ('perak_snails', perak_snails), ('majuli', majuli),
+                     ('mekong_delta', mekong_delta), ('sundarbans', sundarbans)):
+        fn(os.path.join(out, f'2_2_{name}.png'))
     print('ok')
