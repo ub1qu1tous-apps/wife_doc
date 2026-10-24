@@ -1,0 +1,125 @@
+{
+ "id": "3a",
+ "title": "Case Studies – Topic 1.1 Environment and Resources",
+ "file": "3a Case Studies – Topic 1.1 Environment and Resources",
+ "intro": [
+  "One real case (2015 or later) for each case-study slot in H2 Topic 1.1. A slot is a syllabus content point that asks for a factor, impact, characteristic, strategy, trade-off or challenge. Strategy slots get two cases: one that succeeded and one that failed.",
+  "v0.1 previews the first 3 slots (all in 1.1.1). Each case runs to about 1 page, with 1 chart drawn from its sources."
+ ],
+ "plan_title": "Case-study slots for Topic 1.1",
+ "plan": [
+  ["1", "1.1.1 Understanding SD", "Trade-offs", "Trade-offs between economic, environmental and social dimensions", "Amazon deforestation, Brazil (2019–2025)"],
+  ["2", "1.1.1 Understanding SD", "Factors", "Limits imposed by technology and by the environment's ability to meet needs", "Cape Town 'Day Zero', South Africa (2015–2018)"],
+  ["3", "1.1.1 Understanding SD", "Challenges", "Difficulty of measuring progress: lack of capacity to collect data", "Nigeria's census and GDP gaps (2006–2026)"],
+  ["4", "1.1.1 Understanding SD", "Challenges", "Economic and political challenges limiting progress", "v1"],
+  ["5", "1.1.2 Environment & Resources", "Factors", "Variations in what counts as a provisioning service (demand, technology)", "v1"],
+  ["6", "1.1.2 Environment & Resources", "Impacts", "Human activities compromising ecosystem services (habitats, pollution, invasive species)", "v1"],
+  ["7", "1.1.2 Environment & Resources", "Impacts", "Impact on supply when regenerative capacity is exceeded", "v1"],
+  ["8", "1.1.2 Environment & Resources", "Evaluation", "Malthus vs Boserup: evidence for and against", "v1"],
+  ["9", "1.1.3 Managing Resources", "Trade-offs", "Solar power: potential, limitations, trade-offs", "v1"],
+  ["10", "1.1.3 Managing Resources", "Trade-offs", "Hydropower: potential, limitations, trade-offs", "v1"],
+  ["11", "1.1.3 Managing Resources", "Impacts", "Transboundary water conflict: one country's actions harm another", "v1"],
+  ["12", "1.1.3 Managing Resources", "Strategies", "Managing transboundary water conflict (succeeded + failed)", "v1"],
+  ["13", "1.1.3 Managing Resources", "Characteristics", "Characteristics of extractive industries", "v1"],
+  ["14", "1.1.3 Managing Resources", "Impacts", "Variations in impacts of extractive industries between places", "v1"],
+  ["15", "1.1.3 Managing Resources", "Strategies", "Managing impacts of extractive industries (succeeded + failed)", "v1"]
+ ],
+ "cases": [
+  {
+   "slot": "1",
+   "heading": "1.1.1 Understanding SD — Trade-offs",
+   "case": "Amazon deforestation, Brazil (2019–2025)",
+   "syllabus": "The possible trade-offs between economic, environmental and social dimensions.",
+   "facts": [["Place", "Brazilian Legal Amazon"], ["Period", "2019–2025"], ["Scale", "13,038 km² cleared in one year (2021), about 18 times Singapore's land area"], ["Key actors", "Federal government, IBAMA (environment agency), ranchers and soy farmers, illegal gold miners, Indigenous groups"]],
+   "image": "1_1_amazon.png",
+   "caption": "Figure 1. Yearly forest loss in the Legal Amazon (INPE PRODES, August–July years; 2025 is preliminary).",
+   "sections": [
+    {"title": "What happened", "text": "From 2019 to 2022 the Bolsonaro government cut the budgets of environmental agencies and weakened enforcement while backing farm expansion. Forest loss rose from 7,536 km² (2018) to 13,038 km² (2021), the highest since 2006. After Lula took office in 2023, enforcement returned and loss fell to 6,288 km² in 2024."},
+    {"title": "How it shows the trade-off", "bullets": [
+     "Economic gain: agribusiness was 23.2% of Brazil's GDP and about half of its exports in 2024. Farm exports hit a record US$93.6 billion in January–November 2020. Most cleared land becomes cattle pasture (62% of the area cleared up to 2008).",
+     "Environmental cost: each cleared hectare loses regulating services (carbon storage, rainfall recycling) and habitat. Loss stayed above 10,000 km² a year from 2019 to 2022.",
+     "Social cost: about 20,000 illegal gold miners entered Yanomami land after 2019. About 570 Yanomami children died of curable diseases during Bolsonaro's term, and Brazil declared a health emergency there in January 2023."
+    ]},
+    {"title": "Exam angle", "bullets": [
+     "The trade-off is a political choice, not fixed. From 2021 to 2024, forest loss fell 52% while beef exports hit a record 1.14 million tonnes in the first half of 2024 (up 29%). Stronger enforcement weakened the trade-off without stopping growth.",
+     "Use it to show that the three dimensions are interdependent: forest loss can hurt farming over time by reducing rainfall."
+    ]}
+   ],
+   "sources": [
+    ["FAPESP – The return of deforestation (2018, 2019 rates)", "https://revistapesquisa.fapesp.br/en/the-return-of-deforestation/"],
+    ["eCycle/IPAM – PRODES 2021 and 2022 rates", "https://www.ecycle.com.br/com-taxa-de-11-568-km-desmatamento-na-amazonia-continua-alto-em-2022/"],
+    ["INPE – PRODES 2021 technical note (2020 consolidated rate)", "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/nota-tecnica-prodes/NotaTecnica_consolidado_PRODES_2021_rev.pdf"],
+    ["WWF-Brasil – 2024 rate, 30.6% fall", "https://www.wwf.org.br/en/?90200%2FIn-one-year-deforestation-falls-306-in-the-Amazon-and-257-in-the-Cerrado="],
+    ["Mongabay – 2025 preliminary rate", "https://news.mongabay.com/2026/02/amazon-deforestation-on-pace-to-be-the-lowest-on-record-says-brazil/"],
+    ["ApexBrasil – agribusiness share of GDP", "https://apexbrasil.com.br/content/portalinternacional/us/en/invest/sectors/agribusiness.html"],
+    ["Agriland – record beef exports H1 2024", "https://www.agriland.ie/farming-news/brazil-reports-record-fresh-beef-exports-in-first-half-of-2024/"],
+    ["Solar Daily – 62% of cleared land used for cattle", "https://www.solardaily.com/reports/60_of_deforested_Amazon_used_for_cattle_study_999.html"],
+    ["CS Monitor – illegal miners on Yanomami land", "https://csmonitor.com/World/Americas/2023/0417/Is-kicking-out-illegal-miners-enough-to-save-Brazil-s-Amazon"],
+    ["Euronews – Yanomami child deaths, health emergency", "https://www.euronews.com/2023/01/23/brazil-president-lula-accuses-bolsonaro-of-genocide-after-gold-mining-causes-indigenous-de"]
+   ]
+  },
+  {
+   "slot": "2",
+   "heading": "1.1.1 Understanding SD — Factors (limits on meeting needs)",
+   "case": "Cape Town 'Day Zero' water crisis, South Africa (2015–2018)",
+   "syllabus": "Limits on ability to meet present and future needs imposed by the current level of technology and the environment's ability to meet those needs.",
+   "facts": [["Place", "City of Cape Town, Western Cape"], ["Period", "Drought 2015–2017; crisis peak January–May 2018"], ["Scale", "Supply dams fell to about 21% in May 2018; taps were to be shut off at 13.5%"], ["Key actors", "City of Cape Town, national Department of Water and Sanitation, households, farmers"]],
+   "image": "1_1_cape_town.png",
+   "caption": "Figure 2. Cape Town's daily water use against the Day Zero target and the city's emergency desalination capacity.",
+   "sections": [
+    {"title": "What happened", "text": "Three dry years drained the rain-fed dams that supply the city. On 23 January 2018 the city set 'Day Zero', when most taps would be shut off, for 12 April 2018. A 50-litre per person daily limit (Level 6B) started on 1 February 2018. Day Zero was pushed back several times, and rains from June 2018 refilled the dams to about 70% by September."},
+    {"title": "How it shows the limits", "bullets": [
+     "The environment's ability: the city relied almost wholly on surface dams fed by winter rain. A 2019 study linked the drought to the Hadley cell expanding towards the poles, so the limit may tighten with climate change.",
+     "Technology: three small temporary desalination plants gave at most 16 million litres a day, about 3.5% of the 450 million-litre target. Other supply schemes would come online only after Day Zero, so technology could not close the gap in time.",
+     "What worked was cutting demand: use fell from 1.2 billion litres a day (February 2015) to 511 million litres a day (12 March 2018), down 57%."
+    ]},
+    {"title": "Exam angle", "bullets": [
+     "The technology limit is about time and cost, not know-how. Desalination works, but it could not be built at scale within months.",
+     "Evaluation: limits are not fixed. Behaviour change bought time until the rains came, but the city stayed exposed to the next drought."
+    ]}
+   ],
+   "sources": [
+    ["Wikipedia – Cape Town water crisis (dam levels 14–29%)", "https://en.wikipedia.org/wiki/Cape_Town_water_crisis"],
+    ["News24 – Day Zero moved to 12 April; Level 6B 50 L from 1 Feb 2018", "https://www.news24.com/southafrica/news/day-zero-now-on-april-12-for-cape-town-20180123"],
+    ["Daily Maverick/GroundUp – use fell from 1.2 bn to 511 m L/day", "https://www.dailymaverick.co.za/article/2018-03-13-groundup-how-cape-town-more-than-halved-its-water-usage/"],
+    ["Pressreader (Cape Argus) – desalination plants on track", "https://www.pressreader.com/south-africa/cape-argus/20180208/281586651050926"],
+    ["SIWI – How Cape Town saved itself from Day Zero", "https://siwi.org/news/how-cape-town-saved-itself-from-day-zero"],
+    ["npj Climate & Atmos. Sci. – Day Zero drought and Hadley cell expansion", "https://www.nature.com/articles/s41612-019-0084-6"],
+    ["WWF – Cape Town: Avoiding Day Zero", "https://www.wwf.org.co/en/?343091%2FCape-Town-Avoiding-Day-Zero="],
+    ["Business Insider – Day Zero postponements", "https://businessinsider.nl/cape-town-again-pushes-back-day-zero-when-it-runs-out-of-water-2018-2"]
+   ]
+  },
+  {
+   "slot": "3",
+   "heading": "1.1.1 Understanding SD — Challenges (measuring progress)",
+   "case": "Nigeria: 20 years without a census (2006–2026)",
+   "syllabus": "The difficulty of measuring progress towards sustainable development using quantitative indicators due to the lack of capacity of some countries to collect data.",
+   "facts": [["Place", "Nigeria (36 states)"], ["Period", "Last census 2006; 2023 census postponed; GDP rebased July 2025"], ["Scale", "Population estimates for 2026 range from 238 to 243 million, a spread of up to 5 million people"], ["Key actors", "National Population Commission (NPC), National Bureau of Statistics (NBS), the President, UN agencies, World Bank"]],
+   "image": "1_1_nigeria.png",
+   "caption": "Figure 3. Nigeria's data timeline: one census in 20 years, and a GDP rebasing that changed the size of the economy overnight.",
+   "sections": [
+    {"title": "What happened", "text": "Nigeria last counted its people in 2006 (140.4 million). The UN-recommended 2016 census never happened. A 2023 census was set for 29 March, moved to 3 May, then postponed indefinitely; the NPC had put its cost at ₦546.72 billion. In July 2026 the NPC said the President must set the date, and it cannot fall in an election year (2027)."},
+    {"title": "How it shows the challenge", "bullets": [
+     "No reliable denominator: per-person SDG indicators (GDP per capita, poverty rate, school enrolment) all divide by population. For 2021 the UN gave 211 million and the World Bank 213 million.",
+     "Economic data shifts too: in July 2025 the NBS moved GDP's base year from 2010 to 2019. 2024 GDP became ₦372.8 trillion, a 41.7% upward revision, mainly from informal and digital activity not counted before. Ratios such as debt-to-GDP changed overnight with no change in real output.",
+     "Capacity is political as well as technical: census figures affect how oil revenue and political seats are shared among the 36 states, so the count is sensitive and keeps slipping."
+    ]},
+    {"title": "Exam angle", "bullets": [
+     "Lack of capacity covers money, skills and political will. Nigeria had most of a digital census ready but no date.",
+     "Evaluation: capacity is uneven, not absent. The NBS rebasing used a detailed table of 46 industries and 217 products, so some data are improving while the basic population count is not."
+    ]}
+   ],
+   "sources": [
+    ["allAfrica – Nigeria hits 20 years without census (Jun 2026)", "https://allafrica.com/stories/202606300083.html"],
+    ["Vanguard – NPC: date set by President, not in election year (Jul 2026)", "https://www.vanguardngr.com/2026/07/nigeria-cannot-plan-for-population-it-does-not-count-says-npc/"],
+    ["ICIR – census postponement and data accuracy", "https://www.icirnigeria.org/how-census-postponement-may-stall-accuracy-in-demographic-data/"],
+    ["Daily Maverick – census delayed to May, first in 17 years", "https://www.dailymaverick.co.za/article/2023-03-16-nigeria-delays-census-to-may-its-first-in-17-years/"],
+    ["Zikoko – UN vs World Bank population estimates", "https://www.zikoko.com/?p=310590"],
+    ["Africa Check – no confirmed census date", "https://africacheck.org/fact-checks/meta-programme-fact-checks/no-confirmation-nigerias-long-awaited-census-will-take-place"],
+    ["Bloomberg – GDP rises to ₦372.8 trillion after rebasing", "https://www.bloomberg.com/news/articles/2025-07-21/nigeria-gdp-rises-to-372-8-trillion-naira-in-2024-after-rebasing"],
+    ["Channels TV – GDP rebased, 41.7% revision", "https://channelstv.com/2025/07/21/just-in-nigerias-gross-domestic-product-rebased-to-%E2%82%A6205tn/"],
+    ["Techeconomy – what to know about NBS rebasing (46 industries, 217 products)", "https://techeconomy.ng/what-you-need-to-know-about-nigerian-bureau-of-statistics-gdp-rebasing/"]
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # Session log
 
-**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3 entries after it. All docs are built (doc 1 v0.15, docs 2a–2f v0.14). Waiting on the user: feedback and the Review Notes decisions.
+**Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): 3a v0.1 preview done; waiting on the user's feedback before building v1.
 
 ## Current state
 - **Docs (full):** `docs/1 Topic Grid by School (H1 & H2) v0.15.docx` (key-question level, focus lines, topic shading, frequency summary), `docs/2a H1 Fieldwork Questions by Topic v0.14.docx`, `docs/2b H1 Structured Questions by Topic v0.14.docx`, `docs/2c H1 Essay Questions by Topic v0.14.docx`, `docs/2d H2 Fieldwork Questions by Topic v0.14.docx`, `docs/2e H2 Structured Questions by Topic v0.14.docx`, `docs/2f H2 Essay Questions by Topic v0.14.docx`, each with a `– Review Notes` companion. All planned docs are built. User's local folder follows the branch `claude/amazing-dirac-mpbgn8`.
@@ -12,6 +12,7 @@
 ## Version history
 | Version | Date | Changes |
 |---|---|---|
+| 3a v0.1 (preview) | 2026-10-24 | **New doc series 3a–3f** (case studies per H2 topic, own versioning: v0.1 preview → v1 confirmed). Preview of 3a Topic 1.1: slot plan + first 3 cases (Amazon, Cape Town, Nigeria) |
 | v0.15 | 2026-10-22 | **Doc 1 rebuilt** with the Review Notes section 7 ideas: H2 split into P1/P2 tables, cells shaded by topic, focus line for all 716 questions, key-question frequency summary by year |
 | v0.15 (preview) | 2026-10-22 | Doc 1 preview of Review Notes section 7 ideas: frequency summary by year, topic shading, focus lines, H2 split into P1/P2 tables (ACJC rows) |
 | v0.14 | 2026-10-22 | **Docs 2a–2f rebuilt**: each school's question starts on a new page (user request); 2a rebuilt with current scripts (hyphen fixes, re-cropped); resources listed in Insert order |
@@ -394,3 +395,14 @@
 - **Checks:** every focus line appears in the rendered PDF (5 YIJC cells confirmed by eye where the PDF text order hid them); all 47 school-years present; fieldwork totals 41/47; pages viewed (H1, H2 P1, H2 P2, frequency tables).
 - **Review Notes v0.15:** layout and shading described, new assumptions (hand-written focus lines; shading follows doc 2 filing incl. the 13 overrides; how counts work and schools per year H1 13/14/14, H2 15/15/17); section 7 now has new ideas (mark 'due' key questions, same focus line in doc 2 headings, shorter cells for printing). Sections 3–6 (items for the user) unchanged. v0.7 files removed.
 - Open: user's feedback and Review Notes decisions.
+
+### 2026-10-24 — Session 4: case-study docs 3a–3f, 3a v0.1 preview
+- User request: a doc for each of the 6 main topics (H2 9173 Topics 1.1–3.2). For each case-study point (factor, impact, characteristic, strategy, trend, challenges, actors), find a real case from 2015 or later. Strategy points get a succeeded and a failed case. Preview the first 3, each case about 1 page with 1 image. Title 'v0.1' for the preview, 'v1' when confirmed.
+- Docs 3a–3f carry their own version numbers (v0.1 → v1), separate from the repo-wide numbers used for docs 1 and 2.
+- Topic 1.1 split into 15 case-study slots from the syllabus content (table on page 1 of 3a). The preview covers slots 1–3 (all 1.1.1): trade-offs = Amazon deforestation, Brazil 2019–2025; limits = Cape Town Day Zero 2015–2018; measuring progress = Nigeria's census gap and 2025 GDP rebasing.
+- Limits of this cloud session: photo sites (commons.wikimedia.org etc.) are blocked by the network policy, and page fetches fail (DNS), so only web search works. Each image is a chart drawn from the sourced figures (`tools/case_charts.py`). Figures come from search results quoting the sources; the ones to spot-check are in the Review Notes.
+- New files: `tools/build_case_studies.py`, `tools/case_charts.py`, `tools/data/case_studies_3a.json`, `tools/data/case_charts/1_1_*.png`, `tools/review/3a_case_studies.json`.
+- Output: `previews/3a Case Studies – Topic 1.1 Environment and Resources v0.1.docx` (4 pages: slot plan + 3 one-page cases) + `– Review Notes v0.1`. Rendered pages checked by eye.
+- matplotlib is not preinstalled: `pip install matplotlib`.
+- Open: user feedback on the slot plan, the format, charts vs photos, and the cases. Then build 3a v1 (slots 4–15), then 3b–3f.
+

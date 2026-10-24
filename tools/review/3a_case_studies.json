@@ -1,0 +1,62 @@
+{
+ "title": "Case Studies – Topic 1.1 Environment and Resources",
+ "file": "3a Case Studies – Topic 1.1 Environment and Resources",
+ "version": "v0.1",
+ "doc": "3a Case Studies – Topic 1.1 Environment and Resources v0.1.docx",
+ "sections": [
+  {
+   "title": "1. What this doc is and how it was built",
+   "bullets": [
+    "First of 6 case-study docs, one per H2 9173 topic: 3a Topic 1.1, 3b 1.2, 3c 2.1, 3d 2.2, 3e 3.1, 3f 3.2. H1 8834 topics are the same as H2 Topic 3.1 and 3.2, so 3e and 3f cover H1 as well.",
+    "Page 1 lists every case-study slot in Topic 1.1 (15 slots, 17 cases, because strategy slots have a succeeded and a failed case). Slots come from the syllabus content points that ask for a factor, impact, characteristic, strategy, trade-off or challenge.",
+    "v0.1 is a preview of the first 3 slots, all in 1.1.1: trade-offs (Amazon deforestation, Brazil), limits on meeting needs (Cape Town 'Day Zero'), and the difficulty of measuring progress (Nigeria's missing census and GDP rebasing).",
+    "Each case is about 1 page: a facts table, 1 chart, what happened, how it fits the syllabus point, an exam angle, and numbered source links.",
+    "Built with tools/build_case_studies.py from tools/data/case_studies_3a.json; charts from tools/case_charts.py."
+   ]
+  },
+  {
+   "title": "2. Assumptions",
+   "bullets": [
+    "'Sub-topic' in your request (factor, impact, characteristic, strategy, trend, challenges, actors) is taken to mean a case-study slot within a syllabus sub-topic. Topic 1.1 has no trend or actors points; those come up in Topics 1.2, 3.1 and 3.2.",
+    "'First 3 sub-topics' is taken to mean the first 3 slots in syllabus order. A succeeded/failed strategy pair first appears at slot 12.",
+    "Two slot types not in your list were added because the syllabus uses them: 'Trade-offs' and 'Evaluation' (Malthus vs Boserup).",
+    "The image for each case is a chart drawn from the figures in its sources, not a photo. This cloud session's network policy blocks photo sites (commons.wikimedia.org and others).",
+    "Web pages could not be opened directly in this session; only web search worked. The figures come from search results that quote each source, and the cited links are the pages those results named."
+   ]
+  },
+  {
+   "title": "3. To review: key figures to spot-check",
+   "note": "Figures taken from search results, not read off the source page. Worth a click before v1.",
+   "table": {
+    "columns": ["Case", "Figure", "Your decision"],
+    "rows": [
+     ["Amazon", "2021 loss of 13,038 km² (consolidated). The first estimate was 13,235 km²; the chart uses the consolidated figure."],
+     ["Amazon", "Agribusiness 23.2% of GDP in 2024 (ApexBrasil, a government trade-promotion site)."],
+     ["Amazon", "62% of cleared land used as pasture is from a study of land cleared up to 2008, so it is older than 2015. It is kept as background only."],
+     ["Cape Town", "Dams at about 21% in May 2018. Sources give a range of 14–29% for mid-2017 to mid-2018."],
+     ["Nigeria", "Population range of 238–243 million for 2026 (NPC vs UN-based estimates)."]
+    ]
+   }
+  },
+  {
+   "title": "4. To review: format",
+   "table": {
+    "columns": ["Item", "Current choice", "Your decision"],
+    "rows": [
+     ["Images", "A chart per case (photos blocked). Allowing commons.wikimedia.org in the environment's network settings would let photos be used."],
+     ["Case length", "About 1 page each, sources in small print at the foot."],
+     ["Slot list", "15 slots for Topic 1.1 on page 1. Add, drop or merge any (e.g. merge slots 9 and 10)."],
+     ["Title and file", "'… v0.1' for the preview, '… v1' when confirmed; saved in previews/ until v1, then docs/."],
+     ["Case choice", "Amazon, Cape Town and Nigeria. Prefer Singapore or Southeast Asian cases where they fit?"]
+    ]
+   }
+  },
+  {
+   "title": "5. To consider",
+   "bullets": [
+    "A 'Link to other topics' line per case (e.g. Cape Town also fits 3.2.2 effects of climate change, and Amazon fits 1.1.2 human activities compromising ecosystem services).",
+    "Reusing one case in more than one slot where it fits well, to cut down on the number of cases to learn."
+   ]
+  }
+ ]
+}
