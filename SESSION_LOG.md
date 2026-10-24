@@ -1,5 +1,7 @@
 # Session log
 
+> **Task in progress (session 4):** build `docs/3a Case Studies – Topic 1.1 Environment and Resources v1.docx`. User approved v0.1 (2026-10-24): case choice anywhere that fits best; add a 'Links to other topics' line per case; reuse a case across slots where it fits well. Done: slots 1–3. Next: research + write slots 4–15 into `tools/data/case_studies_3a.json` (charts in `tools/case_charts.py`), build, check pages, Review Notes v1, log, push. Hourly check-in continues this note until it's cleared.
+
 **Next session starts here:** read the "Session 2 HANDOFF" entry and the session 3–4 entries after it. Docs 1 and 2a–2f are built (doc 1 v0.15, docs 2a–2f v0.14). New series 3a–3f (case studies per H2 topic): 3a v0.1 preview done; waiting on the user's feedback before building v1.
 
 ## Current state
